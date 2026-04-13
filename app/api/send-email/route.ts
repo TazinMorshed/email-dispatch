@@ -30,6 +30,8 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: 'Missing required fields' }, { status: 400 })
   }
 
+  const cc = process.env.CC_RECIPIENT?.trim()
+
   const oauth2Client = new google.auth.OAuth2(
     process.env.GOOGLE_CLIENT_ID,
     process.env.GOOGLE_CLIENT_SECRET,
@@ -55,6 +57,7 @@ export async function POST(req: NextRequest) {
 
   const emailLines = [
     `To: ${to}`,
+    ...(cc ? [`Cc: ${cc}`] : []),
     `Subject: ${encodedSubject}`,
     'Content-Type: text/html; charset=utf-8',
     'MIME-Version: 1.0',

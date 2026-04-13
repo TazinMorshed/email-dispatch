@@ -1,7 +1,8 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import { useSession, signIn, signOut } from 'next-auth/react'
+import Link from 'next/link'
+import { useSession, signOut } from 'next-auth/react'
 
 interface SupplierTable {
   product_name: string[]
@@ -31,6 +32,10 @@ interface WeekData {
   week: number
   total_suppliers: number
   suppliers: Supplier[]
+}
+
+interface AppConfig {
+  ccRecipient: string
 }
 
 function buildEmailTable(supplier: Supplier): string {
@@ -183,6 +188,7 @@ export default function Page() {
   const [pendingEmails, setPendingEmails] = useState<string[]>([])
   const [committedEmails, setCommittedEmails] = useState<string[]>([])
   const [tagInput, setTagInput] = useState('')
+  const [ccRecipient, setCcRecipient] = useState('')
 
   useEffect(() => {
     if (supplier) {
@@ -192,6 +198,13 @@ export default function Page() {
     }
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedSupplier])
+
+  useEffect(() => {
+    fetch('/api/config')
+      .then((r) => r.json())
+      .then((data: AppConfig) => setCcRecipient(data.ccRecipient ?? ''))
+      .catch(() => setCcRecipient(''))
+  }, [])
 
   useEffect(() => {
     if (selectedWeek === null) return
@@ -294,7 +307,7 @@ export default function Page() {
       {/* Header */}
       <header className="mb-6 flex items-center justify-between rounded-[28px] border border-slate-200/80 bg-white/90 px-6 py-5 shadow-[0_18px_50px_rgba(15,23,42,0.06)] backdrop-blur">
         <div>
-          <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-slate-400">RPC Operations</p>
+          <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-slate-400">Promo Credit</p>
           <h1 className="mt-1 text-2xl font-semibold text-slate-900">Supplier Email Dispatch</h1>
         </div>
         {status === 'loading' ? (
@@ -310,8 +323,8 @@ export default function Page() {
             </button>
           </div>
         ) : (
-          <button
-            onClick={() => signIn('google')}
+          <Link
+            href="/api/auth/signin/google?callbackUrl=%2F"
             className="flex items-center gap-2.5 rounded-xl border border-slate-200 bg-white px-4 py-2.5 text-sm font-medium text-slate-700 shadow-sm transition-colors hover:border-slate-300 hover:bg-slate-50"
           >
             <svg className="w-4 h-4" viewBox="0 0 24 24">
@@ -321,7 +334,7 @@ export default function Page() {
               <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335" />
             </svg>
             Sign in with Google
-          </button>
+          </Link>
         )}
       </header>
 
@@ -517,6 +530,16 @@ export default function Page() {
                           : `→ ${process.env.NEXT_PUBLIC_TEST_RECIPIENT}`}
                       </p>
                     </div>
+
+                    {ccRecipient && (
+                      <>
+                        <div className="h-8 w-px bg-slate-200" />
+                        <div className="flex flex-col gap-0.5">
+                          <p className="text-xs font-semibold text-slate-700">CC recipient</p>
+                          <p className="text-xs font-medium text-slate-500">→ {ccRecipient}</p>
+                        </div>
+                      </>
+                    )}
                   </div>
 
                   {/* Send button */}
@@ -541,9 +564,9 @@ export default function Page() {
                       )}
                     </button>
                   ) : (
-                    <button onClick={() => signIn('google')} className="shrink-0 rounded-xl bg-blue-600 px-4 py-2.5 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-blue-700">
+                    <Link href="/api/auth/signin/google?callbackUrl=%2F" className="shrink-0 rounded-xl bg-blue-600 px-4 py-2.5 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-blue-700">
                       Sign in to Send
-                    </button>
+                    </Link>
                   )}
                 </div>
 
