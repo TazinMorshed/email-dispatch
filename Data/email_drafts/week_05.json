@@ -1,0 +1,1326 @@
+{
+  "week": 5,
+  "total_suppliers": 27,
+  "suppliers": [
+    {
+      "supplier": "Afishionado Fishmongers",
+      "emails": [
+        "accounting@afishionado.ca"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 5,
+      "period": "2026-01-25 to 2026-01-31",
+      "theme": "Responsible Dairy",
+      "table": {
+        "product_name": [
+          "Breaded Haddock (2.5 lb, frozen)"
+        ],
+        "lufa_farms_code": [
+          12004
+        ],
+        "rebate_per_unit": [
+          "$3.90"
+        ],
+        "rebate_cost": [
+          "$15.45"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$20.90"
+        ],
+        "qty_bought_at_regular_cost": [
+          7685
+        ],
+        "credited_sum": [
+          "$29971.50"
+        ],
+        "total_credited": "$29971.50"
+      }
+    },
+    {
+      "supplier": "Artisan Tradition",
+      "emails": [
+        "jcarrier@6sens-veg.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 5,
+      "period": "2026-01-25 to 2026-01-31",
+      "theme": "Responsible Dairy",
+      "table": {
+        "product_name": [
+          "Organic Cane Sugar",
+          "Organic Quinoa",
+          "Organic Quinoa"
+        ],
+        "lufa_farms_code": [
+          18018,
+          18402,
+          18402
+        ],
+        "rebate_per_unit": [
+          "$0.22",
+          "$0.46",
+          "$0.46"
+        ],
+        "rebate_cost": [
+          "$1.96",
+          "$4.18",
+          "$4.18"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$2.18",
+          "$4.64",
+          "$4.64"
+        ],
+        "qty_bought_at_regular_cost": [
+          513,
+          215,
+          148
+        ],
+        "credited_sum": [
+          "$112.86",
+          "$98.90",
+          "$68.08"
+        ],
+        "total_credited": "$402.96"
+      }
+    },
+    {
+      "supplier": "Belov",
+      "emails": [
+        "stephanie.rochon@hellobelov.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 5,
+      "period": "2026-01-25 to 2026-01-31",
+      "theme": "Responsible Dairy",
+      "table": {
+        "product_name": [
+          "Organic Original Textured Oat Blend",
+          "Organic Apple & Cinnamon Textured Oat Blend",
+          "Organic Blueberry Coco Textured Oat Blend",
+          "Organic Apple & Banana Puffed Cereal Snack",
+          "Organic Carrot, Sweet Potato & Kale Puffed Cereal Snack"
+        ],
+        "lufa_farms_code": [
+          17891,
+          17892,
+          17893,
+          18221,
+          18224
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50",
+          "$0.50",
+          "$0.50",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$3.75",
+          "$3.75",
+          "$3.75",
+          "$2.54",
+          "$2.54"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$4.25",
+          "$4.25",
+          "$4.25",
+          "$3.04",
+          "$3.04"
+        ],
+        "qty_bought_at_regular_cost": [
+          58,
+          32,
+          39,
+          49,
+          53
+        ],
+        "credited_sum": [
+          "$29.00",
+          "$16.00",
+          "$19.50",
+          "$24.50",
+          "$26.50"
+        ],
+        "total_credited": "$115.50"
+      }
+    },
+    {
+      "supplier": "Boucherie Nordest",
+      "emails": [
+        "adm@boucherienordest.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 5,
+      "period": "2026-01-25 to 2026-01-31",
+      "theme": "Responsible Dairy",
+      "table": {
+        "product_name": [
+          "Bacon & Cheese Beef Sausages (frozen)",
+          "Toulouse Pork Sausages (frozen)",
+          "Medium Ground Lamb (frozen)",
+          "Beef Hanger Steak (frozen)",
+          "Medium Ground Lamb (frozen)",
+          "Beef Hanger Steak (frozen)"
+        ],
+        "lufa_farms_code": [
+          10056,
+          14356,
+          10747,
+          10749,
+          10747,
+          10749
+        ],
+        "rebate_per_unit": [
+          "$0.75",
+          "$0.50",
+          "$1.00",
+          "$0.50",
+          "$1.00",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$4.94",
+          "$3.55",
+          "$7.96",
+          "$11.89",
+          "$7.96",
+          "$11.89"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$6.44",
+          "$4.55",
+          "$8.96",
+          "$12.39",
+          "$8.96",
+          "$12.39"
+        ],
+        "qty_bought_at_regular_cost": [
+          414,
+          887,
+          55,
+          63,
+          24,
+          25
+        ],
+        "credited_sum": [
+          "$310.50",
+          "$443.50",
+          "$55.00",
+          "$31.50",
+          "$24.00",
+          "$12.50"
+        ],
+        "total_credited": "$734.00"
+      }
+    },
+    {
+      "supplier": "Cedar Valley",
+      "emails": [
+        "sara@cedarvalleyselections.ca"
+      ],
+      "language": "en",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 5,
+      "period": "2026-01-25 to 2026-01-31",
+      "theme": "Responsible Dairy",
+      "table": {
+        "product_name": [
+          "Sea Salt Pita Chips",
+          "Mediterranean Za'atar Pita Chips",
+          "Garlic & Herb Pita Chips",
+          "Classic Spice Pita Chips"
+        ],
+        "lufa_farms_code": [
+          19888,
+          19889,
+          19890,
+          19891
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50",
+          "$0.50",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$2.60",
+          "$2.60",
+          "$2.60",
+          "$2.60"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$3.10",
+          "$3.10",
+          "$3.10",
+          "$3.10"
+        ],
+        "qty_bought_at_regular_cost": [
+          1256,
+          385,
+          375,
+          281
+        ],
+        "credited_sum": [
+          "$628.00",
+          "$192.50",
+          "$187.50",
+          "$140.50"
+        ],
+        "total_credited": "$1148.50"
+      }
+    },
+    {
+      "supplier": "Chocolat Boréal",
+      "emails": [
+        "info@chocolatboreal.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 5,
+      "period": "2026-01-25 to 2026-01-31",
+      "theme": "Responsible Dairy",
+      "table": {
+        "product_name": [
+          "72% Dark Chocolate Bar",
+          "37% Milk Chocolate Bar"
+        ],
+        "lufa_farms_code": [
+          10728,
+          10731
+        ],
+        "rebate_per_unit": [
+          "$0.25",
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$4.95",
+          "$4.95"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$5.20",
+          "$5.20"
+        ],
+        "qty_bought_at_regular_cost": [
+          318,
+          122
+        ],
+        "credited_sum": [
+          "$79.50",
+          "$30.50"
+        ],
+        "total_credited": "$110.00"
+      }
+    },
+    {
+      "supplier": "Choose Life Foods",
+      "emails": [
+        "info@chooselifefoods.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 5,
+      "period": "2026-01-25 to 2026-01-31",
+      "theme": "Responsible Dairy",
+      "table": {
+        "product_name": [
+          "Meatless Lover's Vegan Jamaican Patty (mild, frozen)",
+          "Coconut Kale Delight Vegan Jamaican Patty (frozen)",
+          "Meatless Lovers Vegan Jamaican Patty (spicy, frozen)",
+          "Chick'n Lover's Vegan Jamaican Patty (frozen)"
+        ],
+        "lufa_farms_code": [
+          5763,
+          5764,
+          19035,
+          19036
+        ],
+        "rebate_per_unit": [
+          "$0.25",
+          "$0.25",
+          "$0.25",
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$2.00",
+          "$2.00",
+          "$2.00",
+          "$2.00"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$2.25",
+          "$2.25",
+          "$2.25",
+          "$2.25"
+        ],
+        "qty_bought_at_regular_cost": [
+          566,
+          304,
+          229,
+          194
+        ],
+        "credited_sum": [
+          "$141.50",
+          "$76.00",
+          "$57.25",
+          "$48.50"
+        ],
+        "total_credited": "$323.25"
+      }
+    },
+    {
+      "supplier": "Coloccia",
+      "emails": [
+        "gusberthe@outlook.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 5,
+      "period": "2026-01-25 to 2026-01-31",
+      "theme": "Responsible Dairy",
+      "table": {
+        "product_name": [
+          "Fresh Fusilli (frozen)",
+          "Fresh Spaghetti à la Chittara (frozen)"
+        ],
+        "lufa_farms_code": [
+          10579,
+          10576
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$3.38",
+          "$3.38"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$3.88",
+          "$3.88"
+        ],
+        "qty_bought_at_regular_cost": [
+          1653,
+          245
+        ],
+        "credited_sum": [
+          "$826.50",
+          "$122.50"
+        ],
+        "total_credited": "$949.00"
+      }
+    },
+    {
+      "supplier": "C’est Belge",
+      "emails": [
+        "j.bousquet@cestbelge.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 5,
+      "period": "2026-01-25 to 2026-01-31",
+      "theme": "Responsible Dairy",
+      "table": {
+        "product_name": [
+          "Liège Waffles (6, frozen)"
+        ],
+        "lufa_farms_code": [
+          19267
+        ],
+        "rebate_per_unit": [
+          "$0.51"
+        ],
+        "rebate_cost": [
+          "$4.54"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$5.05"
+        ],
+        "qty_bought_at_regular_cost": [
+          1634
+        ],
+        "credited_sum": [
+          "$833.34"
+        ],
+        "total_credited": "$833.34"
+      }
+    },
+    {
+      "supplier": "DelChef",
+      "emails": [
+        "leonardo@delchef.ca"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 5,
+      "period": "2026-01-25 to 2026-01-31",
+      "theme": "Responsible Dairy",
+      "table": {
+        "product_name": [
+          "Philly Cheesesteak Focaccia (frozen)"
+        ],
+        "lufa_farms_code": [
+          13827
+        ],
+        "rebate_per_unit": [
+          "$0.75"
+        ],
+        "rebate_cost": [
+          "$3.55"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$4.30"
+        ],
+        "qty_bought_at_regular_cost": [
+          1135
+        ],
+        "credited_sum": [
+          "$851.25"
+        ],
+        "total_credited": "$851.25"
+      }
+    },
+    {
+      "supplier": "Des Cantons",
+      "emails": [
+        "jlaforest@collectifensemble.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 5,
+      "period": "2026-01-25 to 2026-01-31",
+      "theme": "Responsible Dairy",
+      "table": {
+        "product_name": [
+          "Pic de L'Ours Organic Blonde",
+          "Sweep Organic English Red Ale"
+        ],
+        "lufa_farms_code": [
+          12136,
+          13820
+        ],
+        "rebate_per_unit": [
+          "$0.25",
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$2.60",
+          "$2.60"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$3.10",
+          "$3.10"
+        ],
+        "qty_bought_at_regular_cost": [
+          158,
+          154
+        ],
+        "credited_sum": [
+          "$39.50",
+          "$38.50"
+        ],
+        "total_credited": "$78.00"
+      }
+    },
+    {
+      "supplier": "Fermes Valens",
+      "emails": [
+        "accounting@fermesvalens.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 5,
+      "period": "2026-01-25 to 2026-01-31",
+      "theme": "Responsible Dairy",
+      "table": {
+        "product_name": [
+          "Black Forest Ham (sliced)",
+          "Pork Frankfurters (fresh)"
+        ],
+        "lufa_farms_code": [
+          16555,
+          4685
+        ],
+        "rebate_per_unit": [
+          "$0.40",
+          "$0.46"
+        ],
+        "rebate_cost": [
+          "$1.85",
+          "$3.68"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$2.65",
+          "$4.60"
+        ],
+        "qty_bought_at_regular_cost": [
+          3924,
+          567
+        ],
+        "credited_sum": [
+          "$1569.60",
+          "$260.82"
+        ],
+        "total_credited": "$2065.86"
+      }
+    },
+    {
+      "supplier": "Harmon's Craft Brewing",
+      "emails": [
+        "ludovic.onfray@olintl.ca"
+      ],
+      "language": "en",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 5,
+      "period": "2026-01-25 to 2026-01-31",
+      "theme": "Responsible Dairy",
+      "table": {
+        "product_name": [
+          "Harmon's Lunchbox Organic Non-Alcoholic Lagered Ale (pack of 4)"
+        ],
+        "lufa_farms_code": [
+          18524
+        ],
+        "rebate_per_unit": [
+          "$0.75"
+        ],
+        "rebate_cost": [
+          "$6.25"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$7.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          272
+        ],
+        "credited_sum": [
+          "$204.00"
+        ],
+        "total_credited": "$204.00"
+      }
+    },
+    {
+      "supplier": "Iris + Arlo",
+      "emails": [
+        "maxine@irisarlo.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 5,
+      "period": "2026-01-25 to 2026-01-31",
+      "theme": "Responsible Dairy",
+      "table": {
+        "product_name": [
+          "100% Organic Cotton Night Menstrual Pads (pack of 34)",
+          "100% Organic Cotton Panty Liners (pack of 80)",
+          "Organic Cotton Daily Menstrual Pads (pack of 40)"
+        ],
+        "lufa_farms_code": [
+          19601,
+          19599,
+          19600
+        ],
+        "rebate_per_unit": [
+          "$2.40",
+          "$2.40",
+          "$2.40"
+        ],
+        "rebate_cost": [
+          "$9.59",
+          "$9.59",
+          "$7.19"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$11.99",
+          "$11.99",
+          "$11.99"
+        ],
+        "qty_bought_at_regular_cost": [
+          217,
+          194,
+          136
+        ],
+        "credited_sum": [
+          "$520.80",
+          "$465.60",
+          "$326.40"
+        ],
+        "total_credited": "$1312.80"
+      }
+    },
+    {
+      "supplier": "L'Issue Végane Maison",
+      "emails": [
+        "laurentvanderwee.lissue@gmail.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 5,
+      "period": "2026-01-25 to 2026-01-31",
+      "theme": "Responsible Dairy",
+      "table": {
+        "product_name": [
+          "Le Costaud des Laurentides Seitan (frozen)"
+        ],
+        "lufa_farms_code": [
+          16875
+        ],
+        "rebate_per_unit": [
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$5.50"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$6.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          58
+        ],
+        "credited_sum": [
+          "$29.00"
+        ],
+        "total_credited": "$29.00"
+      }
+    },
+    {
+      "supplier": "La Fée de Cuisine",
+      "emails": [
+        "lafeedecuisine@gmail.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 5,
+      "period": "2026-01-25 to 2026-01-31",
+      "theme": "Responsible Dairy",
+      "table": {
+        "product_name": [
+          "French Beef & Potato Casserole (frozen)"
+        ],
+        "lufa_farms_code": [
+          16802
+        ],
+        "rebate_per_unit": [
+          "$1.00"
+        ],
+        "rebate_cost": [
+          "$12.50"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$13.50"
+        ],
+        "qty_bought_at_regular_cost": [
+          138
+        ],
+        "credited_sum": [
+          "$138.00"
+        ],
+        "total_credited": "$138.00"
+      }
+    },
+    {
+      "supplier": "Les 400 pieds de champignon",
+      "emails": [
+        "les400piedschampignon@gmail.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 5,
+      "period": "2026-01-25 to 2026-01-28",
+      "theme": null,
+      "table": {
+        "product_name": [
+          "Dried Mushrooms"
+        ],
+        "lufa_farms_code": [
+          14306
+        ],
+        "rebate_per_unit": [
+          "$1.80"
+        ],
+        "rebate_cost": [
+          "$7.20"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$9.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          71
+        ],
+        "credited_sum": [
+          "$127.80"
+        ],
+        "total_credited": "$127.80"
+      }
+    },
+    {
+      "supplier": "Les Filles Fattoush",
+      "emails": [
+        "alecomte@lesfillesfattoush.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 5,
+      "period": "2026-01-25 to 2026-01-31",
+      "theme": "Responsible Dairy",
+      "table": {
+        "product_name": [
+          "Mouhamara",
+          "Zaatar Pita Chips",
+          "Mint & Parsley Pita Chips",
+          "Sumac & Fleur de Sel Pita Chips",
+          "Cumin & Aleppo Pepper Pita Chips"
+        ],
+        "lufa_farms_code": [
+          11534,
+          15344,
+          16074,
+          17198,
+          15343
+        ],
+        "rebate_per_unit": [
+          "$0.75",
+          "$0.75",
+          "$0.75",
+          "$0.75",
+          "$0.75"
+        ],
+        "rebate_cost": [
+          "$4.42",
+          "$3.58",
+          "$3.58",
+          "$3.58",
+          "$3.58"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$5.17",
+          "$4.33",
+          "$4.33",
+          "$4.33",
+          "$4.33"
+        ],
+        "qty_bought_at_regular_cost": [
+          338,
+          495,
+          135,
+          315,
+          255
+        ],
+        "credited_sum": [
+          "$253.50",
+          "$371.25",
+          "$101.25",
+          "$236.25",
+          "$191.25"
+        ],
+        "total_credited": "$1153.50"
+      }
+    },
+    {
+      "supplier": "Miya's Cuisine",
+      "emails": [
+        "miyacuisine99@gmail.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 5,
+      "period": "2026-01-25 to 2026-01-31",
+      "theme": "Responsible Dairy",
+      "table": {
+        "product_name": [
+          "Chicken Pad Thai (2 portions, frozen)",
+          "Chicken Tom Yum Soup (frozen)"
+        ],
+        "lufa_farms_code": [
+          16110,
+          16115
+        ],
+        "rebate_per_unit": [
+          "$1.00",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$9.36",
+          "$5.30"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$11.36",
+          "$6.30"
+        ],
+        "qty_bought_at_regular_cost": [
+          164,
+          209
+        ],
+        "credited_sum": [
+          "$164.00",
+          "$104.50"
+        ],
+        "total_credited": "$186.50"
+      }
+    },
+    {
+      "supplier": "O'Mari",
+      "emails": [
+        "ningcan@gmail.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 5,
+      "period": "2026-01-25 to 2026-01-31",
+      "theme": "Responsible Dairy",
+      "table": {
+        "product_name": [
+          "Sweet Potato Gnocchi (frozen)",
+          "White Wine Alfredo Sauce (frozen)"
+        ],
+        "lufa_farms_code": [
+          4539,
+          13485
+        ],
+        "rebate_per_unit": [
+          "$0.40",
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$3.30",
+          "$3.25"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$3.70",
+          "$3.75"
+        ],
+        "qty_bought_at_regular_cost": [
+          2017,
+          1001
+        ],
+        "credited_sum": [
+          "$806.80",
+          "$250.25"
+        ],
+        "total_credited": "$754.50"
+      }
+    },
+    {
+      "supplier": "Savanil",
+      "emails": [
+        "nancia@savanil.ca"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 5,
+      "period": "2026-01-25 to 2026-01-31",
+      "theme": "Responsible Dairy",
+      "table": {
+        "product_name": [
+          "Whole Nutmeg from Mananjary, Madagascar (2024 harvest)",
+          "Ground Coriander from Madagascar (2025 harvest)"
+        ],
+        "lufa_farms_code": [
+          10910,
+          17566
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.30"
+        ],
+        "rebate_cost": [
+          "$4.00",
+          "$2.30"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$4.50",
+          "$2.60"
+        ],
+        "qty_bought_at_regular_cost": [
+          35,
+          105
+        ],
+        "credited_sum": [
+          "$17.50",
+          "$31.50"
+        ],
+        "total_credited": "$42.00"
+      }
+    },
+    {
+      "supplier": "Soya Distinction Inc",
+      "emails": [
+        "konthea2000@hotmail.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 5,
+      "period": "2026-01-25 to 2026-01-31",
+      "theme": "Responsible Dairy",
+      "table": {
+        "product_name": [
+          "Semi Firm Tofu"
+        ],
+        "lufa_farms_code": [
+          10666
+        ],
+        "rebate_per_unit": [
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$1.85"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$2.10"
+        ],
+        "qty_bought_at_regular_cost": [
+          2387
+        ],
+        "credited_sum": [
+          "$596.75"
+        ],
+        "total_credited": "$596.75"
+      }
+    },
+    {
+      "supplier": "Taylor Fish Company",
+      "emails": [
+        "yvonne@taylorfishcompany.com"
+      ],
+      "language": "en",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 5,
+      "period": "2026-01-25 to 2026-01-31",
+      "theme": "Responsible Dairy",
+      "table": {
+        "product_name": [
+          "Walleye Fillet (1, frozen)"
+        ],
+        "lufa_farms_code": [
+          12967
+        ],
+        "rebate_per_unit": [
+          "$0.29"
+        ],
+        "rebate_cost": [
+          "$6.30"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$6.59"
+        ],
+        "qty_bought_at_regular_cost": [
+          1236
+        ],
+        "credited_sum": [
+          "$358.44"
+        ],
+        "total_credited": "$358.44"
+      }
+    },
+    {
+      "supplier": "The Port of India",
+      "emails": [
+        "justin.riggio7@gmail.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 5,
+      "period": "2026-01-25 to 2026-01-31",
+      "theme": "Responsible Dairy",
+      "table": {
+        "product_name": [
+          "Korma Curry Paste (medium)"
+        ],
+        "lufa_farms_code": [
+          11567
+        ],
+        "rebate_per_unit": [
+          "$0.40"
+        ],
+        "rebate_cost": [
+          "$5.00"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$5.40"
+        ],
+        "qty_bought_at_regular_cost": [
+          117
+        ],
+        "credited_sum": [
+          "$46.80"
+        ],
+        "total_credited": "$46.80"
+      }
+    },
+    {
+      "supplier": "VG Gourmet",
+      "emails": [
+        "info@vegetariangourmet.com",
+        "bookkeeping.vggourmet@gmail.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 5,
+      "period": "2026-01-25 to 2026-01-31",
+      "theme": "Responsible Dairy",
+      "table": {
+        "product_name": [
+          "Carrot & Ginger Soup (frozen)",
+          "Quinoa & Chickpea Veggie Burgers (2, frozen)",
+          "Buffalo Soy Protein Bites (frozen)",
+          "Beet Balls (frozen)"
+        ],
+        "lufa_farms_code": [
+          10124,
+          8989,
+          10273,
+          8997
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50",
+          "$0.50",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$3.35",
+          "$2.14",
+          "$4.30",
+          "$3.92"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$4.35",
+          "$2.64",
+          "$4.80",
+          "$4.42"
+        ],
+        "qty_bought_at_regular_cost": [
+          1523,
+          1425,
+          149,
+          273
+        ],
+        "credited_sum": [
+          "$761.50",
+          "$712.50",
+          "$74.50",
+          "$136.50"
+        ],
+        "total_credited": "$1685.00"
+      }
+    },
+    {
+      "supplier": "Yupik",
+      "emails": [
+        "mleclerc@tootsi.com",
+        "jllachance@tootsi.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 5,
+      "period": "2026-01-25 to 2026-01-31",
+      "theme": "Responsible Dairy",
+      "table": {
+        "product_name": [
+          "Organic Sweetened Banana Chips"
+        ],
+        "lufa_farms_code": [
+          18084
+        ],
+        "rebate_per_unit": [
+          "$0.75"
+        ],
+        "rebate_cost": [
+          "$4.30"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$5.05"
+        ],
+        "qty_bought_at_regular_cost": [
+          550
+        ],
+        "credited_sum": [
+          "$412.50"
+        ],
+        "total_credited": "$412.50"
+      }
+    },
+    {
+      "supplier": "État Végétal",
+      "emails": [
+        "francis.dubois@etatvegetal.com",
+        "comptabilite@etatvegetal.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 5,
+      "period": "2026-01-25 to 2026-01-31",
+      "theme": "Responsible Dairy",
+      "table": {
+        "product_name": [
+          "Dried Tomato & Basil Arancini (frozen)"
+        ],
+        "lufa_farms_code": [
+          17077
+        ],
+        "rebate_per_unit": [
+          "$1.00"
+        ],
+        "rebate_cost": [
+          "$5.86"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$6.86"
+        ],
+        "qty_bought_at_regular_cost": [
+          325
+        ],
+        "credited_sum": [
+          "$325.00"
+        ],
+        "total_credited": "$325.00"
+      }
+    }
+  ]
+}

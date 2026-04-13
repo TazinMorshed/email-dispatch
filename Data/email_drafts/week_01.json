@@ -1,0 +1,981 @@
+{
+  "week": 1,
+  "total_suppliers": 20,
+  "suppliers": [
+    {
+      "supplier": "Afishionado Fishmongers",
+      "emails": [
+        "revivaldhakabangladesh@gmail.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2025,
+      "week": 1,
+      "period": "2025-12-28 to 2026-01-03",
+      "theme": "New years! Fresh Start/Immune Boosters",
+      "table": {
+        "product_name": [
+          "Atlantic Salmon Chunks"
+        ],
+        "lufa_farms_code": [
+          16755
+        ],
+        "rebate_per_unit": [
+          "$2.40"
+        ],
+        "rebate_cost": [
+          "$9.60"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$12.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          4517
+        ],
+        "credited_sum": [
+          "$10840.80"
+        ],
+        "total_credited": "$10840.80"
+      }
+    },
+    {
+      "supplier": "Agrobio",
+      "emails": [
+        "joey@agrobioquebec.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2025,
+      "week": 1,
+      "period": "2025-12-28 to 2026-01-03",
+      "theme": "Fresh Start/Immune Boosters",
+      "table": {
+        "product_name": [
+          "Organic Cold-Pressed Sunflower Oil (oleic)"
+        ],
+        "lufa_farms_code": [
+          17612
+        ],
+        "rebate_per_unit": [
+          "$0.75"
+        ],
+        "rebate_cost": [
+          "$11.78"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$12.53"
+        ],
+        "qty_bought_at_regular_cost": [
+          49
+        ],
+        "credited_sum": [
+          "$36.75"
+        ],
+        "total_credited": "$36.75"
+      }
+    },
+    {
+      "supplier": "Bièrerie Shelton",
+      "emails": [
+        "biererie.shelton@gmail.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2025,
+      "week": 1,
+      "period": "2025-12-28 to 2026-01-03",
+      "theme": "New years! Fresh Start/Immune Boosters",
+      "table": {
+        "product_name": [
+          "Organic Non-Alcoholic Raspberry Sour (pack of 4)"
+        ],
+        "lufa_farms_code": [
+          19061
+        ],
+        "rebate_per_unit": [
+          "$1.50"
+        ],
+        "rebate_cost": [
+          "$11.10"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$12.60"
+        ],
+        "qty_bought_at_regular_cost": [
+          121
+        ],
+        "credited_sum": [
+          "$181.50"
+        ],
+        "total_credited": "$181.50"
+      }
+    },
+    {
+      "supplier": "Boucherie Nordest",
+      "emails": [
+        "adm@boucherienordest.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2025,
+      "week": 1,
+      "period": "2025-12-28 to 2026-01-03",
+      "theme": "New years! Fresh Start/Immune Boosters",
+      "table": {
+        "product_name": [
+          "Bacon & Cheese Beef Sausages (frozen)",
+          "Toulouse Pork Sausages (frozen)",
+          "Chimichurri Marinated Beef Belly Steak (frozen)",
+          "Boneless Pork Chops (frozen)"
+        ],
+        "lufa_farms_code": [
+          10056,
+          14356,
+          17600,
+          14719
+        ],
+        "rebate_per_unit": [
+          "$0.75",
+          "$0.50",
+          "$1.00",
+          "$0.75"
+        ],
+        "rebate_cost": [
+          "$4.94",
+          "$3.55",
+          "$8.95",
+          "$5.08"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$6.44",
+          "$4.55",
+          "$9.95",
+          "$5.83"
+        ],
+        "qty_bought_at_regular_cost": [
+          187,
+          465,
+          57,
+          57
+        ],
+        "credited_sum": [
+          "$140.25",
+          "$232.50",
+          "$57.00",
+          "$42.75"
+        ],
+        "total_credited": "$574.50"
+      }
+    },
+    {
+      "supplier": "Boulangerie Le Pain dans les Voiles",
+      "emails": [
+        "alex@lepaindanslesvoiles.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2025,
+      "week": 1,
+      "period": "2025-12-28 to 2026-01-03",
+      "theme": "Fresh Start/Immune Boosters",
+      "table": {
+        "product_name": [
+          "Chocolatines (6, frozen)"
+        ],
+        "lufa_farms_code": [
+          15895
+        ],
+        "rebate_per_unit": [
+          "$1.40"
+        ],
+        "rebate_cost": [
+          "$7.90"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$9.30"
+        ],
+        "qty_bought_at_regular_cost": [
+          937
+        ],
+        "credited_sum": [
+          "$1311.80"
+        ],
+        "total_credited": "$1311.80"
+      }
+    },
+    {
+      "supplier": "Carrément Tarte",
+      "emails": [
+        "admin@carrementtarte.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2025,
+      "week": 1,
+      "period": "2025-12-28 to 2026-01-03",
+      "theme": "New years! Fresh Start/Immune Boosters",
+      "table": {
+        "product_name": [
+          "Quiche Lorraine (frozen)"
+        ],
+        "lufa_farms_code": [
+          18424
+        ],
+        "rebate_per_unit": [
+          "$1.00"
+        ],
+        "rebate_cost": [
+          "$9.30"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$10.30"
+        ],
+        "qty_bought_at_regular_cost": [
+          636
+        ],
+        "credited_sum": [
+          "$636.00"
+        ],
+        "total_credited": "$636.00"
+      }
+    },
+    {
+      "supplier": "Choose Life Foods",
+      "emails": [
+        "info@chooselifefoods.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2025,
+      "week": 1,
+      "period": "2025-12-28 to 2026-01-03",
+      "theme": "Fresh Start/Immune Boosters",
+      "table": {
+        "product_name": [
+          "Meatless Lover's Vegan Jamaican Patty (mild, frozen)",
+          "Coconut Kale Delight Vegan Jamaican Patty (frozen)",
+          "Meatless Lovers Vegan Jamaican Patty (spicy, frozen)",
+          "Chick'n Lover's Vegan Jamaican Patty (frozen)"
+        ],
+        "lufa_farms_code": [
+          5763,
+          5764,
+          19035,
+          19036
+        ],
+        "rebate_per_unit": [
+          "$0.25",
+          "$0.25",
+          "$0.25",
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$2.00",
+          "$2.00",
+          "$2.00",
+          "$2.00"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$2.25",
+          "$2.25",
+          "$2.25",
+          "$2.25"
+        ],
+        "qty_bought_at_regular_cost": [
+          299,
+          227,
+          113,
+          113
+        ],
+        "credited_sum": [
+          "$74.75",
+          "$56.75",
+          "$28.25",
+          "$28.25"
+        ],
+        "total_credited": "$188.00"
+      }
+    },
+    {
+      "supplier": "Fermes Valens",
+      "emails": [
+        "accounting@fermesvalens.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2025,
+      "week": 1,
+      "period": "2025-12-28 to 2026-01-03",
+      "theme": "New years! Fresh Start/Immune Boosters",
+      "table": {
+        "product_name": [
+          "Salami (sliced)"
+        ],
+        "lufa_farms_code": [
+          2153
+        ],
+        "rebate_per_unit": [
+          "$0.40"
+        ],
+        "rebate_cost": [
+          "$2.25"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$2.65"
+        ],
+        "qty_bought_at_regular_cost": [
+          717
+        ],
+        "credited_sum": [
+          "$286.80"
+        ],
+        "total_credited": "$286.80"
+      }
+    },
+    {
+      "supplier": "L'Issue Végane Maison",
+      "emails": [
+        "laurentvanderwee.lissue@gmail.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2025,
+      "week": 1,
+      "period": "2025-12-28 to 2026-01-03",
+      "theme": "Fresh Start/Immune Boosters",
+      "table": {
+        "product_name": [
+          "Le Piccante Seitan (frozen)"
+        ],
+        "lufa_farms_code": [
+          16876
+        ],
+        "rebate_per_unit": [
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$5.50"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$6.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          29
+        ],
+        "credited_sum": [
+          "$14.50"
+        ],
+        "total_credited": "$14.50"
+      }
+    },
+    {
+      "supplier": "Maison Orphée",
+      "emails": [
+        "Stefanie.Janin@maisonorphee.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2025,
+      "week": 1,
+      "period": "2025-12-28 to 2026-01-03",
+      "theme": "Fresh Start/Immune Boosters",
+      "table": {
+        "product_name": [
+          "Extra Virgin Olive Oil Fresh Mayonnaise",
+          "Fresh Mayonnaise"
+        ],
+        "lufa_farms_code": [
+          18940,
+          9253
+        ],
+        "rebate_per_unit": [
+          "$0.69",
+          "$0.69"
+        ],
+        "rebate_cost": [
+          "$3.91",
+          "$3.91"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$4.60",
+          "$4.60"
+        ],
+        "qty_bought_at_regular_cost": [
+          560,
+          213
+        ],
+        "credited_sum": [
+          "$386.40",
+          "$146.97"
+        ],
+        "total_credited": "$533.37"
+      }
+    },
+    {
+      "supplier": "Miya's Cuisine",
+      "emails": [
+        "miyacuisine99@gmail.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2025,
+      "week": 1,
+      "period": "2025-12-28 to 2026-01-03",
+      "theme": "New years! Fresh Start/Immune Boosters",
+      "table": {
+        "product_name": [
+          "Korean BBQ Chicken Stir Fry Cubes (frozen)",
+          "Chicken Pad Thai (2 portions, frozen)",
+          "Chicken Tom Yum Soup (frozen)"
+        ],
+        "lufa_farms_code": [
+          17180,
+          16110,
+          16115
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$1.00",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$7.25",
+          "$9.36",
+          "$5.30"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$7.75",
+          "$11.36",
+          "$6.30"
+        ],
+        "qty_bought_at_regular_cost": [
+          110,
+          85,
+          131
+        ],
+        "credited_sum": [
+          "$55.00",
+          "$85.00",
+          "$65.50"
+        ],
+        "total_credited": "$163.00"
+      }
+    },
+    {
+      "supplier": "Natura",
+      "emails": [
+        "nathalie@nantelmcdiarmid.com",
+        "credit@nantelmcdiarmid.com",
+        "laurent@nantelmcdiarmid.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2025,
+      "week": 1,
+      "period": "2025-12-28 to 2026-01-03",
+      "theme": "Fresh Start/Immune Boosters",
+      "table": {
+        "product_name": [
+          "Organic Chocolate Soy Beverage (pack of 3)",
+          "Organic Strawberry Soy Beverage (pack of 3)",
+          "Chocolate Almond Beverage (pack of 3)",
+          "Organic Vanilla Soy Beverage (pack of 3)",
+          "Organic Chocolate Oat Beverage (pack of 3, gluten-free)"
+        ],
+        "lufa_farms_code": [
+          19818,
+          19807,
+          19811,
+          19819,
+          19827
+        ],
+        "rebate_per_unit": [
+          "$0.25",
+          "$0.25",
+          "$0.25",
+          "$0.25",
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$2.12",
+          "$2.12",
+          "$2.12",
+          "$2.12",
+          "$2.12"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$2.37",
+          "$2.37",
+          "$2.37",
+          "$2.37",
+          "$2.37"
+        ],
+        "qty_bought_at_regular_cost": [
+          96,
+          46,
+          49,
+          58,
+          87
+        ],
+        "credited_sum": [
+          "$24.00",
+          "$11.50",
+          "$12.25",
+          "$14.50",
+          "$21.75"
+        ],
+        "total_credited": "$84.00"
+      }
+    },
+    {
+      "supplier": "O'Mari",
+      "emails": [
+        "ningcan@gmail.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2025,
+      "week": 1,
+      "period": "2025-12-28 to 2026-01-03",
+      "theme": "New years! Fresh Start/Immune Boosters",
+      "table": {
+        "product_name": [
+          "Arrabiata Sauce (frozen)"
+        ],
+        "lufa_farms_code": [
+          15562
+        ],
+        "rebate_per_unit": [
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$2.45"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$2.70"
+        ],
+        "qty_bought_at_regular_cost": [
+          792
+        ],
+        "credited_sum": [
+          "$198.00"
+        ],
+        "total_credited": "$198.00"
+      }
+    },
+    {
+      "supplier": "Pietro's Gluten Free",
+      "emails": [
+        "pietro@pietrosglutenfree.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2025,
+      "week": 1,
+      "period": "2025-12-28 to 2026-01-03",
+      "theme": "New years! Fresh Start/Immune Boosters",
+      "table": {
+        "product_name": [
+          "Spinach & Cheese Ravioli (gluten-free, frozen)"
+        ],
+        "lufa_farms_code": [
+          19053
+        ],
+        "rebate_per_unit": [
+          "$0.75"
+        ],
+        "rebate_cost": [
+          "$4.93"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$5.68"
+        ],
+        "qty_bought_at_regular_cost": [
+          162
+        ],
+        "credited_sum": [
+          "$121.50"
+        ],
+        "total_credited": "$121.50"
+      }
+    },
+    {
+      "supplier": "Savanil",
+      "emails": [
+        "nancia@savanil.ca"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2025,
+      "week": 1,
+      "period": "2025-12-28 to 2026-01-03",
+      "theme": "Fresh Start/Immune Boosters",
+      "table": {
+        "product_name": [
+          "Whole Cloves from Mananjary, Madagascar (2024 harvest)",
+          "Bourbon Vanilla Bean Paste (liquid)",
+          "Holiday Spice Mix"
+        ],
+        "lufa_farms_code": [
+          10906,
+          13595,
+          19962
+        ],
+        "rebate_per_unit": [
+          "$0.25",
+          "$0.75",
+          "$0.45"
+        ],
+        "rebate_cost": [
+          "$1.73",
+          "$9.00",
+          "$3.60"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$1.98",
+          "$9.75",
+          "$4.05"
+        ],
+        "qty_bought_at_regular_cost": [
+          72,
+          26,
+          37
+        ],
+        "credited_sum": [
+          "$18.00",
+          "$19.50",
+          "$16.65"
+        ],
+        "total_credited": "$60.75"
+      }
+    },
+    {
+      "supplier": "Soya Distinction Inc",
+      "emails": [
+        "konthea2000@hotmail.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2025,
+      "week": 1,
+      "period": "2025-12-28 to 2026-01-03",
+      "theme": "Fresh Start/Immune Boosters",
+      "table": {
+        "product_name": [
+          "Tamari & Maple Smoked Tofu"
+        ],
+        "lufa_farms_code": [
+          13558
+        ],
+        "rebate_per_unit": [
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$3.50"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$3.75"
+        ],
+        "qty_bought_at_regular_cost": [
+          543
+        ],
+        "credited_sum": [
+          "$135.75"
+        ],
+        "total_credited": "$135.75"
+      }
+    },
+    {
+      "supplier": "Sprague",
+      "emails": [
+        "jenn@spraguefoods.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2025,
+      "week": 1,
+      "period": "2025-12-28 to 2026-01-03",
+      "theme": "Fresh Start/Immune Boosters",
+      "table": {
+        "product_name": [
+          "Organic Tuscany-Style Minestrone Soup",
+          "Organic Mediterranean Lentil Soup",
+          "Organic Quebec-Style Split Pea Soup",
+          "Organic Caribbean-Style Black Bean Soup",
+          "Organic Coconut, Curry & Sweet Potato Soup",
+          "Organic Tomato & Red Pepper Soup"
+        ],
+        "lufa_farms_code": [
+          17560,
+          17559,
+          17561,
+          17563,
+          17617,
+          17619
+        ],
+        "rebate_per_unit": [
+          "$0.30",
+          "$0.30",
+          "$0.30",
+          "$0.30",
+          "$0.30",
+          "$0.30"
+        ],
+        "rebate_cost": [
+          "$2.05",
+          "$2.05",
+          "$2.05",
+          "$2.05",
+          "$2.05",
+          "$2.05"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$2.35",
+          "$2.35",
+          "$2.35",
+          "$2.35",
+          "$2.35",
+          "$2.35"
+        ],
+        "qty_bought_at_regular_cost": [
+          989,
+          297,
+          450,
+          190,
+          331,
+          261
+        ],
+        "credited_sum": [
+          "$296.70",
+          "$89.10",
+          "$135.00",
+          "$57.00",
+          "$99.30",
+          "$78.30"
+        ],
+        "total_credited": "$755.40"
+      }
+    },
+    {
+      "supplier": "The Port of India",
+      "emails": [
+        "justin.riggio7@gmail.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2025,
+      "week": 1,
+      "period": "2025-12-28 to 2026-01-03",
+      "theme": "Fresh Start/Immune Boosters",
+      "table": {
+        "product_name": [
+          "Makhani Curry Paste (medium)"
+        ],
+        "lufa_farms_code": [
+          12853
+        ],
+        "rebate_per_unit": [
+          "$0.65"
+        ],
+        "rebate_cost": [
+          "$4.75"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$5.40"
+        ],
+        "qty_bought_at_regular_cost": [
+          68
+        ],
+        "credited_sum": [
+          "$44.20"
+        ],
+        "total_credited": "$44.20"
+      }
+    },
+    {
+      "supplier": "Umami Épicerie",
+      "emails": [
+        "umamiepicerie@gmail.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2025,
+      "week": 1,
+      "period": "2025-12-28 to 2026-01-03",
+      "theme": "New years! Fresh Start/Immune Boosters",
+      "table": {
+        "product_name": [
+          "Black Sesame & Charcoal Ramen Noodles (frozen)",
+          "Spicy Miso Broth (frozen)"
+        ],
+        "lufa_farms_code": [
+          14437,
+          19009
+        ],
+        "rebate_per_unit": [
+          "$0.25",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$2.30",
+          "$5.00"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$2.55",
+          "$6.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          908,
+          121
+        ],
+        "credited_sum": [
+          "$227.00",
+          "$60.50"
+        ],
+        "total_credited": "$514.50"
+      }
+    },
+    {
+      "supplier": "VG Gourmet",
+      "emails": [
+        "info@vegetariangourmet.com",
+        "bookkeeping.vggourmet@gmail.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2025,
+      "week": 1,
+      "period": "2025-12-28 to 2026-01-03",
+      "theme": "New years! Fresh Start/Immune Boosters",
+      "table": {
+        "product_name": [
+          "Roasted Tomato Soup (frozen)",
+          "Vegan Chili (frozen)",
+          "Beet Balls (frozen)",
+          "Vegan Shawarma (frozen)"
+        ],
+        "lufa_farms_code": [
+          12112,
+          10123,
+          8997,
+          14795
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.63",
+          "$0.63",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$3.92",
+          "$4.12",
+          "$3.79",
+          "$4.80"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$4.42",
+          "$4.75",
+          "$4.42",
+          "$5.30"
+        ],
+        "qty_bought_at_regular_cost": [
+          529,
+          620,
+          257,
+          49
+        ],
+        "credited_sum": [
+          "$264.50",
+          "$390.60",
+          "$161.91",
+          "$24.50"
+        ],
+        "total_credited": "$727.50"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1406 @@
+{
+  "week": 8,
+  "total_suppliers": 30,
+  "suppliers": [
+    {
+      "supplier": "Afishionado Fishmongers",
+      "emails": [
+        "accounting@afishionado.ca"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 8,
+      "period": "2026-02-15 to 2026-02-21",
+      "theme": "Asian food - Lunar New Year Celebrations (Feb 17)",
+      "table": {
+        "product_name": [
+          "Atlantic Salmon Fillet (frozen)"
+        ],
+        "lufa_farms_code": [
+          14045
+        ],
+        "rebate_per_unit": [
+          "$2.28"
+        ],
+        "rebate_cost": [
+          "$20.52"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$22.80"
+        ],
+        "qty_bought_at_regular_cost": [
+          599
+        ],
+        "credited_sum": [
+          "$1365.72"
+        ],
+        "total_credited": "$1365.72"
+      }
+    },
+    {
+      "supplier": "Agrobio",
+      "emails": [
+        "joey@agrobioquebec.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 8,
+      "period": "2026-02-15 to 2026-02-21",
+      "theme": "Asian food - Lunar New Year Celebrations (Feb 17)",
+      "table": {
+        "product_name": [
+          "Organic Spelt Flour",
+          "Organic Rye Flour"
+        ],
+        "lufa_farms_code": [
+          17356,
+          17357
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$3.83",
+          "$2.60"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$4.33",
+          "$3.10"
+        ],
+        "qty_bought_at_regular_cost": [
+          139,
+          136
+        ],
+        "credited_sum": [
+          "$69.50",
+          "$68.00"
+        ],
+        "total_credited": "$137.50"
+      }
+    },
+    {
+      "supplier": "Artisan Tradition",
+      "emails": [
+        "jcarrier@6sens-veg.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 8,
+      "period": "2026-02-15 to 2026-02-21",
+      "theme": "Asian food - Lunar New Year Celebrations (Feb 17)",
+      "table": {
+        "product_name": [
+          "Organic Arborio Rice",
+          "Organic Long Grain Brown Rice"
+        ],
+        "lufa_farms_code": [
+          17903,
+          17912
+        ],
+        "rebate_per_unit": [
+          "$0.61",
+          "$0.46"
+        ],
+        "rebate_cost": [
+          "$5.47",
+          "$4.14"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$6.08",
+          "$4.60"
+        ],
+        "qty_bought_at_regular_cost": [
+          130,
+          227
+        ],
+        "credited_sum": [
+          "$79.30",
+          "$104.42"
+        ],
+        "total_credited": "$164.22"
+      }
+    },
+    {
+      "supplier": "Atelier BIS",
+      "emails": [
+        "alexis@atelier-bis.ca"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 8,
+      "period": "2026-02-15 to 2026-02-21",
+      "theme": "Asian food - Lunar New Year Celebrations (Feb 17)",
+      "table": {
+        "product_name": [
+          "Piri-Piri Chicken Sausages (frozen)"
+        ],
+        "lufa_farms_code": [
+          17664
+        ],
+        "rebate_per_unit": [
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$6.50"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$7.50"
+        ],
+        "qty_bought_at_regular_cost": [
+          126
+        ],
+        "credited_sum": [
+          "$63.00"
+        ],
+        "total_credited": "$63.00"
+      }
+    },
+    {
+      "supplier": "Boucherie Nordest",
+      "emails": [
+        "adm@boucherienordest.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 8,
+      "period": "2026-02-15",
+      "theme": "Asian food - Lunar New Year Celebrations (Feb 17)",
+      "table": {
+        "product_name": [
+          "Korean-Style Spicy Marinated Beef Strips (tenderized, frozen)",
+          "Korean-Style Spicy Marinated Beef Strips (tenderized, frozen)",
+          "Pork Breakfast Sausages (frozen)",
+          "Merguez Lamb Sausages (lamb, frozen)",
+          "Beef Hanger Steak (frozen)"
+        ],
+        "lufa_farms_code": [
+          17429,
+          17429,
+          15957,
+          4437,
+          10749
+        ],
+        "rebate_per_unit": [
+          "$0.75",
+          "$0.75",
+          "$0.35",
+          "$0.68",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$9.30",
+          "$9.30",
+          "$3.15",
+          "$6.08",
+          "$11.39"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$10.05",
+          "$10.05",
+          "$3.50",
+          "$6.76",
+          "$12.39"
+        ],
+        "qty_bought_at_regular_cost": [
+          307,
+          123,
+          650,
+          402,
+          22
+        ],
+        "credited_sum": [
+          "$230.25",
+          "$92.25",
+          "$227.50",
+          "$273.36",
+          "$11.00"
+        ],
+        "total_credited": "$752.00"
+      }
+    },
+    {
+      "supplier": "Boulangerie Le Pain dans les Voiles",
+      "emails": [
+        "alex@lepaindanslesvoiles.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 8,
+      "period": "2026-02-15 to 2026-02-21",
+      "theme": "Asian food - Lunar New Year Celebrations (Feb 17)",
+      "table": {
+        "product_name": [
+          "English Muffins (6, frozen)"
+        ],
+        "lufa_farms_code": [
+          17485
+        ],
+        "rebate_per_unit": [
+          "$0.60"
+        ],
+        "rebate_cost": [
+          "$3.30"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$3.90"
+        ],
+        "qty_bought_at_regular_cost": [
+          1376
+        ],
+        "credited_sum": [
+          "$825.60"
+        ],
+        "total_credited": "$825.60"
+      }
+    },
+    {
+      "supplier": "Carrément Tarte",
+      "emails": [
+        "admin@carrementtarte.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 8,
+      "period": "2026-02-15 to 2026-02-21",
+      "theme": "Asian food - Lunar New Year Celebrations (Feb 17)",
+      "table": {
+        "product_name": [
+          "Lemon Tart (frozen)"
+        ],
+        "lufa_farms_code": [
+          19155
+        ],
+        "rebate_per_unit": [
+          "$1.00"
+        ],
+        "rebate_cost": [
+          "$8.25"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$9.25"
+        ],
+        "qty_bought_at_regular_cost": [
+          539
+        ],
+        "credited_sum": [
+          "$539.00"
+        ],
+        "total_credited": "$539.00"
+      }
+    },
+    {
+      "supplier": "Chocolat Boréal",
+      "emails": [
+        "info@chocolatboreal.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 8,
+      "period": "2026-02-15 to 2026-02-21",
+      "theme": "Asian food - Lunar New Year Celebrations (Feb 17)",
+      "table": {
+        "product_name": [
+          "Fleur de Sel Caramel Milk Chocolate Bar",
+          "Fleur de Sel Caramel Dark Chocolate Bar"
+        ],
+        "lufa_farms_code": [
+          10734,
+          10727
+        ],
+        "rebate_per_unit": [
+          "$0.25",
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$5.15",
+          "$5.15"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$5.40",
+          "$5.40"
+        ],
+        "qty_bought_at_regular_cost": [
+          109,
+          160
+        ],
+        "credited_sum": [
+          "$27.25",
+          "$40.00"
+        ],
+        "total_credited": "$67.25"
+      }
+    },
+    {
+      "supplier": "Coloccia",
+      "emails": [
+        "gusberthe@outlook.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 8,
+      "period": "2026-02-15 to 2026-02-21",
+      "theme": "Asian food - Lunar New Year Celebrations (Feb 17)",
+      "table": {
+        "product_name": [
+          "Fresh Ricotta & Spinach Ravioli (frozen)"
+        ],
+        "lufa_farms_code": [
+          10582
+        ],
+        "rebate_per_unit": [
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$5.60"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$6.10"
+        ],
+        "qty_bought_at_regular_cost": [
+          1417
+        ],
+        "credited_sum": [
+          "$708.50"
+        ],
+        "total_credited": "$708.50"
+      }
+    },
+    {
+      "supplier": "DelChef",
+      "emails": [
+        "leonardo@delchef.ca"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 8,
+      "period": "2026-02-15 to 2026-02-21",
+      "theme": "Asian food - Lunar New Year Celebrations (Feb 17)",
+      "table": {
+        "product_name": [
+          "Chicken Parmigiana Focaccia (frozen)"
+        ],
+        "lufa_farms_code": [
+          16653
+        ],
+        "rebate_per_unit": [
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$2.15"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$3.15"
+        ],
+        "qty_bought_at_regular_cost": [
+          569
+        ],
+        "credited_sum": [
+          "$284.50"
+        ],
+        "total_credited": "$284.50"
+      }
+    },
+    {
+      "supplier": "Des Cantons",
+      "emails": [
+        "jlaforest@collectifensemble.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 8,
+      "period": "2026-02-15 to 2026-02-21",
+      "theme": "Asian food - Lunar New Year Celebrations (Feb 17)",
+      "table": {
+        "product_name": [
+          "Pic de l'Ours Organic Blonde Ale (pack of 4)"
+        ],
+        "lufa_farms_code": [
+          20111
+        ],
+        "rebate_per_unit": [
+          "$1.04"
+        ],
+        "rebate_cost": [
+          "$8.96"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$11.04"
+        ],
+        "qty_bought_at_regular_cost": [
+          181
+        ],
+        "credited_sum": [
+          "$188.24"
+        ],
+        "total_credited": "$188.24"
+      }
+    },
+    {
+      "supplier": "Kiju Organic",
+      "emails": [
+        "ernesto.perez@lassonde.com",
+        "DistributionClientConfirmation@lassonde.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 8,
+      "period": "2026-02-15 to 2026-02-21",
+      "theme": "Asian food - Lunar New Year Celebrations (Feb 17)",
+      "table": {
+        "product_name": [
+          "Organic Mango & Orange Juice",
+          "Organic Pomegranate & Cherry Juice",
+          "Organic Apple Juice",
+          "Organic Strawberry & Watermelon Beverage"
+        ],
+        "lufa_farms_code": [
+          15668,
+          15663,
+          16552,
+          16925
+        ],
+        "rebate_per_unit": [
+          "$0.09",
+          "$0.09",
+          "$0.09",
+          "$0.09"
+        ],
+        "rebate_cost": [
+          "$2.36",
+          "$2.36",
+          "$2.36",
+          "$2.36"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$2.45",
+          "$2.45",
+          "$2.45",
+          "$2.45"
+        ],
+        "qty_bought_at_regular_cost": [
+          1068,
+          369,
+          273,
+          277
+        ],
+        "credited_sum": [
+          "$96.12",
+          "$33.21",
+          "$24.57",
+          "$24.93"
+        ],
+        "total_credited": "$178.83"
+      }
+    },
+    {
+      "supplier": "L'Issue Végane Maison",
+      "emails": [
+        "laurentvanderwee.lissue@gmail.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 8,
+      "period": "2026-02-15 to 2026-02-21",
+      "theme": "Asian food - Lunar New Year Celebrations (Feb 17)",
+      "table": {
+        "product_name": [
+          "Le Costaud des Laurentides Seitan (frozen)"
+        ],
+        "lufa_farms_code": [
+          16875
+        ],
+        "rebate_per_unit": [
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$5.50"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$6.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          51
+        ],
+        "credited_sum": [
+          "$25.50"
+        ],
+        "total_credited": "$25.50"
+      }
+    },
+    {
+      "supplier": "Les Artisans de l'Aube",
+      "emails": [
+        "info@lesartisansdelaube.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 8,
+      "period": "2026-02-15 to 2026-02-21",
+      "theme": "Asian food - Lunar New Year Celebrations (Feb 17)",
+      "table": {
+        "product_name": [
+          "Organic Veggie Soup (frozen)"
+        ],
+        "lufa_farms_code": [
+          19206
+        ],
+        "rebate_per_unit": [
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$2.35"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$2.85"
+        ],
+        "qty_bought_at_regular_cost": [
+          192
+        ],
+        "credited_sum": [
+          "$48.00"
+        ],
+        "total_credited": "$48.00"
+      }
+    },
+    {
+      "supplier": "MANA Yerba Mate",
+      "emails": [
+        "info@theaboire.com",
+        "jocampion@theaboire.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 8,
+      "period": "2026-02-15 to 2026-02-21",
+      "theme": "Asian food - Lunar New Year Celebrations (Feb 17)",
+      "table": {
+        "product_name": [
+          "Organic Blackberry & Hibiscus Yerba Mate Energy Infusion",
+          "Organic Tropical Yerba Mate Energy Infusion",
+          "Organic Melon & Mint Yerba Mate Energy Infusion",
+          "Organic Grapefruit Yerba Mate Energy Infusion"
+        ],
+        "lufa_farms_code": [
+          19515,
+          19516,
+          19518,
+          19519
+        ],
+        "rebate_per_unit": [
+          "$1.00",
+          "$1.00",
+          "$1.00",
+          "$1.00"
+        ],
+        "rebate_cost": [
+          "$6.50",
+          "$6.50",
+          "$6.50",
+          "$6.50"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$7.50",
+          "$7.50",
+          "$7.50",
+          "$7.50"
+        ],
+        "qty_bought_at_regular_cost": [
+          56,
+          42,
+          71,
+          35
+        ],
+        "credited_sum": [
+          "$56.00",
+          "$42.00",
+          "$71.00",
+          "$35.00"
+        ],
+        "total_credited": "$204.00"
+      }
+    },
+    {
+      "supplier": "Miels d'Anicet",
+      "emails": [
+        "commande@api-culture.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 8,
+      "period": "2026-02-15 to 2026-02-21",
+      "theme": "Asian food - Lunar New Year Celebrations (Feb 17)",
+      "table": {
+        "product_name": [
+          "Propolis Ointment"
+        ],
+        "lufa_farms_code": [
+          2681
+        ],
+        "rebate_per_unit": [
+          "$1.00"
+        ],
+        "rebate_cost": [
+          "$10.25"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$11.25"
+        ],
+        "qty_bought_at_regular_cost": [
+          105
+        ],
+        "credited_sum": [
+          "$105.00"
+        ],
+        "total_credited": "$105.00"
+      }
+    },
+    {
+      "supplier": "Miya's Cuisine",
+      "emails": [
+        "miyacuisine99@gmail.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 8,
+      "period": "2026-02-15 to 2026-02-21",
+      "theme": "Asian food - Lunar New Year Celebrations (Feb 17)",
+      "table": {
+        "product_name": [
+          "Spicy Chicken Pad Thai (2 portions, frozen)",
+          "Chicken Tom Yum Soup (2 portions, frozen)"
+        ],
+        "lufa_farms_code": [
+          16112,
+          16114
+        ],
+        "rebate_per_unit": [
+          "$1.00",
+          "$1.50"
+        ],
+        "rebate_cost": [
+          "$9.36",
+          "$9.86"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$11.36",
+          "$11.36"
+        ],
+        "qty_bought_at_regular_cost": [
+          122,
+          354
+        ],
+        "credited_sum": [
+          "$122.00",
+          "$531.00"
+        ],
+        "total_credited": "$714.00"
+      }
+    },
+    {
+      "supplier": "O'Mari",
+      "emails": [
+        "ningcan@gmail.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 8,
+      "period": "2026-02-15 to 2026-02-21",
+      "theme": "Asian food - Lunar New Year Celebrations (Feb 17)",
+      "table": {
+        "product_name": [
+          "Chicken Dumplings (frozen)",
+          "Dumpling Sauce",
+          "Ramen Noodles (frozen)",
+          "Dumpling Wrappers (55 sheets, frozen)"
+        ],
+        "lufa_farms_code": [
+          8356,
+          14079,
+          4486,
+          15554
+        ],
+        "rebate_per_unit": [
+          "$0.60",
+          "$0.25",
+          "$0.25",
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$4.80",
+          "$1.90",
+          "$2.25",
+          "$1.95"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$6.00",
+          "$2.40",
+          "$2.75",
+          "$2.20"
+        ],
+        "qty_bought_at_regular_cost": [
+          1410,
+          708,
+          626,
+          495
+        ],
+        "credited_sum": [
+          "$846.00",
+          "$177.00",
+          "$156.50",
+          "$123.75"
+        ],
+        "total_credited": "$809.75"
+      }
+    },
+    {
+      "supplier": "Pizzeria Sofia",
+      "emails": [
+        "nicola@pizzeriasofia2go.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 8,
+      "period": "2026-02-15 to 2026-02-21",
+      "theme": "Asian food - Lunar New Year Celebrations (Feb 17)",
+      "table": {
+        "product_name": [
+          "Wild Mushroom Pizza (frozen)"
+        ],
+        "lufa_farms_code": [
+          15968
+        ],
+        "rebate_per_unit": [
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$4.65"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$5.65"
+        ],
+        "qty_bought_at_regular_cost": [
+          601
+        ],
+        "credited_sum": [
+          "$300.50"
+        ],
+        "total_credited": "$300.50"
+      }
+    },
+    {
+      "supplier": "Rebon",
+      "emails": [
+        "gaetan@alice-ambre.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 8,
+      "period": "2026-02-15 to 2026-02-21",
+      "theme": "Asian food - Lunar New Year Celebrations (Feb 17)",
+      "table": {
+        "product_name": [
+          "BBQ Crackers",
+          "Black & White Sesame Seed Crackers",
+          "Tomato, Thyme & Rosemary Crackers"
+        ],
+        "lufa_farms_code": [
+          16368,
+          14428,
+          13856
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$2.55",
+          "$2.55",
+          "$2.55"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$3.05",
+          "$3.05",
+          "$3.05"
+        ],
+        "qty_bought_at_regular_cost": [
+          149,
+          189,
+          247
+        ],
+        "credited_sum": [
+          "$74.50",
+          "$94.50",
+          "$123.50"
+        ],
+        "total_credited": "$292.50"
+      }
+    },
+    {
+      "supplier": "Savanil",
+      "emails": [
+        "nancia@savanil.ca"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 8,
+      "period": "2026-02-15 to 2026-02-21",
+      "theme": "Asian food - Lunar New Year Celebrations (Feb 17)",
+      "table": {
+        "product_name": [
+          "Ground Cumin from Mananjary, Madagascar",
+          "Fish & Seafood Seasoning"
+        ],
+        "lufa_farms_code": [
+          12466,
+          18131
+        ],
+        "rebate_per_unit": [
+          "$0.30",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$2.53",
+          "$3.00"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$2.83",
+          "$3.50"
+        ],
+        "qty_bought_at_regular_cost": [
+          123,
+          44
+        ],
+        "credited_sum": [
+          "$36.90",
+          "$22.00"
+        ],
+        "total_credited": "$83.50"
+      }
+    },
+    {
+      "supplier": "Soya Distinction Inc",
+      "emails": [
+        "konthea2000@hotmail.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 8,
+      "period": "2026-02-15 to 2026-02-21",
+      "theme": "Asian food - Lunar New Year Celebrations (Feb 17)",
+      "table": {
+        "product_name": [
+          "Extra Firm Tofu"
+        ],
+        "lufa_farms_code": [
+          10665
+        ],
+        "rebate_per_unit": [
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$2.80"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$3.05"
+        ],
+        "qty_bought_at_regular_cost": [
+          2377
+        ],
+        "credited_sum": [
+          "$594.25"
+        ],
+        "total_credited": "$594.25"
+      }
+    },
+    {
+      "supplier": "The Port of India",
+      "emails": [
+        "justin.riggio7@gmail.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 8,
+      "period": "2026-02-15 to 2026-02-21",
+      "theme": "Asian food - Lunar New Year Celebrations (Feb 17)",
+      "table": {
+        "product_name": [
+          "Vindaloo Curry Paste (spicy)"
+        ],
+        "lufa_farms_code": [
+          10644
+        ],
+        "rebate_per_unit": [
+          "$0.85"
+        ],
+        "rebate_cost": [
+          "$4.25"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$5.10"
+        ],
+        "qty_bought_at_regular_cost": [
+          43
+        ],
+        "credited_sum": [
+          "$36.55"
+        ],
+        "total_credited": "$36.55"
+      }
+    },
+    {
+      "supplier": "Tout Cru!",
+      "emails": [
+        "admin@toutcrufermentation.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 8,
+      "period": "2026-02-15 to 2026-02-21",
+      "theme": "Asian food - Lunar New Year Celebrations (Feb 17)",
+      "table": {
+        "product_name": [
+          "Organic Kimchi Napa",
+          "Organic Mild Napa Kimchi"
+        ],
+        "lufa_farms_code": [
+          13264,
+          13265
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$6.80",
+          "$6.80"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$7.30",
+          "$7.30"
+        ],
+        "qty_bought_at_regular_cost": [
+          298,
+          163
+        ],
+        "credited_sum": [
+          "$149.00",
+          "$81.50"
+        ],
+        "total_credited": "$230.50"
+      }
+    },
+    {
+      "supplier": "Umami Épicerie",
+      "emails": [
+        "umamiepicerie@gmail.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 8,
+      "period": "2026-02-15 to 2026-02-21",
+      "theme": "Asian food - Lunar New Year Celebrations (Feb 17)",
+      "table": {
+        "product_name": [
+          "Japanese Vegetable Curry (frozen)",
+          "Spicy Korean Pepper Ramen (frozen)",
+          "Miso Broth (frozen)",
+          "Teriyaki Sauce (fresh)"
+        ],
+        "lufa_farms_code": [
+          19068,
+          14439,
+          19006,
+          19069
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.25",
+          "$0.50",
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$4.15",
+          "$2.30",
+          "$5.50",
+          "$3.13"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$5.15",
+          "$2.55",
+          "$6.00",
+          "$3.38"
+        ],
+        "qty_bought_at_regular_cost": [
+          1392,
+          1297,
+          184,
+          230
+        ],
+        "credited_sum": [
+          "$696.00",
+          "$324.25",
+          "$92.00",
+          "$57.50"
+        ],
+        "total_credited": "$775.75"
+      }
+    },
+    {
+      "supplier": "VG Gourmet",
+      "emails": [
+        "info@vegetariangourmet.com",
+        "bookkeeping.vggourmet@gmail.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 8,
+      "period": "2026-02-15 to 2026-02-21",
+      "theme": "Asian food - Lunar New Year Celebrations (Feb 17)",
+      "table": {
+        "product_name": [
+          "Sweet Potato & Black Bean Veggie Burgers (2, frozen)",
+          "Greek Gyro Tofu (frozen)",
+          "Mini Vegan Kebabs (12, frozen)"
+        ],
+        "lufa_farms_code": [
+          8992,
+          8993,
+          11239
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$2.14",
+          "$3.92",
+          "$4.16"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$2.64",
+          "$4.42",
+          "$4.66"
+        ],
+        "qty_bought_at_regular_cost": [
+          1678,
+          63,
+          114
+        ],
+        "credited_sum": [
+          "$839.00",
+          "$31.50",
+          "$57.00"
+        ],
+        "total_credited": "$927.50"
+      }
+    },
+    {
+      "supplier": "Vignoble Les Bacchantes",
+      "emails": [
+        "ecrire@sebastiendaoust.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 8,
+      "period": "2026-02-15 to 2026-02-21",
+      "theme": "Asian food - Lunar New Year Celebrations (Feb 17)",
+      "table": {
+        "product_name": [
+          "Cuvée R3 Red Wine 2023"
+        ],
+        "lufa_farms_code": [
+          15591
+        ],
+        "rebate_per_unit": [
+          "$1.50"
+        ],
+        "rebate_cost": [
+          "$16.50"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$18.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          44
+        ],
+        "credited_sum": [
+          "$66.00"
+        ],
+        "total_credited": "$66.00"
+      }
+    },
+    {
+      "supplier": "Yupik",
+      "emails": [
+        "mleclerc@tootsi.com",
+        "jllachance@tootsi.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 8,
+      "period": "2026-02-15 to 2026-02-21",
+      "theme": "Asian food - Lunar New Year Celebrations (Feb 17)",
+      "table": {
+        "product_name": [
+          "Organic Long Grain White Rice"
+        ],
+        "lufa_farms_code": [
+          18086
+        ],
+        "rebate_per_unit": [
+          "$1.09"
+        ],
+        "rebate_cost": [
+          "$6.15"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$7.24"
+        ],
+        "qty_bought_at_regular_cost": [
+          238
+        ],
+        "credited_sum": [
+          "$259.42"
+        ],
+        "total_credited": "$259.42"
+      }
+    },
+    {
+      "supplier": "Zamalek",
+      "emails": [
+        "info@zamalek.ca",
+        "bashar@zamalek.ca"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 8,
+      "period": "2026-02-15 to 2026-02-21",
+      "theme": "Asian food - Lunar New Year Celebrations (Feb 17)",
+      "table": {
+        "product_name": [
+          "Hibiscus Drink",
+          "Sparkling Hibiscus Drink",
+          "Sparkling Hibiscus Iced Tea"
+        ],
+        "lufa_farms_code": [
+          12822,
+          14270,
+          18101
+        ],
+        "rebate_per_unit": [
+          "$0.25",
+          "$0.25",
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$2.00",
+          "$2.00",
+          "$2.00"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$2.25",
+          "$2.25",
+          "$2.25"
+        ],
+        "qty_bought_at_regular_cost": [
+          160,
+          317,
+          322
+        ],
+        "credited_sum": [
+          "$40.00",
+          "$79.25",
+          "$80.50"
+        ],
+        "total_credited": "$199.75"
+      }
+    },
+    {
+      "supplier": "État Végétal",
+      "emails": [
+        "francis.dubois@etatvegetal.com",
+        "comptabilite@etatvegetal.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 8,
+      "period": "2026-02-15 to 2026-02-21",
+      "theme": "Asian food - Lunar New Year Celebrations (Feb 17)",
+      "table": {
+        "product_name": [
+          "Dried Tomato & Basil Arancini (frozen)"
+        ],
+        "lufa_farms_code": [
+          17077
+        ],
+        "rebate_per_unit": [
+          "$1.00"
+        ],
+        "rebate_cost": [
+          "$5.86"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$6.86"
+        ],
+        "qty_bought_at_regular_cost": [
+          608
+        ],
+        "credited_sum": [
+          "$608.00"
+        ],
+        "total_credited": "$608.00"
+      }
+    }
+  ]
+}

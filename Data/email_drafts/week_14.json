@@ -1,0 +1,2164 @@
+{
+  "week": 14,
+  "total_suppliers": 43,
+  "suppliers": [
+    {
+      "supplier": "1642",
+      "emails": [
+        "bpoulain@1642mix.ca"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 14,
+      "period": "2026-03-29 to 2026-04-04",
+      "theme": "Easter / Brunch & Main",
+      "table": {
+        "product_name": [
+          "Ginger Beer (pack of 4)",
+          "Tonic Water (pack of 4)",
+          "Yuzu (pack of 4)",
+          "Light Tonic (pack of 4)"
+        ],
+        "lufa_farms_code": [
+          11032,
+          11031,
+          11063,
+          12299
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50",
+          "$0.50",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$5.75",
+          "$5.75",
+          "$5.75",
+          "$5.75"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$6.25",
+          "$6.25",
+          "$6.25",
+          "$6.25"
+        ],
+        "qty_bought_at_regular_cost": [
+          88,
+          36,
+          58,
+          64
+        ],
+        "credited_sum": [
+          "$44.00",
+          "$18.00",
+          "$29.00",
+          "$32.00"
+        ],
+        "total_credited": "$123.00"
+      }
+    },
+    {
+      "supplier": "Agrobio",
+      "emails": [
+        "joey@agrobioquebec.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 14,
+      "period": "2026-03-29 to 2026-04-04",
+      "theme": "Easter / Brunch & Main",
+      "table": {
+        "product_name": [
+          "Organic All-Purpose Flour (white, unbleached)",
+          "Organic Whole Wheat Flour",
+          "Organic Spelt Flour",
+          "Organic Rye Flour"
+        ],
+        "lufa_farms_code": [
+          17351,
+          17354,
+          17356,
+          17357
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50",
+          "$0.50",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$4.95",
+          "$4.88",
+          "$3.83",
+          "$2.60"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$5.45",
+          "$5.38",
+          "$4.33",
+          "$3.10"
+        ],
+        "qty_bought_at_regular_cost": [
+          746,
+          173,
+          102,
+          101
+        ],
+        "credited_sum": [
+          "$373.00",
+          "$86.50",
+          "$51.00",
+          "$50.50"
+        ],
+        "total_credited": "$561.00"
+      }
+    },
+    {
+      "supplier": "Atelier BIS",
+      "emails": [
+        "alexis@atelier-bis.ca"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 14,
+      "period": "2026-03-29 to 2026-04-04",
+      "theme": "Easter / Brunch & Main",
+      "table": {
+        "product_name": [
+          "Squash, Honey & Sage Pork Sausages (frozen)",
+          "Green Pea & Parmesan Risotto Pork Sausages (frozen)"
+        ],
+        "lufa_farms_code": [
+          17011,
+          16141
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$1.00"
+        ],
+        "rebate_cost": [
+          "$6.50",
+          "$6.00"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$7.00",
+          "$7.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          263,
+          138
+        ],
+        "credited_sum": [
+          "$131.50",
+          "$138.00"
+        ],
+        "total_credited": "$401.00"
+      }
+    },
+    {
+      "supplier": "Boucherie Nordest",
+      "emails": [
+        "adm@boucherienordest.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 14,
+      "period": "2026-03-29 to 2026-04-04",
+      "theme": "Easter / Brunch & Main",
+      "table": {
+        "product_name": [
+          "Poutine Pork Sausages (frozen)",
+          "Broccoli & Cheese Pork Sausages (frozen)",
+          "Medium Ground Lamb (frozen)",
+          "Medium Ground Lamb (frozen)",
+          "Meatloaf (frozen)"
+        ],
+        "lufa_farms_code": [
+          11204,
+          14363,
+          10747,
+          10747,
+          6196
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50",
+          "$0.75",
+          "$0.75",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$4.65",
+          "$4.47",
+          "$8.21",
+          "$8.21",
+          "$6.09"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$5.15",
+          "$4.97",
+          "$8.96",
+          "$8.96",
+          "$6.59"
+        ],
+        "qty_bought_at_regular_cost": [
+          227,
+          425,
+          35,
+          34,
+          141
+        ],
+        "credited_sum": [
+          "$113.50",
+          "$212.50",
+          "$26.25",
+          "$25.50",
+          "$70.50"
+        ],
+        "total_credited": "$431.00"
+      }
+    },
+    {
+      "supplier": "Boulangerie Le Pain dans les Voiles",
+      "emails": [
+        "alex@lepaindanslesvoiles.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 14,
+      "period": "2026-03-29 to 2026-04-04",
+      "theme": "Easter / Brunch & Main",
+      "table": {
+        "product_name": [
+          "English Muffins (6, frozen)"
+        ],
+        "lufa_farms_code": [
+          17485
+        ],
+        "rebate_per_unit": [
+          "$0.60"
+        ],
+        "rebate_cost": [
+          "$3.30"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$3.90"
+        ],
+        "qty_bought_at_regular_cost": [
+          2634
+        ],
+        "credited_sum": [
+          "$1580.40"
+        ],
+        "total_credited": "$1580.40"
+      }
+    },
+    {
+      "supplier": "Carrément Tarte",
+      "emails": [
+        "admin@carrementtarte.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 14,
+      "period": "2026-03-29 to 2026-04-04",
+      "theme": "Easter / Brunch & Main",
+      "table": {
+        "product_name": [
+          "Lemon Tart (frozen)"
+        ],
+        "lufa_farms_code": [
+          19155
+        ],
+        "rebate_per_unit": [
+          "$1.00"
+        ],
+        "rebate_cost": [
+          "$8.25"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$9.25"
+        ],
+        "qty_bought_at_regular_cost": [
+          645
+        ],
+        "credited_sum": [
+          "$645.00"
+        ],
+        "total_credited": "$645.00"
+      }
+    },
+    {
+      "supplier": "Chocolat Boréal",
+      "emails": [
+        "info@chocolatboreal.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 14,
+      "period": "2026-03-29 to 2026-04-04",
+      "theme": "Easter / Brunch & Main",
+      "table": {
+        "product_name": [
+          "Fleur de Sel Caramel Milk Chocolate Bar",
+          "Fleur de Sel Caramel Dark Chocolate Bar"
+        ],
+        "lufa_farms_code": [
+          10734,
+          10727
+        ],
+        "rebate_per_unit": [
+          "$0.25",
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$5.15",
+          "$5.15"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$5.40",
+          "$5.40"
+        ],
+        "qty_bought_at_regular_cost": [
+          184,
+          297
+        ],
+        "credited_sum": [
+          "$46.00",
+          "$74.25"
+        ],
+        "total_credited": "$120.25"
+      }
+    },
+    {
+      "supplier": "Choose Life Foods",
+      "emails": [
+        "info@chooselifefoods.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 14,
+      "period": "2026-03-29 to 2026-04-04",
+      "theme": "Easter / Brunch & Main",
+      "table": {
+        "product_name": [
+          "Meatless Lover's Vegan Jamaican Patty (mild, frozen)",
+          "Chick'n Lover's Vegan Jamaican Patty (frozen)",
+          "Meatless Lovers Vegan Jamaican Patty (spicy, frozen)",
+          "Coconut Kale Delight Vegan Jamaican Patty (frozen)"
+        ],
+        "lufa_farms_code": [
+          5763,
+          19036,
+          19035,
+          5764
+        ],
+        "rebate_per_unit": [
+          "$0.25",
+          "$0.25",
+          "$0.25",
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$2.00",
+          "$2.00",
+          "$2.10",
+          "$2.10"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$2.25",
+          "$2.35",
+          "$2.35",
+          "$2.35"
+        ],
+        "qty_bought_at_regular_cost": [
+          482,
+          144,
+          212,
+          299
+        ],
+        "credited_sum": [
+          "$120.50",
+          "$36.00",
+          "$53.00",
+          "$74.75"
+        ],
+        "total_credited": "$284.25"
+      }
+    },
+    {
+      "supplier": "Cidrerie Chemin des Sept",
+      "emails": [
+        "fred@ch7.ca"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 14,
+      "period": "2026-03-29 to 2026-04-04",
+      "theme": "Easter / Brunch & Main",
+      "table": {
+        "product_name": [
+          "Griotte Cider 2022"
+        ],
+        "lufa_farms_code": [
+          14901
+        ],
+        "rebate_per_unit": [
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$8.69"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$9.19"
+        ],
+        "qty_bought_at_regular_cost": [
+          64
+        ],
+        "credited_sum": [
+          "$32.00"
+        ],
+        "total_credited": "$32.00"
+      }
+    },
+    {
+      "supplier": "Coloccia",
+      "emails": [
+        "gusberthe@outlook.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 14,
+      "period": "2026-03-29 to 2026-04-04",
+      "theme": "Easter / Brunch & Main",
+      "table": {
+        "product_name": [
+          "Fresh Ricotta & Spinach Cannelloni (6, frozen)"
+        ],
+        "lufa_farms_code": [
+          10586
+        ],
+        "rebate_per_unit": [
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$6.10"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$6.60"
+        ],
+        "qty_bought_at_regular_cost": [
+          1129
+        ],
+        "credited_sum": [
+          "$564.50"
+        ],
+        "total_credited": "$564.50"
+      }
+    },
+    {
+      "supplier": "DelChef",
+      "emails": [
+        "leonardo@delchef.ca"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 14,
+      "period": "2026-03-29 to 2026-04-04",
+      "theme": "Easter / Brunch & Main",
+      "table": {
+        "product_name": [
+          "Chicken Parmigiana Focaccia (frozen)"
+        ],
+        "lufa_farms_code": [
+          16653
+        ],
+        "rebate_per_unit": [
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$2.65"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$3.15"
+        ],
+        "qty_bought_at_regular_cost": [
+          482
+        ],
+        "credited_sum": [
+          "$241.00"
+        ],
+        "total_credited": "$241.00"
+      }
+    },
+    {
+      "supplier": "Des Cantons",
+      "emails": [
+        "jlaforest@collectifensemble.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 14,
+      "period": "2026-03-29 to 2026-04-04",
+      "theme": "Easter / Brunch & Main",
+      "table": {
+        "product_name": [
+          "Pic de l'Ours Organic Blonde Ale (pack of 4)"
+        ],
+        "lufa_farms_code": [
+          20111
+        ],
+        "rebate_per_unit": [
+          "$1.04"
+        ],
+        "rebate_cost": [
+          "$10.00"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$11.04"
+        ],
+        "qty_bought_at_regular_cost": [
+          148
+        ],
+        "credited_sum": [
+          "$153.92"
+        ],
+        "total_credited": "$153.92"
+      }
+    },
+    {
+      "supplier": "Domaine Labranche",
+      "emails": [
+        "commandes@labranche.ca"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 14,
+      "period": "2026-03-29 to 2026-04-04",
+      "theme": "Easter / Brunch & Main",
+      "table": {
+        "product_name": [
+          "Organic Signature Red Wine 2022"
+        ],
+        "lufa_farms_code": [
+          19126
+        ],
+        "rebate_per_unit": [
+          "$1.32"
+        ],
+        "rebate_cost": [
+          "$16.00"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$17.32"
+        ],
+        "qty_bought_at_regular_cost": [
+          45
+        ],
+        "credited_sum": [
+          "$59.40"
+        ],
+        "total_credited": "$59.40"
+      }
+    },
+    {
+      "supplier": "Fous de l'île",
+      "emails": [
+        "jerry@fousdelile.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 14,
+      "period": "2026-03-29 to 2026-04-04",
+      "theme": "Easter / Brunch & Main",
+      "table": {
+        "product_name": [
+          "Organic Ginger Kombucha",
+          "Organic Green Tea & Lemongrass Kombucha",
+          "Organic Guava Rose Kombucha",
+          "Organic Hibiscus Chai Kombucha",
+          "Organic Lychee Butterfly Pea Kombucha",
+          "Organic Turmeric & Ginger Kombucha"
+        ],
+        "lufa_farms_code": [
+          14690,
+          14693,
+          16733,
+          14745,
+          16315,
+          14749
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50",
+          "$0.50",
+          "$0.50",
+          "$0.50",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$1.37",
+          "$1.37",
+          "$1.37",
+          "$1.37",
+          "$1.37",
+          "$1.37"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$1.87",
+          "$1.87",
+          "$1.87",
+          "$1.87",
+          "$1.87",
+          "$1.87"
+        ],
+        "qty_bought_at_regular_cost": [
+          568,
+          615,
+          1131,
+          650,
+          731,
+          722
+        ],
+        "credited_sum": [
+          "$284.00",
+          "$307.50",
+          "$565.50",
+          "$325.00",
+          "$365.50",
+          "$361.00"
+        ],
+        "total_credited": "$2208.50"
+      }
+    },
+    {
+      "supplier": "Humble Potato Chips",
+      "emails": [
+        "marie-soleil@humblechips.com",
+        "accounting@humblechips.com"
+      ],
+      "language": "en",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 14,
+      "period": "2026-03-29 to 2026-04-04",
+      "theme": "Easter / Brunch & Main",
+      "table": {
+        "product_name": [
+          "Organic Regular Potato Chips",
+          "Organic Smokey BBQ Potato Chips",
+          "Organic Hot Honey Mustard Potato Chips",
+          "Organic Ketchup Chips",
+          "Organic Sea Salt & Cider Vinegar Potato Chips",
+          "Organic Creamy Dill Potato Chips",
+          "Organic Jalapeno Potato Chips"
+        ],
+        "lufa_farms_code": [
+          17368,
+          17371,
+          17373,
+          18125,
+          17374,
+          17372,
+          19060
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50",
+          "$0.50",
+          "$0.50",
+          "$0.50",
+          "$0.50",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$2.50",
+          "$2.50",
+          "$2.50",
+          "$2.50",
+          "$2.50",
+          "$2.50",
+          "$2.50"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$3.00",
+          "$3.00",
+          "$3.00",
+          "$3.00",
+          "$3.00",
+          "$3.00",
+          "$3.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          991,
+          293,
+          324,
+          200,
+          258,
+          256,
+          168
+        ],
+        "credited_sum": [
+          "$495.50",
+          "$146.50",
+          "$162.00",
+          "$100.00",
+          "$129.00",
+          "$128.00",
+          "$84.00"
+        ],
+        "total_credited": "$1245.00"
+      }
+    },
+    {
+      "supplier": "Kiju Organic",
+      "emails": [
+        "ernesto.perez@lassonde.com",
+        "DistributionClientConfirmation@lassonde.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 14,
+      "period": "2026-03-29 to 2026-04-04",
+      "theme": "Easter / Brunch & Main",
+      "table": {
+        "product_name": [
+          "Organic Mango & Orange Juice",
+          "Organic Pomegranate & Cherry Juice",
+          "Organic Apple Juice",
+          "Organic Strawberry & Watermelon Beverage"
+        ],
+        "lufa_farms_code": [
+          15668,
+          15663,
+          16552,
+          16925
+        ],
+        "rebate_per_unit": [
+          "$0.09",
+          "$0.09",
+          "$0.09",
+          "$0.09"
+        ],
+        "rebate_cost": [
+          "$2.36",
+          "$2.36",
+          "$2.36",
+          "$2.36"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$2.45",
+          "$2.45",
+          "$2.45",
+          "$2.45"
+        ],
+        "qty_bought_at_regular_cost": [
+          1163,
+          337,
+          317,
+          282
+        ],
+        "credited_sum": [
+          "$104.67",
+          "$30.33",
+          "$28.53",
+          "$25.38"
+        ],
+        "total_credited": "$188.91"
+      }
+    },
+    {
+      "supplier": "L'Issue Végane Maison",
+      "emails": [
+        "laurentvanderwee.lissue@gmail.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 14,
+      "period": "2026-03-29 to 2026-04-04",
+      "theme": "Easter / Brunch & Main",
+      "table": {
+        "product_name": [
+          "Le Costaud des Laurentides Seitan (frozen)"
+        ],
+        "lufa_farms_code": [
+          16875
+        ],
+        "rebate_per_unit": [
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$5.50"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$6.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          69
+        ],
+        "credited_sum": [
+          "$34.50"
+        ],
+        "total_credited": "$34.50"
+      }
+    },
+    {
+      "supplier": "Les Artisans de l'Aube",
+      "emails": [
+        "info@lesartisansdelaube.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 14,
+      "period": "2026-03-29 to 2026-04-04",
+      "theme": "Easter / Brunch & Main",
+      "table": {
+        "product_name": [
+          "Organic Wild Salmon Pie (frozen)"
+        ],
+        "lufa_farms_code": [
+          19145
+        ],
+        "rebate_per_unit": [
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$11.00"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$11.50"
+        ],
+        "qty_bought_at_regular_cost": [
+          209
+        ],
+        "credited_sum": [
+          "$104.50"
+        ],
+        "total_credited": "$104.50"
+      }
+    },
+    {
+      "supplier": "Les Filles Fattoush",
+      "emails": [
+        "alecomte@lesfillesfattoush.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 14,
+      "period": "2026-03-29 to 2026-04-04",
+      "theme": "Easter / Brunch & Main",
+      "table": {
+        "product_name": [
+          "Zaatar Pita Chips",
+          "Mint & Parsley Pita Chips",
+          "Sumac & Fleur de Sel Pita Chips",
+          "Cumin & Aleppo Pepper Pita Chips",
+          "Cucumber Yogurt Dip (fresh)"
+        ],
+        "lufa_farms_code": [
+          15344,
+          16074,
+          17198,
+          15343,
+          17625
+        ],
+        "rebate_per_unit": [
+          "$0.75",
+          "$0.75",
+          "$0.75",
+          "$0.75",
+          "$0.75"
+        ],
+        "rebate_cost": [
+          "$3.58",
+          "$3.58",
+          "$3.58",
+          "$3.58",
+          "$3.60"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$4.33",
+          "$4.33",
+          "$4.33",
+          "$4.33",
+          "$4.35"
+        ],
+        "qty_bought_at_regular_cost": [
+          578,
+          179,
+          309,
+          296,
+          321
+        ],
+        "credited_sum": [
+          "$433.50",
+          "$134.25",
+          "$231.75",
+          "$222.00",
+          "$240.75"
+        ],
+        "total_credited": "$1262.25"
+      }
+    },
+    {
+      "supplier": "Lunitouti",
+      "emails": [
+        "lunitouti@live.ca"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 14,
+      "period": "2026-03-29 to 2026-04-04",
+      "theme": "Easter / Brunch & Main",
+      "table": {
+        "product_name": [
+          "Reusable Cone Coffee Filter #4 (large)"
+        ],
+        "lufa_farms_code": [
+          7158
+        ],
+        "rebate_per_unit": [
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$2.25"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$2.75"
+        ],
+        "qty_bought_at_regular_cost": [
+          10
+        ],
+        "credited_sum": [
+          "$5.00"
+        ],
+        "total_credited": "$5.00"
+      }
+    },
+    {
+      "supplier": "Maison Orphée",
+      "emails": [
+        "Stefanie.Janin@maisonorphee.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 14,
+      "period": "2026-03-29 to 2026-04-04",
+      "theme": "Easter / Brunch & Main",
+      "table": {
+        "product_name": [
+          "Fine Grey Sea Salt"
+        ],
+        "lufa_farms_code": [
+          18315
+        ],
+        "rebate_per_unit": [
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$3.23"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$3.48"
+        ],
+        "qty_bought_at_regular_cost": [
+          89
+        ],
+        "credited_sum": [
+          "$22.25"
+        ],
+        "total_credited": "$22.25"
+      }
+    },
+    {
+      "supplier": "Mid-Day Squares",
+      "emails": [
+        "caroline@middaysquares.com"
+      ],
+      "language": "en",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 14,
+      "period": "2026-03-29 to 2026-04-04",
+      "theme": "Easter / Brunch & Main",
+      "table": {
+        "product_name": [
+          "Almond Crunch Square",
+          "Brownie Batter Square",
+          "Cookie Dough Square",
+          "Peanut Butter Square",
+          "Crunchy Peanut Square"
+        ],
+        "lufa_farms_code": [
+          16434,
+          16435,
+          16436,
+          16437,
+          18045
+        ],
+        "rebate_per_unit": [
+          "$0.25",
+          "$0.25",
+          "$0.25",
+          "$0.25",
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$1.25",
+          "$1.25",
+          "$1.25",
+          "$1.25",
+          "$1.25"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$1.50",
+          "$1.50",
+          "$1.50",
+          "$1.50",
+          "$1.50"
+        ],
+        "qty_bought_at_regular_cost": [
+          345,
+          259,
+          383,
+          412,
+          364
+        ],
+        "credited_sum": [
+          "$86.25",
+          "$64.75",
+          "$95.75",
+          "$103.00",
+          "$91.00"
+        ],
+        "total_credited": "$440.75"
+      }
+    },
+    {
+      "supplier": "Miya's Cuisine",
+      "emails": [
+        "miyacuisine99@gmail.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 14,
+      "period": "2026-03-29 to 2026-04-04",
+      "theme": "Easter / Brunch & Main",
+      "table": {
+        "product_name": [
+          "Chicken Tom Yum Soup (2 portions, frozen)"
+        ],
+        "lufa_farms_code": [
+          16114
+        ],
+        "rebate_per_unit": [
+          "$1.00"
+        ],
+        "rebate_cost": [
+          "$10.36"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$11.36"
+        ],
+        "qty_bought_at_regular_cost": [
+          165
+        ],
+        "credited_sum": [
+          "$165.00"
+        ],
+        "total_credited": "$165.00"
+      }
+    },
+    {
+      "supplier": "Nut Grove Cheese",
+      "emails": [
+        "stephanie@nutgrovecheese.com",
+        "angelique@nutgrovecheese.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 14,
+      "period": "2026-03-29 to 2026-03-31",
+      "theme": "Easter / Brunch & Main",
+      "table": {
+        "product_name": [
+          "Vegan Chèvre Style Cheese with Ash Rind",
+          "Vegan Camembert Style Cheese"
+        ],
+        "lufa_farms_code": [
+          15711,
+          15712
+        ],
+        "rebate_per_unit": [
+          "$1.00",
+          "$1.00"
+        ],
+        "rebate_cost": [
+          "$7.29",
+          "$7.29"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$8.29",
+          "$8.29"
+        ],
+        "qty_bought_at_regular_cost": [
+          22,
+          76
+        ],
+        "credited_sum": [
+          "$22.00",
+          "$76.00"
+        ],
+        "total_credited": "$98.00"
+      }
+    },
+    {
+      "supplier": "Nuts for Cheese",
+      "emails": [
+        "Sarah.Sowden@nutsforcheese.com",
+        "Terra.Farmilo@nutsforcheese.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 14,
+      "period": "2026-03-29 to 2026-04-04",
+      "theme": "Easter / Brunch & Main",
+      "table": {
+        "product_name": [
+          "Organic Vegan Cream Cheese-Style Spread",
+          "Organic Garlic & Herb Vegan Cream Cheese-Style Spread"
+        ],
+        "lufa_farms_code": [
+          17115,
+          17555
+        ],
+        "rebate_per_unit": [
+          "$0.92",
+          "$0.92"
+        ],
+        "rebate_cost": [
+          "$5.10",
+          "$5.10"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$6.02",
+          "$6.02"
+        ],
+        "qty_bought_at_regular_cost": [
+          58,
+          33
+        ],
+        "credited_sum": [
+          "$53.36",
+          "$30.36"
+        ],
+        "total_credited": "$83.72"
+      }
+    },
+    {
+      "supplier": "O'Mari",
+      "emails": [
+        "ningcan@gmail.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 14,
+      "period": "2026-03-29 to 2026-04-04",
+      "theme": "Easter / Brunch & Main",
+      "table": {
+        "product_name": [
+          "Squash & Almond Ravioli (frozen)",
+          "Rosée Sauce (frozen)"
+        ],
+        "lufa_farms_code": [
+          5071,
+          6021
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$4.00",
+          "$3.25"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$4.50",
+          "$3.75"
+        ],
+        "qty_bought_at_regular_cost": [
+          3275,
+          2163
+        ],
+        "credited_sum": [
+          "$1637.50",
+          "$1081.50"
+        ],
+        "total_credited": "$2719.00"
+      }
+    },
+    {
+      "supplier": "Pizzeria Sofia",
+      "emails": [
+        "nicola@pizzeriasofia2go.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 14,
+      "period": "2026-03-29 to 2026-04-04",
+      "theme": "Easter / Brunch & Main",
+      "table": {
+        "product_name": [
+          "Margherita Pizzas (2, frozen)"
+        ],
+        "lufa_farms_code": [
+          16820
+        ],
+        "rebate_per_unit": [
+          "$1.00"
+        ],
+        "rebate_cost": [
+          "$7.70"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$8.70"
+        ],
+        "qty_bought_at_regular_cost": [
+          895
+        ],
+        "credited_sum": [
+          "$895.00"
+        ],
+        "total_credited": "$895.00"
+      }
+    },
+    {
+      "supplier": "Pêcherie Manicouagan",
+      "emails": [
+        "janita.gagnon@purmer.ca"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 14,
+      "period": "2026-03-29 to 2026-04-04",
+      "theme": "Easter / Brunch & Main",
+      "table": {
+        "product_name": [
+          "Coquille Saint-Jacques (frozen)"
+        ],
+        "lufa_farms_code": [
+          20096
+        ],
+        "rebate_per_unit": [
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$7.85"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$8.35"
+        ],
+        "qty_bought_at_regular_cost": [
+          647
+        ],
+        "credited_sum": [
+          "$323.50"
+        ],
+        "total_credited": "$323.50"
+      }
+    },
+    {
+      "supplier": "Rizopia",
+      "emails": [
+        "benjamin@satau.ca"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 14,
+      "period": "2026-03-29 to 2026-04-04",
+      "theme": "Easter / Brunch & Main",
+      "table": {
+        "product_name": [
+          "Organic Gluten-Free Fusilli"
+        ],
+        "lufa_farms_code": [
+          20095
+        ],
+        "rebate_per_unit": [
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$1.96"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$2.21"
+        ],
+        "qty_bought_at_regular_cost": [
+          318
+        ],
+        "credited_sum": [
+          "$79.50"
+        ],
+        "total_credited": "$79.50"
+      }
+    },
+    {
+      "supplier": "Savanil",
+      "emails": [
+        "nancia@savanil.ca"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 14,
+      "period": "2026-03-29 to 2026-04-04",
+      "theme": "Easter / Brunch & Main",
+      "table": {
+        "product_name": [
+          "Whole Cloves from Mananjary, Madagascar (2024 harvest)",
+          "Organic Pure Bourbon Vanilla Extract from Madagascar",
+          "Curry Powder from Madagascar (2025 harvest)"
+        ],
+        "lufa_farms_code": [
+          10906,
+          11609,
+          17567
+        ],
+        "rebate_per_unit": [
+          "$0.25",
+          "$0.75",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$1.73",
+          "$9.00",
+          "$2.90"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$1.98",
+          "$9.75",
+          "$3.40"
+        ],
+        "qty_bought_at_regular_cost": [
+          50,
+          88,
+          98
+        ],
+        "credited_sum": [
+          "$12.50",
+          "$66.00",
+          "$49.00"
+        ],
+        "total_credited": "$118.00"
+      }
+    },
+    {
+      "supplier": "Soya Distinction Inc",
+      "emails": [
+        "konthea2000@hotmail.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 14,
+      "period": "2026-03-29 to 2026-04-04",
+      "theme": "Easter / Brunch & Main",
+      "table": {
+        "product_name": [
+          "Extra Firm Tofu"
+        ],
+        "lufa_farms_code": [
+          10665
+        ],
+        "rebate_per_unit": [
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$2.80"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$3.05"
+        ],
+        "qty_bought_at_regular_cost": [
+          2303
+        ],
+        "credited_sum": [
+          "$575.75"
+        ],
+        "total_credited": "$575.75"
+      }
+    },
+    {
+      "supplier": "Statera",
+      "emails": [
+        "p.jacques@stateraspirits.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 14,
+      "period": "2026-03-29 to 2026-04-04",
+      "theme": "Easter / Brunch & Main",
+      "table": {
+        "product_name": [
+          "Non-Alcoholic Gin"
+        ],
+        "lufa_farms_code": [
+          18119
+        ],
+        "rebate_per_unit": [
+          "$1.50"
+        ],
+        "rebate_cost": [
+          "$17.50"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$19.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          35
+        ],
+        "credited_sum": [
+          "$52.50"
+        ],
+        "total_credited": "$52.50"
+      }
+    },
+    {
+      "supplier": "Taylor Fish Company",
+      "emails": [
+        "yvonne@taylorfishcompany.com"
+      ],
+      "language": "en",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 14,
+      "period": "2026-03-29 to 2026-04-04",
+      "theme": "Easter / Brunch & Main",
+      "table": {
+        "product_name": [
+          "Walleye Fillet (1, frozen)"
+        ],
+        "lufa_farms_code": [
+          12967
+        ],
+        "rebate_per_unit": [
+          "$0.29"
+        ],
+        "rebate_cost": [
+          "$6.30"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$6.59"
+        ],
+        "qty_bought_at_regular_cost": [
+          1202
+        ],
+        "credited_sum": [
+          "$348.58"
+        ],
+        "total_credited": "$348.58"
+      }
+    },
+    {
+      "supplier": "The Port of India",
+      "emails": [
+        "justin.riggio7@gmail.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 14,
+      "period": "2026-03-29 to 2026-04-04",
+      "theme": "Easter / Brunch & Main",
+      "table": {
+        "product_name": [
+          "Madras Curry Paste (spicy)"
+        ],
+        "lufa_farms_code": [
+          11565
+        ],
+        "rebate_per_unit": [
+          "$1.10"
+        ],
+        "rebate_cost": [
+          "$4.00"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$5.10"
+        ],
+        "qty_bought_at_regular_cost": [
+          62
+        ],
+        "credited_sum": [
+          "$68.20"
+        ],
+        "total_credited": "$68.20"
+      }
+    },
+    {
+      "supplier": "The Raw Kitchen",
+      "emails": [
+        "admin@mackenziepet.com",
+        "comptabilite@mackenziepet.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 14,
+      "period": "2026-03-29 to 2026-04-04",
+      "theme": "Easter / Brunch & Main",
+      "table": {
+        "product_name": [
+          "Duck & Berries Raw Dog Food (individual portion, frozen)",
+          "Beef & Fresh Herbs Raw Dog Food (individual portion, frozen)",
+          "Chicken & Greens Raw Dog Food (individual portion, frozen)",
+          "Lamb & Rice Raw Dog Food (individual portion, frozen)",
+          "Beef & Barley Raw Dog Food (individual portion, frozen)",
+          "Chicken Raw Cat Food (individual portion, frozen)",
+          "Beef Raw Cat Food (individual portion, frozen)",
+          "Duck Raw Cat Food (individual portion, frozen)",
+          "Chicken & Squash Raw Dog Food (individual portion, frozen)"
+        ],
+        "lufa_farms_code": [
+          19086,
+          19089,
+          19092,
+          19095,
+          19098,
+          19101,
+          19105,
+          19135,
+          19083
+        ],
+        "rebate_per_unit": [
+          "$0.78",
+          "$0.78",
+          "$0.78",
+          "$0.78",
+          "$0.78",
+          "$0.78",
+          "$0.78",
+          "$0.78",
+          "$0.78"
+        ],
+        "rebate_cost": [
+          "$1.81",
+          "$1.81",
+          "$1.81",
+          "$1.81",
+          "$1.81",
+          "$1.81",
+          "$1.81",
+          "$1.81",
+          "$1.81"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$2.59",
+          "$2.59",
+          "$2.59",
+          "$2.59",
+          "$2.59",
+          "$2.59",
+          "$2.59",
+          "$2.59",
+          "$2.59"
+        ],
+        "qty_bought_at_regular_cost": [
+          46,
+          24,
+          15,
+          47,
+          22,
+          32,
+          22,
+          134,
+          23
+        ],
+        "credited_sum": [
+          "$35.88",
+          "$18.72",
+          "$11.70",
+          "$36.66",
+          "$17.16",
+          "$24.96",
+          "$17.16",
+          "$104.52",
+          "$17.94"
+        ],
+        "total_credited": "$284.70"
+      }
+    },
+    {
+      "supplier": "The Soap Works",
+      "emails": [
+        "matt.soapworks@gmail.com",
+        "orderdesk.soapworks@gmail.com"
+      ],
+      "language": "en",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 14,
+      "period": "2026-03-29 to 2026-04-04",
+      "theme": "Easter / Brunch & Main",
+      "table": {
+        "product_name": [
+          "Sea Kelp Bar Soap",
+          "Shea Butter Bar Soap"
+        ],
+        "lufa_farms_code": [
+          16430,
+          7027
+        ],
+        "rebate_per_unit": [
+          "$0.17",
+          "$0.17"
+        ],
+        "rebate_cost": [
+          "$1.08",
+          "$1.13"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$1.25",
+          "$1.30"
+        ],
+        "qty_bought_at_regular_cost": [
+          518,
+          2446
+        ],
+        "credited_sum": [
+          "$88.06",
+          "$415.82"
+        ],
+        "total_credited": "$503.88"
+      }
+    },
+    {
+      "supplier": "The Unscented Company",
+      "emails": [
+        "finance@unscentedco.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 14,
+      "period": "2026-03-29 to 2026-04-04",
+      "theme": "Easter / Brunch & Main",
+      "table": {
+        "product_name": [
+          "Kids Big Bubble Bath (1 L refill)"
+        ],
+        "lufa_farms_code": [
+          16404
+        ],
+        "rebate_per_unit": [
+          "$1.55"
+        ],
+        "rebate_cost": [
+          "$14.71"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$16.26"
+        ],
+        "qty_bought_at_regular_cost": [
+          29
+        ],
+        "credited_sum": [
+          "$44.95"
+        ],
+        "total_credited": "$44.95"
+      }
+    },
+    {
+      "supplier": "Tomate Basilic",
+      "emails": [
+        "sylvie.sirois@groupetb.ca"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 14,
+      "period": "2026-03-29 to 2026-04-04",
+      "theme": "Easter / Brunch & Main",
+      "table": {
+        "product_name": [
+          "Meat Lasagna (new recipe, 3 to 4 portions, frozen)"
+        ],
+        "lufa_farms_code": [
+          19144
+        ],
+        "rebate_per_unit": [
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$9.75"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$10.25"
+        ],
+        "qty_bought_at_regular_cost": [
+          1570
+        ],
+        "credited_sum": [
+          "$785.00"
+        ],
+        "total_credited": "$785.00"
+      }
+    },
+    {
+      "supplier": "Umami Épicerie",
+      "emails": [
+        "umamiepicerie@gmail.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 14,
+      "period": "2026-03-29 to 2026-04-04",
+      "theme": "Easter / Brunch & Main",
+      "table": {
+        "product_name": [
+          "Spicy Miso Broth (frozen)"
+        ],
+        "lufa_farms_code": [
+          19009
+        ],
+        "rebate_per_unit": [
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$5.50"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$6.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          102
+        ],
+        "credited_sum": [
+          "$51.00"
+        ],
+        "total_credited": "$51.00"
+      }
+    },
+    {
+      "supplier": "VG Gourmet",
+      "emails": [
+        "info@vegetariangourmet.com",
+        "bookkeeping.vggourmet@gmail.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 14,
+      "period": "2026-03-29 to 2026-04-04",
+      "theme": "Easter / Brunch & Main",
+      "table": {
+        "product_name": [
+          "BBQ Pulled Tofu (frozen)",
+          "Green Pea Soup (frozen)",
+          "Vegan Alfredo Sauce (frozen)",
+          "Vegan Taco & Chili Crumble (frozen)",
+          "Buffalo Soy Protein Bites (frozen)"
+        ],
+        "lufa_farms_code": [
+          17418,
+          10736,
+          10337,
+          8996,
+          10273
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50",
+          "$0.50",
+          "$0.50",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$4.30",
+          "$4.00",
+          "$4.00",
+          "$3.92",
+          "$4.30"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$4.80",
+          "$4.50",
+          "$4.50",
+          "$4.42",
+          "$4.80"
+        ],
+        "qty_bought_at_regular_cost": [
+          77,
+          413,
+          126,
+          102,
+          99
+        ],
+        "credited_sum": [
+          "$38.50",
+          "$206.50",
+          "$63.00",
+          "$51.00",
+          "$49.50"
+        ],
+        "total_credited": "$408.50"
+      }
+    },
+    {
+      "supplier": "Yupik",
+      "emails": [
+        "mleclerc@tootsi.com",
+        "jllachance@tootsi.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 14,
+      "period": "2026-03-29 to 2026-04-04",
+      "theme": "Easter / Brunch & Main",
+      "table": {
+        "product_name": [
+          "Organic Coconut Sugar",
+          "Organic Shredded Coconut (fine, unsweetened)",
+          "Organic Long Grain Brown Rice",
+          "Organic Royal White Quinoa"
+        ],
+        "lufa_farms_code": [
+          18399,
+          18401,
+          2664,
+          9742
+        ],
+        "rebate_per_unit": [
+          "$0.90",
+          "$0.77",
+          "$0.40",
+          "$0.95"
+        ],
+        "rebate_cost": [
+          "$5.10",
+          "$4.34",
+          "$1.41",
+          "$2.15"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$6.00",
+          "$5.11",
+          "$1.81",
+          "$3.10"
+        ],
+        "qty_bought_at_regular_cost": [
+          58,
+          118,
+          362,
+          316
+        ],
+        "credited_sum": [
+          "$52.20",
+          "$90.86",
+          "$144.80",
+          "$300.20"
+        ],
+        "total_credited": "$811.30"
+      }
+    },
+    {
+      "supplier": "État Végétal",
+      "emails": [
+        "francis.dubois@etatvegetal.com",
+        "comptabilite@etatvegetal.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 14,
+      "period": "2026-03-29 to 2026-04-04",
+      "theme": "Easter / Brunch & Main",
+      "table": {
+        "product_name": [
+          "Dried Tomato & Basil Arancini (family format, frozen)",
+          "Taquitos (family format, frozen)"
+        ],
+        "lufa_farms_code": [
+          16371,
+          16370
+        ],
+        "rebate_per_unit": [
+          "$0.90",
+          "$1.10"
+        ],
+        "rebate_cost": [
+          "$17.10",
+          "$16.90"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$18.00",
+          "$18.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          255,
+          72
+        ],
+        "credited_sum": [
+          "$229.50",
+          "$79.20"
+        ],
+        "total_credited": "$359.70"
+      }
+    },
+    {
+      "supplier": "Öko Créations",
+      "emails": [
+        "info@okocreations.ca"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 14,
+      "period": "2026-03-29 to 2026-04-04",
+      "theme": "Easter / Brunch & Main",
+      "table": {
+        "product_name": [
+          "Soap Bar Sack"
+        ],
+        "lufa_farms_code": [
+          17211
+        ],
+        "rebate_per_unit": [
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$3.59"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$3.84"
+        ],
+        "qty_bought_at_regular_cost": [
+          44
+        ],
+        "credited_sum": [
+          "$11.00"
+        ],
+        "total_credited": "$11.00"
+      }
+    }
+  ]
+}

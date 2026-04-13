@@ -1,0 +1,1586 @@
+{
+  "week": 13,
+  "total_suppliers": 33,
+  "suppliers": [
+    {
+      "supplier": "Afishionado Fishmongers",
+      "emails": [
+        "accounting@afishionado.ca"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 13,
+      "period": "2026-03-22 to 2026-03-28",
+      "theme": "Cabane À Sucre #1.",
+      "table": {
+        "product_name": [
+          "Atlantic Salmon Fillet (frozen)"
+        ],
+        "lufa_farms_code": [
+          14044
+        ],
+        "rebate_per_unit": [
+          "$2.31"
+        ],
+        "rebate_cost": [
+          "$9.24"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$11.55"
+        ],
+        "qty_bought_at_regular_cost": [
+          9916
+        ],
+        "credited_sum": [
+          "$22905.96"
+        ],
+        "total_credited": "$22905.96"
+      }
+    },
+    {
+      "supplier": "Archie",
+      "emails": [
+        "coldpressedmontreal@gmail.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 13,
+      "period": "2026-03-22 to 2026-03-28",
+      "theme": "Cabane À Sucre #2",
+      "table": {
+        "product_name": [
+          "Organic Cold-Pressed Strawberry Smoothie",
+          "Organic Cold-Pressed Raspberry Smoothie",
+          "Organic Cold-Pressed Avocado Smoothie"
+        ],
+        "lufa_farms_code": [
+          18590,
+          18587,
+          18589
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$3.25",
+          "$3.25",
+          "$3.25"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$3.75",
+          "$3.75",
+          "$3.75"
+        ],
+        "qty_bought_at_regular_cost": [
+          120,
+          116,
+          97
+        ],
+        "credited_sum": [
+          "$60.00",
+          "$58.00",
+          "$48.50"
+        ],
+        "total_credited": "$166.50"
+      }
+    },
+    {
+      "supplier": "Atelier BIS",
+      "emails": [
+        "alexis@atelier-bis.ca"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 13,
+      "period": "2026-03-22 to 2026-03-28",
+      "theme": "Cabane À Sucre #1.",
+      "table": {
+        "product_name": [
+          "Cauliflower, Curry & Maple Pork Sausages (frozen)"
+        ],
+        "lufa_farms_code": [
+          19180
+        ],
+        "rebate_per_unit": [
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$6.50"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$7.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          207
+        ],
+        "credited_sum": [
+          "$103.50"
+        ],
+        "total_credited": "$103.50"
+      }
+    },
+    {
+      "supplier": "BioBon",
+      "emails": [
+        "commandes@biobon.ca"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 13,
+      "period": "2026-03-22 to 2026-03-28",
+      "theme": "Cabane À Sucre #2",
+      "table": {
+        "product_name": [
+          "Organic Traditional Veggie Pâté (family format)"
+        ],
+        "lufa_farms_code": [
+          12322
+        ],
+        "rebate_per_unit": [
+          "$1.00"
+        ],
+        "rebate_cost": [
+          "$11.21"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$12.21"
+        ],
+        "qty_bought_at_regular_cost": [
+          61
+        ],
+        "credited_sum": [
+          "$61.00"
+        ],
+        "total_credited": "$61.00"
+      }
+    },
+    {
+      "supplier": "Boucherie Nordest",
+      "emails": [
+        "adm@boucherienordest.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 13,
+      "period": "2026-03-22 to 2026-03-28",
+      "theme": "Cabane À Sucre #1.",
+      "table": {
+        "product_name": [
+          "Bacon & Cheese Beef Sausages (frozen)",
+          "Toulouse Pork Sausages (frozen)",
+          "Pork Tourtière (uncooked, frozen)"
+        ],
+        "lufa_farms_code": [
+          10056,
+          14356,
+          17366
+        ],
+        "rebate_per_unit": [
+          "$0.75",
+          "$0.50",
+          "$0.75"
+        ],
+        "rebate_cost": [
+          "$5.69",
+          "$4.05",
+          "$5.84"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$6.44",
+          "$4.55",
+          "$6.59"
+        ],
+        "qty_bought_at_regular_cost": [
+          356,
+          917,
+          1189
+        ],
+        "credited_sum": [
+          "$267.00",
+          "$458.50",
+          "$891.75"
+        ],
+        "total_credited": "$1846.50"
+      }
+    },
+    {
+      "supplier": "Boulangerie Le Pain dans les Voiles",
+      "emails": [
+        "alex@lepaindanslesvoiles.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 13,
+      "period": "2026-03-22 to 2026-03-28",
+      "theme": "Cabane À Sucre #2",
+      "table": {
+        "product_name": [
+          "Ready-to-Bake Cinnamon Buns (4, frozen)"
+        ],
+        "lufa_farms_code": [
+          19991
+        ],
+        "rebate_per_unit": [
+          "$0.75"
+        ],
+        "rebate_cost": [
+          "$7.25"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$8.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          293
+        ],
+        "credited_sum": [
+          "$219.75"
+        ],
+        "total_credited": "$219.75"
+      }
+    },
+    {
+      "supplier": "Carrément Tarte",
+      "emails": [
+        "admin@carrementtarte.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 13,
+      "period": "2026-03-22 to 2026-03-28",
+      "theme": "Cabane À Sucre #1.",
+      "table": {
+        "product_name": [
+          "Bacon & Onion Quiche (frozen)",
+          "Sugar Tart (frozen)"
+        ],
+        "lufa_farms_code": [
+          18443,
+          20125
+        ],
+        "rebate_per_unit": [
+          "$1.00",
+          "$1.00"
+        ],
+        "rebate_cost": [
+          "$9.30",
+          "$8.25"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$10.30",
+          "$9.25"
+        ],
+        "qty_bought_at_regular_cost": [
+          997,
+          315
+        ],
+        "credited_sum": [
+          "$997.00",
+          "$315.00"
+        ],
+        "total_credited": "$1312.00"
+      }
+    },
+    {
+      "supplier": "Coloccia",
+      "emails": [
+        "gusberthe@outlook.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 13,
+      "period": "2026-03-22 to 2026-03-28",
+      "theme": "Cabane À Sucre #1.",
+      "table": {
+        "product_name": [
+          "Fresh Meat Ravioli (frozen)"
+        ],
+        "lufa_farms_code": [
+          10583
+        ],
+        "rebate_per_unit": [
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$5.60"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$6.10"
+        ],
+        "qty_bought_at_regular_cost": [
+          1602
+        ],
+        "credited_sum": [
+          "$801.00"
+        ],
+        "total_credited": "$801.00"
+      }
+    },
+    {
+      "supplier": "DelChef",
+      "emails": [
+        "leonardo@delchef.ca"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 13,
+      "period": "2026-03-22 to 2026-03-28",
+      "theme": "Cabane À Sucre #1.",
+      "table": {
+        "product_name": [
+          "Pepperoni & Cheese Focaccias (family pack, 12, frozen)"
+        ],
+        "lufa_farms_code": [
+          13845
+        ],
+        "rebate_per_unit": [
+          "$4.75"
+        ],
+        "rebate_cost": [
+          "$27.10"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$31.85"
+        ],
+        "qty_bought_at_regular_cost": [
+          134
+        ],
+        "credited_sum": [
+          "$636.50"
+        ],
+        "total_credited": "$636.50"
+      }
+    },
+    {
+      "supplier": "Domaine des Coulées",
+      "emails": [
+        "domainedescoulees@gmail.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 13,
+      "period": "2026-03-22 to 2026-03-28",
+      "theme": "Cabane À Sucre #1.",
+      "table": {
+        "product_name": [
+          "Rose Des Neiges Maple Wine"
+        ],
+        "lufa_farms_code": [
+          14388
+        ],
+        "rebate_per_unit": [
+          "$1.25"
+        ],
+        "rebate_cost": [
+          "$12.25"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$13.50"
+        ],
+        "qty_bought_at_regular_cost": [
+          43
+        ],
+        "credited_sum": [
+          "$53.75"
+        ],
+        "total_credited": "$53.75"
+      }
+    },
+    {
+      "supplier": "Ferme St-Ours",
+      "emails": [
+        "isabelle.jussaume@fermestours.ca"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 13,
+      "period": "2026-03-22 to 2026-03-28",
+      "theme": "Cabane À Sucre #2",
+      "table": {
+        "product_name": [
+          "Organic Amber Maple Syrup (2025 harvest)",
+          "Organic Maple Butter (frozen)"
+        ],
+        "lufa_farms_code": [
+          8845,
+          247
+        ],
+        "rebate_per_unit": [
+          "$0.25",
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$6.96",
+          "$5.40"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$7.21",
+          "$5.65"
+        ],
+        "qty_bought_at_regular_cost": [
+          1217,
+          418
+        ],
+        "credited_sum": [
+          "$304.25",
+          "$104.50"
+        ],
+        "total_credited": "$408.75"
+      }
+    },
+    {
+      "supplier": "Finfinoix",
+      "emails": [
+        "marie@finfinoix.ca"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 13,
+      "period": "2026-03-22 to 2026-03-28",
+      "theme": "Cabane À Sucre #2",
+      "table": {
+        "product_name": [
+          "Plain Cashew Spread (frozen)"
+        ],
+        "lufa_farms_code": [
+          18027
+        ],
+        "rebate_per_unit": [
+          "$0.75"
+        ],
+        "rebate_cost": [
+          "$3.25"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$4.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          43
+        ],
+        "credited_sum": [
+          "$32.25"
+        ],
+        "total_credited": "$32.25"
+      }
+    },
+    {
+      "supplier": "Gutsy Kombucha",
+      "emails": [
+        "camille@gutsykombucha.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 13,
+      "period": "2026-03-22 to 2026-03-28",
+      "theme": "Cabane À Sucre #2",
+      "table": {
+        "product_name": [
+          "Organic Kombucha \"The Favourites\" Pack (8)",
+          "Pick-Me-Up Organic Kombucha (ginger & raspberry bush, pack of 8)",
+          "Organic Kombucha Discovery Pack (8)",
+          "The Tonic Organic Kombucha (ginger, no sugar, pack of 8)"
+        ],
+        "lufa_farms_code": [
+          14265,
+          19538,
+          14241,
+          19537
+        ],
+        "rebate_per_unit": [
+          "$1.00",
+          "$1.00",
+          "$1.00",
+          "$1.00"
+        ],
+        "rebate_cost": [
+          "$13.00",
+          "$13.00",
+          "$13.00",
+          "$13.00"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$14.00",
+          "$14.00",
+          "$14.00",
+          "$14.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          667,
+          74,
+          164,
+          152
+        ],
+        "credited_sum": [
+          "$667.00",
+          "$74.00",
+          "$164.00",
+          "$152.00"
+        ],
+        "total_credited": "$1057.00"
+      }
+    },
+    {
+      "supplier": "Impress Foods",
+      "emails": [
+        "comptabilite@impressfoods.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 13,
+      "period": "2026-03-22 to 2026-03-28",
+      "theme": "Cabane À Sucre #2",
+      "table": {
+        "product_name": [
+          "Organic Pear Puree (beginner)",
+          "Organic Kale, Spinach & Apple Puree (6+ months)",
+          "Strawberry, Blueberry & Rhubarb Puree (6+ months)",
+          "Carrot, Pineapple & Ginger Puree (9+ months)",
+          "Butternut Squash, Coconut & Mango Puree (9+ months)",
+          "Organic Apple Puree (beginner)"
+        ],
+        "lufa_farms_code": [
+          17864,
+          17873,
+          17874,
+          17875,
+          17876,
+          18318
+        ],
+        "rebate_per_unit": [
+          "$0.25",
+          "$0.25",
+          "$0.25",
+          "$0.25",
+          "$0.25",
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$1.80",
+          "$1.80",
+          "$1.80",
+          "$1.80",
+          "$1.80",
+          "$1.80"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$2.05",
+          "$2.05",
+          "$2.05",
+          "$2.05",
+          "$2.05",
+          "$2.05"
+        ],
+        "qty_bought_at_regular_cost": [
+          77,
+          67,
+          85,
+          23,
+          55,
+          16
+        ],
+        "credited_sum": [
+          "$19.25",
+          "$16.75",
+          "$21.25",
+          "$5.75",
+          "$13.75",
+          "$4.00"
+        ],
+        "total_credited": "$80.75"
+      }
+    },
+    {
+      "supplier": "L'Héritage",
+      "emails": [
+        "marc-andre@lheritage-beans.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 13,
+      "period": "2026-03-22 to 2026-03-28",
+      "theme": "Cabane À Sucre #1.",
+      "table": {
+        "product_name": [
+          "Maple Beans"
+        ],
+        "lufa_farms_code": [
+          5831
+        ],
+        "rebate_per_unit": [
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$2.02"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$2.27"
+        ],
+        "qty_bought_at_regular_cost": [
+          1779
+        ],
+        "credited_sum": [
+          "$444.75"
+        ],
+        "total_credited": "$444.75"
+      }
+    },
+    {
+      "supplier": "L'Issue Végane Maison",
+      "emails": [
+        "laurentvanderwee.lissue@gmail.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 13,
+      "period": "2026-03-22 to 2026-03-28",
+      "theme": "Cabane À Sucre #2",
+      "table": {
+        "product_name": [
+          "Le Piccante Seitan (frozen)"
+        ],
+        "lufa_farms_code": [
+          16876
+        ],
+        "rebate_per_unit": [
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$5.50"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$6.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          56
+        ],
+        "credited_sum": [
+          "$28.00"
+        ],
+        "total_credited": "$28.00"
+      }
+    },
+    {
+      "supplier": "Les Filles Fattoush",
+      "emails": [
+        "alecomte@lesfillesfattoush.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 13,
+      "period": "2026-03-22 to 2026-03-28",
+      "theme": "Cabane À Sucre #2",
+      "table": {
+        "product_name": [
+          "Zaatar Pita Chips",
+          "Mint & Parsley Pita Chips",
+          "Sumac & Fleur de Sel Pita Chips",
+          "Cumin & Aleppo Pepper Pita Chips",
+          "Mouhamara"
+        ],
+        "lufa_farms_code": [
+          15344,
+          16074,
+          17198,
+          15343,
+          11534
+        ],
+        "rebate_per_unit": [
+          "$0.75",
+          "$0.75",
+          "$0.75",
+          "$0.75",
+          "$0.75"
+        ],
+        "rebate_cost": [
+          "$3.58",
+          "$3.58",
+          "$3.58",
+          "$3.58",
+          "$4.42"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$4.33",
+          "$4.33",
+          "$4.33",
+          "$4.33",
+          "$5.17"
+        ],
+        "qty_bought_at_regular_cost": [
+          1168,
+          209,
+          420,
+          371,
+          321
+        ],
+        "credited_sum": [
+          "$876.00",
+          "$156.75",
+          "$315.00",
+          "$278.25",
+          "$240.75"
+        ],
+        "total_credited": "$1866.75"
+      }
+    },
+    {
+      "supplier": "Maison Orphée",
+      "emails": [
+        "Stefanie.Janin@maisonorphee.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 13,
+      "period": "2026-03-22 to 2026-03-28",
+      "theme": "Cabane À Sucre #2",
+      "table": {
+        "product_name": [
+          "Organic Dijon Mustard",
+          "Organic Old-Fashioned Mustard",
+          "Organic Yellow Mustard"
+        ],
+        "lufa_farms_code": [
+          9237,
+          9238,
+          9239
+        ],
+        "rebate_per_unit": [
+          "$0.57",
+          "$0.57",
+          "$0.57"
+        ],
+        "rebate_cost": [
+          "$2.60",
+          "$2.60",
+          "$2.60"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$3.17",
+          "$3.17",
+          "$3.17"
+        ],
+        "qty_bought_at_regular_cost": [
+          886,
+          226,
+          161
+        ],
+        "credited_sum": [
+          "$505.02",
+          "$128.82",
+          "$91.77"
+        ],
+        "total_credited": "$725.61"
+      }
+    },
+    {
+      "supplier": "Miya's Cuisine",
+      "emails": [
+        "miyacuisine99@gmail.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 13,
+      "period": "2026-03-22 to 2026-03-28",
+      "theme": "Cabane À Sucre #1.",
+      "table": {
+        "product_name": [
+          "Chicken Pad Thai (2 portions, frozen)",
+          "Chicken Tom Yum Soup (frozen)",
+          "Red Curry Chicken Stir Fry Cubes (frozen)"
+        ],
+        "lufa_farms_code": [
+          16110,
+          16115,
+          17181
+        ],
+        "rebate_per_unit": [
+          "$1.00",
+          "$0.50",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$10.36",
+          "$5.80",
+          "$7.25"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$11.36",
+          "$6.30",
+          "$7.75"
+        ],
+        "qty_bought_at_regular_cost": [
+          147,
+          216,
+          116
+        ],
+        "credited_sum": [
+          "$147.00",
+          "$108.00",
+          "$58.00"
+        ],
+        "total_credited": "$239.50"
+      }
+    },
+    {
+      "supplier": "Nut Grove Cheese",
+      "emails": [
+        "stephanie@nutgrovecheese.com",
+        "angelique@nutgrovecheese.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 13,
+      "period": "2026-03-22 to 2026-03-28",
+      "theme": "Cabane À Sucre #2",
+      "table": {
+        "product_name": [
+          "Vegan Camembert Style Cheese"
+        ],
+        "lufa_farms_code": [
+          15712
+        ],
+        "rebate_per_unit": [
+          "$1.00"
+        ],
+        "rebate_cost": [
+          "$7.29"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$8.29"
+        ],
+        "qty_bought_at_regular_cost": [
+          61
+        ],
+        "credited_sum": [
+          "$61.00"
+        ],
+        "total_credited": "$61.00"
+      }
+    },
+    {
+      "supplier": "Nuts for Cheese",
+      "emails": [
+        "Sarah.Sowden@nutsforcheese.com",
+        "Terra.Farmilo@nutsforcheese.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 13,
+      "period": "2026-03-22 to 2026-03-28",
+      "theme": "Cabane À Sucre #2",
+      "table": {
+        "product_name": [
+          "Organic Smokey Gouda Cashew Cheese",
+          "Organic Smoky Artichoke & Herb Cashew Cheese",
+          "Organic Super Blue Cashew Cheese",
+          "Organic Chipotle Cheddar Cashew Cheese",
+          "Organic Brie-Style Cashew Cheese",
+          "Organic Black Garlic Cashew Cheese",
+          "Organic Cranberry & Pink Peppercorn Cashew Cheese"
+        ],
+        "lufa_farms_code": [
+          9064,
+          9065,
+          9066,
+          9067,
+          9068,
+          9796,
+          13514
+        ],
+        "rebate_per_unit": [
+          "$1.10",
+          "$1.10",
+          "$1.10",
+          "$1.10",
+          "$1.10",
+          "$1.10",
+          "$1.10"
+        ],
+        "rebate_cost": [
+          "$6.15",
+          "$6.15",
+          "$6.15",
+          "$6.15",
+          "$6.15",
+          "$6.15",
+          "$6.15"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$7.25",
+          "$7.25",
+          "$7.25",
+          "$7.25",
+          "$7.25",
+          "$7.25",
+          "$7.25"
+        ],
+        "qty_bought_at_regular_cost": [
+          38,
+          35,
+          22,
+          22,
+          57,
+          47,
+          28
+        ],
+        "credited_sum": [
+          "$41.80",
+          "$38.50",
+          "$24.20",
+          "$24.20",
+          "$62.70",
+          "$51.70",
+          "$30.80"
+        ],
+        "total_credited": "$273.90"
+      }
+    },
+    {
+      "supplier": "O'Mari",
+      "emails": [
+        "ningcan@gmail.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 13,
+      "period": "2026-03-22 to 2026-03-28",
+      "theme": "Cabane À Sucre #1.",
+      "table": {
+        "product_name": [
+          "Creamy Mushroom Sauce (frozen)",
+          "Chicken Dumplings (frozen)",
+          "Ramen Noodles (frozen)"
+        ],
+        "lufa_farms_code": [
+          13331,
+          8356,
+          4486
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.60",
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$3.40",
+          "$5.40",
+          "$2.50"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$3.90",
+          "$6.00",
+          "$2.75"
+        ],
+        "qty_bought_at_regular_cost": [
+          927,
+          1335,
+          564
+        ],
+        "credited_sum": [
+          "$463.50",
+          "$801.00",
+          "$141.00"
+        ],
+        "total_credited": "$706.50"
+      }
+    },
+    {
+      "supplier": "OLA Bamboo",
+      "emails": [
+        "spouellet@olabamboo.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 13,
+      "period": "2026-03-22 to 2026-03-28",
+      "theme": "Cabane À Sucre #1.",
+      "table": {
+        "product_name": [
+          "Bamboo Toothbrushes (for adults, pack of 2)",
+          "Eco-Friendly Dental Floss"
+        ],
+        "lufa_farms_code": [
+          10060,
+          16903
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$1.90",
+          "$2.00"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$2.40",
+          "$2.50"
+        ],
+        "qty_bought_at_regular_cost": [
+          170,
+          203
+        ],
+        "credited_sum": [
+          "$85.00",
+          "$101.50"
+        ],
+        "total_credited": "$186.50"
+      }
+    },
+    {
+      "supplier": "Pizzeria Sofia",
+      "emails": [
+        "nicola@pizzeriasofia2go.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 13,
+      "period": "2026-03-22 to 2026-03-28",
+      "theme": "Cabane À Sucre #1.",
+      "table": {
+        "product_name": [
+          "Spinach, Bacon & Caramelized Onions Pizza (frozen)"
+        ],
+        "lufa_farms_code": [
+          15992
+        ],
+        "rebate_per_unit": [
+          "$0.75"
+        ],
+        "rebate_cost": [
+          "$5.50"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$6.25"
+        ],
+        "qty_bought_at_regular_cost": [
+          404
+        ],
+        "credited_sum": [
+          "$303.00"
+        ],
+        "total_credited": "$303.00"
+      }
+    },
+    {
+      "supplier": "Savanil",
+      "emails": [
+        "nancia@savanil.ca"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 13,
+      "period": "2026-03-22 to 2026-03-28",
+      "theme": "Cabane À Sucre #2",
+      "table": {
+        "product_name": [
+          "Pink Pepper from Mananjary, Madagascar (2024 harvest)",
+          "Ground Coriander from Madagascar (2025 harvest)"
+        ],
+        "lufa_farms_code": [
+          10905,
+          17566
+        ],
+        "rebate_per_unit": [
+          "$0.30",
+          "$0.30"
+        ],
+        "rebate_cost": [
+          "$2.19",
+          "$2.30"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$2.49",
+          "$2.60"
+        ],
+        "qty_bought_at_regular_cost": [
+          54,
+          64
+        ],
+        "credited_sum": [
+          "$16.20",
+          "$19.20"
+        ],
+        "total_credited": "$35.40"
+      }
+    },
+    {
+      "supplier": "Soya Distinction Inc",
+      "emails": [
+        "konthea2000@hotmail.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 13,
+      "period": "2026-03-22 to 2026-03-28",
+      "theme": "Cabane À Sucre #2",
+      "table": {
+        "product_name": [
+          "Tamari & Maple Smoked Tofu"
+        ],
+        "lufa_farms_code": [
+          13558
+        ],
+        "rebate_per_unit": [
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$3.50"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$3.75"
+        ],
+        "qty_bought_at_regular_cost": [
+          1214
+        ],
+        "credited_sum": [
+          "$303.50"
+        ],
+        "total_credited": "$303.50"
+      }
+    },
+    {
+      "supplier": "The Port of India",
+      "emails": [
+        "justin.riggio7@gmail.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 13,
+      "period": "2026-03-22 to 2026-03-28",
+      "theme": "Cabane À Sucre #2",
+      "table": {
+        "product_name": [
+          "Vindaloo Curry Paste (spicy)"
+        ],
+        "lufa_farms_code": [
+          10644
+        ],
+        "rebate_per_unit": [
+          "$0.85"
+        ],
+        "rebate_cost": [
+          "$4.25"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$5.10"
+        ],
+        "qty_bought_at_regular_cost": [
+          46
+        ],
+        "credited_sum": [
+          "$39.10"
+        ],
+        "total_credited": "$39.10"
+      }
+    },
+    {
+      "supplier": "Tout Cru!",
+      "emails": [
+        "admin@toutcrufermentation.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 13,
+      "period": "2026-03-22 to 2026-03-28",
+      "theme": "Cabane À Sucre #2",
+      "table": {
+        "product_name": [
+          "Organic Juniper Berry Sauerkraut",
+          "Fermented Radishes with Garlic Scapes",
+          "Organic Lemon & Dill Sauerkraut"
+        ],
+        "lufa_farms_code": [
+          13266,
+          13268,
+          13269
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$5.07",
+          "$5.07",
+          "$5.07"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$5.68",
+          "$5.68",
+          "$5.68"
+        ],
+        "qty_bought_at_regular_cost": [
+          92,
+          102,
+          159
+        ],
+        "credited_sum": [
+          "$46.00",
+          "$51.00",
+          "$79.50"
+        ],
+        "total_credited": "$176.50"
+      }
+    },
+    {
+      "supplier": "VG Gourmet",
+      "emails": [
+        "info@vegetariangourmet.com",
+        "bookkeeping.vggourmet@gmail.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 13,
+      "period": "2026-03-22 to 2026-03-28",
+      "theme": "Cabane À Sucre #2",
+      "table": {
+        "product_name": [
+          "Mini Vegan Kebabs (12, frozen)",
+          "Sticky Sesame Soy Protein Strips (frozen)"
+        ],
+        "lufa_farms_code": [
+          11239,
+          10186
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$4.16",
+          "$5.20"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$4.66",
+          "$5.70"
+        ],
+        "qty_bought_at_regular_cost": [
+          109,
+          215
+        ],
+        "credited_sum": [
+          "$54.50",
+          "$107.50"
+        ],
+        "total_credited": "$162.00"
+      }
+    },
+    {
+      "supplier": "Vignoble Les Bacchantes",
+      "emails": [
+        "ecrire@sebastiendaoust.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 13,
+      "period": "2026-03-22 to 2026-03-28",
+      "theme": "Cabane À Sucre #1.",
+      "table": {
+        "product_name": [
+          "Cuvée B4 White Wine 2024"
+        ],
+        "lufa_farms_code": [
+          15590
+        ],
+        "rebate_per_unit": [
+          "$1.50"
+        ],
+        "rebate_cost": [
+          "$16.50"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$18.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          73
+        ],
+        "credited_sum": [
+          "$109.50"
+        ],
+        "total_credited": "$109.50"
+      }
+    },
+    {
+      "supplier": "Yupik",
+      "emails": [
+        "mleclerc@tootsi.com",
+        "jllachance@tootsi.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 13,
+      "period": "2026-03-22 to 2026-03-28",
+      "theme": "Cabane À Sucre #2",
+      "table": {
+        "product_name": [
+          "Organic Cocoa Powder",
+          "Organic Sweetened Banana Chips"
+        ],
+        "lufa_farms_code": [
+          8024,
+          18084
+        ],
+        "rebate_per_unit": [
+          "$0.69",
+          "$0.75"
+        ],
+        "rebate_cost": [
+          "$3.90",
+          "$4.30"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$4.59",
+          "$5.05"
+        ],
+        "qty_bought_at_regular_cost": [
+          278,
+          531
+        ],
+        "credited_sum": [
+          "$191.82",
+          "$398.25"
+        ],
+        "total_credited": "$606.75"
+      }
+    },
+    {
+      "supplier": "Érablière Varin",
+      "emails": [
+        "genevieve.varin@sympatico.ca"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 13,
+      "period": "2026-03-22 to 2026-03-28",
+      "theme": "Cabane À Sucre #2",
+      "table": {
+        "product_name": [
+          "Maple Sugar & Taffy Cones (6)"
+        ],
+        "lufa_farms_code": [
+          19051
+        ],
+        "rebate_per_unit": [
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$4.53"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$4.78"
+        ],
+        "qty_bought_at_regular_cost": [
+          561
+        ],
+        "credited_sum": [
+          "$140.25"
+        ],
+        "total_credited": "$140.25"
+      }
+    },
+    {
+      "supplier": "État Végétal",
+      "emails": [
+        "francis.dubois@etatvegetal.com",
+        "comptabilite@etatvegetal.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 13,
+      "period": "2026-03-22 to 2026-03-28",
+      "theme": "Cabane À Sucre #2",
+      "table": {
+        "product_name": [
+          "Dried Tomato & Basil Arancini (frozen)"
+        ],
+        "lufa_farms_code": [
+          17077
+        ],
+        "rebate_per_unit": [
+          "$1.00"
+        ],
+        "rebate_cost": [
+          "$5.86"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$6.86"
+        ],
+        "qty_bought_at_regular_cost": [
+          321
+        ],
+        "credited_sum": [
+          "$321.00"
+        ],
+        "total_credited": "$321.00"
+      }
+    }
+  ]
+}

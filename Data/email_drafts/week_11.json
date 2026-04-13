@@ -1,0 +1,1676 @@
+{
+  "week": 11,
+  "total_suppliers": 33,
+  "suppliers": [
+    {
+      "supplier": "Afishionado Fishmongers",
+      "emails": [
+        "accounting@afishionado.ca"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 11,
+      "period": "2026-03-08 to 2026-03-14",
+      "theme": "Bakery Week, nod to: St. Patrick’s",
+      "table": {
+        "product_name": [
+          "Atlantic Salmon Fillet (frozen)"
+        ],
+        "lufa_farms_code": [
+          14045
+        ],
+        "rebate_per_unit": [
+          "$2.00"
+        ],
+        "rebate_cost": [
+          "$20.80"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$22.80"
+        ],
+        "qty_bought_at_regular_cost": [
+          333
+        ],
+        "credited_sum": [
+          "$666.00"
+        ],
+        "total_credited": "$666.00"
+      }
+    },
+    {
+      "supplier": "Agga Coffee",
+      "emails": [
+        "georges@cafeagga.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 11,
+      "period": "2026-03-08 to 2026-03-14",
+      "theme": "Bakery Week, nod to: St. Patrick’s",
+      "table": {
+        "product_name": [
+          "Organic Medium Dark Roast Molango (beans)",
+          "Organic Medium Roast Orgasmo (beans)",
+          "Organic Medium Roast Kasaï (beans)",
+          "Organic Dark Roast Jambo (beans)"
+        ],
+        "lufa_farms_code": [
+          19674,
+          19673,
+          19671,
+          19672
+        ],
+        "rebate_per_unit": [
+          "$0.22",
+          "$0.22",
+          "$0.22",
+          "$0.22"
+        ],
+        "rebate_cost": [
+          "$7.08",
+          "$7.08",
+          "$7.08",
+          "$7.08"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$7.30",
+          "$7.30",
+          "$7.30",
+          "$7.30"
+        ],
+        "qty_bought_at_regular_cost": [
+          202,
+          62,
+          69,
+          55
+        ],
+        "credited_sum": [
+          "$44.44",
+          "$13.64",
+          "$15.18",
+          "$12.10"
+        ],
+        "total_credited": "$85.36"
+      }
+    },
+    {
+      "supplier": "Agrobio",
+      "emails": [
+        "joey@agrobioquebec.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 11,
+      "period": "2026-03-08 to 2026-03-14",
+      "theme": "Bakery Week, nod to: St. Patrick’s",
+      "table": {
+        "product_name": [
+          "Organic All-Purpose Flour (white, unbleached)",
+          "Organic Whole Wheat Flour",
+          "Organic Spelt Flour",
+          "Organic Rye Flour"
+        ],
+        "lufa_farms_code": [
+          17351,
+          17354,
+          17356,
+          17357
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50",
+          "$0.50",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$4.95",
+          "$4.88",
+          "$3.83",
+          "$2.60"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$5.45",
+          "$5.38",
+          "$4.33",
+          "$3.10"
+        ],
+        "qty_bought_at_regular_cost": [
+          745,
+          205,
+          139,
+          100
+        ],
+        "credited_sum": [
+          "$372.50",
+          "$102.50",
+          "$69.50",
+          "$50.00"
+        ],
+        "total_credited": "$594.50"
+      }
+    },
+    {
+      "supplier": "Big Spruce Brewing",
+      "emails": [
+        "accounts@bigspruce.ca"
+      ],
+      "language": "en",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 11,
+      "period": "2026-03-08 to 2026-03-14",
+      "theme": "Bakery Week, nod to: St. Patrick’s",
+      "table": {
+        "product_name": [
+          "Cereal Thriller Organic Non-Alcoholic Oatmeal Stout (pack of 4)",
+          "Kitchen Party Organic Non-Alcoholic Pale Ale (pack of 4)"
+        ],
+        "lufa_farms_code": [
+          18832,
+          18836
+        ],
+        "rebate_per_unit": [
+          "$0.75",
+          "$0.75"
+        ],
+        "rebate_cost": [
+          "$10.42",
+          "$10.42"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$11.17",
+          "$11.17"
+        ],
+        "qty_bought_at_regular_cost": [
+          191,
+          144
+        ],
+        "credited_sum": [
+          "$143.25",
+          "$108.00"
+        ],
+        "total_credited": "$251.25"
+      }
+    },
+    {
+      "supplier": "BioBon",
+      "emails": [
+        "commandes@biobon.ca"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 11,
+      "period": "2026-03-08 to 2026-03-14",
+      "theme": "Bakery Week, nod to: St. Patrick’s",
+      "table": {
+        "product_name": [
+          "Organic Traditional Veggie Pâté",
+          "Organic Veggie Pâté (gluten-free)"
+        ],
+        "lufa_farms_code": [
+          2012,
+          2013
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$3.99",
+          "$4.38"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$4.49",
+          "$4.88"
+        ],
+        "qty_bought_at_regular_cost": [
+          1143,
+          260
+        ],
+        "credited_sum": [
+          "$571.50",
+          "$130.00"
+        ],
+        "total_credited": "$701.50"
+      }
+    },
+    {
+      "supplier": "Boucherie Nordest",
+      "emails": [
+        "adm@boucherienordest.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 11,
+      "period": "2026-03-08",
+      "theme": "Bakery Week, nod to: St. Patrick’s",
+      "table": {
+        "product_name": [
+          "Chimichurri Marinated Beef Belly Steak (frozen)",
+          "Apple, Maple Syrup & Bacon Pork Sausages (frozen)",
+          "Mild Traditional Italian Pork Sausages (frozen)",
+          "Chimichurri Marinated Beef Belly Steak (frozen)"
+        ],
+        "lufa_farms_code": [
+          17600,
+          15289,
+          9959,
+          17600
+        ],
+        "rebate_per_unit": [
+          "$1.00",
+          "$0.50",
+          "$0.50",
+          "$1.00"
+        ],
+        "rebate_cost": [
+          "$8.95",
+          "$4.31",
+          "$3.96",
+          "$8.95"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$9.95",
+          "$4.81",
+          "$4.46",
+          "$9.95"
+        ],
+        "qty_bought_at_regular_cost": [
+          149,
+          633,
+          860,
+          73
+        ],
+        "credited_sum": [
+          "$149.00",
+          "$316.50",
+          "$430.00",
+          "$73.00"
+        ],
+        "total_credited": "$1715.00"
+      }
+    },
+    {
+      "supplier": "Boulangerie Hof Kelsten",
+      "emails": [
+        "hofkelsten@gmail.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 11,
+      "period": "2026-03-08 to 2026-03-14",
+      "theme": "Bakery Week, nod to: St. Patrick’s",
+      "table": {
+        "product_name": [
+          "Ready-to-Bake Focaccia (frozen)"
+        ],
+        "lufa_farms_code": [
+          19168
+        ],
+        "rebate_per_unit": [
+          "$0.65"
+        ],
+        "rebate_cost": [
+          "$3.35"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$4.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          770
+        ],
+        "credited_sum": [
+          "$500.50"
+        ],
+        "total_credited": "$500.50"
+      }
+    },
+    {
+      "supplier": "Boulangerie Le Pain dans les Voiles",
+      "emails": [
+        "alex@lepaindanslesvoiles.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 11,
+      "period": "2026-03-08 to 2026-03-14",
+      "theme": "Bakery Week, nod to: St. Patrick’s",
+      "table": {
+        "product_name": [
+          "Chocolatines (6, frozen)"
+        ],
+        "lufa_farms_code": [
+          15895
+        ],
+        "rebate_per_unit": [
+          "$1.40"
+        ],
+        "rebate_cost": [
+          "$7.90"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$9.30"
+        ],
+        "qty_bought_at_regular_cost": [
+          1263
+        ],
+        "credited_sum": [
+          "$1768.20"
+        ],
+        "total_credited": "$1768.20"
+      }
+    },
+    {
+      "supplier": "Canards des Monts",
+      "emails": [
+        "k.pothier@couvoircdm.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 11,
+      "period": "2026-03-08 to 2026-03-14",
+      "theme": "Bakery Week, nod to: St. Patrick’s",
+      "table": {
+        "product_name": [
+          "Braised Duck Tomato Sauce (frozen)"
+        ],
+        "lufa_farms_code": [
+          16690
+        ],
+        "rebate_per_unit": [
+          "$1.00"
+        ],
+        "rebate_cost": [
+          "$5.50"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$6.50"
+        ],
+        "qty_bought_at_regular_cost": [
+          339
+        ],
+        "credited_sum": [
+          "$339.00"
+        ],
+        "total_credited": "$339.00"
+      }
+    },
+    {
+      "supplier": "Carrément Tarte",
+      "emails": [
+        "admin@carrementtarte.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 11,
+      "period": "2026-03-08 to 2026-03-14",
+      "theme": "Bakery Week, nod to: St. Patrick’s",
+      "table": {
+        "product_name": [
+          "Feta & Spinach Quiche (frozen)"
+        ],
+        "lufa_farms_code": [
+          18423
+        ],
+        "rebate_per_unit": [
+          "$1.00"
+        ],
+        "rebate_cost": [
+          "$9.30"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$10.30"
+        ],
+        "qty_bought_at_regular_cost": [
+          1094
+        ],
+        "credited_sum": [
+          "$1094.00"
+        ],
+        "total_credited": "$1094.00"
+      }
+    },
+    {
+      "supplier": "Chocolat Boréal",
+      "emails": [
+        "info@chocolatboreal.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 11,
+      "period": "2026-03-08 to 2026-03-14",
+      "theme": "Bakery Week, nod to: St. Patrick’s",
+      "table": {
+        "product_name": [
+          "Matcha White Chocolate Bar",
+          "Candied Ginger Dark Chocolate Bar"
+        ],
+        "lufa_farms_code": [
+          10293,
+          10295
+        ],
+        "rebate_per_unit": [
+          "$0.25",
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$5.50",
+          "$5.15"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$5.75",
+          "$5.40"
+        ],
+        "qty_bought_at_regular_cost": [
+          120,
+          128
+        ],
+        "credited_sum": [
+          "$30.00",
+          "$32.00"
+        ],
+        "total_credited": "$62.00"
+      }
+    },
+    {
+      "supplier": "Coloccia",
+      "emails": [
+        "gusberthe@outlook.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 11,
+      "period": "2026-03-08 to 2026-03-14",
+      "theme": "Bakery Week, nod to: St. Patrick’s",
+      "table": {
+        "product_name": [
+          "Fresh Cheese Tortellini (frozen)"
+        ],
+        "lufa_farms_code": [
+          10585
+        ],
+        "rebate_per_unit": [
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$5.60"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$6.10"
+        ],
+        "qty_bought_at_regular_cost": [
+          1135
+        ],
+        "credited_sum": [
+          "$567.50"
+        ],
+        "total_credited": "$567.50"
+      }
+    },
+    {
+      "supplier": "Everland",
+      "emails": [
+        "simran@jivaorganics.ca"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 11,
+      "period": "2026-03-08 to 2026-03-14",
+      "theme": "Bakery Week, nod to: St. Patrick’s",
+      "table": {
+        "product_name": [
+          "Organic Coconut Milk"
+        ],
+        "lufa_farms_code": [
+          19436
+        ],
+        "rebate_per_unit": [
+          "$0.29"
+        ],
+        "rebate_cost": [
+          "$1.67"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$1.96"
+        ],
+        "qty_bought_at_regular_cost": [
+          1944
+        ],
+        "credited_sum": [
+          "$563.76"
+        ],
+        "total_credited": "$563.76"
+      }
+    },
+    {
+      "supplier": "Finfinoix",
+      "emails": [
+        "marie@finfinoix.ca"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 11,
+      "period": "2026-03-08 to 2026-03-14",
+      "theme": "Bakery Week, nod to: St. Patrick’s",
+      "table": {
+        "product_name": [
+          "Chipotle Cashew Spread (frozen)"
+        ],
+        "lufa_farms_code": [
+          18028
+        ],
+        "rebate_per_unit": [
+          "$0.75"
+        ],
+        "rebate_cost": [
+          "$3.25"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$4.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          128
+        ],
+        "credited_sum": [
+          "$96.00"
+        ],
+        "total_credited": "$96.00"
+      }
+    },
+    {
+      "supplier": "Gutsy Kombucha",
+      "emails": [
+        "camille@gutsykombucha.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 11,
+      "period": "2026-03-08 to 2026-03-14",
+      "theme": "Bakery Week, nod to: St. Patrick’s",
+      "table": {
+        "product_name": [
+          "Vitality Organic Kombucha (raspberry, mint & echinacea)",
+          "Pick-Me-Up Organic Kombucha (ginger & raspberry leaves)",
+          "Energy Boost Organic Kombucha (cardamom & moringa)",
+          "Digestive Organic Kombucha (hibiscus & fennel)",
+          "Flamboyant Organic Kombucha (passion fruit)",
+          "The Tonic Organic Kombucha (ginger, no sugar)"
+        ],
+        "lufa_farms_code": [
+          10774,
+          9951,
+          9997,
+          9998,
+          10776,
+          14926
+        ],
+        "rebate_per_unit": [
+          "$0.25",
+          "$0.25",
+          "$0.25",
+          "$0.25",
+          "$0.25",
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$1.65",
+          "$1.65",
+          "$1.65",
+          "$1.65",
+          "$1.65",
+          "$1.65"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$1.90",
+          "$1.90",
+          "$1.90",
+          "$1.90",
+          "$1.90",
+          "$1.90"
+        ],
+        "qty_bought_at_regular_cost": [
+          662,
+          387,
+          511,
+          424,
+          688,
+          382
+        ],
+        "credited_sum": [
+          "$165.50",
+          "$96.75",
+          "$127.75",
+          "$106.00",
+          "$172.00",
+          "$95.50"
+        ],
+        "total_credited": "$763.50"
+      }
+    },
+    {
+      "supplier": "Humble Potato Chips",
+      "emails": [
+        "marie-soleil@humblechips.com",
+        "accounting@humblechips.com"
+      ],
+      "language": "en",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 11,
+      "period": "2026-03-08 to 2026-03-14",
+      "theme": "Bakery Week, nod to: St. Patrick’s",
+      "table": {
+        "product_name": [
+          "Rumbles Organic Sea Salt Ridged Potato Chips",
+          "Rumbles Organic All Dressed Ridged Potato Chips",
+          "Rumbles Organic Sour Cream & Onion Ridged Potato Chips"
+        ],
+        "lufa_farms_code": [
+          19001,
+          19000,
+          19002
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$2.50",
+          "$2.50",
+          "$2.50"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$3.00",
+          "$3.00",
+          "$3.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          1447,
+          579,
+          341
+        ],
+        "credited_sum": [
+          "$723.50",
+          "$289.50",
+          "$170.50"
+        ],
+        "total_credited": "$1183.50"
+      }
+    },
+    {
+      "supplier": "Iris + Arlo",
+      "emails": [
+        "maxine@irisarlo.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 11,
+      "period": "2026-03-08 to 2026-03-14",
+      "theme": "Bakery Week, nod to: St. Patrick’s",
+      "table": {
+        "product_name": [
+          "100% Organic Cotton Panty Liners (pack of 20)",
+          "100% Organic Cotton Night Menstrual Pads (pack of 10)",
+          "Organic Cotton Daily Menstrual Pads (pack of 10)",
+          "100% Organic Cotton Tampons with Cardboard Applicator (pack of 16)",
+          "100% Organic Cotton Tampons without Applicators (pack of 18)"
+        ],
+        "lufa_farms_code": [
+          19196,
+          19195,
+          19194,
+          19197,
+          19198
+        ],
+        "rebate_per_unit": [
+          "$0.84",
+          "$1.02",
+          "$0.96",
+          "$1.20",
+          "$1.08"
+        ],
+        "rebate_cost": [
+          "$3.36",
+          "$4.08",
+          "$3.84",
+          "$4.80",
+          "$4.32"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$4.20",
+          "$5.10",
+          "$4.80",
+          "$6.00",
+          "$5.40"
+        ],
+        "qty_bought_at_regular_cost": [
+          233,
+          54,
+          68,
+          179,
+          33
+        ],
+        "credited_sum": [
+          "$195.72",
+          "$55.08",
+          "$65.28",
+          "$214.80",
+          "$35.64"
+        ],
+        "total_credited": "$612.36"
+      }
+    },
+    {
+      "supplier": "L'Issue Végane Maison",
+      "emails": [
+        "laurentvanderwee.lissue@gmail.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 11,
+      "period": "2026-03-08 to 2026-03-14",
+      "theme": "Bakery Week, nod to: St. Patrick’s",
+      "table": {
+        "product_name": [
+          "Le Costaud des Laurentides Seitan (frozen)"
+        ],
+        "lufa_farms_code": [
+          16875
+        ],
+        "rebate_per_unit": [
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$5.50"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$6.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          70
+        ],
+        "credited_sum": [
+          "$35.00"
+        ],
+        "total_credited": "$35.00"
+      }
+    },
+    {
+      "supplier": "Lunitouti",
+      "emails": [
+        "lunitouti@live.ca"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 11,
+      "period": "2026-03-08 to 2026-03-14",
+      "theme": "Bakery Week, nod to: St. Patrick’s",
+      "table": {
+        "product_name": [
+          "Reusable Cone Coffee Filter #2 (small)"
+        ],
+        "lufa_farms_code": [
+          7157
+        ],
+        "rebate_per_unit": [
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$1.85"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$2.35"
+        ],
+        "qty_bought_at_regular_cost": [
+          8
+        ],
+        "credited_sum": [
+          "$4.00"
+        ],
+        "total_credited": "$4.00"
+      }
+    },
+    {
+      "supplier": "Miya's Cuisine",
+      "emails": [
+        "miyacuisine99@gmail.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 11,
+      "period": "2026-03-08 to 2026-03-14",
+      "theme": "Bakery Week, nod to: St. Patrick’s",
+      "table": {
+        "product_name": [
+          "Chicken Tom Yum Soup (2 portions, frozen)",
+          "Chicken Yum Fried Rice (frozen)"
+        ],
+        "lufa_farms_code": [
+          16114,
+          17189
+        ],
+        "rebate_per_unit": [
+          "$1.00",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$10.36",
+          "$5.80"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$11.36",
+          "$6.30"
+        ],
+        "qty_bought_at_regular_cost": [
+          162,
+          76
+        ],
+        "credited_sum": [
+          "$162.00",
+          "$38.00"
+        ],
+        "total_credited": "$119.00"
+      }
+    },
+    {
+      "supplier": "Natura",
+      "emails": [
+        "nathalie@nantelmcdiarmid.com",
+        "credit@nantelmcdiarmid.com",
+        "laurent@nantelmcdiarmid.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 11,
+      "period": "2026-03-08 to 2026-03-14",
+      "theme": "Bakery Week, nod to: St. Patrick’s",
+      "table": {
+        "product_name": [
+          "Organic Unsweetened Soy Beverage",
+          "Organic Oat Beverage (gluten-free)",
+          "Almond Beverage",
+          "Unsweetened Almond Beverage",
+          "Organic Soy Beverage",
+          "Organic Chocolate Soy Beverage",
+          "Organic Vanilla Soy Beverage",
+          "Chocolate Almond Beverage",
+          "Vanilla Almond Beverage",
+          "Organic Rice Beverage",
+          "Organic Chocolate Oat Beverage (gluten-free)",
+          "Organic Vanilla Oat Beverage (gluten free)",
+          "Unsweetened Coconut Almond Beverage",
+          "Unsweetened Vanilla Almond Beverage",
+          "Organic Cappuccino Soy Beverage"
+        ],
+        "lufa_farms_code": [
+          19846,
+          19813,
+          19801,
+          19802,
+          19803,
+          19804,
+          19805,
+          19808,
+          19809,
+          19810,
+          19816,
+          19817,
+          19820,
+          19821,
+          19822
+        ],
+        "rebate_per_unit": [
+          "$0.25",
+          "$0.25",
+          "$0.25",
+          "$0.25",
+          "$0.25",
+          "$0.25",
+          "$0.25",
+          "$0.25",
+          "$0.25",
+          "$0.25",
+          "$0.25",
+          "$0.25",
+          "$0.25",
+          "$0.25",
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$1.69",
+          "$1.69",
+          "$1.69",
+          "$1.69",
+          "$1.69",
+          "$1.69",
+          "$1.69",
+          "$1.69",
+          "$1.69",
+          "$1.69",
+          "$1.69",
+          "$1.69",
+          "$1.69",
+          "$1.69",
+          "$1.69"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$1.94",
+          "$1.94",
+          "$1.94",
+          "$1.94",
+          "$1.94",
+          "$1.94",
+          "$1.94",
+          "$1.94",
+          "$1.94",
+          "$1.94",
+          "$1.94",
+          "$1.94",
+          "$1.94",
+          "$1.94",
+          "$1.94"
+        ],
+        "qty_bought_at_regular_cost": [
+          1876,
+          833,
+          315,
+          438,
+          430,
+          374,
+          337,
+          261,
+          168,
+          123,
+          220,
+          374,
+          404,
+          264,
+          158
+        ],
+        "credited_sum": [
+          "$469.00",
+          "$208.25",
+          "$78.75",
+          "$109.50",
+          "$107.50",
+          "$93.50",
+          "$84.25",
+          "$65.25",
+          "$42.00",
+          "$30.75",
+          "$55.00",
+          "$93.50",
+          "$101.00",
+          "$66.00",
+          "$39.50"
+        ],
+        "total_credited": "$1643.75"
+      }
+    },
+    {
+      "supplier": "Nut Grove Cheese",
+      "emails": [
+        "stephanie@nutgrovecheese.com",
+        "angelique@nutgrovecheese.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 11,
+      "period": "2026-03-08 to 2026-03-14",
+      "theme": "Bakery Week, nod to: St. Patrick’s",
+      "table": {
+        "product_name": [
+          "Vegan Pistachio Crust Cheese"
+        ],
+        "lufa_farms_code": [
+          18674
+        ],
+        "rebate_per_unit": [
+          "$1.00"
+        ],
+        "rebate_cost": [
+          "$7.29"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$8.29"
+        ],
+        "qty_bought_at_regular_cost": [
+          36
+        ],
+        "credited_sum": [
+          "$36.00"
+        ],
+        "total_credited": "$36.00"
+      }
+    },
+    {
+      "supplier": "O'Mari",
+      "emails": [
+        "ningcan@gmail.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 11,
+      "period": "2026-03-08 to 2026-03-14",
+      "theme": "Bakery Week, nod to: St. Patrick’s",
+      "table": {
+        "product_name": [
+          "Ginger & Garlic Paste",
+          "Spinach & Three Cheese Ravioli (frozen)"
+        ],
+        "lufa_farms_code": [
+          15548,
+          16109
+        ],
+        "rebate_per_unit": [
+          "$0.25",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$2.50",
+          "$3.25"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$2.75",
+          "$3.75"
+        ],
+        "qty_bought_at_regular_cost": [
+          1335,
+          3190
+        ],
+        "credited_sum": [
+          "$333.75",
+          "$1595.00"
+        ],
+        "total_credited": "$2262.50"
+      }
+    },
+    {
+      "supplier": "Pizzeria Sofia",
+      "emails": [
+        "nicola@pizzeriasofia2go.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 11,
+      "period": "2026-03-08 to 2026-03-14",
+      "theme": "Bakery Week, nod to: St. Patrick’s",
+      "table": {
+        "product_name": [
+          "Margherita Pizza (frozen)",
+          "Macaroni & Cheese (frozen)"
+        ],
+        "lufa_farms_code": [
+          15954,
+          16291
+        ],
+        "rebate_per_unit": [
+          "$0.75",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$3.90",
+          "$3.72"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$4.65",
+          "$4.22"
+        ],
+        "qty_bought_at_regular_cost": [
+          966,
+          357
+        ],
+        "credited_sum": [
+          "$724.50",
+          "$178.50"
+        ],
+        "total_credited": "$661.50"
+      }
+    },
+    {
+      "supplier": "Savanil",
+      "emails": [
+        "nancia@savanil.ca"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 11,
+      "period": "2026-03-08 to 2026-03-14",
+      "theme": "Bakery Week, nod to: St. Patrick’s",
+      "table": {
+        "product_name": [
+          "Wild Black Voatsiperifery Pepper",
+          "Fenugreek Powder (2025 harvest)"
+        ],
+        "lufa_farms_code": [
+          10903,
+          17467
+        ],
+        "rebate_per_unit": [
+          "$0.30",
+          "$0.30"
+        ],
+        "rebate_cost": [
+          "$2.48",
+          "$2.25"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$2.78",
+          "$2.55"
+        ],
+        "qty_bought_at_regular_cost": [
+          99,
+          22
+        ],
+        "credited_sum": [
+          "$29.70",
+          "$6.60"
+        ],
+        "total_credited": "$36.30"
+      }
+    },
+    {
+      "supplier": "Soya Distinction Inc",
+      "emails": [
+        "konthea2000@hotmail.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 11,
+      "period": "2026-03-08 to 2026-03-14",
+      "theme": "Bakery Week, nod to: St. Patrick’s",
+      "table": {
+        "product_name": [
+          "Extra Firm Tofu"
+        ],
+        "lufa_farms_code": [
+          10665
+        ],
+        "rebate_per_unit": [
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$2.80"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$3.05"
+        ],
+        "qty_bought_at_regular_cost": [
+          2199
+        ],
+        "credited_sum": [
+          "$549.75"
+        ],
+        "total_credited": "$549.75"
+      }
+    },
+    {
+      "supplier": "Taylor Fish Company",
+      "emails": [
+        "yvonne@taylorfishcompany.com"
+      ],
+      "language": "en",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 11,
+      "period": "2026-03-08 to 2026-03-14",
+      "theme": "Bakery Week, nod to: St. Patrick’s",
+      "table": {
+        "product_name": [
+          "Ground Walleye (frozen)"
+        ],
+        "lufa_farms_code": [
+          11985
+        ],
+        "rebate_per_unit": [
+          "$0.56"
+        ],
+        "rebate_cost": [
+          "$3.19"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$3.75"
+        ],
+        "qty_bought_at_regular_cost": [
+          901
+        ],
+        "credited_sum": [
+          "$504.56"
+        ],
+        "total_credited": "$504.56"
+      }
+    },
+    {
+      "supplier": "The Port of India",
+      "emails": [
+        "justin.riggio7@gmail.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 11,
+      "period": "2026-03-08 to 2026-03-14",
+      "theme": "Bakery Week, nod to: St. Patrick’s",
+      "table": {
+        "product_name": [
+          "Makhani Curry Paste (medium)"
+        ],
+        "lufa_farms_code": [
+          12853
+        ],
+        "rebate_per_unit": [
+          "$0.65"
+        ],
+        "rebate_cost": [
+          "$4.75"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$5.40"
+        ],
+        "qty_bought_at_regular_cost": [
+          88
+        ],
+        "credited_sum": [
+          "$57.20"
+        ],
+        "total_credited": "$57.20"
+      }
+    },
+    {
+      "supplier": "The Unscented Company",
+      "emails": [
+        "finance@unscentedco.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 11,
+      "period": "2026-03-08 to 2026-03-14",
+      "theme": "Bakery Week, nod to: St. Patrick’s",
+      "table": {
+        "product_name": [
+          "Dog Shampoo Bar"
+        ],
+        "lufa_farms_code": [
+          18199
+        ],
+        "rebate_per_unit": [
+          "$1.55"
+        ],
+        "rebate_cost": [
+          "$7.35"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$8.90"
+        ],
+        "qty_bought_at_regular_cost": [
+          10
+        ],
+        "credited_sum": [
+          "$15.50"
+        ],
+        "total_credited": "$15.50"
+      }
+    },
+    {
+      "supplier": "VG Gourmet",
+      "emails": [
+        "info@vegetariangourmet.com",
+        "bookkeeping.vggourmet@gmail.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 11,
+      "period": "2026-03-08 to 2026-03-14",
+      "theme": "Bakery Week, nod to: St. Patrick’s",
+      "table": {
+        "product_name": [
+          "Ginger Sesame Tofu (frozen)",
+          "Quinoa & Chickpea Veggie Burgers (2, frozen)",
+          "Buffalo Soy Protein Bites (frozen)",
+          "Cuban Black Bean Soup (frozen)",
+          "Vegan Rosée Sauce (frozen)"
+        ],
+        "lufa_farms_code": [
+          8995,
+          8989,
+          10273,
+          14078,
+          10332
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50",
+          "$0.50",
+          "$0.50",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$3.92",
+          "$2.14",
+          "$4.30",
+          "$3.85",
+          "$4.00"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$4.42",
+          "$2.64",
+          "$4.80",
+          "$4.35",
+          "$4.50"
+        ],
+        "qty_bought_at_regular_cost": [
+          120,
+          1219,
+          124,
+          276,
+          117
+        ],
+        "credited_sum": [
+          "$60.00",
+          "$609.50",
+          "$62.00",
+          "$138.00",
+          "$58.50"
+        ],
+        "total_credited": "$928.00"
+      }
+    },
+    {
+      "supplier": "Vignoble Les Bacchantes",
+      "emails": [
+        "ecrire@sebastiendaoust.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 11,
+      "period": "2026-03-08 to 2026-03-14",
+      "theme": "Bakery Week, nod to: St. Patrick’s",
+      "table": {
+        "product_name": [
+          "Cuvée R2 - Enfin Pinot Noir Red Wine 2022"
+        ],
+        "lufa_farms_code": [
+          19737
+        ],
+        "rebate_per_unit": [
+          "$1.50"
+        ],
+        "rebate_cost": [
+          "$20.50"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$22.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          17
+        ],
+        "credited_sum": [
+          "$25.50"
+        ],
+        "total_credited": "$25.50"
+      }
+    },
+    {
+      "supplier": "Yupik",
+      "emails": [
+        "mleclerc@tootsi.com",
+        "jllachance@tootsi.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 11,
+      "period": "2026-03-08 to 2026-03-14",
+      "theme": "Bakery Week, nod to: St. Patrick’s",
+      "table": {
+        "product_name": [
+          "Organic 70% Dark Chocolate Chips",
+          "Organic Black Chia Seeds"
+        ],
+        "lufa_farms_code": [
+          18235,
+          18098
+        ],
+        "rebate_per_unit": [
+          "$2.25",
+          "$0.90"
+        ],
+        "rebate_cost": [
+          "$12.75",
+          "$5.10"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$15.00",
+          "$6.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          1040,
+          326
+        ],
+        "credited_sum": [
+          "$2340.00",
+          "$293.40"
+        ],
+        "total_credited": "$1229.40"
+      }
+    },
+    {
+      "supplier": "État Végétal",
+      "emails": [
+        "francis.dubois@etatvegetal.com",
+        "comptabilite@etatvegetal.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 11,
+      "period": "2026-03-08 to 2026-03-14",
+      "theme": "Bakery Week, nod to: St. Patrick’s",
+      "table": {
+        "product_name": [
+          "Taquitos (family format, frozen)",
+          "Dried Tomato & Basil Arancini (family format, frozen)"
+        ],
+        "lufa_farms_code": [
+          16370,
+          16371
+        ],
+        "rebate_per_unit": [
+          "$1.00",
+          "$1.00"
+        ],
+        "rebate_cost": [
+          "$17.00",
+          "$17.00"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$18.00",
+          "$18.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          49,
+          118
+        ],
+        "credited_sum": [
+          "$49.00",
+          "$118.00"
+        ],
+        "total_credited": "$167.00"
+      }
+    }
+  ]
+}

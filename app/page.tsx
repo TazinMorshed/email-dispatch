@@ -1,392 +1,588 @@
 'use client'
 
-import { useState, useMemo, useRef } from 'react'
-import Link from 'next/link'
+import { useState, useEffect } from 'react'
+import { useSession, signIn, signOut } from 'next-auth/react'
 
-interface Invoice {
-  vendor_name: string
-  date: string
-  invoice_number: string
-  amount: string
-  email: string
+interface SupplierTable {
+  product_name: string[]
+  lufa_farms_code: number[]
+  rebate_per_unit: string[]
+  rebate_cost: string[]
+  qty_bought_at_rebate_cost: number[]
+  regular_cost: string[]
+  qty_bought_at_regular_cost: number[]
+  credited_sum: string[]
+  total_credited: string
 }
 
-type SortKey = keyof Invoice
-type SortDir = 'asc' | 'desc'
-
-const COLUMNS: { key: SortKey; label: string }[] = [
-  { key: 'vendor_name', label: 'Vendor Name' },
-  { key: 'date', label: 'Date' },
-  { key: 'invoice_number', label: 'Invoice #' },
-  { key: 'amount', label: 'Amount' },
-  { key: 'email', label: 'Email' },
-]
-
-function formatAmount(val: string) {
-  const n = parseFloat(val)
-  if (isNaN(n)) return '-'
-  return new Intl.NumberFormat('en-CA', { style: 'currency', currency: 'CAD' }).format(n)
+interface Supplier {
+  supplier: string
+  emails: string[]
+  language: string
+  taxable: string
+  year: number
+  week: number
+  period: string
+  theme: string
+  table: SupplierTable
 }
 
-function SortIcon({ active, dir }: { active: boolean; dir: SortDir }) {
+interface WeekData {
+  week: number
+  total_suppliers: number
+  suppliers: Supplier[]
+}
+
+function buildEmailTable(supplier: Supplier): string {
+  const { table } = supplier
+  const promoWeek = `Promo week ${supplier.week} - ${supplier.period}`
+
+  const base = 'border:1px solid #d0d0d0;padding:2px 6px;font-size:11px;font-family:Arial,sans-serif;line-height:1.3;'
+  // Headers wrap so column width is driven by data, not header text
+  const th = (content: string) =>
+    `<th style="${base}background-color:#e8e9ea;color:#333;font-weight:600;text-align:left;max-width:80px;">${content}</th>`
+  const td = (content: string | number, extra = '') =>
+    `<td style="${base}white-space:nowrap;${extra}">${content}</td>`
+  const tdEmpty = () =>
+    `<td style="${base}"></td>`
+  const tdCredit = (content: string | number) =>
+    `<td style="${base}white-space:nowrap;background-color:#ffd7d7;font-weight:bold;">${content}</td>`
+
+  const dataRows = table.product_name
+    .map((name, i) => {
+      const totalQty = (table.qty_bought_at_rebate_cost[i] ?? 0) + (table.qty_bought_at_regular_cost[i] ?? 0)
+      return `<tr>
+        ${td(table.lufa_farms_code[i])}
+        ${td(name)}
+        ${td(promoWeek)}
+        ${td(table.rebate_per_unit[i])}
+        ${td(totalQty)}
+        ${td(table.qty_bought_at_rebate_cost[i])}
+        ${td(table.qty_bought_at_regular_cost[i])}
+        ${tdCredit(table.credited_sum[i])}
+      </tr>`
+    })
+    .join('')
+
+  // Yellow only on the last 2 cells — "TOTAL" label and the amount
+  const yellow = 'background-color:#FFFF00;font-weight:bold;'
+  const totalRow = `<tr>
+    ${tdEmpty()}${tdEmpty()}${tdEmpty()}${tdEmpty()}${tdEmpty()}${tdEmpty()}
+    ${td('TOTAL', yellow)}
+    ${td(table.total_credited, yellow)}
+  </tr>`
+
+  return `<table style="border-collapse:collapse;font-family:Arial,sans-serif;">
+    <thead><tr>
+      ${th('Code des Fermes Lufa')}
+      ${th('Produit / Product')}
+      ${th('Week')}
+      ${th('Rabais $/Unité / Rebate $/Unit')}
+      ${th('Total sold quantities')}
+      ${th('Quantities Bought at rebate cost')}
+      ${th('Quantities Bought at Regular Cost')}
+      <th style="${base}background-color:#e8e9ea;color:#333;font-weight:700;text-align:left;max-width:80px;">Credited Sum</th>
+    </tr></thead>
+    <tbody>${dataRows}</tbody>
+    <tfoot>${totalRow}</tfoot>
+  </table>`
+}
+
+function generateEmailHtml(supplier: Supplier): { subject: string; html: string } {
+  const isTaxable = supplier.taxable === 'Yes'
+  const isFr = supplier.language === 'fr'
+
+  const subject = `Promotion W${supplier.week} - count & recount - ${supplier.supplier}`
+
+  const p = (text: string) =>
+    `<p style="margin:0 0 14px 0;font-family:Arial,sans-serif;font-size:14px;color:#000;">${text}</p>`
+
+  const tableHtml = buildEmailTable(supplier)
+
+  let body = ''
+
+  if (!isTaxable && isFr) {
+    // Non-taxable FR
+    body = `
+      ${p('Bonjour,')}
+      ${p('Voici les résultats des promotions - étant donné que les produits sont non-taxables, nous allons déduire ce montant du prochain paiement :')}
+      ${tableHtml}
+      <br>${p('Merci,')}
+    `
+  } else if (!isTaxable && !isFr) {
+    // Non-taxable EN
+    body = `
+      ${p('Hello,')}
+      ${p("Please find the results of the promotions, as the products are non-taxable, we will deduct this amount from the next payment, we don't need any more a credit note :")}
+      ${tableHtml}
+      <br>${p('Thank you,')}
+    `
+  } else if (isTaxable && isFr) {
+    // Taxable FR
+    body = `
+      ${p('Bonjour,')}
+      ${p('Voici les résultats des promotions - svp envoyez une note de crédit à notre département de facturation (en cc sur ce courriel) et moi :')}
+      ${tableHtml}
+      <br>${p('Merci,')}
+    `
+  } else {
+    // Taxable EN
+    body = `
+      ${p('Hello,')}
+      ${p('Please find below the adjustment credit for promotions, as the products are taxable, we still need a credit note :')}
+      ${p('Please send a credit note directly to the billing team who are in copy and myself!')}
+      ${tableHtml}
+      <br>${p('Thank you,')}
+    `
+  }
+
+  const html = `<div style="font-family:Arial,sans-serif;font-size:14px;color:#000;max-width:900px;">${body}</div>`
+  return { subject, html }
+}
+
+function Toggle({
+  enabled,
+  onChange,
+  labelOn,
+  labelOff,
+  colorOn,
+}: {
+  enabled: boolean
+  onChange: (v: boolean) => void
+  labelOn: string
+  labelOff: string
+  colorOn: string
+}) {
   return (
-    <span className="ml-1 inline-block text-xs">
-      {active ? (dir === 'asc' ? '↑' : '↓') : <span className="text-gray-300 dark:text-gray-600">↕</span>}
-    </span>
+    <button
+      type="button"
+      onClick={() => onChange(!enabled)}
+      className="flex items-center gap-2 cursor-pointer select-none text-slate-700"
+    >
+      <div className={`relative h-5 w-10 rounded-full transition-colors duration-200 ${enabled ? colorOn : 'bg-slate-300'}`}>
+        <span className={`absolute top-0.5 left-0.5 w-4 h-4 rounded-full bg-white shadow-sm transition-transform duration-200 ${enabled ? 'translate-x-5' : 'translate-x-0'}`} />
+      </div>
+      <span className="text-xs font-semibold">{enabled ? labelOn : labelOff}</span>
+    </button>
   )
 }
+
+const TOTAL_WEEKS = 15
 
 export default function Page() {
-  const [invoices, setInvoices] = useState<Invoice[]>([])
-  const [uploading, setUploading] = useState(false)
-  const [uploadedFileName, setUploadedFileName] = useState<string | null>(null)
-  const [uploadError, setUploadError] = useState<string | null>(null)
-  const fileInputRef = useRef<HTMLInputElement>(null)
+  const { data: session, status } = useSession()
+  const [selectedWeek, setSelectedWeek] = useState<number | null>(null)
+  const [weekData, setWeekData] = useState<WeekData | null>(null)
+  const [loadingWeek, setLoadingWeek] = useState(false)
+  const [selectedSupplier, setSelectedSupplier] = useState<string | null>(null)
+  const [sending, setSending] = useState(false)
+  const [sent, setSent] = useState(false)
+  const [sendError, setSendError] = useState<string | null>(null)
+  const [includeSignature, setIncludeSignature] = useState(true)
+  const [sendToSupplier, setSendToSupplier] = useState(false)
+  const [pendingEmails, setPendingEmails] = useState<string[]>([])
+  const [committedEmails, setCommittedEmails] = useState<string[]>([])
+  const [tagInput, setTagInput] = useState('')
 
-  const [vendorFilter, setVendorFilter] = useState('')
-  const [invoiceFilter, setInvoiceFilter] = useState('')
-  const [dateFrom, setDateFrom] = useState('')
-  const [dateTo, setDateTo] = useState('')
-  const [amountMin, setAmountMin] = useState('')
-  const [amountMax, setAmountMax] = useState('')
-  const [olderThan60, setOlderThan60] = useState(false)
-  const [overdueDays, setOverdueDays] = useState(60)
+  useEffect(() => {
+    if (supplier) {
+      setPendingEmails(supplier.emails)
+      setCommittedEmails(supplier.emails)
+      setTagInput('')
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [selectedSupplier])
 
-  const [sortKey, setSortKey] = useState<SortKey>('date')
-  const [sortDir, setSortDir] = useState<SortDir>('desc')
+  useEffect(() => {
+    if (selectedWeek === null) return
+    setLoadingWeek(true)
+    setSelectedSupplier(null)
+    setWeekData(null)
+    setSent(false)
+    setSendError(null)
+    fetch(`/api/weeks/${selectedWeek}`)
+      .then((r) => r.json())
+      .then((data) => setWeekData(data))
+      .finally(() => setLoadingWeek(false))
+  }, [selectedWeek])
 
-  async function handleFileUpload(e: React.ChangeEvent<HTMLInputElement>) {
-    const file = e.target.files?.[0]
-    if (!file) return
+  const supplier = weekData?.suppliers.find((s) => s.supplier === selectedSupplier) ?? null
+  const emailContent = supplier ? generateEmailHtml(supplier) : null
 
-    setUploading(true)
-    setUploadError(null)
+  function isValidEmail(e: string) { return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e.trim()) }
+  function buildUpdatedEmails(baseEmails: string[], candidate: string) {
+    const val = candidate.trim()
+    if (!val || !isValidEmail(val) || baseEmails.includes(val)) {
+      return baseEmails
+    }
+    return [...baseEmails, val]
+  }
+  const tagInputValid = tagInput.trim() === '' || isValidEmail(tagInput)
+  const emailDirty = JSON.stringify(pendingEmails) !== JSON.stringify(committedEmails) || tagInput.trim() !== ''
+  const noLiveRecipients = sendToSupplier && committedEmails.length === 0
 
-    const formData = new FormData()
-    formData.append('file', file)
-
-    try {
-      const res = await fetch('/api/invoices', { method: 'POST', body: formData })
-      if (!res.ok) throw new Error('Failed to parse file')
-      const data = await res.json()
-      if (!Array.isArray(data) || data.length === 0) throw new Error('No invoices found in file')
-      setInvoices(data)
-      setUploadedFileName(file.name)
-      sessionStorage.setItem('invoices', JSON.stringify(data))
-    } catch (err) {
-      setUploadError(err instanceof Error ? err.message : 'Upload failed')
-    } finally {
-      setUploading(false)
-      if (fileInputRef.current) fileInputRef.current.value = ''
+  function addTag() {
+    const updated = buildUpdatedEmails(pendingEmails, tagInput)
+    setPendingEmails(updated)
+    if (updated !== pendingEmails) {
+      setTagInput('')
     }
   }
-
-  const vendors = useMemo(
-    () => Array.from(new Set(invoices.map((i) => i.vendor_name))).sort(),
-    [invoices]
-  )
-
-  const filtered = useMemo(() => {
-    return invoices
-      .filter((inv) => {
-        if (vendorFilter && !inv.vendor_name.toLowerCase().includes(vendorFilter.toLowerCase()))
-          return false
-        if (invoiceFilter && !inv.invoice_number.toLowerCase().includes(invoiceFilter.toLowerCase()))
-          return false
-        if (dateFrom && inv.date < dateFrom) return false
-        if (dateTo && inv.date > dateTo) return false
-        const amount = parseFloat(inv.amount)
-        if (amountMin !== '' && amount < parseFloat(amountMin)) return false
-        if (amountMax !== '' && amount > parseFloat(amountMax)) return false
-        if (olderThan60) {
-          const cutoff = new Date()
-          cutoff.setDate(cutoff.getDate() - overdueDays)
-          if (new Date(inv.date) >= cutoff) return false
-        }
-        return true
-      })
-      .sort((a, b) => {
-        const aVal = a[sortKey]
-        const bVal = b[sortKey]
-        if (sortKey === 'amount') {
-          return sortDir === 'asc'
-            ? parseFloat(aVal) - parseFloat(bVal)
-            : parseFloat(bVal) - parseFloat(aVal)
-        }
-        return sortDir === 'asc' ? aVal.localeCompare(bVal) : bVal.localeCompare(aVal)
-      })
-  }, [invoices, vendorFilter, invoiceFilter, dateFrom, dateTo, amountMin, amountMax, olderThan60, overdueDays, sortKey, sortDir])
-
-  const totalAmount = useMemo(
-    () => filtered.reduce((sum, inv) => sum + parseFloat(inv.amount || '0'), 0),
-    [filtered]
-  )
-
-  const uniqueVendorCount = useMemo(
-    () => new Set(filtered.map((i) => i.vendor_name)).size,
-    [filtered]
-  )
-
-  const hasFilters = vendorFilter || invoiceFilter || dateFrom || dateTo || amountMin || amountMax || olderThan60
-  const hasData = invoices.length > 0
-
-  function clearFilters() {
-    setVendorFilter('')
-    setInvoiceFilter('')
-    setDateFrom('')
-    setDateTo('')
-    setAmountMin('')
-    setAmountMax('')
-    setOlderThan60(false)
-    setOverdueDays(60)
+  function removeTag(i: number) { setPendingEmails((prev) => prev.filter((_, idx) => idx !== i)) }
+  function handleTagKeyDown(e: React.KeyboardEvent<HTMLInputElement>) {
+    if (e.key === 'Enter' || e.key === 'Tab' || e.key === ',') { e.preventDefault(); addTag() }
+    else if (e.key === 'Backspace' && tagInput === '') removeTag(pendingEmails.length - 1)
+  }
+  function commitPendingEmails() {
+    const updated = buildUpdatedEmails(pendingEmails, tagInput)
+    setPendingEmails(updated)
+    setCommittedEmails(updated)
+    setTagInput('')
+    return updated
+  }
+  function handleAccept() {
+    commitPendingEmails()
+  }
+  function handleSendToSupplierChange(nextValue: boolean) {
+    if (nextValue) {
+      commitPendingEmails()
+    }
+    setSendToSupplier(nextValue)
   }
 
-  function handleSort(key: SortKey) {
-    if (key === sortKey) {
-      setSortDir((d) => (d === 'asc' ? 'desc' : 'asc'))
-    } else {
-      setSortKey(key)
-      setSortDir('asc')
+  async function handleSend() {
+    if (!emailContent || !supplier) return
+    const liveRecipients = sendToSupplier ? commitPendingEmails() : committedEmails
+    if (sendToSupplier && liveRecipients.length === 0) {
+      setSendError('No email to send')
+      return
+    }
+    setSending(true)
+    setSendError(null)
+    setSent(false)
+    try {
+      const res = await fetch('/api/send-email', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          ...emailContent,
+          includeSignature,
+          to: sendToSupplier ? liveRecipients : null,
+        }),
+      })
+      if (!res.ok) {
+        let message = `Error ${res.status}`
+        try {
+          const data = await res.json()
+          message = data.error ?? message
+        } catch {
+          // response body was not JSON
+        }
+        throw new Error(message)
+      }
+      setSent(true)
+      setTimeout(() => setSent(false), 4000)
+    } catch (err) {
+      setSendError(err instanceof Error ? err.message : 'Failed to send')
+    } finally {
+      setSending(false)
     }
   }
 
   return (
-    <div className="min-h-screen p-6 max-w-[1400px] mx-auto">
-      <header className="mb-6 flex items-start justify-between gap-4">
+    <div className="mx-auto flex min-h-screen max-w-[1400px] flex-col px-6 py-8">
+      {/* Header */}
+      <header className="mb-6 flex items-center justify-between rounded-[28px] border border-slate-200/80 bg-white/90 px-6 py-5 shadow-[0_18px_50px_rgba(15,23,42,0.06)] backdrop-blur">
         <div>
-          <h1 className="text-2xl font-semibold text-gray-900 dark:text-white">RPC Invoice Dashboard</h1>
-          {hasData && (
-            <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">{vendors.length} vendors · {invoices.length} invoices</p>
-          )}
+          <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-slate-400">RPC Operations</p>
+          <h1 className="mt-1 text-2xl font-semibold text-slate-900">Supplier Email Dispatch</h1>
         </div>
-
-        <div className="flex flex-col items-end gap-1">
-          <div className="flex items-center gap-2">
-            {hasData && (
-              <Link
-                href="/emails"
-                className="flex items-center gap-2 px-3 py-2 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 text-sm font-medium hover:bg-gray-50 dark:hover:bg-gray-700 hover:border-gray-300 dark:hover:border-gray-600 shadow-sm transition-colors"
-              >
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                </svg>
-                Generate email
-              </Link>
-            )}
-
-            {/* Upload */}
-            <label className={`flex items-center gap-2 px-3 py-2 rounded-lg border text-sm font-medium cursor-pointer transition-colors ${uploading ? 'bg-gray-100 text-gray-400 border-gray-200 cursor-not-allowed dark:bg-gray-700 dark:text-gray-500 dark:border-gray-600' : 'bg-white border-gray-200 text-gray-700 hover:bg-gray-50 hover:border-gray-300 shadow-sm dark:bg-gray-800 dark:border-gray-700 dark:text-gray-300 dark:hover:bg-gray-700 dark:hover:border-gray-600'}`}>
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12" />
-              </svg>
-              {uploading ? 'Processing...' : uploadedFileName ? 'Replace CSV' : 'Upload CSV'}
-              <input
-                ref={fileInputRef}
-                type="file"
-                accept=".csv"
-                className="hidden"
-                disabled={uploading}
-                onChange={handleFileUpload}
-              />
-            </label>
+        {status === 'loading' ? (
+          <div className="h-10 w-40 animate-pulse rounded-xl bg-slate-200" />
+        ) : session ? (
+          <div className="flex items-center gap-4 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-2.5">
+            <span className="text-sm font-medium text-slate-600">{session.user?.email}</span>
+            <button
+              onClick={() => signOut()}
+              className="text-sm font-medium text-slate-500 underline underline-offset-2 transition-colors hover:text-slate-900"
+            >
+              Sign out
+            </button>
           </div>
-          {uploadedFileName && (
-            <p className="text-xs text-green-600 font-medium">{uploadedFileName}</p>
-          )}
-          {uploadError && (
-            <p className="text-xs text-red-500">{uploadError}</p>
-          )}
-        </div>
+        ) : (
+          <button
+            onClick={() => signIn('google')}
+            className="flex items-center gap-2.5 rounded-xl border border-slate-200 bg-white px-4 py-2.5 text-sm font-medium text-slate-700 shadow-sm transition-colors hover:border-slate-300 hover:bg-slate-50"
+          >
+            <svg className="w-4 h-4" viewBox="0 0 24 24">
+              <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4" />
+              <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853" />
+              <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z" fill="#FBBC05" />
+              <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335" />
+            </svg>
+            Sign in with Google
+          </button>
+        )}
       </header>
 
-      {!hasData ? (
-        /* Empty state */
-        <div className="flex flex-col items-center justify-center py-32 text-center">
-          <div className="w-16 h-16 rounded-full bg-gray-100 dark:bg-gray-700 flex items-center justify-center mb-4">
-            <svg className="w-8 h-8 text-gray-400 dark:text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-            </svg>
+      {/* Week selector */}
+      <div className="mb-5 rounded-[24px] border border-slate-200/80 bg-white/90 p-3 shadow-[0_18px_50px_rgba(15,23,42,0.06)] backdrop-blur">
+        <div className="mb-3 flex items-center justify-between px-2">
+          <div>
+            <p className="text-sm font-semibold text-slate-900">Promotion Weeks</p>
+            <p className="text-xs text-slate-500">Choose a week to load supplier credits and email drafts.</p>
           </div>
-          <h2 className="text-lg font-medium text-gray-900 dark:text-white mb-1">No data loaded</h2>
-          <p className="text-sm text-gray-500 dark:text-gray-400 mb-6">Upload a CSV file to view your invoice data</p>
-          <label className={`flex items-center gap-2 px-4 py-2.5 rounded-lg bg-blue-600 text-white text-sm font-medium cursor-pointer hover:bg-blue-700 transition-colors ${uploading ? 'opacity-50 cursor-not-allowed' : ''}`}>
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12" />
-            </svg>
-            {uploading ? 'Processing...' : 'Upload CSV'}
-            <input
-              type="file"
-              accept=".csv"
-              className="hidden"
-              disabled={uploading}
-              onChange={handleFileUpload}
-            />
-          </label>
-          {uploadError && (
-            <p className="text-xs text-red-500 mt-3">{uploadError}</p>
-          )}
         </div>
-      ) : (
-        <>
-          {/* Filters */}
-          <div className="bg-white dark:bg-gray-800 rounded-xl border border-gray-200 dark:border-gray-700 p-4 mb-4 shadow-sm">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-3">
-              <div className="xl:col-span-2">
-                <label className="block text-xs font-medium text-gray-500 dark:text-gray-400 mb-1">Vendor Name</label>
-                <input
-                  type="text"
-                  placeholder="Search vendors..."
-                  value={vendorFilter}
-                  onChange={(e) => setVendorFilter(e.target.value)}
-                  className="w-full rounded-lg border border-gray-200 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-200 placeholder-gray-400 dark:placeholder-gray-500 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                />
+        <div className="flex flex-wrap gap-2">
+        {Array.from({ length: TOTAL_WEEKS }, (_, i) => i + 1).map((w) => (
+          <button
+            key={w}
+            onClick={() => setSelectedWeek(w)}
+            className={`rounded-full border px-4 py-2 text-sm font-medium shadow-sm transition-colors ${
+              selectedWeek === w
+                ? 'border-blue-600 bg-blue-600 text-white'
+                : 'border-slate-200 bg-slate-50 text-slate-600 hover:border-slate-300 hover:bg-white hover:text-slate-900'
+            }`}
+          >
+            Week {w}
+          </button>
+        ))}
+        </div>
+      </div>
+
+      {/* Main content */}
+      {selectedWeek === null ? (
+        <div className="flex flex-1 items-center justify-center rounded-[28px] border border-dashed border-slate-300 bg-white/75">
+          <p className="text-sm font-medium text-slate-500">Select a week to get started</p>
+        </div>
+      ) : loadingWeek ? (
+        <div className="flex flex-1 items-center justify-center rounded-[28px] border border-slate-200 bg-white/80">
+          <div className="w-5 h-5 border-2 border-blue-600 border-t-transparent rounded-full animate-spin" />
+        </div>
+      ) : weekData ? (
+        <div className="flex gap-4 overflow-hidden" style={{ height: 'calc(100vh - 180px)' }}>
+          {/* Supplier list */}
+          <div className="flex h-full w-72 flex-shrink-0 flex-col overflow-hidden rounded-[28px] border border-slate-200 bg-white shadow-[0_18px_50px_rgba(15,23,42,0.06)]">
+            <div className="border-b border-slate-100 bg-slate-50/80 px-5 py-4">
+              <p className="text-xs font-semibold uppercase tracking-[0.16em] text-slate-500">
+                Week {weekData.week} · {weekData.total_suppliers} suppliers
+              </p>
+              <p className="mt-1 text-xs text-slate-500">
+                {weekData.suppliers[0]?.period}
+              </p>
+            </div>
+            <ul className="flex-1 divide-y divide-slate-100 overflow-y-auto">
+              {weekData.suppliers.map((s) => (
+                <li key={s.supplier}>
+                  <button
+                    onClick={() => {
+                      setSelectedSupplier(s.supplier)
+                      setSent(false)
+                      setSendError(null)
+                    }}
+                    className={`w-full px-5 py-3.5 text-left transition-colors hover:bg-slate-50 ${
+                      selectedSupplier === s.supplier
+                        ? 'border-l-4 border-blue-600 bg-blue-50/70'
+                        : ''
+                    }`}
+                  >
+                    <p
+                      className={`text-sm font-medium leading-snug ${
+                        selectedSupplier === s.supplier
+                          ? 'text-blue-700'
+                          : 'text-slate-900'
+                      }`}
+                    >
+                      {s.supplier}
+                    </p>
+                    <div className="flex items-center justify-between mt-0.5">
+                      <span className="text-xs text-slate-500">
+                        {s.table.product_name.length} product{s.table.product_name.length !== 1 ? 's' : ''}
+                      </span>
+                      <span className="rounded-full bg-emerald-50 px-2 py-0.5 text-xs font-semibold text-emerald-700">
+                        {s.table.total_credited}
+                      </span>
+                    </div>
+                    {s.emails[0] && (
+                      <p className="mt-1 truncate text-xs text-slate-400">
+                        {s.emails[0]}
+                      </p>
+                    )}
+                  </button>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Email preview */}
+          <div className="flex h-full min-w-0 flex-1 flex-col overflow-hidden rounded-[28px] border border-slate-200 bg-white shadow-[0_18px_50px_rgba(15,23,42,0.06)]">
+            {!supplier ? (
+              <div className="flex-1 flex items-center justify-center">
+                <p className="text-sm font-medium text-slate-500">Select a supplier to preview the email</p>
               </div>
-              <div>
-                <label className="block text-xs font-medium text-gray-500 dark:text-gray-400 mb-1">Invoice #</label>
-                <input
-                  type="text"
-                  placeholder="Search..."
-                  value={invoiceFilter}
-                  onChange={(e) => setInvoiceFilter(e.target.value)}
-                  className="w-full rounded-lg border border-gray-200 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-200 placeholder-gray-400 dark:placeholder-gray-500 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                />
-              </div>
-              <div>
-                <label className="block text-xs font-medium text-gray-500 dark:text-gray-400 mb-1">Date From</label>
-                <input
-                  type="date"
-                  value={dateFrom}
-                  onChange={(e) => setDateFrom(e.target.value)}
-                  className="w-full rounded-lg border border-gray-200 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-200 placeholder-gray-400 dark:placeholder-gray-500 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                />
-              </div>
-              <div>
-                <label className="block text-xs font-medium text-gray-500 dark:text-gray-400 mb-1">Date To</label>
-                <input
-                  type="date"
-                  value={dateTo}
-                  onChange={(e) => setDateTo(e.target.value)}
-                  className="w-full rounded-lg border border-gray-200 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-200 placeholder-gray-400 dark:placeholder-gray-500 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                />
-              </div>
-              <div>
-                <label className="block text-xs font-medium text-gray-500 dark:text-gray-400 mb-1">Amount Range</label>
-                <div className="flex gap-1">
-                  <input
-                    type="number"
-                    placeholder="Min"
-                    value={amountMin}
-                    onChange={(e) => setAmountMin(e.target.value)}
-                    className="w-full rounded-lg border border-gray-200 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-200 placeholder-gray-400 dark:placeholder-gray-500 px-2 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                  />
-                  <input
-                    type="number"
-                    placeholder="Max"
-                    value={amountMax}
-                    onChange={(e) => setAmountMax(e.target.value)}
-                    className="w-full rounded-lg border border-gray-200 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-200 placeholder-gray-400 dark:placeholder-gray-500 px-2 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+            ) : (
+              <>
+                {/* Supplier info */}
+                <div className="shrink-0 border-b border-slate-100 bg-slate-50/70 px-6 py-4">
+                  <div className="flex items-center gap-2 flex-wrap">
+                    <h2 className="text-base font-semibold text-slate-900">{supplier.supplier}</h2>
+                    <span className={`rounded-full px-2 py-1 text-xs font-medium ${supplier.language === 'fr' ? 'bg-blue-50 text-blue-700' : 'bg-slate-100 text-slate-600'}`}>
+                      {supplier.language.toUpperCase()}
+                    </span>
+                    {supplier.taxable === 'Yes' && (
+                      <span className="rounded-full bg-amber-50 px-2 py-1 text-xs font-medium text-amber-700">Taxable</span>
+                    )}
+                  </div>
+                  <div className="mt-2 max-w-2xl">
+                    {/* Tag chip container */}
+                    <div className={`flex flex-wrap items-center gap-1.5 rounded-2xl border px-3 py-2.5 shadow-sm transition-colors ${
+                      !tagInputValid
+                        ? 'border-red-300 bg-red-50 focus-within:ring-2 focus-within:ring-red-200'
+                        : emailDirty
+                        ? 'border-blue-300 bg-blue-50/60 focus-within:ring-2 focus-within:ring-blue-200'
+                        : 'border-slate-200 bg-white focus-within:ring-2 focus-within:ring-blue-100'
+                    }`}>
+                      {pendingEmails.map((email) => (
+                        <span key={email} className="flex items-center gap-1 rounded-full border border-emerald-200 bg-emerald-50 px-2.5 py-1 text-xs font-medium text-emerald-700">
+                          {email}
+                          <button
+                            onClick={() => removeTag(pendingEmails.indexOf(email))}
+                            className="ml-0.5 font-bold leading-none text-emerald-500 transition-colors hover:text-red-500"
+                          >×</button>
+                        </span>
+                      ))}
+                      <input
+                        type="text"
+                        value={tagInput}
+                        onChange={(e) => setTagInput(e.target.value)}
+                        onKeyDown={handleTagKeyDown}
+                        onBlur={addTag}
+                        className="min-w-[160px] flex-1 bg-transparent text-xs text-slate-700 outline-none placeholder:text-slate-400"
+                        placeholder={pendingEmails.length === 0 ? 'email@domain.com' : 'Add email, press Enter'}
+                      />
+                    </div>
+                    {/* Status row */}
+                    <div className="flex items-center gap-2 mt-1">
+                      {!tagInputValid && (
+                        <span className="text-xs font-medium text-red-500">Invalid email address</span>
+                      )}
+                      {emailDirty && tagInputValid && (
+                        <>
+                          <button
+                            onClick={handleAccept}
+                            className="rounded-lg bg-blue-600 px-2.5 py-1 text-xs font-medium text-white transition-colors hover:bg-blue-700"
+                          >Accept</button>
+                          <span className="text-xs font-medium text-blue-600">Unsaved changes</span>
+                        </>
+                      )}
+                    </div>
+                  </div>
+                  <p className="mt-1.5 text-xs text-slate-500">{supplier.period} · {supplier.theme}</p>
+                </div>
+
+                {/* Send settings bar */}
+                <div className={`flex shrink-0 items-center justify-between gap-4 border-b px-6 py-4 transition-colors ${sendToSupplier ? 'border-emerald-200 bg-emerald-50/70' : 'border-slate-100 bg-slate-50/70'}`}>
+                  {/* Toggles */}
+                  <div className="flex items-center gap-5">
+                    {/* Signature toggle */}
+                    <div className="flex flex-col gap-0.5">
+                      <Toggle
+                        enabled={includeSignature}
+                        onChange={setIncludeSignature}
+                        labelOn="Signature ON"
+                        labelOff="Signature OFF"
+                        colorOn="bg-green-500"
+                      />
+                      <p className="pl-12 text-xs text-slate-500">
+                        {includeSignature ? 'Your Gmail signature will be appended' : 'Email will be sent without signature'}
+                      </p>
+                    </div>
+
+                    <div className="h-8 w-px bg-slate-200" />
+
+                    {/* Recipient toggle */}
+                    <div className="flex flex-col gap-0.5">
+                      <Toggle
+                        enabled={sendToSupplier}
+                        onChange={handleSendToSupplierChange}
+                        labelOn="LIVE — Sending to supplier"
+                        labelOff="TEST — Sending to test address"
+                        colorOn="bg-green-500"
+                      />
+                      <p className={`pl-12 text-xs font-medium ${sendToSupplier ? 'text-emerald-700' : 'text-slate-500'}`}>
+                        {sendToSupplier
+                          ? committedEmails.length > 0
+                            ? `→ ${committedEmails.join(', ')}`
+                            : '→ No email to send'
+                          : `→ ${process.env.NEXT_PUBLIC_TEST_RECIPIENT}`}
+                      </p>
+                    </div>
+                  </div>
+
+                  {/* Send button */}
+                  {session ? (
+                    <button
+                      onClick={handleSend}
+                      disabled={sending || noLiveRecipients}
+                      className={`flex shrink-0 items-center gap-2 rounded-xl px-4 py-2.5 text-sm font-semibold shadow-sm transition-colors disabled:cursor-not-allowed disabled:opacity-50 ${
+                        sent
+                          ? 'border border-emerald-200 bg-emerald-50 text-emerald-700'
+                          : sendToSupplier
+                          ? 'bg-green-600 text-white hover:bg-green-700'
+                          : 'bg-blue-600 text-white hover:bg-blue-700'
+                      }`}
+                    >
+                      {sent ? (
+                        <><svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>Sent!</>
+                      ) : sending ? (
+                        <><svg className="w-4 h-4 animate-spin" fill="none" stroke="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" className="opacity-25" /><path d="M4 12a8 8 0 018-8v8H4z" fill="currentColor" className="opacity-75" /></svg>Sending...</>
+                      ) : (
+                        <><svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" /></svg>Send Email</>
+                      )}
+                    </button>
+                  ) : (
+                    <button onClick={() => signIn('google')} className="shrink-0 rounded-xl bg-blue-600 px-4 py-2.5 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-blue-700">
+                      Sign in to Send
+                    </button>
+                  )}
+                </div>
+
+                {sendError && (
+                  <div className="shrink-0 border-b border-red-100 bg-red-50 px-6 py-3">
+                    <p className="text-sm font-medium text-red-600">{sendError}</p>
+                  </div>
+                )}
+
+                {/* Email preview */}
+                <div className="flex-1 overflow-y-auto bg-white p-6">
+                  {/* Subject */}
+                  <div className="mb-4 rounded-2xl border border-slate-100 bg-slate-50/80 px-4 py-3">
+                    <p className="mb-1 text-xs font-semibold uppercase tracking-[0.16em] text-slate-400">Subject</p>
+                    <p className="text-sm font-medium text-slate-800">{emailContent?.subject}</p>
+                  </div>
+                  {/* Rendered email body — WYSIWYG of what gets sent */}
+                  <div
+                    className="overflow-x-auto rounded-2xl border border-slate-100 bg-white p-4 shadow-inner shadow-slate-100/60"
+                    dangerouslySetInnerHTML={{ __html: emailContent?.html ?? '' }}
                   />
                 </div>
-              </div>
-              <div className="flex items-end">
-                <label className="flex items-center gap-2 cursor-pointer select-none">
-                  <input
-                    type="checkbox"
-                    checked={olderThan60}
-                    onChange={(e) => setOlderThan60(e.target.checked)}
-                    className="w-4 h-4 rounded border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-blue-600 focus:ring-blue-500 cursor-pointer"
-                  />
-                  <span className="text-sm text-gray-700 dark:text-gray-300 font-medium whitespace-nowrap">Overdue &gt;</span>
-                  <input
-                    type="number"
-                    min={1}
-                    value={overdueDays}
-                    onChange={(e) => setOverdueDays(Math.max(1, parseInt(e.target.value) || 1))}
-                    className="w-14 rounded-lg border border-gray-200 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-200 px-2 py-1 text-sm text-center focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                  />
-                  <span className="text-sm text-gray-700 dark:text-gray-300 font-medium">days</span>
-                </label>
-              </div>
-            </div>
-            {hasFilters && (
-              <div className="mt-3 flex justify-end">
-                <button
-                  onClick={clearFilters}
-                  className="text-xs text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 font-medium"
-                >
-                  Clear filters
-                </button>
-              </div>
+              </>
             )}
           </div>
+        </div>
+      ) : null}
 
-          {/* Summary bar */}
-          <div className="flex items-center justify-between mb-3 px-1">
-            <p className="text-sm text-gray-600 dark:text-gray-400">
-              Showing <span className="font-semibold text-gray-900 dark:text-white">{filtered.length}</span> invoice{filtered.length !== 1 ? 's' : ''} from{' '}
-              <span className="font-semibold text-gray-900 dark:text-white">{uniqueVendorCount}</span> vendor{uniqueVendorCount !== 1 ? 's' : ''}
-            </p>
-            <p className="text-sm font-semibold text-gray-900 dark:text-white">
-              Total: {new Intl.NumberFormat('en-CA', { style: 'currency', currency: 'CAD' }).format(totalAmount)}
-            </p>
-          </div>
-
-          {/* Table */}
-          <div className="bg-white dark:bg-gray-800 rounded-xl border border-gray-200 dark:border-gray-700 shadow-sm overflow-hidden">
-            <div className="overflow-x-auto">
-              <table className="w-full text-sm">
-                <thead>
-                  <tr className="border-b border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-700/50">
-                    {COLUMNS.map((col) => (
-                      <th
-                        key={col.key}
-                        onClick={() => handleSort(col.key)}
-                        className="px-4 py-3 text-left text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wider cursor-pointer select-none hover:text-gray-900 dark:hover:text-gray-100 whitespace-nowrap"
-                      >
-                        {col.label}
-                        <SortIcon active={sortKey === col.key} dir={sortDir} />
-                      </th>
-                    ))}
-                  </tr>
-                </thead>
-                <tbody className="divide-y divide-gray-100 dark:divide-gray-700">
-                  {filtered.length === 0 ? (
-                    <tr>
-                      <td colSpan={5} className="px-4 py-12 text-center text-gray-400 dark:text-gray-500">
-                        No invoices match the current filters.
-                      </td>
-                    </tr>
-                  ) : (
-                    filtered.map((inv, i) => (
-                      <tr key={i} className="hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors">
-                        <td className="px-4 py-3 font-medium text-gray-900 dark:text-gray-100">{inv.vendor_name}</td>
-                        <td className="px-4 py-3 text-gray-600 dark:text-gray-400 whitespace-nowrap">{inv.date}</td>
-                        <td className="px-4 py-3">
-                          <span className="font-mono text-xs bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 px-2 py-0.5 rounded">
-                            {inv.invoice_number}
-                          </span>
-                        </td>
-                        <td className={`px-4 py-3 font-medium whitespace-nowrap ${parseFloat(inv.amount) < 0 ? 'text-red-600 dark:text-red-400' : 'text-gray-900 dark:text-gray-100'}`}>
-                          {formatAmount(inv.amount)}
-                        </td>
-                        <td className="px-4 py-3 text-gray-500 dark:text-gray-400">
-                          {inv.email ? (
-                            <a href={`mailto:${inv.email}`} className="hover:text-blue-600 dark:hover:text-blue-400 hover:underline">
-                              {inv.email}
-                            </a>
-                          ) : (
-                            <span className="text-gray-300 dark:text-gray-600">—</span>
-                          )}
-                        </td>
-                      </tr>
-                    ))
-                  )}
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </>
-      )}
+      {/* Toast */}
+      <div
+        className={`fixed bottom-6 left-1/2 flex -translate-x-1/2 items-center gap-2.5 rounded-2xl border border-slate-200 bg-white px-4 py-3 text-sm font-medium text-slate-800 shadow-[0_18px_50px_rgba(15,23,42,0.12)] transition-all duration-300 ${
+          sent ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-2 pointer-events-none'
+        }`}
+      >
+        <svg className="h-4 w-4 shrink-0 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+        </svg>
+        Email sent to test recipient
+      </div>
     </div>
   )
 }

@@ -1,0 +1,1300 @@
+{
+  "week": 15,
+  "total_suppliers": 24,
+  "suppliers": [
+    {
+      "supplier": "Attitude",
+      "emails": [
+        "axelle.q@attitudeliving.com"
+      ],
+      "language": "en",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 15,
+      "period": "2026-04-05 to 2026-04-11",
+      "theme": "Spring Cleaning Kickoff",
+      "table": {
+        "product_name": [
+          "Pet Grooming Wipes"
+        ],
+        "lufa_farms_code": [
+          19076
+        ],
+        "rebate_per_unit": [
+          "$1.15"
+        ],
+        "rebate_cost": [
+          "$6.40"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$7.55"
+        ],
+        "qty_bought_at_regular_cost": [
+          31
+        ],
+        "credited_sum": [
+          "$35.65"
+        ],
+        "total_credited": "$35.65"
+      }
+    },
+    {
+      "supplier": "Belov",
+      "emails": [
+        "stephanie.rochon@hellobelov.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 15,
+      "period": "2026-04-05 to 2026-04-11",
+      "theme": "Spring Cleaning Kickoff",
+      "table": {
+        "product_name": [
+          "Organic Original Textured Oat Blend",
+          "Organic Apple & Cinnamon Textured Oat Blend",
+          "Organic Blueberry Coco Textured Oat Blend",
+          "Organic Apple & Banana Puffed Cereal Snack",
+          "Organic Carrot, Sweet Potato & Kale Puffed Cereal Snack"
+        ],
+        "lufa_farms_code": [
+          17891,
+          17892,
+          17893,
+          18221,
+          18224
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50",
+          "$0.50",
+          "$0.50",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$3.75",
+          "$3.75",
+          "$3.75",
+          "$2.54",
+          "$2.54"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$4.25",
+          "$4.25",
+          "$4.25",
+          "$3.04",
+          "$3.04"
+        ],
+        "qty_bought_at_regular_cost": [
+          85,
+          35,
+          40,
+          61,
+          56
+        ],
+        "credited_sum": [
+          "$42.50",
+          "$17.50",
+          "$20.00",
+          "$30.50",
+          "$28.00"
+        ],
+        "total_credited": "$138.50"
+      }
+    },
+    {
+      "supplier": "Boucherie Nordest",
+      "emails": [
+        "adm@boucherienordest.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 15,
+      "period": "2026-04-05 to 2026-04-11",
+      "theme": "Spring Cleaning Kickoff",
+      "table": {
+        "product_name": [
+          "Classic Beef Chili (frozen)",
+          "Apple, Maple Syrup & Bacon Pork Sausages (frozen)",
+          "Mild Traditional Italian Pork Sausages (frozen)",
+          "Boneless Pork Chops (frozen)",
+          "Boneless Pork Chops (frozen)"
+        ],
+        "lufa_farms_code": [
+          11640,
+          15289,
+          9959,
+          14719,
+          14719
+        ],
+        "rebate_per_unit": [
+          "$1.00",
+          "$0.50",
+          "$0.50",
+          "$0.75",
+          "$0.75"
+        ],
+        "rebate_cost": [
+          "$11.09",
+          "$4.31",
+          "$3.96",
+          "$5.08",
+          "$5.08"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$12.09",
+          "$4.81",
+          "$4.46",
+          "$5.83",
+          "$5.83"
+        ],
+        "qty_bought_at_regular_cost": [
+          248,
+          482,
+          809,
+          51,
+          52
+        ],
+        "credited_sum": [
+          "$248.00",
+          "$241.00",
+          "$404.50",
+          "$38.25",
+          "$39.00"
+        ],
+        "total_credited": "$1231.50"
+      }
+    },
+    {
+      "supplier": "Boulangerie Le Pain dans les Voiles",
+      "emails": [
+        "alex@lepaindanslesvoiles.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 15,
+      "period": "2026-04-05 to 2026-04-11",
+      "theme": "Spring Cleaning Kickoff",
+      "table": {
+        "product_name": [
+          "Croissants (6, frozen)"
+        ],
+        "lufa_farms_code": [
+          15901
+        ],
+        "rebate_per_unit": [
+          "$1.00"
+        ],
+        "rebate_cost": [
+          "$6.20"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$7.20"
+        ],
+        "qty_bought_at_regular_cost": [
+          645
+        ],
+        "credited_sum": [
+          "$645.00"
+        ],
+        "total_credited": "$645.00"
+      }
+    },
+    {
+      "supplier": "DelChef",
+      "emails": [
+        "leonardo@delchef.ca"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 15,
+      "period": "2026-04-05 to 2026-04-11",
+      "theme": "Spring Cleaning Kickoff",
+      "table": {
+        "product_name": [
+          "Pepperoni & Cheese Focaccia (frozen)"
+        ],
+        "lufa_farms_code": [
+          12356
+        ],
+        "rebate_per_unit": [
+          "$0.85"
+        ],
+        "rebate_cost": [
+          "$2.30"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$3.15"
+        ],
+        "qty_bought_at_regular_cost": [
+          3564
+        ],
+        "credited_sum": [
+          "$3029.40"
+        ],
+        "total_credited": "$3029.40"
+      }
+    },
+    {
+      "supplier": "Flirt Drinks",
+      "emails": [
+        "aglaee@flirtdrinks.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 15,
+      "period": "2026-04-05 to 2026-04-11",
+      "theme": "Spring Cleaning Kickoff",
+      "table": {
+        "product_name": [
+          "Raspberry Sparkling Lemonade (pack of 4)",
+          "Lime & Mint Sparkling Lemonade (pack of 4)",
+          "Clementine Sparkling Lemonade (pack of 4)",
+          "Blackberry Sparkling Lemonade (pack of 4)",
+          "Mango Sparkling Lemonade (pack of 4)",
+          "Basil Sparkling Lemonade (pack of 4)"
+        ],
+        "lufa_farms_code": [
+          18903,
+          18905,
+          18901,
+          19581,
+          19580,
+          19578
+        ],
+        "rebate_per_unit": [
+          "$1.21",
+          "$1.21",
+          "$1.21",
+          "$1.21",
+          "$1.21",
+          "$1.21"
+        ],
+        "rebate_cost": [
+          "$5.75",
+          "$5.75",
+          "$5.75",
+          "$5.75",
+          "$5.75",
+          "$5.75"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$6.96",
+          "$6.96",
+          "$6.96",
+          "$6.96",
+          "$6.96",
+          "$6.96"
+        ],
+        "qty_bought_at_regular_cost": [
+          394,
+          163,
+          158,
+          110,
+          157,
+          159
+        ],
+        "credited_sum": [
+          "$476.74",
+          "$197.23",
+          "$191.18",
+          "$133.10",
+          "$189.97",
+          "$192.39"
+        ],
+        "total_credited": "$1380.61"
+      }
+    },
+    {
+      "supplier": "L'Issue Végane Maison",
+      "emails": [
+        "laurentvanderwee.lissue@gmail.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 15,
+      "period": "2026-04-05 to 2026-04-11",
+      "theme": "Spring Cleaning Kickoff",
+      "table": {
+        "product_name": [
+          "Le Classique Seitan (frozen)"
+        ],
+        "lufa_farms_code": [
+          16874
+        ],
+        "rebate_per_unit": [
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$5.50"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$6.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          72
+        ],
+        "credited_sum": [
+          "$36.00"
+        ],
+        "total_credited": "$36.00"
+      }
+    },
+    {
+      "supplier": "Les Artisans de l'Aube",
+      "emails": [
+        "info@lesartisansdelaube.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 15,
+      "period": "2026-04-05 to 2026-04-11",
+      "theme": "Spring Cleaning Kickoff",
+      "table": {
+        "product_name": [
+          "Organic Veggie Soup (frozen)"
+        ],
+        "lufa_farms_code": [
+          19206
+        ],
+        "rebate_per_unit": [
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$2.60"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$2.85"
+        ],
+        "qty_bought_at_regular_cost": [
+          115
+        ],
+        "credited_sum": [
+          "$28.75"
+        ],
+        "total_credited": "$28.75"
+      }
+    },
+    {
+      "supplier": "Les Filles Fattoush",
+      "emails": [
+        "alecomte@lesfillesfattoush.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 15,
+      "period": "2026-04-05 to 2026-04-11",
+      "theme": "Spring Cleaning Kickoff",
+      "table": {
+        "product_name": [
+          "Zaatar Pita Chips",
+          "Mint & Parsley Pita Chips",
+          "Sumac & Fleur de Sel Pita Chips",
+          "Cumin & Aleppo Pepper Pita Chips",
+          "Nut & Olive Labneh (fresh)"
+        ],
+        "lufa_farms_code": [
+          15344,
+          16074,
+          17198,
+          15343,
+          14796
+        ],
+        "rebate_per_unit": [
+          "$0.75",
+          "$0.75",
+          "$0.75",
+          "$0.75",
+          "$0.75"
+        ],
+        "rebate_cost": [
+          "$3.58",
+          "$3.58",
+          "$3.58",
+          "$3.58",
+          "$4.33"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$4.33",
+          "$4.33",
+          "$4.33",
+          "$4.33",
+          "$5.08"
+        ],
+        "qty_bought_at_regular_cost": [
+          551,
+          153,
+          298,
+          252,
+          342
+        ],
+        "credited_sum": [
+          "$413.25",
+          "$114.75",
+          "$223.50",
+          "$189.00",
+          "$256.50"
+        ],
+        "total_credited": "$1197.00"
+      }
+    },
+    {
+      "supplier": "Maison Orphée",
+      "emails": [
+        "Stefanie.Janin@maisonorphee.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 15,
+      "period": "2026-04-05 to 2026-04-11",
+      "theme": "Spring Cleaning Kickoff",
+      "table": {
+        "product_name": [
+          "Extra Virgin Olive Oil Fresh Mayonnaise",
+          "Fresh Mayonnaise"
+        ],
+        "lufa_farms_code": [
+          18940,
+          9253
+        ],
+        "rebate_per_unit": [
+          "$0.69",
+          "$0.69"
+        ],
+        "rebate_cost": [
+          "$3.91",
+          "$3.91"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$4.60",
+          "$4.60"
+        ],
+        "qty_bought_at_regular_cost": [
+          1057,
+          214
+        ],
+        "credited_sum": [
+          "$729.33",
+          "$147.66"
+        ],
+        "total_credited": "$876.99"
+      }
+    },
+    {
+      "supplier": "Miya's Cuisine",
+      "emails": [
+        "miyacuisine99@gmail.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 15,
+      "period": "2026-04-05 to 2026-04-11",
+      "theme": "Spring Cleaning Kickoff",
+      "table": {
+        "product_name": [
+          "Chicken Pad Thai (frozen)",
+          "Chicken Yum Fried Rice (2 portions, frozen)"
+        ],
+        "lufa_farms_code": [
+          16111,
+          17190
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$1.00"
+        ],
+        "rebate_cost": [
+          "$5.80",
+          "$10.36"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$6.30",
+          "$11.36"
+        ],
+        "qty_bought_at_regular_cost": [
+          137,
+          39
+        ],
+        "credited_sum": [
+          "$68.50",
+          "$39.00"
+        ],
+        "total_credited": "$176.00"
+      }
+    },
+    {
+      "supplier": "Natura",
+      "emails": [
+        "nathalie@nantelmcdiarmid.com",
+        "credit@nantelmcdiarmid.com",
+        "laurent@nantelmcdiarmid.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 15,
+      "period": "2026-04-05 to 2026-04-11",
+      "theme": "Spring Cleaning Kickoff",
+      "table": {
+        "product_name": [
+          "Organic Chocolate Soy Beverage (pack of 3)",
+          "Organic Strawberry Soy Beverage (pack of 3)",
+          "Chocolate Almond Beverage (pack of 3)",
+          "Organic Vanilla Soy Beverage (pack of 3)",
+          "Organic Chocolate Oat Beverage (pack of 3, gluten-free)"
+        ],
+        "lufa_farms_code": [
+          19818,
+          19807,
+          19811,
+          19819,
+          19827
+        ],
+        "rebate_per_unit": [
+          "$0.25",
+          "$0.25",
+          "$0.25",
+          "$0.25",
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$2.12",
+          "$2.12",
+          "$2.12",
+          "$2.12",
+          "$2.12"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$2.37",
+          "$2.37",
+          "$2.37",
+          "$2.37",
+          "$2.37"
+        ],
+        "qty_bought_at_regular_cost": [
+          190,
+          105,
+          65,
+          110,
+          173
+        ],
+        "credited_sum": [
+          "$47.50",
+          "$26.25",
+          "$16.25",
+          "$27.50",
+          "$43.25"
+        ],
+        "total_credited": "$160.75"
+      }
+    },
+    {
+      "supplier": "Nut Grove Cheese",
+      "emails": [
+        "stephanie@nutgrovecheese.com",
+        "angelique@nutgrovecheese.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 15,
+      "period": "2026-04-05 to 2026-04-11",
+      "theme": "Spring Cleaning Kickoff",
+      "table": {
+        "product_name": [
+          "Vegan Pistachio Crust Cheese"
+        ],
+        "lufa_farms_code": [
+          18674
+        ],
+        "rebate_per_unit": [
+          "$1.00"
+        ],
+        "rebate_cost": [
+          "$7.29"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$8.29"
+        ],
+        "qty_bought_at_regular_cost": [
+          39
+        ],
+        "credited_sum": [
+          "$39.00"
+        ],
+        "total_credited": "$39.00"
+      }
+    },
+    {
+      "supplier": "O'Mari",
+      "emails": [
+        "ningcan@gmail.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 15,
+      "period": "2026-04-05 to 2026-04-11",
+      "theme": "Spring Cleaning Kickoff",
+      "table": {
+        "product_name": [
+          "Three Mushrooms Ravioli (frozen)",
+          "Dumpling Sauce"
+        ],
+        "lufa_farms_code": [
+          16457,
+          14079
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$4.75",
+          "$2.15"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$5.25",
+          "$2.40"
+        ],
+        "qty_bought_at_regular_cost": [
+          2128,
+          1133
+        ],
+        "credited_sum": [
+          "$1064.00",
+          "$283.25"
+        ],
+        "total_credited": "$815.25"
+      }
+    },
+    {
+      "supplier": "Pizzeria Sofia",
+      "emails": [
+        "nicola@pizzeriasofia2go.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 15,
+      "period": "2026-04-05 to 2026-04-11",
+      "theme": "Spring Cleaning Kickoff",
+      "table": {
+        "product_name": [
+          "Pepperoni Pizzas (2, frozen)"
+        ],
+        "lufa_farms_code": [
+          17033
+        ],
+        "rebate_per_unit": [
+          "$0.75"
+        ],
+        "rebate_cost": [
+          "$9.00"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$9.75"
+        ],
+        "qty_bought_at_regular_cost": [
+          420
+        ],
+        "credited_sum": [
+          "$315.00"
+        ],
+        "total_credited": "$315.00"
+      }
+    },
+    {
+      "supplier": "Savanil",
+      "emails": [
+        "nancia@savanil.ca"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 15,
+      "period": "2026-04-05 to 2026-04-11",
+      "theme": "Spring Cleaning Kickoff",
+      "table": {
+        "product_name": [
+          "Cinnamon Sticks from Vatomandry, Madagascar (2024 harvest)",
+          "Ground Cumin from Mananjary, Madagascar",
+          "Cajun Seasoning"
+        ],
+        "lufa_farms_code": [
+          10907,
+          12466,
+          18130
+        ],
+        "rebate_per_unit": [
+          "$0.30",
+          "$0.30",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$2.15",
+          "$2.53",
+          "$3.00"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$2.45",
+          "$2.83",
+          "$3.50"
+        ],
+        "qty_bought_at_regular_cost": [
+          71,
+          104,
+          50
+        ],
+        "credited_sum": [
+          "$21.30",
+          "$31.20",
+          "$25.00"
+        ],
+        "total_credited": "$112.50"
+      }
+    },
+    {
+      "supplier": "Sober Carpenter.",
+      "emails": [
+        "dany@sobercarpenter.com"
+      ],
+      "language": "en",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 15,
+      "period": "2026-04-05 to 2026-04-11",
+      "theme": "Spring Cleaning Kickoff",
+      "table": {
+        "product_name": [
+          "Organic Non-Alcoholic Session IPA (pack of 4)",
+          "Organic Non-Alcoholic Blonde Pilsner (pack of 4)"
+        ],
+        "lufa_farms_code": [
+          20340,
+          20341
+        ],
+        "rebate_per_unit": [
+          "$0.76",
+          "$0.76"
+        ],
+        "rebate_cost": [
+          "$6.00",
+          "$6.00"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$6.76",
+          "$6.76"
+        ],
+        "qty_bought_at_regular_cost": [
+          471,
+          171
+        ],
+        "credited_sum": [
+          "$357.96",
+          "$129.96"
+        ],
+        "total_credited": "$487.92"
+      }
+    },
+    {
+      "supplier": "Sprague",
+      "emails": [
+        "jenn@spraguefoods.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 15,
+      "period": "2026-04-05 to 2026-04-11",
+      "theme": "Spring Cleaning Kickoff",
+      "table": {
+        "product_name": [
+          "Organic Tuscany-Style Minestrone Soup",
+          "Organic Autumn Butternut Squash Soup",
+          "Organic Quebec-Style Split Pea Soup",
+          "Organic Lentil & Vegetable Soup",
+          "Organic Coconut, Curry & Sweet Potato Soup",
+          "Organic Tomato & Red Pepper Soup",
+          "Organic Mediterranean Lentil Soup",
+          "Organic Caribbean-Style Black Bean Soup"
+        ],
+        "lufa_farms_code": [
+          17560,
+          17558,
+          17561,
+          17562,
+          17617,
+          17619,
+          17559,
+          17563
+        ],
+        "rebate_per_unit": [
+          "$0.30",
+          "$0.30",
+          "$0.30",
+          "$0.30",
+          "$0.30",
+          "$0.30",
+          "$0.30",
+          "$0.30"
+        ],
+        "rebate_cost": [
+          "$2.05",
+          "$2.05",
+          "$2.05",
+          "$2.05",
+          "$2.05",
+          "$2.05",
+          "$2.05",
+          "$2.05"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$2.35",
+          "$2.35",
+          "$2.35",
+          "$2.35",
+          "$2.35",
+          "$2.35",
+          "$2.35",
+          "$2.35"
+        ],
+        "qty_bought_at_regular_cost": [
+          1189,
+          227,
+          528,
+          396,
+          361,
+          235,
+          273,
+          263
+        ],
+        "credited_sum": [
+          "$356.70",
+          "$68.10",
+          "$158.40",
+          "$118.80",
+          "$108.30",
+          "$70.50",
+          "$81.90",
+          "$78.90"
+        ],
+        "total_credited": "$1041.60"
+      }
+    },
+    {
+      "supplier": "Taylor Fish Company",
+      "emails": [
+        "yvonne@taylorfishcompany.com"
+      ],
+      "language": "en",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 15,
+      "period": "2026-04-05 to 2026-04-11",
+      "theme": "Spring Cleaning Kickoff",
+      "table": {
+        "product_name": [
+          "Ground Walleye (frozen)"
+        ],
+        "lufa_farms_code": [
+          11985
+        ],
+        "rebate_per_unit": [
+          "$0.56"
+        ],
+        "rebate_cost": [
+          "$3.19"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$3.75"
+        ],
+        "qty_bought_at_regular_cost": [
+          267
+        ],
+        "credited_sum": [
+          "$149.52"
+        ],
+        "total_credited": "$149.52"
+      }
+    },
+    {
+      "supplier": "The Port of India",
+      "emails": [
+        "justin.riggio7@gmail.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 15,
+      "period": "2026-04-05 to 2026-04-11",
+      "theme": "Spring Cleaning Kickoff",
+      "table": {
+        "product_name": [
+          "Korma Curry Paste (medium)"
+        ],
+        "lufa_farms_code": [
+          11567
+        ],
+        "rebate_per_unit": [
+          "$0.65"
+        ],
+        "rebate_cost": [
+          "$4.75"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$5.40"
+        ],
+        "qty_bought_at_regular_cost": [
+          75
+        ],
+        "credited_sum": [
+          "$48.75"
+        ],
+        "total_credited": "$48.75"
+      }
+    },
+    {
+      "supplier": "The Soap Works",
+      "emails": [
+        "matt.soapworks@gmail.com",
+        "orderdesk.soapworks@gmail.com"
+      ],
+      "language": "en",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 15,
+      "period": "2026-04-05 to 2026-04-11",
+      "theme": "Spring Cleaning Kickoff",
+      "table": {
+        "product_name": [
+          "Stain-Remover Laundry Bar"
+        ],
+        "lufa_farms_code": [
+          16459
+        ],
+        "rebate_per_unit": [
+          "$0.17"
+        ],
+        "rebate_cost": [
+          "$1.08"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$1.25"
+        ],
+        "qty_bought_at_regular_cost": [
+          270
+        ],
+        "credited_sum": [
+          "$45.90"
+        ],
+        "total_credited": "$45.90"
+      }
+    },
+    {
+      "supplier": "The Unscented Company",
+      "emails": [
+        "finance@unscentedco.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 15,
+      "period": "2026-04-05 to 2026-04-11",
+      "theme": "Spring Cleaning Kickoff",
+      "table": {
+        "product_name": [
+          "Dishwasher Tabs (30)",
+          "Floor Cleaner (22 tabs)",
+          "Laundry Detergent (4 L refill)",
+          "All-Purpose Cleaning Spray",
+          "Dish Soap (4 L refill)",
+          "Hand Soap (4 L refill)",
+          "Daily Shampoo (refill 2 L)"
+        ],
+        "lufa_farms_code": [
+          8759,
+          18047,
+          8762,
+          8754,
+          8758,
+          8769,
+          17582
+        ],
+        "rebate_per_unit": [
+          "$1.01",
+          "$1.24",
+          "$2.69",
+          "$0.53",
+          "$2.33",
+          "$3.80",
+          "$3.74"
+        ],
+        "rebate_cost": [
+          "$5.72",
+          "$7.04",
+          "$15.25",
+          "$2.97",
+          "$13.18",
+          "$21.50",
+          "$21.18"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$6.73",
+          "$8.28",
+          "$17.94",
+          "$3.50",
+          "$15.51",
+          "$25.30",
+          "$24.92"
+        ],
+        "qty_bought_at_regular_cost": [
+          1132,
+          145,
+          455,
+          408,
+          583,
+          180,
+          30
+        ],
+        "credited_sum": [
+          "$1143.32",
+          "$179.80",
+          "$1223.95",
+          "$216.24",
+          "$1358.39",
+          "$684.00",
+          "$112.20"
+        ],
+        "total_credited": "$10969.42"
+      }
+    },
+    {
+      "supplier": "VG Gourmet",
+      "emails": [
+        "info@vegetariangourmet.com",
+        "bookkeeping.vggourmet@gmail.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 15,
+      "period": "2026-04-05 to 2026-04-11",
+      "theme": "Spring Cleaning Kickoff",
+      "table": {
+        "product_name": [
+          "Quinoa & Root Veggie Minestrone Soup (frozen)",
+          "Sweet Potato & Black Bean Veggie Burgers (2, frozen)",
+          "Greek Gyro Tofu (frozen)",
+          "Vegan Chickpea & Eggplant Curry (frozen)",
+          "Vegan Shawarma (frozen)"
+        ],
+        "lufa_farms_code": [
+          10053,
+          8992,
+          8993,
+          17272,
+          14795
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50",
+          "$0.50",
+          "$0.63",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$3.92",
+          "$2.14",
+          "$3.92",
+          "$4.47",
+          "$4.80"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$4.42",
+          "$2.64",
+          "$4.42",
+          "$5.10",
+          "$5.30"
+        ],
+        "qty_bought_at_regular_cost": [
+          927,
+          1665,
+          63,
+          700,
+          89
+        ],
+        "credited_sum": [
+          "$463.50",
+          "$832.50",
+          "$31.50",
+          "$441.00",
+          "$44.50"
+        ],
+        "total_credited": "$1722.00"
+      }
+    },
+    {
+      "supplier": "Yupik",
+      "emails": [
+        "mleclerc@tootsi.com",
+        "jllachance@tootsi.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 15,
+      "period": "2026-04-05 to 2026-04-11",
+      "theme": "Spring Cleaning Kickoff",
+      "table": {
+        "product_name": [
+          "Organic Black Chia Seeds"
+        ],
+        "lufa_farms_code": [
+          18098
+        ],
+        "rebate_per_unit": [
+          "$0.90"
+        ],
+        "rebate_cost": [
+          "$5.10"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$6.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          259
+        ],
+        "credited_sum": [
+          "$233.10"
+        ],
+        "total_credited": "$233.10"
+      }
+    }
+  ]
+}

@@ -10,10 +10,23 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: 'Not authenticated' }, { status: 401 })
   }
 
-  const { subject, body } = await req.json()
-  const to = process.env.TEST_RECIPIENT
+  const { subject, html, includeSignature, to: toOverride } = await req.json()
 
-  if (!to || !subject || !body) {
+  // Live mode passes supplier emails. If an explicit live recipient list is empty,
+  // reject it instead of silently falling back to the test recipient.
+  let to: string | undefined
+  if (Array.isArray(toOverride)) {
+    if (toOverride.length === 0) {
+      return NextResponse.json({ error: 'No email to send' }, { status: 400 })
+    }
+    to = toOverride.join(', ')
+  } else if (typeof toOverride === 'string' && toOverride) {
+    to = toOverride
+  } else {
+    to = process.env.TEST_RECIPIENT
+  }
+
+  if (!to || !subject || !html) {
     return NextResponse.json({ error: 'Missing required fields' }, { status: 400 })
   }
 
@@ -25,22 +38,40 @@ export async function POST(req: NextRequest) {
 
   const gmail = google.gmail({ version: 'v1', auth: oauth2Client })
 
+  // Only fetch signature when the toggle is ON
+  let signature = ''
+  if (includeSignature) {
+    try {
+      const sendAsRes = await gmail.users.settings.sendAs.list({ userId: 'me' })
+      const defaultSendAs = sendAsRes.data.sendAs?.find((s) => s.isDefault) ?? sendAsRes.data.sendAs?.[0]
+      signature = defaultSendAs?.signature ?? ''
+    } catch {
+      // Signature fetch failed — continue without it
+    }
+  }
+
   const encodedSubject = `=?UTF-8?B?${Buffer.from(subject).toString('base64')}?=`
+  const fullHtml = signature ? `${html}<br>${signature}` : html
 
   const emailLines = [
     `To: ${to}`,
     `Subject: ${encodedSubject}`,
-    'Content-Type: text/plain; charset=utf-8',
+    'Content-Type: text/html; charset=utf-8',
     'MIME-Version: 1.0',
     '',
-    body,
+    fullHtml,
   ]
   const raw = Buffer.from(emailLines.join('\r\n')).toString('base64url')
 
-  await gmail.users.messages.send({
-    userId: 'me',
-    requestBody: { raw },
-  })
+  try {
+    await gmail.users.messages.send({
+      userId: 'me',
+      requestBody: { raw },
+    })
+  } catch (err) {
+    const message = err instanceof Error ? err.message : 'Gmail API error'
+    return NextResponse.json({ error: message }, { status: 500 })
+  }
 
   return NextResponse.json({ success: true })
 }

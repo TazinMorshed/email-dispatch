@@ -1,0 +1,1899 @@
+{
+  "week": 4,
+  "total_suppliers": 36,
+  "suppliers": [
+    {
+      "supplier": "57Végane",
+      "emails": [
+        "info@57vegane.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 4,
+      "period": "2026-01-18 to 2026-01-24",
+      "theme": "Plant-Based & Get Planting",
+      "table": {
+        "product_name": [
+          "Vegan Shish Taouk Sandwich"
+        ],
+        "lufa_farms_code": [
+          19079
+        ],
+        "rebate_per_unit": [
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$3.50"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$4.50"
+        ],
+        "qty_bought_at_regular_cost": [
+          198
+        ],
+        "credited_sum": [
+          "$99.00"
+        ],
+        "total_credited": "$99.00"
+      }
+    },
+    {
+      "supplier": "Agrobio",
+      "emails": [
+        "joey@agrobioquebec.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 4,
+      "period": "2026-01-18 to 2026-01-24",
+      "theme": "Plant-Based & Get Planting",
+      "table": {
+        "product_name": [
+          "Organic Spelt Flour",
+          "Organic Rye Flour"
+        ],
+        "lufa_farms_code": [
+          17356,
+          17357
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$3.83",
+          "$2.60"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$4.33",
+          "$3.10"
+        ],
+        "qty_bought_at_regular_cost": [
+          148,
+          144
+        ],
+        "credited_sum": [
+          "$74.00",
+          "$72.00"
+        ],
+        "total_credited": "$146.00"
+      }
+    },
+    {
+      "supplier": "Artisan Tradition",
+      "emails": [
+        "jcarrier@6sens-veg.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 4,
+      "period": "2026-01-18 to 2026-01-24",
+      "theme": "Plant-Based & Get Planting",
+      "table": {
+        "product_name": [
+          "Organic Jasmine Rice"
+        ],
+        "lufa_farms_code": [
+          17913
+        ],
+        "rebate_per_unit": [
+          "$0.62"
+        ],
+        "rebate_cost": [
+          "$5.56"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$6.18"
+        ],
+        "qty_bought_at_regular_cost": [
+          228
+        ],
+        "credited_sum": [
+          "$141.36"
+        ],
+        "total_credited": "$141.36"
+      }
+    },
+    {
+      "supplier": "Atelier BIS",
+      "emails": [
+        "alexis@atelier-bis.ca"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 4,
+      "period": "2026-01-18 to 2026-01-24",
+      "theme": "Plant Based & Get Planting",
+      "table": {
+        "product_name": [
+          "Pesto Chicken Sausages (frozen)"
+        ],
+        "lufa_farms_code": [
+          17659
+        ],
+        "rebate_per_unit": [
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$6.50"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$7.50"
+        ],
+        "qty_bought_at_regular_cost": [
+          291
+        ],
+        "credited_sum": [
+          "$145.50"
+        ],
+        "total_credited": "$145.50"
+      }
+    },
+    {
+      "supplier": "Boucherie Nordest",
+      "emails": [
+        "adm@boucherienordest.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 4,
+      "period": "2026-01-18 to 2026-01-24",
+      "theme": "Plant Based & Get Planting",
+      "table": {
+        "product_name": [
+          "Pork Breakfast Sausages (frozen)",
+          "Merguez Lamb Sausages (lamb, frozen)",
+          "Wine, Mustard & Chives Marinated Beef Flank Steak (frozen)",
+          "Beef Marrow Bones (frozen)",
+          "Wine, Mustard & Chives Marinated Beef Flank Steak (frozen)"
+        ],
+        "lufa_farms_code": [
+          15957,
+          4437,
+          12743,
+          4282,
+          12743
+        ],
+        "rebate_per_unit": [
+          "$0.35",
+          "$0.68",
+          "$1.00",
+          "$0.50",
+          "$1.00"
+        ],
+        "rebate_cost": [
+          "$2.80",
+          "$5.40",
+          "$8.20",
+          "$5.99",
+          "$8.20"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$3.50",
+          "$6.76",
+          "$9.20",
+          "$6.99",
+          "$9.20"
+        ],
+        "qty_bought_at_regular_cost": [
+          897,
+          596,
+          124,
+          550,
+          54
+        ],
+        "credited_sum": [
+          "$313.95",
+          "$405.28",
+          "$124.00",
+          "$275.00",
+          "$54.00"
+        ],
+        "total_credited": "$2221.00"
+      }
+    },
+    {
+      "supplier": "Chocolat Boréal",
+      "emails": [
+        "info@chocolatboreal.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 4,
+      "period": "2026-01-18 to 2026-01-24",
+      "theme": "Plant-Based & Get Planting",
+      "table": {
+        "product_name": [
+          "Fleur de Sel Caramel Milk Chocolate Bar",
+          "Fleur de Sel Caramel Dark Chocolate Bar"
+        ],
+        "lufa_farms_code": [
+          10734,
+          10727
+        ],
+        "rebate_per_unit": [
+          "$0.25",
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$5.15",
+          "$5.15"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$5.40",
+          "$5.40"
+        ],
+        "qty_bought_at_regular_cost": [
+          84,
+          150
+        ],
+        "credited_sum": [
+          "$21.00",
+          "$37.50"
+        ],
+        "total_credited": "$58.50"
+      }
+    },
+    {
+      "supplier": "Coloccia",
+      "emails": [
+        "gusberthe@outlook.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 4,
+      "period": "2026-01-18 to 2026-01-24",
+      "theme": "Plant-Based & Get Planting",
+      "table": {
+        "product_name": [
+          "Fresh Radiatori (frozen)"
+        ],
+        "lufa_farms_code": [
+          10577
+        ],
+        "rebate_per_unit": [
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$2.88"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$3.88"
+        ],
+        "qty_bought_at_regular_cost": [
+          790
+        ],
+        "credited_sum": [
+          "$395.00"
+        ],
+        "total_credited": "$395.00"
+      }
+    },
+    {
+      "supplier": "Everland",
+      "emails": [
+        "simran@jivaorganics.ca"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 4,
+      "period": "2026-01-18 to 2026-01-24",
+      "theme": "Plant-Based & Get Planting",
+      "table": {
+        "product_name": [
+          "Organic Coconut Milk"
+        ],
+        "lufa_farms_code": [
+          19436
+        ],
+        "rebate_per_unit": [
+          "$0.29"
+        ],
+        "rebate_cost": [
+          "$1.67"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$1.96"
+        ],
+        "qty_bought_at_regular_cost": [
+          2078
+        ],
+        "credited_sum": [
+          "$602.62"
+        ],
+        "total_credited": "$602.62"
+      }
+    },
+    {
+      "supplier": "Fermes Valens",
+      "emails": [
+        "accounting@fermesvalens.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 4,
+      "period": "2026-01-18 to 2026-01-24",
+      "theme": "Plant-Based & Get Planting",
+      "table": {
+        "product_name": [
+          "Pepperoni (sliced)"
+        ],
+        "lufa_farms_code": [
+          2288
+        ],
+        "rebate_per_unit": [
+          "$0.40"
+        ],
+        "rebate_cost": [
+          "$2.25"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$2.65"
+        ],
+        "qty_bought_at_regular_cost": [
+          1995
+        ],
+        "credited_sum": [
+          "$798.00"
+        ],
+        "total_credited": "$798.00"
+      }
+    },
+    {
+      "supplier": "Fous de l'île",
+      "emails": [
+        "jerry@fousdelile.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 4,
+      "period": "2026-01-18 to 2026-01-24",
+      "theme": "Plant-Based & Get Planting",
+      "table": {
+        "product_name": [
+          "Organic Ginger Kombucha",
+          "Organic Green Tea & Lemongrass Kombucha",
+          "Organic Guava Rose Kombucha",
+          "Organic Hibiscus Chai Kombucha",
+          "Organic Lychee Butterfly Pea Kombucha",
+          "Organic Turmeric & Ginger Kombucha"
+        ],
+        "lufa_farms_code": [
+          14690,
+          14693,
+          16733,
+          14745,
+          16315,
+          14749
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50",
+          "$0.50",
+          "$0.50",
+          "$0.50",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$1.37",
+          "$1.37",
+          "$1.37",
+          "$1.37",
+          "$1.37",
+          "$1.37"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$1.87",
+          "$1.87",
+          "$1.87",
+          "$1.87",
+          "$1.87",
+          "$1.87"
+        ],
+        "qty_bought_at_regular_cost": [
+          631,
+          662,
+          774,
+          713,
+          810,
+          718
+        ],
+        "credited_sum": [
+          "$315.50",
+          "$331.00",
+          "$387.00",
+          "$356.50",
+          "$405.00",
+          "$359.00"
+        ],
+        "total_credited": "$2154.00"
+      }
+    },
+    {
+      "supplier": "L'Issue Végane Maison",
+      "emails": [
+        "laurentvanderwee.lissue@gmail.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 4,
+      "period": "2026-01-18 to 2026-01-24",
+      "theme": "Plant-Based & Get Planting",
+      "table": {
+        "product_name": [
+          "Le Piccante Seitan (frozen)"
+        ],
+        "lufa_farms_code": [
+          16876
+        ],
+        "rebate_per_unit": [
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$5.50"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$6.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          32
+        ],
+        "credited_sum": [
+          "$16.00"
+        ],
+        "total_credited": "$16.00"
+      }
+    },
+    {
+      "supplier": "Les Filles Fattoush",
+      "emails": [
+        "alecomte@lesfillesfattoush.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 4,
+      "period": "2026-01-18 to 2026-01-24",
+      "theme": "Plant-Based & Get Planting",
+      "table": {
+        "product_name": [
+          "Zaatar Pita Chips",
+          "Mint & Parsley Pita Chips",
+          "Sumac & Fleur de Sel Pita Chips",
+          "Cumin & Aleppo Pepper Pita Chips"
+        ],
+        "lufa_farms_code": [
+          15344,
+          16074,
+          17198,
+          15343
+        ],
+        "rebate_per_unit": [
+          "$0.75",
+          "$0.75",
+          "$0.75",
+          "$0.75"
+        ],
+        "rebate_cost": [
+          "$3.58",
+          "$3.58",
+          "$3.58",
+          "$3.58"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$4.33",
+          "$4.33",
+          "$4.33",
+          "$4.33"
+        ],
+        "qty_bought_at_regular_cost": [
+          713,
+          183,
+          423,
+          360
+        ],
+        "credited_sum": [
+          "$534.75",
+          "$137.25",
+          "$317.25",
+          "$270.00"
+        ],
+        "total_credited": "$1259.25"
+      }
+    },
+    {
+      "supplier": "Maison Orphée",
+      "emails": [
+        "Stefanie.Janin@maisonorphee.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 4,
+      "period": "2026-01-18 to 2026-01-24",
+      "theme": "Plant-Based & Get Planting",
+      "table": {
+        "product_name": [
+          "Organic Dijon Mustard",
+          "Organic Old-Fashioned Mustard",
+          "Organic Yellow Mustard"
+        ],
+        "lufa_farms_code": [
+          9237,
+          9238,
+          9239
+        ],
+        "rebate_per_unit": [
+          "$0.57",
+          "$0.57",
+          "$0.57"
+        ],
+        "rebate_cost": [
+          "$2.60",
+          "$2.60",
+          "$2.60"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$3.17",
+          "$3.17",
+          "$3.17"
+        ],
+        "qty_bought_at_regular_cost": [
+          1021,
+          237,
+          158
+        ],
+        "credited_sum": [
+          "$581.97",
+          "$135.09",
+          "$90.06"
+        ],
+        "total_credited": "$807.12"
+      }
+    },
+    {
+      "supplier": "Mid-Day Squares",
+      "emails": [
+        "caroline@middaysquares.com"
+      ],
+      "language": "en",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 4,
+      "period": "2026-01-18 to 2026-01-24",
+      "theme": "Plant-Based & Get Planting",
+      "table": {
+        "product_name": [
+          "Peanut Butter Squares (12)",
+          "Cookie Dough Squares (12)",
+          "Almond Crunch Squares (12)",
+          "Crunchy Peanut Squares (12)",
+          "Brownie Batter Squares (12)"
+        ],
+        "lufa_farms_code": [
+          16438,
+          16440,
+          16441,
+          18046,
+          16439
+        ],
+        "rebate_per_unit": [
+          "$4.00",
+          "$4.00",
+          "$4.00",
+          "$4.00",
+          "$4.00"
+        ],
+        "rebate_cost": [
+          "$14.00",
+          "$14.00",
+          "$14.00",
+          "$14.00",
+          "$14.00"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$18.00",
+          "$18.00",
+          "$18.00",
+          "$18.00",
+          "$18.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          450,
+          172,
+          171,
+          197,
+          116
+        ],
+        "credited_sum": [
+          "$1800.00",
+          "$688.00",
+          "$684.00",
+          "$788.00",
+          "$464.00"
+        ],
+        "total_credited": "$4424.00"
+      }
+    },
+    {
+      "supplier": "Miya's Cuisine",
+      "emails": [
+        "miyacuisine99@gmail.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 4,
+      "period": "2026-01-18 to 2026-01-24",
+      "theme": "Plant-Based & Get Planting",
+      "table": {
+        "product_name": [
+          "Spicy Chicken Pad Thai (2 portions, frozen)",
+          "Red Curry Chicken Stir Fry Cubes (frozen)"
+        ],
+        "lufa_farms_code": [
+          16112,
+          17181
+        ],
+        "rebate_per_unit": [
+          "$1.00",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$9.36",
+          "$6.75"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$11.36",
+          "$7.75"
+        ],
+        "qty_bought_at_regular_cost": [
+          138,
+          120
+        ],
+        "credited_sum": [
+          "$138.00",
+          "$60.00"
+        ],
+        "total_credited": "$129.00"
+      }
+    },
+    {
+      "supplier": "Natura",
+      "emails": [
+        "nathalie@nantelmcdiarmid.com",
+        "credit@nantelmcdiarmid.com",
+        "laurent@nantelmcdiarmid.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 4,
+      "period": "2026-01-18 to 2026-01-24",
+      "theme": "Plant-Based & Get Planting",
+      "table": {
+        "product_name": [
+          "Organic Oat Beverage (gluten-free)",
+          "Organic Unsweetened Soy Beverage",
+          "Almond Beverage",
+          "Unsweetened Almond Beverage",
+          "Organic Soy Beverage",
+          "Organic Chocolate Soy Beverage",
+          "Organic Vanilla Soy Beverage",
+          "Chocolate Almond Beverage",
+          "Vanilla Almond Beverage",
+          "Organic Rice Beverage",
+          "Organic Chocolate Oat Beverage (gluten-free)",
+          "Organic Vanilla Oat Beverage (gluten free)",
+          "Unsweetened Coconut Almond Beverage",
+          "Unsweetened Vanilla Almond Beverage",
+          "Organic Cappuccino Soy Beverage"
+        ],
+        "lufa_farms_code": [
+          19813,
+          19846,
+          19801,
+          19802,
+          19803,
+          19804,
+          19805,
+          19808,
+          19809,
+          19810,
+          19816,
+          19817,
+          19820,
+          19821,
+          19822
+        ],
+        "rebate_per_unit": [
+          "$0.25",
+          "$0.25",
+          "$0.25",
+          "$0.25",
+          "$0.25",
+          "$0.25",
+          "$0.25",
+          "$0.25",
+          "$0.25",
+          "$0.25",
+          "$0.25",
+          "$0.25",
+          "$0.25",
+          "$0.25",
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$1.44",
+          "$1.44",
+          "$1.44",
+          "$1.44",
+          "$1.44",
+          "$1.44",
+          "$1.44",
+          "$1.69",
+          "$1.44",
+          "$1.44",
+          "$1.44",
+          "$1.44",
+          "$1.44",
+          "$1.44",
+          "$1.44"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$1.94",
+          "$1.94",
+          "$1.94",
+          "$1.94",
+          "$1.94",
+          "$1.94",
+          "$1.94",
+          "$1.94",
+          "$1.94",
+          "$1.94",
+          "$1.94",
+          "$1.94",
+          "$1.94",
+          "$1.94",
+          "$1.94"
+        ],
+        "qty_bought_at_regular_cost": [
+          1282,
+          940,
+          298,
+          432,
+          515,
+          294,
+          316,
+          262,
+          189,
+          75,
+          229,
+          305,
+          455,
+          249,
+          168
+        ],
+        "credited_sum": [
+          "$320.50",
+          "$235.00",
+          "$74.50",
+          "$108.00",
+          "$128.75",
+          "$73.50",
+          "$79.00",
+          "$65.50",
+          "$47.25",
+          "$18.75",
+          "$57.25",
+          "$76.25",
+          "$113.75",
+          "$62.25",
+          "$42.00"
+        ],
+        "total_credited": "$1502.25"
+      }
+    },
+    {
+      "supplier": "Nut Grove Cheese",
+      "emails": [
+        "stephanie@nutgrovecheese.com",
+        "angelique@nutgrovecheese.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 4,
+      "period": "2026-01-18 to 2026-01-24",
+      "theme": "Plant Based & Get Planting",
+      "table": {
+        "product_name": [
+          "Vegan Chèvre Style Cheese with Ash Rind",
+          "Vegan Camembert Style Cheese"
+        ],
+        "lufa_farms_code": [
+          15711,
+          15712
+        ],
+        "rebate_per_unit": [
+          "$1.00",
+          "$1.00"
+        ],
+        "rebate_cost": [
+          "$7.29",
+          "$7.29"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$8.29",
+          "$8.29"
+        ],
+        "qty_bought_at_regular_cost": [
+          50,
+          85
+        ],
+        "credited_sum": [
+          "$50.00",
+          "$85.00"
+        ],
+        "total_credited": "$135.00"
+      }
+    },
+    {
+      "supplier": "Nuts for Cheese",
+      "emails": [
+        "Sarah.Sowden@nutsforcheese.com",
+        "Terra.Farmilo@nutsforcheese.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 4,
+      "period": "2026-01-18 to 2026-01-24",
+      "theme": "Plant-Based & Get Planting",
+      "table": {
+        "product_name": [
+          "Organic Smokey Gouda Cashew Cheese",
+          "Organic Smoky Artichoke & Herb Cashew Cheese",
+          "Organic Super Blue Cashew Cheese",
+          "Organic Chipotle Cheddar Cashew Cheese",
+          "Organic Brie-Style Cashew Cheese",
+          "Organic Black Garlic Cashew Cheese",
+          "Organic Cranberry & Pink Peppercorn Cashew Cheese"
+        ],
+        "lufa_farms_code": [
+          9064,
+          9065,
+          9066,
+          9067,
+          9068,
+          9796,
+          13514
+        ],
+        "rebate_per_unit": [
+          "$1.10",
+          "$1.10",
+          "$1.10",
+          "$1.10",
+          "$1.10",
+          "$1.10",
+          "$1.10"
+        ],
+        "rebate_cost": [
+          "$6.15",
+          "$6.15",
+          "$6.15",
+          "$6.15",
+          "$6.15",
+          "$6.15",
+          "$6.15"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$7.25",
+          "$7.25",
+          "$7.25",
+          "$7.25",
+          "$7.25",
+          "$7.25",
+          "$7.25"
+        ],
+        "qty_bought_at_regular_cost": [
+          62,
+          42,
+          49,
+          28,
+          79,
+          57,
+          41
+        ],
+        "credited_sum": [
+          "$68.20",
+          "$46.20",
+          "$53.90",
+          "$30.80",
+          "$86.90",
+          "$62.70",
+          "$45.10"
+        ],
+        "total_credited": "$393.80"
+      }
+    },
+    {
+      "supplier": "O'Mari",
+      "emails": [
+        "ningcan@gmail.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 4,
+      "period": "2026-01-18 to 2026-01-24",
+      "theme": "Plant-Based & Get Planting",
+      "table": {
+        "product_name": [
+          "Three Mushrooms Ravioli (frozen)",
+          "Ginger & Garlic Paste"
+        ],
+        "lufa_farms_code": [
+          16457,
+          15548
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$4.25",
+          "$2.50"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$5.25",
+          "$2.75"
+        ],
+        "qty_bought_at_regular_cost": [
+          2042,
+          1514
+        ],
+        "credited_sum": [
+          "$1021.00",
+          "$378.50"
+        ],
+        "total_credited": "$889.00"
+      }
+    },
+    {
+      "supplier": "OLA Bamboo",
+      "emails": [
+        "spouellet@olabamboo.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 4,
+      "period": "2026-01-18 to 2026-01-24",
+      "theme": "Plant-Based & Get Planting",
+      "table": {
+        "product_name": [
+          "Bamboo Toothbrushes (for adults, pack of 2)"
+        ],
+        "lufa_farms_code": [
+          10060
+        ],
+        "rebate_per_unit": [
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$1.40"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$2.40"
+        ],
+        "qty_bought_at_regular_cost": [
+          157
+        ],
+        "credited_sum": [
+          "$78.50"
+        ],
+        "total_credited": "$78.50"
+      }
+    },
+    {
+      "supplier": "Pizzeria Sofia",
+      "emails": [
+        "nicola@pizzeriasofia2go.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 4,
+      "period": "2026-01-18 to 2026-01-24",
+      "theme": "Plant-Based & Get Planting",
+      "table": {
+        "product_name": [
+          "Zucchini, Smoked Cheese & Bechamel Pizza (frozen)"
+        ],
+        "lufa_farms_code": [
+          16738
+        ],
+        "rebate_per_unit": [
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$3.97"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$4.97"
+        ],
+        "qty_bought_at_regular_cost": [
+          369
+        ],
+        "credited_sum": [
+          "$184.50"
+        ],
+        "total_credited": "$184.50"
+      }
+    },
+    {
+      "supplier": "Pêcherie Manicouagan",
+      "emails": [
+        "janita.gagnon@purmer.ca"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 4,
+      "period": "2026-01-18 to 2026-01-24",
+      "theme": "Seafood Week",
+      "table": {
+        "product_name": [
+          "Coquille Saint-Jacques (frozen)"
+        ],
+        "lufa_farms_code": [
+          20096
+        ],
+        "rebate_per_unit": [
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$7.85"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$8.35"
+        ],
+        "qty_bought_at_regular_cost": [
+          684
+        ],
+        "credited_sum": [
+          "$342.00"
+        ],
+        "total_credited": "$342.00"
+      }
+    },
+    {
+      "supplier": "Savanil",
+      "emails": [
+        "nancia@savanil.ca"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 4,
+      "period": "2026-01-18 to 2026-01-24",
+      "theme": "Plant-Based & Get Planting",
+      "table": {
+        "product_name": [
+          "Ground Turmeric from Mananjary, Madagascar (2024 harvest)",
+          "Ground Ginger from Madagascar (2025 harvest)"
+        ],
+        "lufa_farms_code": [
+          10909,
+          17468
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.30"
+        ],
+        "rebate_cost": [
+          "$2.78",
+          "$2.20"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$3.28",
+          "$2.50"
+        ],
+        "qty_bought_at_regular_cost": [
+          95,
+          138
+        ],
+        "credited_sum": [
+          "$47.50",
+          "$41.40"
+        ],
+        "total_credited": "$69.90"
+      }
+    },
+    {
+      "supplier": "Sober Carpenter",
+      "emails": [
+        "dany@sobercarpenter.com"
+      ],
+      "language": "en",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 4,
+      "period": "2026-01-18 to 2026-01-24",
+      "theme": "Plant-Based & Get Planting",
+      "table": {
+        "product_name": [
+          "Organic Non-Alcoholic Session IPA (pack of 4)",
+          "Organic Non-Alcoholic Blonde Pilsner (pack of 4)"
+        ],
+        "lufa_farms_code": [
+          18682,
+          18683
+        ],
+        "rebate_per_unit": [
+          "$0.76",
+          "$0.76"
+        ],
+        "rebate_cost": [
+          "$6.00",
+          "$5.24"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$6.76",
+          "$6.76"
+        ],
+        "qty_bought_at_regular_cost": [
+          604,
+          213
+        ],
+        "credited_sum": [
+          "$459.04",
+          "$161.88"
+        ],
+        "total_credited": "$620.92"
+      }
+    },
+    {
+      "supplier": "Soya Distinction Inc",
+      "emails": [
+        "konthea2000@hotmail.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 4,
+      "period": "2026-01-18 to 2026-01-24",
+      "theme": "Plant-Based & Get Planting",
+      "table": {
+        "product_name": [
+          "Extra Firm Tofu"
+        ],
+        "lufa_farms_code": [
+          10665
+        ],
+        "rebate_per_unit": [
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$2.80"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$3.05"
+        ],
+        "qty_bought_at_regular_cost": [
+          2609
+        ],
+        "credited_sum": [
+          "$652.25"
+        ],
+        "total_credited": "$652.25"
+      }
+    },
+    {
+      "supplier": "Taylor Fish Company",
+      "emails": [
+        "yvonne@taylorfishcompany.com"
+      ],
+      "language": "en",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 4,
+      "period": "2026-01-18 to 2026-01-24",
+      "theme": "Plant-Based & Get Planting",
+      "table": {
+        "product_name": [
+          "White Perch Fillets (5, frozen)"
+        ],
+        "lufa_farms_code": [
+          9093
+        ],
+        "rebate_per_unit": [
+          "$0.74"
+        ],
+        "rebate_cost": [
+          "$6.27"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$7.75"
+        ],
+        "qty_bought_at_regular_cost": [
+          280
+        ],
+        "credited_sum": [
+          "$207.20"
+        ],
+        "total_credited": "$207.20"
+      }
+    },
+    {
+      "supplier": "The Port of India",
+      "emails": [
+        "justin.riggio7@gmail.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 4,
+      "period": "2026-01-18 to 2026-01-24",
+      "theme": "Plant-Based & Get Planting",
+      "table": {
+        "product_name": [
+          "Madras Curry Paste (spicy)"
+        ],
+        "lufa_farms_code": [
+          11565
+        ],
+        "rebate_per_unit": [
+          "$0.85"
+        ],
+        "rebate_cost": [
+          "$4.25"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$5.10"
+        ],
+        "qty_bought_at_regular_cost": [
+          98
+        ],
+        "credited_sum": [
+          "$83.30"
+        ],
+        "total_credited": "$83.30"
+      }
+    },
+    {
+      "supplier": "The Raw Kitchen",
+      "emails": [
+        "admin@mackenziepet.com",
+        "comptabilite@mackenziepet.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 4,
+      "period": "2026-01-18 to 2026-01-24",
+      "theme": "Plant Based & Get Planting",
+      "table": {
+        "product_name": [
+          "Duck & Berries Raw Dog Food (individual portion, frozen)",
+          "Beef & Fresh Herbs Raw Dog Food (individual portion, frozen)",
+          "Chicken & Greens Raw Dog Food (individual portion, frozen)",
+          "Lamb & Rice Raw Dog Food (individual portion, frozen)",
+          "Beef & Barley Raw Dog Food (individual portion, frozen)",
+          "Chicken Raw Cat Food (individual portion, frozen)",
+          "Beef Raw Cat Food (individual portion, frozen)",
+          "Duck Raw Cat Food (individual portion, frozen)",
+          "Chicken & Squash Raw Dog Food (individual portion, frozen)"
+        ],
+        "lufa_farms_code": [
+          19086,
+          19089,
+          19092,
+          19095,
+          19098,
+          19101,
+          19105,
+          19135,
+          19083
+        ],
+        "rebate_per_unit": [
+          "$0.78",
+          "$0.78",
+          "$0.78",
+          "$0.78",
+          "$0.78",
+          "$0.78",
+          "$0.78",
+          "$0.78",
+          "$0.78"
+        ],
+        "rebate_cost": [
+          "$1.81",
+          "$1.81",
+          "$1.81",
+          "$1.81",
+          "$1.81",
+          "$1.81",
+          "$1.81",
+          "$1.81",
+          "$1.81"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$2.59",
+          "$2.59",
+          "$2.59",
+          "$2.59",
+          "$2.59",
+          "$2.59",
+          "$2.59",
+          "$2.59",
+          "$2.59"
+        ],
+        "qty_bought_at_regular_cost": [
+          133,
+          22,
+          15,
+          44,
+          15,
+          39,
+          18,
+          62,
+          24
+        ],
+        "credited_sum": [
+          "$103.74",
+          "$17.16",
+          "$11.70",
+          "$34.32",
+          "$11.70",
+          "$30.42",
+          "$14.04",
+          "$48.36",
+          "$18.72"
+        ],
+        "total_credited": "$290.16"
+      }
+    },
+    {
+      "supplier": "The Soap Works",
+      "emails": [
+        "matt.soapworks@gmail.com",
+        "orderdesk.soapworks@gmail.com"
+      ],
+      "language": "en",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 4,
+      "period": "2026-01-18 to 2026-01-24",
+      "theme": "Plant-Based & Get Planting",
+      "table": {
+        "product_name": [
+          "Safe Bleach"
+        ],
+        "lufa_farms_code": [
+          9144
+        ],
+        "rebate_per_unit": [
+          "$0.64"
+        ],
+        "rebate_cost": [
+          "$4.35"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$4.99"
+        ],
+        "qty_bought_at_regular_cost": [
+          575
+        ],
+        "credited_sum": [
+          "$368.00"
+        ],
+        "total_credited": "$368.00"
+      }
+    },
+    {
+      "supplier": "The Unscented Company",
+      "emails": [
+        "finance@unscentedco.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 4,
+      "period": "2026-01-18 to 2026-01-24",
+      "theme": "Plant-Based & Get Planting",
+      "table": {
+        "product_name": [
+          "Conditioner Bar (new formula)"
+        ],
+        "lufa_farms_code": [
+          18198
+        ],
+        "rebate_per_unit": [
+          "$0.72"
+        ],
+        "rebate_cost": [
+          "$6.74"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$7.46"
+        ],
+        "qty_bought_at_regular_cost": [
+          51
+        ],
+        "credited_sum": [
+          "$36.72"
+        ],
+        "total_credited": "$36.72"
+      }
+    },
+    {
+      "supplier": "Tomate Basilic",
+      "emails": [
+        "sylvie.sirois@groupetb.ca"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 4,
+      "period": "2026-01-18 to 2026-01-24",
+      "theme": "Plant-Based & Get Planting",
+      "table": {
+        "product_name": [
+          "Vegetable Lasagna (new recipe, 3 to 4 portions, frozen)"
+        ],
+        "lufa_farms_code": [
+          19570
+        ],
+        "rebate_per_unit": [
+          "$1.00"
+        ],
+        "rebate_cost": [
+          "$9.25"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$10.25"
+        ],
+        "qty_bought_at_regular_cost": [
+          299
+        ],
+        "credited_sum": [
+          "$299.00"
+        ],
+        "total_credited": "$299.00"
+      }
+    },
+    {
+      "supplier": "Tout Cru!",
+      "emails": [
+        "admin@toutcrufermentation.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 4,
+      "period": "2026-01-18 to 2026-01-24",
+      "theme": "Plant-Based & Get Planting",
+      "table": {
+        "product_name": [
+          "Organic Juniper Berry Sauerkraut",
+          "Fermented Radishes with Garlic Scapes",
+          "Organic Lemon & Dill Sauerkraut"
+        ],
+        "lufa_farms_code": [
+          13266,
+          13268,
+          13269
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$5.07",
+          "$5.07",
+          "$5.07"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$5.57",
+          "$5.57",
+          "$5.57"
+        ],
+        "qty_bought_at_regular_cost": [
+          123,
+          125,
+          148
+        ],
+        "credited_sum": [
+          "$61.50",
+          "$62.50",
+          "$74.00"
+        ],
+        "total_credited": "$198.00"
+      }
+    },
+    {
+      "supplier": "Umami Épicerie",
+      "emails": [
+        "umamiepicerie@gmail.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 4,
+      "period": "2026-01-18 to 2026-01-24",
+      "theme": "Plant-Based & Get Planting",
+      "table": {
+        "product_name": [
+          "Japanese Vegetable Curry (frozen)"
+        ],
+        "lufa_farms_code": [
+          19068
+        ],
+        "rebate_per_unit": [
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$4.65"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$5.15"
+        ],
+        "qty_bought_at_regular_cost": [
+          1436
+        ],
+        "credited_sum": [
+          "$718.00"
+        ],
+        "total_credited": "$718.00"
+      }
+    },
+    {
+      "supplier": "VG Gourmet",
+      "emails": [
+        "info@vegetariangourmet.com",
+        "bookkeeping.vggourmet@gmail.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 4,
+      "period": "2026-01-18 to 2026-01-24",
+      "theme": "Plant-Based & Get Planting",
+      "table": {
+        "product_name": [
+          "Vegan Rosée Sauce (frozen)",
+          "Cuban Black Bean Soup (frozen)",
+          "Mexican 3-Bean Veggie Burger (2, frozen)",
+          "Vegan Chickpea & Eggplant Curry (frozen)",
+          "Greek Gyro Tofu (frozen)"
+        ],
+        "lufa_farms_code": [
+          10332,
+          14078,
+          8990,
+          17272,
+          8993
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50",
+          "$0.50",
+          "$0.63",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$3.50",
+          "$3.35",
+          "$2.14",
+          "$4.47",
+          "$3.92"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$4.50",
+          "$4.35",
+          "$2.64",
+          "$5.10",
+          "$4.42"
+        ],
+        "qty_bought_at_regular_cost": [
+          183,
+          402,
+          1105,
+          905,
+          53
+        ],
+        "credited_sum": [
+          "$91.50",
+          "$201.00",
+          "$552.50",
+          "$570.15",
+          "$26.50"
+        ],
+        "total_credited": "$1324.00"
+      }
+    },
+    {
+      "supplier": "Yupik",
+      "emails": [
+        "mleclerc@tootsi.com",
+        "jllachance@tootsi.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 4,
+      "period": "2026-01-18 to 2026-01-24",
+      "theme": "Plant-Based & Get Planting",
+      "table": {
+        "product_name": [
+          "Organic Coconut Sugar",
+          "Organic Shredded Coconut (fine, unsweetened)"
+        ],
+        "lufa_farms_code": [
+          18399,
+          18401
+        ],
+        "rebate_per_unit": [
+          "$0.90",
+          "$0.77"
+        ],
+        "rebate_cost": [
+          "$5.10",
+          "$4.34"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$6.00",
+          "$5.11"
+        ],
+        "qty_bought_at_regular_cost": [
+          78,
+          113
+        ],
+        "credited_sum": [
+          "$70.20",
+          "$87.01"
+        ],
+        "total_credited": "$147.07"
+      }
+    },
+    {
+      "supplier": "État Végétal",
+      "emails": [
+        "francis.dubois@etatvegetal.com",
+        "comptabilite@etatvegetal.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 4,
+      "period": "2026-01-18 to 2026-01-24",
+      "theme": "Plant-Based & Get Planting",
+      "table": {
+        "product_name": [
+          "Taquitos (frozen)"
+        ],
+        "lufa_farms_code": [
+          17069
+        ],
+        "rebate_per_unit": [
+          "$1.00"
+        ],
+        "rebate_cost": [
+          "$6.08"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$7.08"
+        ],
+        "qty_bought_at_regular_cost": [
+          178
+        ],
+        "credited_sum": [
+          "$178.00"
+        ],
+        "total_credited": "$178.00"
+      }
+    }
+  ]
+}

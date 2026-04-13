@@ -1,0 +1,1474 @@
+{
+  "week": 10,
+  "total_suppliers": 30,
+  "suppliers": [
+    {
+      "supplier": "Agrobio",
+      "emails": [
+        "joey@agrobioquebec.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 10,
+      "period": "2026-03-01 to 2026-03-07",
+      "theme": "Pizza Week",
+      "table": {
+        "product_name": [
+          "Organic All-Purpose Flour (white, unbleached)"
+        ],
+        "lufa_farms_code": [
+          17352
+        ],
+        "rebate_per_unit": [
+          "$1.00"
+        ],
+        "rebate_cost": [
+          "$10.75"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$11.75"
+        ],
+        "qty_bought_at_regular_cost": [
+          279
+        ],
+        "credited_sum": [
+          "$279.00"
+        ],
+        "total_credited": "$279.00"
+      }
+    },
+    {
+      "supplier": "Atelier BIS",
+      "emails": [
+        "alexis@atelier-bis.ca"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 10,
+      "period": "2026-03-01 to 2026-03-07",
+      "theme": "Spring Break: Pizza Week & Family Format Chicken",
+      "table": {
+        "product_name": [
+          "Brie & Cranberry Pork Sausages (frozen)"
+        ],
+        "lufa_farms_code": [
+          17509
+        ],
+        "rebate_per_unit": [
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$6.50"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$7.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          133
+        ],
+        "credited_sum": [
+          "$66.50"
+        ],
+        "total_credited": "$66.50"
+      }
+    },
+    {
+      "supplier": "Belov",
+      "emails": [
+        "stephanie.rochon@hellobelov.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 10,
+      "period": "2026-03-01 to 2026-03-07",
+      "theme": "Night Kitchen Likes it Hot: Launch hot meals",
+      "table": {
+        "product_name": [
+          "Organic Original Textured Oat Blend",
+          "Organic Apple & Cinnamon Textured Oat Blend",
+          "Organic Blueberry Coco Textured Oat Blend",
+          "Organic Apple & Banana Puffed Cereal Snack",
+          "Organic Carrot, Sweet Potato & Kale Puffed Cereal Snack"
+        ],
+        "lufa_farms_code": [
+          17891,
+          17892,
+          17893,
+          18221,
+          18224
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50",
+          "$0.50",
+          "$0.50",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$3.75",
+          "$3.75",
+          "$3.75",
+          "$2.54",
+          "$2.54"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$4.25",
+          "$4.25",
+          "$4.25",
+          "$3.04",
+          "$3.04"
+        ],
+        "qty_bought_at_regular_cost": [
+          75,
+          28,
+          39,
+          63,
+          10
+        ],
+        "credited_sum": [
+          "$37.50",
+          "$14.00",
+          "$19.50",
+          "$31.50",
+          "$5.00"
+        ],
+        "total_credited": "$107.50"
+      }
+    },
+    {
+      "supplier": "Boucherie Nordest",
+      "emails": [
+        "adm@boucherienordest.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 10,
+      "period": "2026-03-01 to 2026-03-07",
+      "theme": "Spring Break: Pizza Week & Family Format Chicken",
+      "table": {
+        "product_name": [
+          "Poutine Pork Sausages (frozen)",
+          "Broccoli & Cheese Pork Sausages (frozen)"
+        ],
+        "lufa_farms_code": [
+          11204,
+          14363
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$4.65",
+          "$4.47"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$5.15",
+          "$4.97"
+        ],
+        "qty_bought_at_regular_cost": [
+          228,
+          409
+        ],
+        "credited_sum": [
+          "$114.00",
+          "$204.50"
+        ],
+        "total_credited": "$318.50"
+      }
+    },
+    {
+      "supplier": "Boulangerie Le Pain dans les Voiles",
+      "emails": [
+        "alex@lepaindanslesvoiles.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 10,
+      "period": "2026-03-01 to 2026-03-07",
+      "theme": "Pizza Week",
+      "table": {
+        "product_name": [
+          "Pizza Dough (frozen)",
+          "Croissants (6, frozen)"
+        ],
+        "lufa_farms_code": [
+          16673,
+          15901
+        ],
+        "rebate_per_unit": [
+          "$0.80",
+          "$1.00"
+        ],
+        "rebate_cost": [
+          "$3.35",
+          "$6.20"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$4.15",
+          "$7.20"
+        ],
+        "qty_bought_at_regular_cost": [
+          1381,
+          274
+        ],
+        "credited_sum": [
+          "$1104.80",
+          "$274.00"
+        ],
+        "total_credited": "$1655.00"
+      }
+    },
+    {
+      "supplier": "Chocolat Boréal",
+      "emails": [
+        "info@chocolatboreal.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 10,
+      "period": "2026-03-01 to 2026-03-07",
+      "theme": "Night Kitchen Launch",
+      "table": {
+        "product_name": [
+          "72% Dark Chocolate Bar",
+          "37% Milk Chocolate Bar"
+        ],
+        "lufa_farms_code": [
+          10728,
+          10731
+        ],
+        "rebate_per_unit": [
+          "$0.25",
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$4.95",
+          "$4.95"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$5.20",
+          "$5.20"
+        ],
+        "qty_bought_at_regular_cost": [
+          323,
+          119
+        ],
+        "credited_sum": [
+          "$80.75",
+          "$29.75"
+        ],
+        "total_credited": "$110.50"
+      }
+    },
+    {
+      "supplier": "Choose Life Foods",
+      "emails": [
+        "info@chooselifefoods.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 10,
+      "period": "2026-03-01 to 2026-03-07",
+      "theme": "Night Kitchen Likes it Hot: Launch hot meals",
+      "table": {
+        "product_name": [
+          "Meatless Lover's Vegan Jamaican Patty (mild, frozen)",
+          "Coconut Kale Delight Vegan Jamaican Patty (frozen)",
+          "Meatless Lovers Vegan Jamaican Patty (spicy, frozen)",
+          "Chick'n Lover's Vegan Jamaican Patty (frozen)"
+        ],
+        "lufa_farms_code": [
+          5763,
+          5764,
+          19035,
+          19036
+        ],
+        "rebate_per_unit": [
+          "$0.25",
+          "$0.25",
+          "$0.25",
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$2.00",
+          "$2.10",
+          "$2.10",
+          "$2.10"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$2.25",
+          "$2.35",
+          "$2.35",
+          "$2.35"
+        ],
+        "qty_bought_at_regular_cost": [
+          436,
+          250,
+          198,
+          180
+        ],
+        "credited_sum": [
+          "$109.00",
+          "$62.50",
+          "$49.50",
+          "$45.00"
+        ],
+        "total_credited": "$266.00"
+      }
+    },
+    {
+      "supplier": "DelChef",
+      "emails": [
+        "leonardo@delchef.ca"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 10,
+      "period": "2026-03-01 to 2026-03-07",
+      "theme": "Spring Break: Pizza Week & Family Format Chicken",
+      "table": {
+        "product_name": [
+          "Pepperoni & Cheese Focaccia (frozen)"
+        ],
+        "lufa_farms_code": [
+          12356
+        ],
+        "rebate_per_unit": [
+          "$0.85"
+        ],
+        "rebate_cost": [
+          "$2.30"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$3.15"
+        ],
+        "qty_bought_at_regular_cost": [
+          3153
+        ],
+        "credited_sum": [
+          "$2680.05"
+        ],
+        "total_credited": "$2680.05"
+      }
+    },
+    {
+      "supplier": "Flirt Drinks",
+      "emails": [
+        "aglaee@flirtdrinks.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 10,
+      "period": "2026-03-01 to 2026-03-07",
+      "theme": "Night Kitchen Launch",
+      "table": {
+        "product_name": [
+          "Sparkling Basil Lemonade (1 L)",
+          "Lime & Mint Sparkling Lemonade (1 L)",
+          "Raspberry Sparkling Lemonade (1 L)",
+          "Blackberry Sparkling Lemonade (1 L)",
+          "Clementine Sparkling Lemonade (1 L)",
+          "Mango Sparkling Lemonade (1 L)"
+        ],
+        "lufa_farms_code": [
+          15817,
+          15818,
+          15862,
+          16893,
+          18108,
+          19582
+        ],
+        "rebate_per_unit": [
+          "$0.76",
+          "$0.76",
+          "$0.76",
+          "$0.76",
+          "$0.76",
+          "$0.76"
+        ],
+        "rebate_cost": [
+          "$3.14",
+          "$3.14",
+          "$3.14",
+          "$3.14",
+          "$3.14",
+          "$3.14"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$3.90",
+          "$3.90",
+          "$3.90",
+          "$3.90",
+          "$3.90",
+          "$3.90"
+        ],
+        "qty_bought_at_regular_cost": [
+          551,
+          220,
+          375,
+          217,
+          247,
+          222
+        ],
+        "credited_sum": [
+          "$418.76",
+          "$167.20",
+          "$285.00",
+          "$164.92",
+          "$187.72",
+          "$168.72"
+        ],
+        "total_credited": "$1392.32"
+      }
+    },
+    {
+      "supplier": "Fous de l'île",
+      "emails": [
+        "jerry@fousdelile.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 10,
+      "period": "2026-03-01 to 2026-03-07",
+      "theme": "Night Kitchen Launch",
+      "table": {
+        "product_name": [
+          "Organic Ginger Kombucha",
+          "Organic Green Tea & Lemongrass Kombucha",
+          "Organic Guava Rose Kombucha",
+          "Organic Hibiscus Chai Kombucha",
+          "Organic Lychee Butterfly Pea Kombucha",
+          "Organic Turmeric & Ginger Kombucha"
+        ],
+        "lufa_farms_code": [
+          14690,
+          14693,
+          16733,
+          14745,
+          16315,
+          14749
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50",
+          "$0.50",
+          "$0.50",
+          "$0.50",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$1.37",
+          "$1.37",
+          "$1.37",
+          "$1.37",
+          "$1.37",
+          "$1.37"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$1.87",
+          "$1.87",
+          "$1.87",
+          "$1.87",
+          "$1.87",
+          "$1.87"
+        ],
+        "qty_bought_at_regular_cost": [
+          449,
+          520,
+          801,
+          567,
+          588,
+          584
+        ],
+        "credited_sum": [
+          "$224.50",
+          "$260.00",
+          "$400.50",
+          "$283.50",
+          "$294.00",
+          "$292.00"
+        ],
+        "total_credited": "$1754.50"
+      }
+    },
+    {
+      "supplier": "Green Brothers",
+      "emails": [
+        "comptabilite@greenbrothers.ca"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 10,
+      "period": "2026-03-01 to 2026-03-07",
+      "theme": "Night Kitchen Launch",
+      "table": {
+        "product_name": [
+          "Popcorn Tofu (frozen)",
+          "Vegan Corn Dogs (4, frozen)",
+          "Vegan Pepperoni Pizza Saucers (4, frozen)"
+        ],
+        "lufa_farms_code": [
+          19235,
+          17768,
+          19232
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$4.50",
+          "$4.50",
+          "$4.50"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$5.00",
+          "$5.00",
+          "$5.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          1100,
+          401,
+          221
+        ],
+        "credited_sum": [
+          "$550.00",
+          "$200.50",
+          "$110.50"
+        ],
+        "total_credited": "$861.00"
+      }
+    },
+    {
+      "supplier": "Italpasta",
+      "emails": [
+        "gfrantellizzi@italpasta.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 10,
+      "period": "2026-03-01 to 2026-03-07",
+      "theme": "Spring Break: Pizza Week & Family Format Chicken",
+      "table": {
+        "product_name": [
+          "Artisan Spaghetti"
+        ],
+        "lufa_farms_code": [
+          19224
+        ],
+        "rebate_per_unit": [
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$1.35"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$1.60"
+        ],
+        "qty_bought_at_regular_cost": [
+          2319
+        ],
+        "credited_sum": [
+          "$579.75"
+        ],
+        "total_credited": "$579.75"
+      }
+    },
+    {
+      "supplier": "L'Issue Végane Maison",
+      "emails": [
+        "laurentvanderwee.lissue@gmail.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 10,
+      "period": "2026-03-01 to 2026-03-07",
+      "theme": "Night Kitchen Launch",
+      "table": {
+        "product_name": [
+          "Le Piccante Seitan (frozen)"
+        ],
+        "lufa_farms_code": [
+          16876
+        ],
+        "rebate_per_unit": [
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$5.50"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$6.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          41
+        ],
+        "credited_sum": [
+          "$20.50"
+        ],
+        "total_credited": "$20.50"
+      }
+    },
+    {
+      "supplier": "La Ferme - Brasserie Rurale",
+      "emails": [
+        "11comtes@gmail.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 10,
+      "period": "2026-03-01 to 2026-03-07",
+      "theme": "Spring Break: Pizza Week & Family Format Chicken",
+      "table": {
+        "product_name": [
+          "Organic Rustique IPA"
+        ],
+        "lufa_farms_code": [
+          12213
+        ],
+        "rebate_per_unit": [
+          "$0.75"
+        ],
+        "rebate_cost": [
+          "$4.35"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$5.10"
+        ],
+        "qty_bought_at_regular_cost": [
+          169
+        ],
+        "credited_sum": [
+          "$126.75"
+        ],
+        "total_credited": "$126.75"
+      }
+    },
+    {
+      "supplier": "Les Artisans de l'Aube",
+      "emails": [
+        "info@lesartisansdelaube.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 10,
+      "period": "2026-03-01 to 2026-03-07",
+      "theme": "Spring Break: Pizza Week & Family Format Chicken",
+      "table": {
+        "product_name": [
+          "Organic Wild Salmon Pie (frozen)"
+        ],
+        "lufa_farms_code": [
+          19145
+        ],
+        "rebate_per_unit": [
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$11.00"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$11.50"
+        ],
+        "qty_bought_at_regular_cost": [
+          165
+        ],
+        "credited_sum": [
+          "$82.50"
+        ],
+        "total_credited": "$82.50"
+      }
+    },
+    {
+      "supplier": "Maison Orphée",
+      "emails": [
+        "Stefanie.Janin@maisonorphee.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 10,
+      "period": "2026-03-01 to 2026-03-07",
+      "theme": "Night Kitchen Launch",
+      "table": {
+        "product_name": [
+          "Extra Virgin Olive Oil Fresh Mayonnaise",
+          "Fresh Mayonnaise"
+        ],
+        "lufa_farms_code": [
+          18940,
+          9253
+        ],
+        "rebate_per_unit": [
+          "$0.69",
+          "$0.69"
+        ],
+        "rebate_cost": [
+          "$3.91",
+          "$3.91"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$4.60",
+          "$4.60"
+        ],
+        "qty_bought_at_regular_cost": [
+          891,
+          187
+        ],
+        "credited_sum": [
+          "$614.79",
+          "$129.03"
+        ],
+        "total_credited": "$743.82"
+      }
+    },
+    {
+      "supplier": "Microbrasserie Vagabond",
+      "emails": [
+        "jonathan@bierevagabond.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 10,
+      "period": "2026-03-01 to 2026-03-07",
+      "theme": "Spring Break: Pizza Week & Family Format Chicken",
+      "table": {
+        "product_name": [
+          "Bamboléo Organic Festive Mango White",
+          "Romance Organic Italian Pilsner"
+        ],
+        "lufa_farms_code": [
+          18741,
+          18742
+        ],
+        "rebate_per_unit": [
+          "$0.25",
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$2.90",
+          "$2.90"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$3.15",
+          "$3.15"
+        ],
+        "qty_bought_at_regular_cost": [
+          127,
+          106
+        ],
+        "credited_sum": [
+          "$31.75",
+          "$26.50"
+        ],
+        "total_credited": "$58.25"
+      }
+    },
+    {
+      "supplier": "Mid-Day Squares",
+      "emails": [
+        "caroline@middaysquares.com"
+      ],
+      "language": "en",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 10,
+      "period": "2026-03-01 to 2026-03-07",
+      "theme": "Night Kitchen Launch",
+      "table": {
+        "product_name": [
+          "Peanut Butter Squares (12)",
+          "Cookie Dough Squares (12)",
+          "Crunchy Peanut Squares (12)",
+          "Brownie Batter Squares (12)"
+        ],
+        "lufa_farms_code": [
+          16438,
+          16440,
+          18046,
+          16439
+        ],
+        "rebate_per_unit": [
+          "$4.00",
+          "$4.00",
+          "$4.00",
+          "$4.00"
+        ],
+        "rebate_cost": [
+          "$14.00",
+          "$14.00",
+          "$14.00",
+          "$14.00"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$18.00",
+          "$18.00",
+          "$18.00",
+          "$18.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          355,
+          138,
+          181,
+          127
+        ],
+        "credited_sum": [
+          "$1420.00",
+          "$552.00",
+          "$724.00",
+          "$508.00"
+        ],
+        "total_credited": "$3204.00"
+      }
+    },
+    {
+      "supplier": "Miya's Cuisine",
+      "emails": [
+        "miyacuisine99@gmail.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 10,
+      "period": "2026-03-01 to 2026-03-07",
+      "theme": "Spring Break: Pizza Week & Family Format Chicken",
+      "table": {
+        "product_name": [
+          "Chicken Pad Thai (frozen)",
+          "Chicken Yum Fried Rice (2 portions, frozen)",
+          "Korean BBQ Chicken Stir Fry Cubes (frozen)"
+        ],
+        "lufa_farms_code": [
+          16111,
+          17190,
+          17180
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$1.00",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$5.80",
+          "$10.36",
+          "$7.25"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$6.30",
+          "$11.36",
+          "$7.75"
+        ],
+        "qty_bought_at_regular_cost": [
+          179,
+          57,
+          159
+        ],
+        "credited_sum": [
+          "$89.50",
+          "$57.00",
+          "$79.50"
+        ],
+        "total_credited": "$197.50"
+      }
+    },
+    {
+      "supplier": "NaturSac",
+      "emails": [
+        "sdjebaili@natursac.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 10,
+      "period": "2026-03-01 to 2026-03-07",
+      "theme": "Night Kitchen Likes it Hot: Launch hot meals",
+      "table": {
+        "product_name": [
+          "Compostable Bags (20 bags, 17\" x 19\")"
+        ],
+        "lufa_farms_code": [
+          6807
+        ],
+        "rebate_per_unit": [
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$2.49"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$2.99"
+        ],
+        "qty_bought_at_regular_cost": [
+          550
+        ],
+        "credited_sum": [
+          "$275.00"
+        ],
+        "total_credited": "$275.00"
+      }
+    },
+    {
+      "supplier": "O'Mari",
+      "emails": [
+        "ningcan@gmail.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 10,
+      "period": "2026-03-01 to 2026-03-07",
+      "theme": "Night Kitchen Likes it Hot: Launch hot meals",
+      "table": {
+        "product_name": [
+          "Arrabiata Sauce (frozen)",
+          "Udon Noodles (frozen)"
+        ],
+        "lufa_farms_code": [
+          15562,
+          7353
+        ],
+        "rebate_per_unit": [
+          "$0.25",
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$2.45",
+          "$2.90"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$2.70",
+          "$3.15"
+        ],
+        "qty_bought_at_regular_cost": [
+          1111,
+          373
+        ],
+        "credited_sum": [
+          "$277.75",
+          "$93.25"
+        ],
+        "total_credited": "$371.00"
+      }
+    },
+    {
+      "supplier": "OLA Bamboo",
+      "emails": [
+        "spouellet@olabamboo.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 10,
+      "period": "2026-03-01 to 2026-03-07",
+      "theme": "Spring Break: Pizza Week & Family Format Chicken",
+      "table": {
+        "product_name": [
+          "Bamboo Toothbrush (for kids, purple)",
+          "Bamboo Toothbrush (for kids, green)"
+        ],
+        "lufa_farms_code": [
+          10062,
+          10063
+        ],
+        "rebate_per_unit": [
+          "$0.25",
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$0.95",
+          "$0.95"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$1.20",
+          "$1.20"
+        ],
+        "qty_bought_at_regular_cost": [
+          31,
+          36
+        ],
+        "credited_sum": [
+          "$7.75",
+          "$9.00"
+        ],
+        "total_credited": "$16.75"
+      }
+    },
+    {
+      "supplier": "Pizzeria Sofia",
+      "emails": [
+        "nicola@pizzeriasofia2go.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 10,
+      "period": "2026-03-01 to 2026-03-07",
+      "theme": "Spring Break: Pizza Week & Family Format Chicken",
+      "table": {
+        "product_name": [
+          "Margherita Pizzas (2, frozen)",
+          "Zucchini, Smoked Cheese & Bechamel Pizza (frozen)"
+        ],
+        "lufa_farms_code": [
+          16820,
+          16738
+        ],
+        "rebate_per_unit": [
+          "$1.00",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$7.70",
+          "$4.47"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$8.70",
+          "$4.97"
+        ],
+        "qty_bought_at_regular_cost": [
+          943,
+          413
+        ],
+        "credited_sum": [
+          "$943.00",
+          "$206.50"
+        ],
+        "total_credited": "$678.00"
+      }
+    },
+    {
+      "supplier": "Rizopia",
+      "emails": [
+        "benjamin@satau.ca"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 10,
+      "period": "2026-03-01 to 2026-03-07",
+      "theme": "Spring Break: Pizza Week & Family Format Chicken",
+      "table": {
+        "product_name": [
+          "Organic Gluten-Free Fantasia Pasta"
+        ],
+        "lufa_farms_code": [
+          20093
+        ],
+        "rebate_per_unit": [
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$1.96"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$2.21"
+        ],
+        "qty_bought_at_regular_cost": [
+          260
+        ],
+        "credited_sum": [
+          "$65.00"
+        ],
+        "total_credited": "$65.00"
+      }
+    },
+    {
+      "supplier": "Savanil",
+      "emails": [
+        "nancia@savanil.ca"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 10,
+      "period": "2026-03-01 to 2026-03-07",
+      "theme": "Night Kitchen Launch",
+      "table": {
+        "product_name": [
+          "Black Pepper from Mananjary, Madagascar (2024 harvest)",
+          "Lebanese 7 Spice Mix"
+        ],
+        "lufa_farms_code": [
+          10902,
+          17466
+        ],
+        "rebate_per_unit": [
+          "$0.40",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$3.07",
+          "$3.10"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$3.47",
+          "$3.60"
+        ],
+        "qty_bought_at_regular_cost": [
+          182,
+          58
+        ],
+        "credited_sum": [
+          "$72.80",
+          "$29.00"
+        ],
+        "total_credited": "$120.00"
+      }
+    },
+    {
+      "supplier": "Sober Carpenter",
+      "emails": [
+        "dany@sobercarpenter.com"
+      ],
+      "language": "en",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 10,
+      "period": "2026-03-01 to 2026-03-07",
+      "theme": "Spring Break: Pizza Week & Family Format Chicken",
+      "table": {
+        "product_name": [
+          "Organic Non-Alcoholic Blonde Pilsner (pack of 4)"
+        ],
+        "lufa_farms_code": [
+          18683
+        ],
+        "rebate_per_unit": [
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$6.51"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$6.76"
+        ],
+        "qty_bought_at_regular_cost": [
+          166
+        ],
+        "credited_sum": [
+          "$41.50"
+        ],
+        "total_credited": "$41.50"
+      }
+    },
+    {
+      "supplier": "Taylor Fish Company",
+      "emails": [
+        "yvonne@taylorfishcompany.com"
+      ],
+      "language": "en",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 10,
+      "period": "2026-03-01 to 2026-03-07",
+      "theme": "Night Kitchen Likes it Hot: Launch hot meals",
+      "table": {
+        "product_name": [
+          "Walleye Chews Dog Treats",
+          "Walleye Bark Dog Treats",
+          "Smelt Dog Treats"
+        ],
+        "lufa_farms_code": [
+          17669,
+          17673,
+          17674
+        ],
+        "rebate_per_unit": [
+          "$0.75",
+          "$0.75",
+          "$0.75"
+        ],
+        "rebate_cost": [
+          "$6.25",
+          "$6.25",
+          "$6.25"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$7.00",
+          "$7.00",
+          "$7.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          283,
+          74,
+          69
+        ],
+        "credited_sum": [
+          "$212.25",
+          "$55.50",
+          "$51.75"
+        ],
+        "total_credited": "$319.50"
+      }
+    },
+    {
+      "supplier": "The Port of India",
+      "emails": [
+        "justin.riggio7@gmail.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 10,
+      "period": "2026-03-01 to 2026-03-07",
+      "theme": "Night Kitchen Launch",
+      "table": {
+        "product_name": [
+          "Korma Curry Paste (medium)"
+        ],
+        "lufa_farms_code": [
+          11567
+        ],
+        "rebate_per_unit": [
+          "$0.40"
+        ],
+        "rebate_cost": [
+          "$5.00"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$5.40"
+        ],
+        "qty_bought_at_regular_cost": [
+          74
+        ],
+        "credited_sum": [
+          "$29.60"
+        ],
+        "total_credited": "$29.60"
+      }
+    },
+    {
+      "supplier": "VG Gourmet",
+      "emails": [
+        "info@vegetariangourmet.com",
+        "bookkeeping.vggourmet@gmail.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 10,
+      "period": "2026-03-01 to 2026-03-07",
+      "theme": "Night Kitchen Launch",
+      "table": {
+        "product_name": [
+          "Mexican 3-Bean Veggie Burger (2, frozen)",
+          "Vegan Taco & Chili Crumble (frozen)",
+          "Carrot & Ginger Soup (frozen)"
+        ],
+        "lufa_farms_code": [
+          8990,
+          8996,
+          10124
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$2.14",
+          "$3.92",
+          "$3.85"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$2.64",
+          "$4.42",
+          "$4.35"
+        ],
+        "qty_bought_at_regular_cost": [
+          987,
+          117,
+          1144
+        ],
+        "credited_sum": [
+          "$493.50",
+          "$58.50",
+          "$572.00"
+        ],
+        "total_credited": "$1124.00"
+      }
+    },
+    {
+      "supplier": "État Végétal",
+      "emails": [
+        "francis.dubois@etatvegetal.com",
+        "comptabilite@etatvegetal.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 10,
+      "period": "2026-03-01 to 2026-03-07",
+      "theme": "Pizza Week",
+      "table": {
+        "product_name": [
+          "Taquitos (frozen)"
+        ],
+        "lufa_farms_code": [
+          17069
+        ],
+        "rebate_per_unit": [
+          "$1.00"
+        ],
+        "rebate_cost": [
+          "$6.08"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$7.08"
+        ],
+        "qty_bought_at_regular_cost": [
+          145
+        ],
+        "credited_sum": [
+          "$145.00"
+        ],
+        "total_credited": "$145.00"
+      }
+    }
+  ]
+}
