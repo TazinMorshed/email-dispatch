@@ -48,9 +48,20 @@ interface SentRecord {
   sent_by: string | null
 }
 
+// Formats "2026-04-05 to 2026-04-11" → "April 5 - April 11"
+function formatPeriod(period: string): string {
+  const parts = period.split(' to ')
+  if (parts.length !== 2) return period
+  const fmt = (dateStr: string) => {
+    const d = new Date(dateStr + 'T00:00:00')
+    return d.toLocaleDateString('en-CA', { month: 'long', day: 'numeric' })
+  }
+  return `${fmt(parts[0])} - ${fmt(parts[1])}`
+}
+
 function buildEmailTable(supplier: Supplier): string {
   const { table } = supplier
-  const promoWeek = `Promo week ${supplier.week} - ${supplier.period}`
+  const promoWeek = `Promo week ${supplier.week} - ${formatPeriod(supplier.period)}`
 
   const base = 'border:1px solid #d0d0d0;padding:2px 6px;font-size:11px;font-family:Arial,sans-serif;line-height:1.3;'
   // Headers wrap so column width is driven by data, not header text
@@ -103,7 +114,7 @@ function buildEmailTable(supplier: Supplier): string {
   </table>`
 }
 
-function generateEmailHtml(supplier: Supplier): { subject: string; html: string } {
+function generateEmailHtml(supplier: Supplier, senderName?: string): { subject: string; html: string } {
   const isTaxable = supplier.taxable === 'Yes'
   const isFr = supplier.language === 'fr'
 
@@ -113,6 +124,11 @@ function generateEmailHtml(supplier: Supplier): { subject: string; html: string 
     `<p style="margin:0 0 14px 0;font-family:Arial,sans-serif;font-size:14px;color:#000;">${text}</p>`
 
   const tableHtml = buildEmailTable(supplier)
+  const firstName = senderName?.split(' ')[0] ?? ''
+  const closingText = isFr ? 'Merci,' : 'Thank you,'
+  const closing = firstName
+    ? `<br><p style="margin:0 0 0 0;font-family:Arial,sans-serif;font-size:14px;color:#000;">${closingText}</p><p style="margin:0 0 14px 0;font-family:Arial,sans-serif;font-size:14px;color:#000;">${firstName}</p>`
+    : `<br>${p(closingText)}`
 
   let body = ''
 
@@ -122,7 +138,7 @@ function generateEmailHtml(supplier: Supplier): { subject: string; html: string 
       ${p('Bonjour,')}
       ${p('Voici les résultats des promotions - étant donné que les produits sont non-taxables, nous allons déduire ce montant du prochain paiement :')}
       ${tableHtml}
-      <br>${p('Merci,')}
+      ${closing}
     `
   } else if (!isTaxable && !isFr) {
     // Non-taxable EN
@@ -130,7 +146,7 @@ function generateEmailHtml(supplier: Supplier): { subject: string; html: string 
       ${p('Hello,')}
       ${p("Please find the results of the promotions, as the products are non-taxable, we will deduct this amount from the next payment, we don't need any more a credit note :")}
       ${tableHtml}
-      <br>${p('Thank you,')}
+      ${closing}
     `
   } else if (isTaxable && isFr) {
     // Taxable FR
@@ -138,7 +154,7 @@ function generateEmailHtml(supplier: Supplier): { subject: string; html: string 
       ${p('Bonjour,')}
       ${p('Voici les résultats des promotions - svp envoyez une note de crédit à notre département de facturation (en cc sur ce courriel) et moi :')}
       ${tableHtml}
-      <br>${p('Merci,')}
+      ${closing}
     `
   } else {
     // Taxable EN
@@ -147,7 +163,7 @@ function generateEmailHtml(supplier: Supplier): { subject: string; html: string 
       ${p('Please find below the adjustment credit for promotions, as the products are taxable, we still need a credit note :')}
       ${p('Please send a credit note directly to the billing team who are in copy and myself!')}
       ${tableHtml}
-      <br>${p('Thank you,')}
+      ${closing}
     `
   }
 
@@ -174,8 +190,8 @@ function Toggle({
       onClick={() => onChange(!enabled)}
       className="flex items-center gap-2 cursor-pointer select-none text-slate-700"
     >
-      <div className={`relative h-5 w-10 rounded-full transition-colors duration-200 ${enabled ? colorOn : 'bg-slate-300'}`}>
-        <span className={`absolute top-0.5 left-0.5 w-4 h-4 rounded-full bg-white shadow-sm transition-transform duration-200 ${enabled ? 'translate-x-5' : 'translate-x-0'}`} />
+      <div className={`relative h-6 w-11 rounded-full transition-colors duration-300 ease-in-out ${enabled ? colorOn : 'bg-slate-300'}`}>
+        <span className={`absolute top-0.5 left-0.5 w-5 h-5 rounded-full bg-white shadow-md transition-all duration-300 ease-in-out ${enabled ? 'translate-x-5' : 'translate-x-0'}`} style={{ boxShadow: '0 1px 4px rgba(0,0,0,0.25)' }} />
       </div>
       <span className="text-xs font-semibold">{enabled ? labelOn : labelOff}</span>
     </button>
@@ -274,7 +290,7 @@ export default function Page() {
 
   const supplier = weekData?.suppliers.find((s) => s.supplier === selectedSupplier) ?? null
   const emailContent = supplier
-    ? generateEmailHtml({ ...supplier, language: langOverride, taxable: taxableOverride ? 'Yes' : 'No' })
+    ? generateEmailHtml({ ...supplier, language: langOverride, taxable: taxableOverride ? 'Yes' : 'No' }, session?.user?.name ?? undefined)
     : null
 
   function isValidEmail(e: string) { return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e.trim()) }
@@ -411,7 +427,7 @@ export default function Page() {
           <div className="h-10 w-40 animate-pulse rounded-xl bg-slate-200" />
         ) : session ? (
           <div className="flex items-center gap-4 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-2.5">
-            <span className="text-sm font-medium text-slate-600">{session.user?.email}</span>
+            <span className="text-sm font-medium text-slate-600">Hello {session.user?.name ?? session.user?.email}</span>
             <button
               onClick={() => signOut()}
               className="text-sm font-medium text-slate-500 underline underline-offset-2 transition-colors hover:text-slate-900"
@@ -478,7 +494,7 @@ export default function Page() {
                 Week {weekData.week} · {weekData.total_suppliers} suppliers
               </p>
               <p className="mt-1 text-xs text-slate-500">
-                {weekData.suppliers[0]?.period}
+                {weekData.suppliers[0] ? formatPeriod(weekData.suppliers[0].period) : ''}
               </p>
             </div>
             <ul className="flex-1 divide-y divide-slate-100 overflow-y-auto">
@@ -615,7 +631,7 @@ export default function Page() {
                       )}
                     </div>
                   </div>
-                  <p className="mt-1.5 text-xs text-slate-500">{supplier.period} · {supplier.theme}</p>
+                  <p className="mt-1.5 text-xs text-slate-500">{formatPeriod(supplier.period)} · {supplier.theme}</p>
                 </div>
 
                 {/* Send settings bar */}
@@ -729,7 +745,7 @@ export default function Page() {
         <svg className="h-4 w-4 shrink-0 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
         </svg>
-        Email sent to test recipient
+        {sendToSupplier ? 'Email sent to supplier' : 'Email sent to test recipient'}
       </div>
 
       {/* Already-sent warning modal */}
