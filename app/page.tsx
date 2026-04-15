@@ -38,6 +38,16 @@ interface AppConfig {
   ccRecipient: string
 }
 
+interface SentRecord {
+  id: number
+  sent_at: string
+  week: number
+  supplier: string
+  recipients: string
+  mode: string
+  sent_by: string | null
+}
+
 function buildEmailTable(supplier: Supplier): string {
   const { table } = supplier
   const promoWeek = `Promo week ${supplier.week} - ${supplier.period}`
@@ -172,10 +182,10 @@ function Toggle({
   )
 }
 
-const TOTAL_WEEKS = 15
 
 export default function Page() {
   const { data: session, status } = useSession()
+  const [availableWeeks, setAvailableWeeks] = useState<number[]>([])
   const [selectedWeek, setSelectedWeek] = useState<number | null>(null)
   const [weekData, setWeekData] = useState<WeekData | null>(null)
   const [loadingWeek, setLoadingWeek] = useState(false)
@@ -189,15 +199,28 @@ export default function Page() {
   const [committedEmails, setCommittedEmails] = useState<string[]>([])
   const [tagInput, setTagInput] = useState('')
   const [ccRecipient, setCcRecipient] = useState('')
+  // key: supplier name → most recent SentRecord for this week
+  const [sentLog, setSentLog] = useState<Map<string, SentRecord>>(new Map())
+  const [showSentWarning, setShowSentWarning] = useState(false)
+  // key: supplier name → saved email list from DB (overrides JSON)
+  const [savedEmails, setSavedEmails] = useState<Map<string, string[]>>(new Map())
+  // email content overrides — default to supplier's JSON values, togglable
+  const [langOverride, setLangOverride] = useState<'en' | 'fr'>('en')
+  const [taxableOverride, setTaxableOverride] = useState(false)
 
   useEffect(() => {
     if (supplier) {
-      setPendingEmails(supplier.emails)
-      setCommittedEmails(supplier.emails)
+      // DB saved emails override JSON defaults
+      const emails = savedEmails.get(supplier.supplier) ?? supplier.emails
+      setPendingEmails(emails)
+      setCommittedEmails(emails)
       setTagInput('')
+      // Reset toggles to this supplier's defaults
+      setLangOverride(supplier.language === 'fr' ? 'fr' : 'en')
+      setTaxableOverride(supplier.taxable === 'Yes')
     }
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [selectedSupplier])
+  }, [selectedSupplier, savedEmails])
 
   useEffect(() => {
     fetch('/api/config')
@@ -207,20 +230,52 @@ export default function Page() {
   }, [])
 
   useEffect(() => {
+    fetch('/api/weeks')
+      .then((r) => r.json())
+      .then((weeks: number[]) => setAvailableWeeks(weeks))
+      .catch(() => setAvailableWeeks([]))
+  }, [])
+
+  useEffect(() => {
     if (selectedWeek === null) return
     setLoadingWeek(true)
     setSelectedSupplier(null)
     setWeekData(null)
     setSent(false)
     setSendError(null)
-    fetch(`/api/weeks/${selectedWeek}`)
-      .then((r) => r.json())
-      .then((data) => setWeekData(data))
-      .finally(() => setLoadingWeek(false))
+    setSentLog(new Map())
+    setSavedEmails(new Map())
+    // Step 1: load week data + send log in parallel
+    Promise.all([
+      fetch(`/api/weeks/${selectedWeek}`).then((r) => r.json()),
+      fetch(`/api/send-log?week=${selectedWeek}`).then((r) => r.json()),
+    ]).then(([weekJson, logJson]) => {
+      setWeekData(weekJson)
+      if (Array.isArray(logJson)) {
+        const map = new Map<string, SentRecord>()
+        for (const record of logJson as SentRecord[]) {
+          if (!map.has(record.supplier)) map.set(record.supplier, record)
+        }
+        setSentLog(map)
+      }
+      // Step 2: fetch saved emails for all suppliers in this week
+      const supplierNames = (weekJson.suppliers as Supplier[]).map((s) => s.supplier)
+      if (supplierNames.length > 0) {
+        const query = supplierNames.map(encodeURIComponent).join(',')
+        fetch(`/api/supplier-emails?suppliers=${query}`)
+          .then((r) => r.json())
+          .then((data: Record<string, string[]>) => {
+            setSavedEmails(new Map(Object.entries(data)))
+          })
+          .catch(() => {})
+      }
+    }).finally(() => setLoadingWeek(false))
   }, [selectedWeek])
 
   const supplier = weekData?.suppliers.find((s) => s.supplier === selectedSupplier) ?? null
-  const emailContent = supplier ? generateEmailHtml(supplier) : null
+  const emailContent = supplier
+    ? generateEmailHtml({ ...supplier, language: langOverride, taxable: taxableOverride ? 'Yes' : 'No' })
+    : null
 
   function isValidEmail(e: string) { return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e.trim()) }
   function buildUpdatedEmails(baseEmails: string[], candidate: string) {
@@ -254,7 +309,20 @@ export default function Page() {
     return updated
   }
   function handleAccept() {
-    commitPendingEmails()
+    const updated = commitPendingEmails()
+    if (!supplier) return
+    // Persist to DB so it survives page reloads and future weeks
+    fetch('/api/supplier-emails', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ supplier: supplier.supplier, emails: updated }),
+    }).then(() => {
+      setSavedEmails((prev) => {
+        const next = new Map(prev)
+        next.set(supplier.supplier, updated)
+        return next
+      })
+    }).catch(() => {})
   }
   function handleSendToSupplierChange(nextValue: boolean) {
     if (nextValue) {
@@ -263,7 +331,7 @@ export default function Page() {
     setSendToSupplier(nextValue)
   }
 
-  async function handleSend() {
+  async function doSend() {
     if (!emailContent || !supplier) return
     const liveRecipients = sendToSupplier ? commitPendingEmails() : committedEmails
     if (sendToSupplier && liveRecipients.length === 0) {
@@ -281,6 +349,9 @@ export default function Page() {
           ...emailContent,
           includeSignature,
           to: sendToSupplier ? liveRecipients : null,
+          week: supplier.week,
+          supplier: supplier.supplier,
+          mode: sendToSupplier ? 'live' : 'test',
         }),
       })
       if (!res.ok) {
@@ -295,10 +366,36 @@ export default function Page() {
       }
       setSent(true)
       setTimeout(() => setSent(false), 4000)
+      // Only update the sent badge for live sends
+      if (sendToSupplier) {
+        setSentLog((prev) => {
+          const next = new Map(prev)
+          next.set(supplier.supplier, {
+            id: Date.now(),
+            sent_at: new Date().toISOString(),
+            week: supplier.week,
+            supplier: supplier.supplier,
+            recipients: JSON.stringify(liveRecipients),
+            mode: 'live',
+            sent_by: null,
+          })
+          return next
+        })
+      }
     } catch (err) {
       setSendError(err instanceof Error ? err.message : 'Failed to send')
     } finally {
       setSending(false)
+    }
+  }
+
+  function handleSend() {
+    if (!supplier) return
+    const alreadySent = sentLog.get(supplier.supplier)
+    if (alreadySent) {
+      setShowSentWarning(true)
+    } else {
+      doSend()
     }
   }
 
@@ -347,7 +444,7 @@ export default function Page() {
           </div>
         </div>
         <div className="flex flex-wrap gap-2">
-        {Array.from({ length: TOTAL_WEEKS }, (_, i) => i + 1).map((w) => (
+        {availableWeeks.map((w) => (
           <button
             key={w}
             onClick={() => setSelectedWeek(w)}
@@ -385,7 +482,9 @@ export default function Page() {
               </p>
             </div>
             <ul className="flex-1 divide-y divide-slate-100 overflow-y-auto">
-              {weekData.suppliers.map((s) => (
+              {weekData.suppliers.map((s) => {
+                const sentRecord = sentLog.get(s.supplier)
+                return (
                 <li key={s.supplier}>
                   <button
                     onClick={() => {
@@ -396,6 +495,8 @@ export default function Page() {
                     className={`w-full px-5 py-3.5 text-left transition-colors hover:bg-slate-50 ${
                       selectedSupplier === s.supplier
                         ? 'border-l-4 border-blue-600 bg-blue-50/70'
+                        : sentRecord
+                        ? 'border-l-4 border-emerald-400 bg-emerald-50/40'
                         : ''
                     }`}
                   >
@@ -416,14 +517,19 @@ export default function Page() {
                         {s.table.total_credited}
                       </span>
                     </div>
-                    {s.emails[0] && (
+                    {sentRecord ? (
+                      <p className="mt-1 text-xs font-semibold text-emerald-600">
+                        ✓ Sent {new Date(sentRecord.sent_at).toLocaleDateString('en-CA', { month: 'short', day: 'numeric', year: 'numeric' })}
+                      </p>
+                    ) : s.emails[0] ? (
                       <p className="mt-1 truncate text-xs text-slate-400">
                         {s.emails[0]}
                       </p>
-                    )}
+                    ) : null}
                   </button>
                 </li>
-              ))}
+                )
+              })}
             </ul>
           </div>
 
@@ -439,12 +545,31 @@ export default function Page() {
                 <div className="shrink-0 border-b border-slate-100 bg-slate-50/70 px-6 py-4">
                   <div className="flex items-center gap-2 flex-wrap">
                     <h2 className="text-base font-semibold text-slate-900">{supplier.supplier}</h2>
-                    <span className={`rounded-full px-2 py-1 text-xs font-medium ${supplier.language === 'fr' ? 'bg-blue-50 text-blue-700' : 'bg-slate-100 text-slate-600'}`}>
-                      {supplier.language.toUpperCase()}
-                    </span>
-                    {supplier.taxable === 'Yes' && (
-                      <span className="rounded-full bg-amber-50 px-2 py-1 text-xs font-medium text-amber-700">Taxable</span>
-                    )}
+
+                    {/* Language toggle */}
+                    <div className="flex items-center rounded-full border border-slate-200 bg-white p-0.5 text-xs font-semibold shadow-sm">
+                      <button
+                        onClick={() => setLangOverride('en')}
+                        className={`rounded-full px-2.5 py-1 transition-colors ${langOverride === 'en' ? 'bg-slate-800 text-white' : 'text-slate-500 hover:text-slate-800'}`}
+                      >EN</button>
+                      <button
+                        onClick={() => setLangOverride('fr')}
+                        className={`rounded-full px-2.5 py-1 transition-colors ${langOverride === 'fr' ? 'bg-blue-600 text-white' : 'text-slate-500 hover:text-slate-800'}`}
+                      >FR</button>
+                    </div>
+
+                    {/* Taxable toggle */}
+                    <div className="flex items-center rounded-full border border-slate-200 bg-white p-0.5 text-xs font-semibold shadow-sm">
+                      <button
+                        onClick={() => setTaxableOverride(false)}
+                        className={`rounded-full px-2.5 py-1 transition-colors ${!taxableOverride ? 'bg-slate-800 text-white' : 'text-slate-500 hover:text-slate-800'}`}
+                      >No Tax</button>
+                      <button
+                        onClick={() => setTaxableOverride(true)}
+                        className={`rounded-full px-2.5 py-1 transition-colors ${taxableOverride ? 'bg-amber-500 text-white' : 'text-slate-500 hover:text-slate-800'}`}
+                      >Taxable</button>
+                    </div>
+
                   </div>
                   <div className="mt-2 max-w-2xl">
                     {/* Tag chip container */}
@@ -606,6 +731,46 @@ export default function Page() {
         </svg>
         Email sent to test recipient
       </div>
+
+      {/* Already-sent warning modal */}
+      {showSentWarning && supplier && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/30 backdrop-blur-sm">
+          <div className="mx-4 w-full max-w-md rounded-3xl border border-slate-200 bg-white p-6 shadow-[0_32px_80px_rgba(15,23,42,0.18)]">
+            <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-2xl bg-amber-50">
+              <svg className="h-5 w-5 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z" />
+              </svg>
+            </div>
+            <h3 className="text-base font-semibold text-slate-900">Already sent</h3>
+            <p className="mt-1.5 text-sm text-slate-500">
+              An email was already sent to{' '}
+              <span className="font-semibold text-slate-800">{supplier.supplier}</span>{' '}
+              for Week {supplier.week} on{' '}
+              <span className="font-semibold text-slate-800">
+                {new Date(sentLog.get(supplier.supplier)!.sent_at).toLocaleDateString('en-CA', {
+                  weekday: 'long', month: 'long', day: 'numeric', year: 'numeric',
+                })}
+              </span>
+              .
+            </p>
+            <p className="mt-1 text-sm text-slate-500">Do you want to send it again?</p>
+            <div className="mt-5 flex gap-3">
+              <button
+                onClick={() => setShowSentWarning(false)}
+                className="flex-1 rounded-xl border border-slate-200 bg-slate-50 px-4 py-2.5 text-sm font-medium text-slate-700 transition-colors hover:bg-slate-100"
+              >
+                Cancel
+              </button>
+              <button
+                onClick={() => { setShowSentWarning(false); doSend() }}
+                className="flex-1 rounded-xl bg-amber-500 px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-amber-600"
+              >
+                Send anyway
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   )
 }

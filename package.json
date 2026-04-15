@@ -6,9 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "db:peek": "tsx scripts/db-utils.ts peek",
+    "db:clean": "tsx scripts/db-utils.ts clean"
   },
   "dependencies": {
+    "@libsql/client": "^0.17.2",
     "@types/papaparse": "^5.5.2",
     "googleapis": "^171.4.0",
     "next": "16.1.6",
@@ -25,6 +28,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
     "tailwindcss": "^4",
+    "tsx": "^4.21.0",
     "typescript": "^5"
   }
 }

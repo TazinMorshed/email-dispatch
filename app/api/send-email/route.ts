@@ -2,6 +2,7 @@ import { getServerSession } from 'next-auth'
 import { authOptions } from '@/lib/authOptions'
 import { google } from 'googleapis'
 import { NextRequest, NextResponse } from 'next/server'
+import { recordSend } from '@/lib/db'
 
 export async function POST(req: NextRequest) {
   const session = await getServerSession(authOptions)
@@ -10,7 +11,19 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: 'Not authenticated' }, { status: 401 })
   }
 
-  const { subject, html, includeSignature, to: toOverride } = await req.json()
+  let body: { subject?: unknown; html?: unknown; includeSignature?: unknown; to?: unknown; week?: unknown; supplier?: unknown; mode?: unknown }
+  try {
+    body = await req.json()
+  } catch {
+    return NextResponse.json({ error: 'Invalid request body' }, { status: 400 })
+  }
+  const subject = body.subject as string | undefined
+  const html = body.html as string | undefined
+  const includeSignature = body.includeSignature
+  const toOverride = body.to
+  const week = body.week
+  const supplier = body.supplier
+  const mode = body.mode
 
   // Live mode passes supplier emails. If an explicit live recipient list is empty,
   // reject it instead of silently falling back to the test recipient.
@@ -74,6 +87,21 @@ export async function POST(req: NextRequest) {
   } catch (err) {
     const message = err instanceof Error ? err.message : 'Gmail API error'
     return NextResponse.json({ error: message }, { status: 500 })
+  }
+
+  // Only record live sends — test sends are not tracked
+  if (mode === 'live' && week && supplier) {
+    try {
+      await recordSend({
+        week: Number(week),
+        supplier: String(supplier),
+        recipients: Array.isArray(toOverride) ? toOverride : [to as string],
+        mode: mode === 'live' ? 'live' : 'test',
+        sent_by: session.user?.email ?? null,
+      })
+    } catch (err) {
+      console.error('[send-email] Failed to record send in DB:', err)
+    }
   }
 
   return NextResponse.json({ success: true })
