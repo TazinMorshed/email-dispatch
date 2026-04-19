@@ -20,6 +20,11 @@ export async function GET() {
     const res = await gmail.users.settings.sendAs.list({ userId: 'me' })
     return NextResponse.json(res.data)
   } catch (err) {
-    return NextResponse.json({ error: String(err) }, { status: 500 })
+    const message = err instanceof Error ? err.message : String(err)
+    console.error('[debug-signature] Gmail API error:', err)
+    return NextResponse.json(
+      { error: `Failed to fetch Gmail signature settings: ${message}` },
+      { status: 500 }
+    )
   }
 }

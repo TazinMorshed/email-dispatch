@@ -13,7 +13,11 @@ export async function GET() {
       .map((m) => parseInt(m[1]))
       .sort((a, b) => a - b)
     return NextResponse.json(weeks)
-  } catch {
-    return NextResponse.json([], { status: 200 })
+  } catch (err) {
+    console.error('[weeks] Failed to read email_drafts directory:', err)
+    return NextResponse.json(
+      { error: 'Failed to load available weeks. Check that Data/email_drafts/ exists.' },
+      { status: 500 }
+    )
   }
 }

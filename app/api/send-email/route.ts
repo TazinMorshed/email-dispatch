@@ -89,7 +89,16 @@ export async function POST(req: NextRequest) {
       requestBody: { raw },
     })
   } catch (err) {
-    const message = err instanceof Error ? err.message : 'Gmail API error'
+    console.error('[send-email] Gmail API error:', err)
+    let message = 'Gmail API error — failed to send email'
+    if (err instanceof Error) {
+      message = err.message
+      const gmailErr = err as { code?: number; errors?: Array<{ message: string }> }
+      if (gmailErr.code === 401) message = 'Gmail authentication failed — please sign out and sign in again'
+      else if (gmailErr.code === 403) message = 'Gmail permission denied — missing gmail.send scope. Please sign out and sign in again.'
+      else if (gmailErr.code === 429) message = 'Gmail rate limit exceeded — please wait a moment and try again'
+      else if (gmailErr.errors?.[0]?.message) message = gmailErr.errors[0].message
+    }
     return NextResponse.json({ error: message }, { status: 500 })
   }
 

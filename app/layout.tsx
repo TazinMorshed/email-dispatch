@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "RPC Invoice Dashboard",
-  description: "Vendor invoice tracking dashboard",
+  title: "Credits Collections",
+  description: "Supplier promotion credit email dispatch tool",
 };
 
 export default function RootLayout({

@@ -29,7 +29,11 @@ export async function GET(req: NextRequest) {
     }
 
     return NextResponse.json(weeks.sort((a, b) => a - b))
-  } catch {
-    return NextResponse.json([], { status: 200 })
+  } catch (err) {
+    console.error('[supplier-weeks] Failed to scan email_drafts directory:', err)
+    return NextResponse.json(
+      { error: 'Failed to scan weeks. Check that Data/email_drafts/ exists.' },
+      { status: 500 }
+    )
   }
 }
