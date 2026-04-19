@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useMemo } from 'react'
 import Link from 'next/link'
 import { useSession, signOut } from 'next-auth/react'
 
@@ -61,10 +61,18 @@ function formatPeriod(period: string): string {
 
 function buildEmailTable(supplier: Supplier): string {
   const { table } = supplier
-  const promoWeek = `Promo week ${supplier.week} - ${formatPeriod(supplier.period)}`
+  const isFr = supplier.language === 'fr'
+
+  // Compact week label for the table cell: "W15 · Apr 5–11, 2026"
+  const parts = supplier.period.split(' to ')
+  let weekLabel = `W${supplier.week}`
+  if (parts.length === 2) {
+    const fmt = (s: string) => new Date(s + 'T00:00:00').toLocaleDateString('en-CA', { month: 'short', day: 'numeric' })
+    const year = new Date(parts[1] + 'T00:00:00').getFullYear()
+    weekLabel = `W${supplier.week} · ${fmt(parts[0])}–${fmt(parts[1])}, ${year}`
+  }
 
   const base = 'border:1px solid #d0d0d0;padding:2px 6px;font-size:11px;font-family:Arial,sans-serif;line-height:1.3;'
-  // Headers wrap so column width is driven by data, not header text
   const th = (content: string) =>
     `<th style="${base}background-color:#e8e9ea;color:#333;font-weight:600;text-align:left;max-width:80px;">${content}</th>`
   const td = (content: string | number, extra = '') =>
@@ -80,8 +88,8 @@ function buildEmailTable(supplier: Supplier): string {
       return `<tr>
         ${td(table.lufa_farms_code[i])}
         ${td(name)}
-        ${td(promoWeek)}
-        ${td(table.rebate_per_unit[i])}
+        ${td(weekLabel)}
+        ${td(table.rebate_per_unit[i], 'font-weight:bold;')}
         ${td(totalQty)}
         ${td(table.qty_bought_at_rebate_cost[i])}
         ${td(table.qty_bought_at_regular_cost[i])}
@@ -99,70 +107,178 @@ function buildEmailTable(supplier: Supplier): string {
   </tr>`
 
   return `<table style="border-collapse:collapse;font-family:Arial,sans-serif;">
-    <thead><tr>
-      ${th('Code des Fermes Lufa')}
-      ${th('Produit / Product')}
-      ${th('Week')}
-      ${th('Rabais $/Unité / Rebate $/Unit')}
-      ${th('Total sold quantities')}
-      ${th('Quantities Bought at rebate cost')}
-      ${th('Quantities Bought at Regular Cost')}
-      <th style="${base}background-color:#e8e9ea;color:#333;font-weight:700;text-align:left;max-width:80px;">Credited Sum</th>
-    </tr></thead>
+    <thead>
+      <tr>
+        ${th('Code des Fermes Lufa')}
+        ${th('Produit / Product')}
+        ${th('Semaine / Week')}
+        ${th('Rabais $/Unité / Rebate $/Unit')}
+        ${th('Total sold quantities')}
+        ${th('Quantities Bought at rebate cost')}
+        ${th('Quantities Bought at Regular Cost')}
+        <th style="${base}background-color:#e8e9ea;color:#333;font-weight:700;text-align:left;max-width:80px;">Credited Sum</th>
+      </tr>
+    </thead>
     <tbody>${dataRows}</tbody>
     <tfoot>${totalRow}</tfoot>
   </table>`
 }
 
-function generateEmailHtml(supplier: Supplier, senderName?: string): { subject: string; html: string } {
-  const isTaxable = supplier.taxable === 'Yes'
-  const isFr = supplier.language === 'fr'
+function buildMergedTable(suppliers: Supplier[], isFr: boolean): string {
+  const base = 'border:1px solid #d0d0d0;padding:2px 6px;font-size:11px;font-family:Arial,sans-serif;line-height:1.3;'
+  const th = (content: string) =>
+    `<th style="${base}background-color:#e8e9ea;color:#333;font-weight:600;text-align:left;max-width:80px;">${content}</th>`
+  const td = (content: string | number, extra = '') =>
+    `<td style="${base}white-space:nowrap;${extra}">${content}</td>`
+  const tdEmpty = () => `<td style="${base}"></td>`
+  const tdCredit = (content: string | number) =>
+    `<td style="${base}white-space:nowrap;background-color:#ffd7d7;font-weight:bold;">${content}</td>`
+  const yellow = 'background-color:#FFFF00;font-weight:bold;'
 
-  const subject = `Promotion W${supplier.week} - count & recount - ${supplier.supplier}`
+  // Build rows for every week
+  const allDataRows = suppliers.map((supplier) => {
+    const { table } = supplier
+    const parts = supplier.period.split(' to ')
+    let weekCell = `W${supplier.week}`
+    if (parts.length === 2) {
+      const fmt = (s: string) => new Date(s + 'T00:00:00').toLocaleDateString('en-CA', { month: 'short', day: 'numeric' })
+      const year = new Date(parts[1] + 'T00:00:00').getFullYear()
+      weekCell = `W${supplier.week} · ${fmt(parts[0])}–${fmt(parts[1])}, ${year}`
+    }
+    return table.product_name.map((name, i) => {
+      const totalQty = (table.qty_bought_at_rebate_cost[i] ?? 0) + (table.qty_bought_at_regular_cost[i] ?? 0)
+      return `<tr>
+        ${td(table.lufa_farms_code[i])}
+        ${td(name)}
+        ${td(weekCell)}
+        ${td(table.rebate_per_unit[i], 'font-weight:bold;')}
+        ${td(totalQty)}
+        ${td(table.qty_bought_at_rebate_cost[i])}
+        ${td(table.qty_bought_at_regular_cost[i])}
+        ${tdCredit(table.credited_sum[i])}
+      </tr>`
+    }).join('')
+  }).join('')
 
-  const p = (text: string) =>
-    `<p style="margin:0 0 14px 0;font-family:Arial,sans-serif;font-size:14px;color:#000;">${text}</p>`
+  // Per-week subtotal rows + grand total
+  const subtotalRows = suppliers.map((supplier) => {
+    const label = isFr ? `Sous-total W${supplier.week}` : `Subtotal W${supplier.week}`
+    return `<tr>
+      ${tdEmpty()}${tdEmpty()}${tdEmpty()}${tdEmpty()}${tdEmpty()}${tdEmpty()}
+      ${td(label, yellow)}
+      ${td(supplier.table.total_credited, yellow)}
+    </tr>`
+  }).join('')
 
-  const tableHtml = buildEmailTable(supplier)
+  const grandTotal = suppliers.reduce((sum, sup) => {
+    const val = parseFloat(sup.table.total_credited.replace(/[^0-9.-]/g, ''))
+    return sum + (isNaN(val) ? 0 : val)
+  }, 0)
+  const grandFormatted = grandTotal.toLocaleString('en-CA', { minimumFractionDigits: 2, maximumFractionDigits: 2 })
+  const grandLabel = isFr ? 'TOTAL GÉNÉRAL' : 'GRAND TOTAL'
+  const grandRow = `<tr>
+    ${tdEmpty()}${tdEmpty()}${tdEmpty()}${tdEmpty()}${tdEmpty()}${tdEmpty()}
+    ${td(grandLabel, 'background-color:#FFD700;font-weight:bold;')}
+    ${td(`$${grandFormatted}`, 'background-color:#FFD700;font-weight:bold;')}
+  </tr>`
+
+  return `<table style="border-collapse:collapse;font-family:Arial,sans-serif;">
+    <thead>
+      <tr>
+        ${th('Code des Fermes Lufa')}
+        ${th('Produit / Product')}
+        ${th('Semaine / Week')}
+        ${th('Rabais $/Unité / Rebate $/Unit')}
+        ${th('Total sold quantities')}
+        ${th('Quantities Bought at rebate cost')}
+        ${th('Quantities Bought at Regular Cost')}
+        <th style="${base}background-color:#e8e9ea;color:#333;font-weight:700;text-align:left;max-width:80px;">Credited Sum</th>
+      </tr>
+    </thead>
+    <tbody>${allDataRows}</tbody>
+    <tfoot>${subtotalRows}${grandRow}</tfoot>
+  </table>`
+}
+
+function generateEmailHtml(suppliers: Supplier[], senderName?: string): { subject: string; html: string } {
+  const primary = suppliers[0]
+  const isTaxable = primary.taxable === 'Yes'
+  const isFr = primary.language === 'fr'
+
+  // Subject: Promotion W13-W14-W15 - count & recount - SupplierName
+  const weekTag = suppliers.map((sup) => `W${sup.week}`).join('-')
+  const subject = `Promotion ${weekTag} - count & recount - ${primary.supplier}`
+
+  const st = 'font-family:Arial,sans-serif;font-size:14px;color:#000;'
+  const p0   = (text: string) => `<p style="margin:0;${st}">${text}</p>`
+  const gap  = `<br>`
+  const gap2 = `<br><br>`
+
+  // All weeks merged into one table — the Week column in each row identifies the week
+  const tablesHtml = suppliers.length === 1
+    ? buildEmailTable(suppliers[0])
+    : buildMergedTable(suppliers, isFr)
+
   const firstName = senderName?.split(' ')[0] ?? ''
-  const closingText = isFr ? 'Merci,' : 'Thank you,'
+  const closingText = isFr ? 'Merci de ta collaboration,' : 'Thank you for your collaboration,'
   const closing = firstName
-    ? `<br><p style="margin:0 0 0 0;font-family:Arial,sans-serif;font-size:14px;color:#000;">${closingText}</p><p style="margin:0 0 14px 0;font-family:Arial,sans-serif;font-size:14px;color:#000;">${firstName}</p>`
-    : `<br>${p(closingText)}`
+    ? `<p style="margin:0;${st}">${closingText}</p><p style="margin:0;${st}">${firstName}</p>`
+    : `<p style="margin:0;${st}">${closingText}</p>`
+
+  // Week reference text: "13" / "13 and 14" / "13, 14 and 15"
+  const weekNums = suppliers.map((sup) => sup.week)
+  const sep = isFr ? ' et ' : ' and '
+  const weekRef = weekNums.length === 1
+    ? String(weekNums[0])
+    : weekNums.slice(0, -1).join(', ') + sep + weekNums[weekNums.length - 1]
+  const semaineLabel = isFr
+    ? (weekNums.length === 1 ? `semaine ${weekRef}` : `semaines ${weekRef}`)
+    : (weekNums.length === 1 ? `week ${weekRef}` : `weeks ${weekRef}`)
 
   let body = ''
 
   if (!isTaxable && isFr) {
-    // Non-taxable FR
     body = `
-      ${p('Bonjour,')}
-      ${p('Voici les résultats des promotions - étant donné que les produits sont non-taxables, nous allons déduire ce montant du prochain paiement :')}
-      ${tableHtml}
+      ${p0('Bonjour,')}
+      ${gap}
+      ${p0(`Voici le résultat des promotions de la ${semaineLabel} - <strong>étant donné que le produit est non-taxable, nous allons déduire ce montant du prochain paiement.</strong>`)}
+      ${gap}
+      ${tablesHtml}
+            ${gap2}
       ${closing}
     `
   } else if (!isTaxable && !isFr) {
-    // Non-taxable EN
     body = `
-      ${p('Hello,')}
-      ${p("Please find the results of the promotions, as the products are non-taxable, we will deduct this amount from the next payment, we don't need any more a credit note :")}
-      ${tableHtml}
+      ${p0('Hi,')}
+      ${gap}
+      ${p0(`Here are the results of the promotions for ${semaineLabel} - <strong>since the products are non-taxable, we will deduct this amount on your next payment.</strong>`)}
+      ${gap}
+      ${tablesHtml}
+            ${gap2}
       ${closing}
     `
   } else if (isTaxable && isFr) {
-    // Taxable FR
     body = `
-      ${p('Bonjour,')}
-      ${p('Voici les résultats des promotions - svp envoyez une note de crédit à notre département de facturation (en cc sur ce courriel) et moi :')}
-      ${tableHtml}
+      ${p0('Bonjour,')}
+      ${gap}
+      ${p0(`Voici les résultats des promotions de la ${semaineLabel}`)}
+      ${gap}
+      ${tablesHtml}
+            ${gap}
+      ${p0('<strong>Les produits étant taxables, merci d\'envoyer une note de crédit à billing@lufa.com et à moi.</strong>')}
+      ${gap2}
       ${closing}
     `
   } else {
-    // Taxable EN
     body = `
-      ${p('Hello,')}
-      ${p('Please find below the adjustment credit for promotions, as the products are taxable, we still need a credit note :')}
-      ${p('Please send a credit note directly to the billing team who are in copy and myself!')}
-      ${tableHtml}
+      ${p0('Hi,')}
+      ${gap}
+      ${p0(`Here are the promotions for ${semaineLabel}`)}
+      ${gap}
+      ${tablesHtml}
+            ${gap}
+      ${p0('<strong>Please send the credit note (tax included) directly to: 📩 billing@lufa.com and myself.</strong>')}
+      ${gap2}
       ${closing}
     `
   }
@@ -223,6 +339,14 @@ export default function Page() {
   // email content overrides — default to supplier's JSON values, togglable
   const [langOverride, setLangOverride] = useState<'en' | 'fr'>('en')
   const [taxableOverride, setTaxableOverride] = useState(false)
+  // multi-week merge
+  const [mergeWeeks, setMergeWeeks] = useState<number[]>([])
+  const [mergeWeekData, setMergeWeekData] = useState<Record<number, WeekData>>({})
+  // weeks (other than primary) where this supplier actually appears
+  const [supplierWeeks, setSupplierWeeks] = useState<number[]>([])
+  const [loadingSupplierWeeks, setLoadingSupplierWeeks] = useState(false)
+  // session-level cache: week → set of supplier names sent this session (survives week navigation)
+  const [recentlySent, setRecentlySent] = useState<Map<number, Set<string>>>(new Map())
 
   useEffect(() => {
     if (supplier) {
@@ -234,6 +358,17 @@ export default function Page() {
       // Reset toggles to this supplier's defaults
       setLangOverride(supplier.language === 'fr' ? 'fr' : 'en')
       setTaxableOverride(supplier.taxable === 'Yes')
+      // Reset merge when switching suppliers
+      setMergeWeeks([])
+      setMergeWeekData({})
+      // Fetch which other weeks this supplier appears in
+      setSupplierWeeks([])
+      setLoadingSupplierWeeks(true)
+      fetch(`/api/supplier-weeks?supplier=${encodeURIComponent(supplier.supplier)}`)
+        .then((r) => r.json())
+        .then((weeks: number[]) => setSupplierWeeks(weeks.filter((w) => w !== selectedWeek)))
+        .catch(() => setSupplierWeeks([]))
+        .finally(() => setLoadingSupplierWeeks(false))
     }
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedSupplier, savedEmails])
@@ -261,6 +396,8 @@ export default function Page() {
     setSendError(null)
     setSentLog(new Map())
     setSavedEmails(new Map())
+    setMergeWeeks([])
+    setMergeWeekData({})
     // Step 1: load week data + send log in parallel
     Promise.all([
       fetch(`/api/weeks/${selectedWeek}`).then((r) => r.json()),
@@ -288,10 +425,35 @@ export default function Page() {
     }).finally(() => setLoadingWeek(false))
   }, [selectedWeek])
 
-  const supplier = weekData?.suppliers.find((s) => s.supplier === selectedSupplier) ?? null
-  const emailContent = supplier
-    ? generateEmailHtml({ ...supplier, language: langOverride, taxable: taxableOverride ? 'Yes' : 'No' }, session?.user?.name ?? undefined)
-    : null
+  // useMemo gives supplier a stable reference — only changes when weekData or selectedSupplier changes
+  const supplier = useMemo(
+    () => weekData?.suppliers.find((s) => s.supplier === selectedSupplier) ?? null,
+    [weekData, selectedSupplier]
+  )
+
+  const [emailContent, setEmailContent] = useState<{ subject: string; html: string } | null>(null)
+  const [activeMergedWeeks, setActiveMergedWeeks] = useState<number[]>([])
+
+  // Rebuild email content whenever supplier, overrides, or merge data changes
+  useEffect(() => {
+    if (!supplier) {
+      setEmailContent(null)
+      setActiveMergedWeeks([])
+      return
+    }
+    const override = (s: Supplier): Supplier => ({
+      ...s,
+      language: langOverride,
+      taxable: taxableOverride ? 'Yes' : 'No',
+    })
+    const additionals: Supplier[] = mergeWeeks
+      .map((w) => mergeWeekData[w]?.suppliers.find((s) => s.supplier === supplier.supplier))
+      .filter((s): s is Supplier => !!s)
+      .map(override)
+    const allSups = [override(supplier), ...additionals].sort((a, b) => a.week - b.week)
+    setEmailContent(generateEmailHtml(allSups, session?.user?.name ?? undefined))
+    setActiveMergedWeeks(allSups.map((s) => s.week))
+  }, [supplier, mergeWeeks, mergeWeekData, langOverride, taxableOverride, session?.user?.name])
 
   function isValidEmail(e: string) { return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e.trim()) }
   function buildUpdatedEmails(baseEmails: string[], candidate: string) {
@@ -365,7 +527,7 @@ export default function Page() {
           ...emailContent,
           includeSignature,
           to: sendToSupplier ? liveRecipients : null,
-          week: supplier.week,
+          weeks: activeMergedWeeks,
           supplier: supplier.supplier,
           mode: sendToSupplier ? 'live' : 'test',
         }),
@@ -384,17 +546,29 @@ export default function Page() {
       setTimeout(() => setSent(false), 4000)
       // Only update the sent badge for live sends
       if (sendToSupplier) {
+        const sentAt = new Date().toISOString()
+        // Update sentLog for the primary week
         setSentLog((prev) => {
           const next = new Map(prev)
           next.set(supplier.supplier, {
             id: Date.now(),
-            sent_at: new Date().toISOString(),
+            sent_at: sentAt,
             week: supplier.week,
             supplier: supplier.supplier,
             recipients: JSON.stringify(liveRecipients),
             mode: 'live',
             sent_by: null,
           })
+          return next
+        })
+        // Mark ALL merged weeks as sent in the session cache
+        setRecentlySent((prev) => {
+          const next = new Map(prev)
+          for (const w of activeMergedWeeks) {
+            const weekSet = new Set(next.get(w) ?? [])
+            weekSet.add(supplier.supplier)
+            next.set(w, weekSet)
+          }
           return next
         })
       }
@@ -405,9 +579,23 @@ export default function Page() {
     }
   }
 
+  function toggleMergeWeek(w: number) {
+    if (mergeWeeks.includes(w)) {
+      setMergeWeeks((prev) => prev.filter((x) => x !== w))
+      setMergeWeekData((prev) => { const { [w]: _, ...rest } = prev; return rest })
+    } else {
+      setMergeWeeks((prev) => [...prev, w].sort((a, b) => a - b))
+      fetch(`/api/weeks/${w}`)
+        .then((r) => r.json())
+        .then((data: WeekData) => setMergeWeekData((prev) => ({ ...prev, [w]: data })))
+        .catch(() => {})
+    }
+  }
+
   function handleSend() {
     if (!supplier) return
-    const alreadySent = sentLog.get(supplier.supplier)
+    const alreadySent = sentLog.get(supplier.supplier) ||
+      recentlySent.get(selectedWeek ?? 0)?.has(supplier.supplier)
     if (alreadySent) {
       setShowSentWarning(true)
     } else {
@@ -474,6 +662,35 @@ export default function Page() {
           </button>
         ))}
         </div>
+        {selectedWeek !== null && supplier && (
+          <div className="mt-3 flex flex-wrap items-center gap-2 border-t border-slate-100 pt-3">
+            <span className="text-xs font-semibold text-slate-400 uppercase tracking-[0.14em]">Merge with:</span>
+            {loadingSupplierWeeks ? (
+              <span className="text-xs text-slate-400">Loading available weeks…</span>
+            ) : supplierWeeks.length === 0 ? (
+              <span className="text-xs text-slate-400">No other weeks available for this supplier</span>
+            ) : (
+              supplierWeeks.map((w) => (
+                <button
+                  key={w}
+                  onClick={() => toggleMergeWeek(w)}
+                  className={`rounded-full border px-3 py-1 text-xs font-medium transition-colors ${
+                    mergeWeeks.includes(w)
+                      ? 'border-violet-500 bg-violet-500 text-white shadow-sm'
+                      : 'border-slate-200 bg-slate-50 text-slate-500 hover:border-slate-300 hover:text-slate-700'
+                  }`}
+                >
+                  W{w}
+                </button>
+              ))
+            )}
+            {mergeWeeks.length > 0 && activeMergedWeeks.length > 1 && (
+              <span className="ml-1 text-xs font-semibold text-violet-600">
+                → W{activeMergedWeeks.join('-W')} merged
+              </span>
+            )}
+          </div>
+        )}
       </div>
 
       {/* Main content */}
@@ -500,6 +717,8 @@ export default function Page() {
             <ul className="flex-1 divide-y divide-slate-100 overflow-y-auto">
               {weekData.suppliers.map((s) => {
                 const sentRecord = sentLog.get(s.supplier)
+                const sentThisSession = !sentRecord && recentlySent.get(weekData.week)?.has(s.supplier)
+                const isSent = !!sentRecord || !!sentThisSession
                 return (
                 <li key={s.supplier}>
                   <button
@@ -511,7 +730,7 @@ export default function Page() {
                     className={`w-full px-5 py-3.5 text-left transition-colors hover:bg-slate-50 ${
                       selectedSupplier === s.supplier
                         ? 'border-l-4 border-blue-600 bg-blue-50/70'
-                        : sentRecord
+                        : isSent
                         ? 'border-l-4 border-emerald-400 bg-emerald-50/40'
                         : ''
                     }`}
@@ -537,6 +756,8 @@ export default function Page() {
                       <p className="mt-1 text-xs font-semibold text-emerald-600">
                         ✓ Sent {new Date(sentRecord.sent_at).toLocaleDateString('en-CA', { month: 'short', day: 'numeric', year: 'numeric' })}
                       </p>
+                    ) : sentThisSession ? (
+                      <p className="mt-1 text-xs font-semibold text-emerald-600">✓ Sent</p>
                     ) : s.emails[0] ? (
                       <p className="mt-1 truncate text-xs text-slate-400">
                         {s.emails[0]}
@@ -672,12 +893,14 @@ export default function Page() {
                       </p>
                     </div>
 
-                    {ccRecipient && (
+                    {(sendToSupplier || ccRecipient) && (
                       <>
                         <div className="h-8 w-px bg-slate-200" />
                         <div className="flex flex-col gap-0.5">
-                          <p className="text-xs font-semibold text-slate-700">CC recipient</p>
-                          <p className="text-xs font-medium text-slate-500">→ {ccRecipient}</p>
+                          <p className="text-xs font-semibold text-slate-700">CC</p>
+                          <p className={`text-xs font-medium ${sendToSupplier ? 'text-emerald-700' : 'text-slate-500'}`}>
+                            → {sendToSupplier ? 'billing@lufa.com' : ccRecipient}
+                          </p>
                         </div>
                       </>
                     )}

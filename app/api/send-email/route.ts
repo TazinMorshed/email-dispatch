@@ -11,7 +11,7 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: 'Not authenticated' }, { status: 401 })
   }
 
-  let body: { subject?: unknown; html?: unknown; includeSignature?: unknown; to?: unknown; week?: unknown; supplier?: unknown; mode?: unknown }
+  let body: { subject?: unknown; html?: unknown; includeSignature?: unknown; to?: unknown; week?: unknown; weeks?: unknown; supplier?: unknown; mode?: unknown }
   try {
     body = await req.json()
   } catch {
@@ -21,7 +21,11 @@ export async function POST(req: NextRequest) {
   const html = body.html as string | undefined
   const includeSignature = body.includeSignature
   const toOverride = body.to
-  const week = body.week
+  const weeks: number[] = Array.isArray(body.weeks)
+    ? (body.weeks as unknown[]).map(Number).filter((n) => !isNaN(n))
+    : body.week !== undefined
+    ? [Number(body.week)]
+    : []
   const supplier = body.supplier
   const mode = body.mode
 
@@ -43,7 +47,7 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: 'Missing required fields' }, { status: 400 })
   }
 
-  const cc = process.env.CC_RECIPIENT?.trim()
+  const cc = mode === 'live' ? 'billing@lufa.com' : process.env.CC_RECIPIENT?.trim()
 
   const oauth2Client = new google.auth.OAuth2(
     process.env.GOOGLE_CLIENT_ID,
@@ -90,17 +94,19 @@ export async function POST(req: NextRequest) {
   }
 
   // Only record live sends — test sends are not tracked
-  if (mode === 'live' && week && supplier) {
-    try {
-      await recordSend({
-        week: Number(week),
-        supplier: String(supplier),
-        recipients: Array.isArray(toOverride) ? toOverride : [to as string],
-        mode: mode === 'live' ? 'live' : 'test',
-        sent_by: session.user?.email ?? null,
-      })
-    } catch (err) {
-      console.error('[send-email] Failed to record send in DB:', err)
+  if (mode === 'live' && weeks.length > 0 && supplier) {
+    for (const w of weeks) {
+      try {
+        await recordSend({
+          week: w,
+          supplier: String(supplier),
+          recipients: Array.isArray(toOverride) ? toOverride : [to as string],
+          mode: 'live',
+          sent_by: session.user?.email ?? null,
+        })
+      } catch (err) {
+        console.error('[send-email] Failed to record send in DB:', err)
+      }
     }
   }
 

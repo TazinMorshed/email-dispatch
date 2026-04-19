@@ -2,6 +2,9 @@ import type { NextAuthOptions } from 'next-auth'
 import GoogleProvider from 'next-auth/providers/google'
 
 export const authOptions: NextAuthOptions = {
+  pages: {
+    error: '/auth/error',
+  },
   providers: [
     GoogleProvider({
       clientId: process.env.GOOGLE_CLIENT_ID!,
@@ -16,6 +19,10 @@ export const authOptions: NextAuthOptions = {
     }),
   ],
   callbacks: {
+    async signIn({ profile }) {
+      const email = profile?.email ?? ''
+      return email.endsWith('@lufa.com')
+    },
     async jwt({ token, account }) {
       // First sign-in — store tokens
       if (account) {
