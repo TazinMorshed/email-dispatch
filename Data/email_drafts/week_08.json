@@ -183,7 +183,7 @@
       "taxable": "No",
       "year": 2026,
       "week": 8,
-      "period": "2026-02-15",
+      "period": "2026-02-21",
       "theme": "Asian food - Lunar New Year Celebrations (Feb 17)",
       "table": {
         "product_name": [
@@ -229,15 +229,15 @@
           "$12.39"
         ],
         "qty_bought_at_regular_cost": [
-          307,
           123,
+          307,
           650,
           402,
           22
         ],
         "credited_sum": [
-          "$230.25",
           "$92.25",
+          "$230.25",
           "$227.50",
           "$273.36",
           "$11.00"
@@ -745,20 +745,20 @@
       "theme": "Asian food - Lunar New Year Celebrations (Feb 17)",
       "table": {
         "product_name": [
-          "Spicy Chicken Pad Thai (2 portions, frozen)",
-          "Chicken Tom Yum Soup (2 portions, frozen)"
+          "Chicken Tom Yum Soup (2 portions, frozen)",
+          "Spicy Chicken Pad Thai (2 portions, frozen)"
         ],
         "lufa_farms_code": [
-          16112,
-          16114
+          16114,
+          16112
         ],
         "rebate_per_unit": [
-          "$1.00",
-          "$1.50"
+          "$1.50",
+          "$1.00"
         ],
         "rebate_cost": [
-          "$9.36",
-          "$9.86"
+          "$9.86",
+          "$9.36"
         ],
         "qty_bought_at_rebate_cost": [
           0,
@@ -769,14 +769,14 @@
           "$11.36"
         ],
         "qty_bought_at_regular_cost": [
-          122,
-          354
+          354,
+          122
         ],
         "credited_sum": [
-          "$122.00",
-          "$531.00"
+          "$531.00",
+          "$122.00"
         ],
-        "total_credited": "$714.00"
+        "total_credited": "$476.00"
       }
     },
     {

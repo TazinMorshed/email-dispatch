@@ -477,14 +477,14 @@
       "theme": "GH Focus",
       "table": {
         "product_name": [
+          "Popcorn Tofu (frozen)",
           "Vegan Corn Dogs (4, frozen)",
-          "Vegan Pepperoni Pizza Saucers (4, frozen)",
-          "Popcorn Tofu (frozen)"
+          "Vegan Pepperoni Pizza Saucers (4, frozen)"
         ],
         "lufa_farms_code": [
+          19235,
           17768,
-          19232,
-          19235
+          19232
         ],
         "rebate_per_unit": [
           "$0.50",
@@ -507,14 +507,14 @@
           "$5.00"
         ],
         "qty_bought_at_regular_cost": [
+          904,
           457,
-          261,
-          904
+          261
         ],
         "credited_sum": [
+          "$452.00",
           "$228.50",
-          "$130.50",
-          "$452.00"
+          "$130.50"
         ],
         "total_credited": "$811.00"
       }
@@ -975,24 +975,24 @@
       "theme": "Greenhouse Week",
       "table": {
         "product_name": [
+          "Gnocchi (frozen)",
           "Udon Noodles (frozen)",
-          "Creamy Mushroom Sauce (frozen)",
-          "Gnocchi (frozen)"
+          "Creamy Mushroom Sauce (frozen)"
         ],
         "lufa_farms_code": [
+          3052,
           7353,
-          13331,
-          3052
+          13331
         ],
         "rebate_per_unit": [
+          "$0.35",
           "$0.25",
-          "$0.50",
-          "$0.35"
+          "$0.50"
         ],
         "rebate_cost": [
+          "$2.80",
           "$2.65",
-          "$2.90",
-          "$2.80"
+          "$2.90"
         ],
         "qty_bought_at_rebate_cost": [
           0,
@@ -1000,21 +1000,21 @@
           0
         ],
         "regular_cost": [
+          "$3.50",
           "$3.15",
-          "$3.90",
-          "$3.50"
+          "$3.90"
         ],
         "qty_bought_at_regular_cost": [
+          1702,
           616,
-          425,
-          1702
+          425
         ],
         "credited_sum": [
+          "$595.70",
           "$154.00",
-          "$212.50",
-          "$595.70"
+          "$212.50"
         ],
-        "total_credited": "$960.05"
+        "total_credited": "$1371.50"
       }
     },
     {

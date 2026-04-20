@@ -187,24 +187,24 @@
       "theme": "Cabane À Sucre #1.",
       "table": {
         "product_name": [
+          "Pork Tourtière (uncooked, frozen)",
           "Bacon & Cheese Beef Sausages (frozen)",
-          "Toulouse Pork Sausages (frozen)",
-          "Pork Tourtière (uncooked, frozen)"
+          "Toulouse Pork Sausages (frozen)"
         ],
         "lufa_farms_code": [
+          17366,
           10056,
-          14356,
-          17366
+          14356
         ],
         "rebate_per_unit": [
           "$0.75",
-          "$0.50",
-          "$0.75"
+          "$0.75",
+          "$0.50"
         ],
         "rebate_cost": [
+          "$5.84",
           "$5.69",
-          "$4.05",
-          "$5.84"
+          "$4.05"
         ],
         "qty_bought_at_rebate_cost": [
           0,
@@ -212,21 +212,21 @@
           0
         ],
         "regular_cost": [
+          "$6.59",
           "$6.44",
-          "$4.55",
-          "$6.59"
+          "$4.55"
         ],
         "qty_bought_at_regular_cost": [
+          1189,
           356,
-          917,
-          1189
+          917
         ],
         "credited_sum": [
+          "$891.75",
           "$267.00",
-          "$458.50",
-          "$891.75"
+          "$458.50"
         ],
-        "total_credited": "$1846.50"
+        "total_credited": "$1231.00"
       }
     },
     {

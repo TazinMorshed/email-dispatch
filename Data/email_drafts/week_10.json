@@ -1389,13 +1389,13 @@
       "table": {
         "product_name": [
           "Mexican 3-Bean Veggie Burger (2, frozen)",
-          "Vegan Taco & Chili Crumble (frozen)",
-          "Carrot & Ginger Soup (frozen)"
+          "Carrot & Ginger Soup (frozen)",
+          "Vegan Taco & Chili Crumble (frozen)"
         ],
         "lufa_farms_code": [
           8990,
-          8996,
-          10124
+          10124,
+          8996
         ],
         "rebate_per_unit": [
           "$0.50",
@@ -1404,8 +1404,8 @@
         ],
         "rebate_cost": [
           "$2.14",
-          "$3.92",
-          "$3.85"
+          "$3.85",
+          "$3.92"
         ],
         "qty_bought_at_rebate_cost": [
           0,
@@ -1414,18 +1414,18 @@
         ],
         "regular_cost": [
           "$2.64",
-          "$4.42",
-          "$4.35"
+          "$4.35",
+          "$4.42"
         ],
         "qty_bought_at_regular_cost": [
           987,
-          117,
-          1144
+          1144,
+          117
         ],
         "credited_sum": [
           "$493.50",
-          "$58.50",
-          "$572.00"
+          "$572.00",
+          "$58.50"
         ],
         "total_credited": "$1124.00"
       }

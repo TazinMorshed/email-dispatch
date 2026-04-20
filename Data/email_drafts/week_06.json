@@ -89,38 +89,38 @@
       "taxable": "No",
       "year": 2026,
       "week": 6,
-      "period": "2026-02-01",
+      "period": "2026-02-07",
       "theme": "Super Fresh, Super Bowl- Super Bowl Sunday (Feb 8)",
       "table": {
         "product_name": [
           "Lean Ground Veal (frozen)",
+          "Boneless Pork Chops (frozen)",
           "Poutine Pork Sausages (frozen)",
           "Broccoli & Cheese Pork Sausages (frozen)",
-          "Boneless Pork Chops (frozen)",
           "Lean Ground Veal (frozen)",
           "Boneless Pork Chops (frozen)"
         ],
         "lufa_farms_code": [
           11091,
+          14719,
           11204,
           14363,
-          14719,
           11091,
           14719
         ],
         "rebate_per_unit": [
           "$0.50",
-          "$0.50",
-          "$0.50",
           "$0.75",
+          "$0.50",
+          "$0.50",
           "$0.50",
           "$0.75"
         ],
         "rebate_cost": [
           "$6.33",
+          "$5.08",
           "$4.15",
           "$3.97",
-          "$5.08",
           "$6.33",
           "$5.08"
         ],
@@ -134,27 +134,27 @@
         ],
         "regular_cost": [
           "$6.83",
+          "$5.83",
           "$5.15",
           "$4.97",
-          "$5.83",
           "$6.83",
           "$5.83"
         ],
         "qty_bought_at_regular_cost": [
-          74,
+          36,
+          29,
           232,
           414,
-          41,
-          36,
-          29
+          74,
+          41
         ],
         "credited_sum": [
-          "$37.00",
+          "$18.00",
+          "$21.75",
           "$116.00",
           "$207.00",
-          "$30.75",
-          "$18.00",
-          "$21.75"
+          "$37.00",
+          "$30.75"
         ],
         "total_credited": "$619.50"
       }

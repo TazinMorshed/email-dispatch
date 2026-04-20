@@ -1529,17 +1529,17 @@
       "theme": "Valentine’s & Local Indulgence (strawberries)",
       "table": {
         "product_name": [
-          "Vegan Alfredo Sauce (frozen)",
           "Roasted Tomato Soup (frozen)",
-          "Ginger Sesame Tofu (frozen)",
           "Tahini & Eggplant Veggie Burgers (2, frozen)",
+          "Vegan Alfredo Sauce (frozen)",
+          "Ginger Sesame Tofu (frozen)",
           "Vegan Shawarma (frozen)"
         ],
         "lufa_farms_code": [
-          10337,
           12112,
-          8995,
           8988,
+          10337,
+          8995,
           14795
         ],
         "rebate_per_unit": [
@@ -1550,10 +1550,10 @@
           "$0.50"
         ],
         "rebate_cost": [
-          "$3.50",
           "$3.42",
-          "$3.92",
           "$2.14",
+          "$3.50",
+          "$3.92",
           "$4.80"
         ],
         "qty_bought_at_rebate_cost": [
@@ -1564,24 +1564,24 @@
           0
         ],
         "regular_cost": [
-          "$4.50",
-          "$4.42",
           "$4.42",
           "$2.64",
+          "$4.50",
+          "$4.42",
           "$5.30"
         ],
         "qty_bought_at_regular_cost": [
-          127,
           733,
-          109,
           1033,
+          127,
+          109,
           71
         ],
         "credited_sum": [
-          "$63.50",
           "$366.50",
-          "$54.50",
           "$516.50",
+          "$63.50",
+          "$54.50",
           "$35.50"
         ],
         "total_credited": "$1036.50"

@@ -175,34 +175,34 @@
       "taxable": "No",
       "year": 2026,
       "week": 4,
-      "period": "2026-01-18 to 2026-01-24",
+      "period": "2026-01-24",
       "theme": "Plant Based & Get Planting",
       "table": {
         "product_name": [
+          "Wine, Mustard & Chives Marinated Beef Flank Steak (frozen)",
           "Pork Breakfast Sausages (frozen)",
           "Merguez Lamb Sausages (lamb, frozen)",
-          "Wine, Mustard & Chives Marinated Beef Flank Steak (frozen)",
           "Beef Marrow Bones (frozen)",
           "Wine, Mustard & Chives Marinated Beef Flank Steak (frozen)"
         ],
         "lufa_farms_code": [
+          12743,
           15957,
           4437,
-          12743,
           4282,
           12743
         ],
         "rebate_per_unit": [
+          "$1.00",
           "$0.35",
           "$0.68",
-          "$1.00",
           "$0.50",
           "$1.00"
         ],
         "rebate_cost": [
+          "$8.20",
           "$2.80",
           "$5.40",
-          "$8.20",
           "$5.99",
           "$8.20"
         ],
@@ -214,25 +214,25 @@
           0
         ],
         "regular_cost": [
+          "$9.20",
           "$3.50",
           "$6.76",
-          "$9.20",
           "$6.99",
           "$9.20"
         ],
         "qty_bought_at_regular_cost": [
+          54,
           897,
           596,
-          124,
           550,
-          54
+          124
         ],
         "credited_sum": [
+          "$54.00",
           "$313.95",
           "$405.28",
-          "$124.00",
           "$275.00",
-          "$54.00"
+          "$124.00"
         ],
         "total_credited": "$2221.00"
       }
@@ -1749,31 +1749,31 @@
       "theme": "Plant-Based & Get Planting",
       "table": {
         "product_name": [
-          "Vegan Rosée Sauce (frozen)",
-          "Cuban Black Bean Soup (frozen)",
           "Mexican 3-Bean Veggie Burger (2, frozen)",
           "Vegan Chickpea & Eggplant Curry (frozen)",
+          "Vegan Rosée Sauce (frozen)",
+          "Cuban Black Bean Soup (frozen)",
           "Greek Gyro Tofu (frozen)"
         ],
         "lufa_farms_code": [
-          10332,
-          14078,
           8990,
           17272,
+          10332,
+          14078,
           8993
         ],
         "rebate_per_unit": [
           "$0.50",
-          "$0.50",
-          "$0.50",
           "$0.63",
+          "$0.50",
+          "$0.50",
           "$0.50"
         ],
         "rebate_cost": [
-          "$3.50",
-          "$3.35",
           "$2.14",
           "$4.47",
+          "$3.50",
+          "$3.35",
           "$3.92"
         ],
         "qty_bought_at_rebate_cost": [
@@ -1784,24 +1784,24 @@
           0
         ],
         "regular_cost": [
-          "$4.50",
-          "$4.35",
           "$2.64",
           "$5.10",
+          "$4.50",
+          "$4.35",
           "$4.42"
         ],
         "qty_bought_at_regular_cost": [
-          183,
-          402,
           1105,
           905,
+          183,
+          402,
           53
         ],
         "credited_sum": [
-          "$91.50",
-          "$201.00",
           "$552.50",
           "$570.15",
+          "$91.50",
+          "$201.00",
           "$26.50"
         ],
         "total_credited": "$1324.00"

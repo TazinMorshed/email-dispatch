@@ -270,32 +270,32 @@
       "taxable": "No",
       "year": 2026,
       "week": 11,
-      "period": "2026-03-08",
+      "period": "2026-03-14",
       "theme": "Bakery Week, nod to: St. Patrick’s",
       "table": {
         "product_name": [
           "Chimichurri Marinated Beef Belly Steak (frozen)",
+          "Chimichurri Marinated Beef Belly Steak (frozen)",
           "Apple, Maple Syrup & Bacon Pork Sausages (frozen)",
-          "Mild Traditional Italian Pork Sausages (frozen)",
-          "Chimichurri Marinated Beef Belly Steak (frozen)"
+          "Mild Traditional Italian Pork Sausages (frozen)"
         ],
         "lufa_farms_code": [
           17600,
+          17600,
           15289,
-          9959,
-          17600
+          9959
         ],
         "rebate_per_unit": [
           "$1.00",
+          "$1.00",
           "$0.50",
-          "$0.50",
-          "$1.00"
+          "$0.50"
         ],
         "rebate_cost": [
           "$8.95",
+          "$8.95",
           "$4.31",
-          "$3.96",
-          "$8.95"
+          "$3.96"
         ],
         "qty_bought_at_rebate_cost": [
           0,
@@ -305,23 +305,23 @@
         ],
         "regular_cost": [
           "$9.95",
+          "$9.95",
           "$4.81",
-          "$4.46",
-          "$9.95"
+          "$4.46"
         ],
         "qty_bought_at_regular_cost": [
+          73,
           149,
           633,
-          860,
-          73
+          860
         ],
         "credited_sum": [
+          "$73.00",
           "$149.00",
           "$316.50",
-          "$430.00",
-          "$73.00"
+          "$430.00"
         ],
-        "total_credited": "$1715.00"
+        "total_credited": "$857.50"
       }
     },
     {
@@ -793,30 +793,30 @@
       "table": {
         "product_name": [
           "100% Organic Cotton Panty Liners (pack of 20)",
+          "100% Organic Cotton Tampons with Cardboard Applicator (pack of 16)",
           "100% Organic Cotton Night Menstrual Pads (pack of 10)",
           "Organic Cotton Daily Menstrual Pads (pack of 10)",
-          "100% Organic Cotton Tampons with Cardboard Applicator (pack of 16)",
           "100% Organic Cotton Tampons without Applicators (pack of 18)"
         ],
         "lufa_farms_code": [
           19196,
+          19197,
           19195,
           19194,
-          19197,
           19198
         ],
         "rebate_per_unit": [
           "$0.84",
+          "$1.20",
           "$1.02",
           "$0.96",
-          "$1.20",
           "$1.08"
         ],
         "rebate_cost": [
           "$3.36",
+          "$4.80",
           "$4.08",
           "$3.84",
-          "$4.80",
           "$4.32"
         ],
         "qty_bought_at_rebate_cost": [
@@ -828,23 +828,23 @@
         ],
         "regular_cost": [
           "$4.20",
+          "$6.00",
           "$5.10",
           "$4.80",
-          "$6.00",
           "$5.40"
         ],
         "qty_bought_at_regular_cost": [
           233,
+          179,
           54,
           68,
-          179,
           33
         ],
         "credited_sum": [
           "$195.72",
+          "$214.80",
           "$55.08",
           "$65.28",
-          "$214.80",
           "$35.64"
         ],
         "total_credited": "$612.36"
@@ -1479,15 +1479,15 @@
       "theme": "Bakery Week, nod to: St. Patrick’s",
       "table": {
         "product_name": [
-          "Ginger Sesame Tofu (frozen)",
           "Quinoa & Chickpea Veggie Burgers (2, frozen)",
+          "Ginger Sesame Tofu (frozen)",
           "Buffalo Soy Protein Bites (frozen)",
           "Cuban Black Bean Soup (frozen)",
           "Vegan Rosée Sauce (frozen)"
         ],
         "lufa_farms_code": [
-          8995,
           8989,
+          8995,
           10273,
           14078,
           10332
@@ -1500,8 +1500,8 @@
           "$0.50"
         ],
         "rebate_cost": [
-          "$3.92",
           "$2.14",
+          "$3.92",
           "$4.30",
           "$3.85",
           "$4.00"
@@ -1514,22 +1514,22 @@
           0
         ],
         "regular_cost": [
-          "$4.42",
           "$2.64",
+          "$4.42",
           "$4.80",
           "$4.35",
           "$4.50"
         ],
         "qty_bought_at_regular_cost": [
-          120,
           1219,
+          120,
           124,
           276,
           117
         ],
         "credited_sum": [
-          "$60.00",
           "$609.50",
+          "$60.00",
           "$62.00",
           "$138.00",
           "$58.50"

@@ -144,7 +144,7 @@
       "taxable": "No",
       "year": 2026,
       "week": 9,
-      "period": "2026-02-22",
+      "period": "2026-02-28",
       "theme": "Pantry Week",
       "table": {
         "product_name": [
@@ -184,14 +184,14 @@
           "$4.55"
         ],
         "qty_bought_at_regular_cost": [
-          284,
           114,
+          284,
           291,
           684
         ],
         "credited_sum": [
-          "$340.80",
           "$136.80",
+          "$340.80",
           "$218.25",
           "$342.00"
         ],
@@ -211,38 +211,38 @@
       "theme": "Weather pending: Maple Season Begins/ Spring Prep & Pantry Refresh",
       "table": {
         "product_name": [
-          "Puff Pastry (frozen)",
-          "Ready-to-Bake Cinnamon Buns (4, frozen)"
+          "Ready-to-Bake Cinnamon Buns (4, frozen)",
+          "Puff Pastry (frozen)"
         ],
         "lufa_farms_code": [
-          17488,
-          19991
+          19991,
+          17488
         ],
         "rebate_per_unit": [
-          "$1.25",
-          "$0.75"
+          "$0.75",
+          "$1.25"
         ],
         "rebate_cost": [
-          "$7.75",
-          "$7.25"
+          "$7.25",
+          "$7.75"
         ],
         "qty_bought_at_rebate_cost": [
           0,
           0
         ],
         "regular_cost": [
-          "$9.00",
-          "$8.00"
+          "$8.00",
+          "$9.00"
         ],
         "qty_bought_at_regular_cost": [
-          298,
-          1068
+          1068,
+          298
         ],
         "credited_sum": [
-          "$372.50",
-          "$801.00"
+          "$801.00",
+          "$372.50"
         ],
-        "total_credited": "$1024.50"
+        "total_credited": "$1707.50"
       }
     },
     {
@@ -1407,24 +1407,24 @@
       "theme": "Pantry Week",
       "table": {
         "product_name": [
-          "Organic Autumn Butternut Squash Soup",
           "Organic Tuscany-Style Minestrone Soup",
-          "Organic Quebec-Style Split Pea Soup",
+          "Organic Mediterranean Lentil Soup",
+          "Organic Caribbean-Style Black Bean Soup",
+          "Organic Autumn Butternut Squash Soup",
           "Organic Lentil & Vegetable Soup",
           "Organic Coconut, Curry & Sweet Potato Soup",
           "Organic Tomato & Red Pepper Soup",
-          "Organic Mediterranean Lentil Soup",
-          "Organic Caribbean-Style Black Bean Soup"
+          "Organic Quebec-Style Split Pea Soup"
         ],
         "lufa_farms_code": [
-          17558,
           17560,
-          17561,
+          17559,
+          17563,
+          17558,
           17562,
           17617,
           17619,
-          17559,
-          17563
+          17561
         ],
         "rebate_per_unit": [
           "$0.30",
@@ -1467,24 +1467,24 @@
           "$2.35"
         ],
         "qty_bought_at_regular_cost": [
-          363,
           1314,
-          921,
+          187,
+          181,
+          363,
           599,
           509,
           313,
-          187,
-          181
+          921
         ],
         "credited_sum": [
-          "$108.90",
           "$394.20",
-          "$276.30",
+          "$56.10",
+          "$54.30",
+          "$108.90",
           "$179.70",
           "$152.70",
           "$93.90",
-          "$56.10",
-          "$54.30"
+          "$276.30"
         ],
         "total_credited": "$1316.10"
       }
@@ -1803,16 +1803,16 @@
       "theme": "Pantry Week",
       "table": {
         "product_name": [
+          "Lentil & Walnut Veggie Burgers (2, frozen)",
           "Vegan Mushroom Sauce (frozen)",
           "Quinoa & Root Veggie Minestrone Soup (frozen)",
-          "Lentil & Walnut Veggie Burgers (2, frozen)",
           "Sticky Sesame Soy Protein Strips (frozen)",
           "BBQ Pulled Tofu (frozen)"
         ],
         "lufa_farms_code": [
+          8991,
           10849,
           10053,
-          8991,
           10186,
           17418
         ],
@@ -1824,9 +1824,9 @@
           "$0.50"
         ],
         "rebate_cost": [
+          "$2.14",
           "$4.00",
           "$3.92",
-          "$2.14",
           "$5.20",
           "$4.30"
         ],
@@ -1838,23 +1838,23 @@
           0
         ],
         "regular_cost": [
+          "$2.64",
           "$4.50",
           "$4.42",
-          "$2.64",
           "$5.70",
           "$4.80"
         ],
         "qty_bought_at_regular_cost": [
+          1448,
           116,
           532,
-          1448,
           184,
           77
         ],
         "credited_sum": [
+          "$724.00",
           "$58.00",
           "$266.00",
-          "$724.00",
           "$92.00",
           "$38.50"
         ],

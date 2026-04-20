@@ -5,7 +5,7 @@
     {
       "supplier": "Afishionado Fishmongers",
       "emails": [
-        "revivaldhakabangladesh@gmail.com"
+        "accounting@afishionado.ca"
       ],
       "language": "fr",
       "taxable": "No",
@@ -126,34 +126,34 @@
       ],
       "language": "fr",
       "taxable": "No",
-      "year": 2025,
+      "year": 2026,
       "week": 1,
-      "period": "2025-12-28 to 2026-01-03",
+      "period": "2026-01-03",
       "theme": "New years! Fresh Start/Immune Boosters",
       "table": {
         "product_name": [
-          "Bacon & Cheese Beef Sausages (frozen)",
-          "Toulouse Pork Sausages (frozen)",
           "Chimichurri Marinated Beef Belly Steak (frozen)",
-          "Boneless Pork Chops (frozen)"
+          "Boneless Pork Chops (frozen)",
+          "Bacon & Cheese Beef Sausages (frozen)",
+          "Toulouse Pork Sausages (frozen)"
         ],
         "lufa_farms_code": [
-          10056,
-          14356,
           17600,
-          14719
+          14719,
+          10056,
+          14356
         ],
         "rebate_per_unit": [
-          "$0.75",
-          "$0.50",
           "$1.00",
-          "$0.75"
+          "$0.75",
+          "$0.75",
+          "$0.50"
         ],
         "rebate_cost": [
-          "$4.94",
-          "$3.55",
           "$8.95",
-          "$5.08"
+          "$5.08",
+          "$4.94",
+          "$3.55"
         ],
         "qty_bought_at_rebate_cost": [
           0,
@@ -162,24 +162,24 @@
           0
         ],
         "regular_cost": [
-          "$6.44",
-          "$4.55",
           "$9.95",
-          "$5.83"
+          "$5.83",
+          "$6.44",
+          "$4.55"
         ],
         "qty_bought_at_regular_cost": [
-          187,
-          465,
           57,
-          57
+          57,
+          187,
+          465
         ],
         "credited_sum": [
-          "$140.25",
-          "$232.50",
           "$57.00",
-          "$42.75"
+          "$42.75",
+          "$140.25",
+          "$232.50"
         ],
-        "total_credited": "$574.50"
+        "total_credited": "$383.00"
       }
     },
     {

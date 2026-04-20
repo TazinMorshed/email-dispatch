@@ -222,32 +222,32 @@
       "taxable": "No",
       "year": 2026,
       "week": 12,
-      "period": "2026-03-15 to 2026-03-21",
+      "period": "2026-03-21",
       "theme": "Spring Greens: GH & Frozen Veg",
       "table": {
         "product_name": [
+          "Beef Hanger Steak (frozen)",
           "Pork Breakfast Sausages (frozen)",
           "Merguez Lamb Sausages (lamb, frozen)",
-          "Beef Hanger Steak (frozen)",
           "Beef Hanger Steak (frozen)"
         ],
         "lufa_farms_code": [
+          10749,
           15957,
           4437,
-          10749,
           10749
         ],
         "rebate_per_unit": [
+          "$0.50",
           "$0.35",
           "$0.68",
-          "$0.50",
           "$0.50"
         ],
         "rebate_cost": [
+          "$11.88",
           "$3.15",
           "$6.08",
-          "$11.89",
-          "$11.88"
+          "$11.89"
         ],
         "qty_bought_at_rebate_cost": [
           0,
@@ -256,22 +256,22 @@
           0
         ],
         "regular_cost": [
+          "$12.39",
           "$3.50",
           "$6.76",
-          "$12.39",
           "$12.39"
         ],
         "qty_bought_at_regular_cost": [
+          35,
           783,
           445,
-          61,
-          35
+          61
         ],
         "credited_sum": [
+          "$17.50",
           "$274.05",
           "$302.60",
-          "$30.50",
-          "$17.50"
+          "$30.50"
         ],
         "total_credited": "$662.00"
       }
@@ -1255,26 +1255,26 @@
       "table": {
         "product_name": [
           "Tahini & Eggplant Veggie Burgers (2, frozen)",
-          "Greek Gyro Tofu (frozen)",
           "Vegan Chili (frozen)",
-          "Roasted Tomato Soup (frozen)"
+          "Roasted Tomato Soup (frozen)",
+          "Greek Gyro Tofu (frozen)"
         ],
         "lufa_farms_code": [
           8988,
-          8993,
           10123,
-          12112
+          12112,
+          8993
         ],
         "rebate_per_unit": [
           "$0.50",
-          "$0.50",
           "$0.63",
+          "$0.50",
           "$0.50"
         ],
         "rebate_cost": [
           "$2.14",
-          "$3.92",
           "$4.12",
+          "$3.92",
           "$3.92"
         ],
         "qty_bought_at_rebate_cost": [
@@ -1285,21 +1285,21 @@
         ],
         "regular_cost": [
           "$2.64",
-          "$4.42",
           "$4.75",
+          "$4.42",
           "$4.42"
         ],
         "qty_bought_at_regular_cost": [
           1035,
-          82,
           1115,
-          700
+          700,
+          82
         ],
         "credited_sum": [
           "$517.50",
-          "$41.00",
           "$702.45",
-          "$350.00"
+          "$350.00",
+          "$41.00"
         ],
         "total_credited": "$1466.00"
       }

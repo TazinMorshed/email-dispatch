@@ -184,36 +184,36 @@
       "taxable": "No",
       "year": 2026,
       "week": 14,
-      "period": "2026-03-29 to 2026-04-04",
+      "period": "2026-04-04",
       "theme": "Easter / Brunch & Main",
       "table": {
         "product_name": [
+          "Medium Ground Lamb (frozen)",
           "Poutine Pork Sausages (frozen)",
           "Broccoli & Cheese Pork Sausages (frozen)",
-          "Medium Ground Lamb (frozen)",
-          "Medium Ground Lamb (frozen)",
-          "Meatloaf (frozen)"
+          "Meatloaf (frozen)",
+          "Medium Ground Lamb (frozen)"
         ],
         "lufa_farms_code": [
+          10747,
           11204,
           14363,
-          10747,
-          10747,
-          6196
+          6196,
+          10747
         ],
         "rebate_per_unit": [
+          "$0.75",
           "$0.50",
           "$0.50",
-          "$0.75",
-          "$0.75",
-          "$0.50"
+          "$0.50",
+          "$0.75"
         ],
         "rebate_cost": [
+          "$8.21",
           "$4.65",
           "$4.47",
-          "$8.21",
-          "$8.21",
-          "$6.09"
+          "$6.09",
+          "$8.21"
         ],
         "qty_bought_at_rebate_cost": [
           0,
@@ -223,27 +223,27 @@
           0
         ],
         "regular_cost": [
+          "$8.96",
           "$5.15",
           "$4.97",
-          "$8.96",
-          "$8.96",
-          "$6.59"
+          "$6.59",
+          "$8.96"
         ],
         "qty_bought_at_regular_cost": [
+          34,
           227,
           425,
-          35,
-          34,
-          141
+          141,
+          35
         ],
         "credited_sum": [
+          "$25.50",
           "$113.50",
           "$212.50",
-          "$26.25",
-          "$25.50",
-          "$70.50"
+          "$70.50",
+          "$26.25"
         ],
-        "total_credited": "$431.00"
+        "total_credited": "$646.50"
       }
     },
     {
@@ -1207,16 +1207,16 @@
       "taxable": "No",
       "year": 2026,
       "week": 14,
-      "period": "2026-03-29 to 2026-03-31",
+      "period": "2026-03-29 to 2026-04-04",
       "theme": "Easter / Brunch & Main",
       "table": {
         "product_name": [
-          "Vegan Chèvre Style Cheese with Ash Rind",
-          "Vegan Camembert Style Cheese"
+          "Vegan Camembert Style Cheese",
+          "Vegan Chèvre Style Cheese with Ash Rind"
         ],
         "lufa_farms_code": [
-          15711,
-          15712
+          15712,
+          15711
         ],
         "rebate_per_unit": [
           "$1.00",
@@ -1235,12 +1235,12 @@
           "$8.29"
         ],
         "qty_bought_at_regular_cost": [
-          22,
-          76
+          76,
+          22
         ],
         "credited_sum": [
-          "$22.00",
-          "$76.00"
+          "$76.00",
+          "$22.00"
         ],
         "total_credited": "$98.00"
       }
@@ -1682,6 +1682,7 @@
       "theme": "Easter / Brunch & Main",
       "table": {
         "product_name": [
+          "Duck Raw Cat Food (individual portion, frozen)",
           "Duck & Berries Raw Dog Food (individual portion, frozen)",
           "Beef & Fresh Herbs Raw Dog Food (individual portion, frozen)",
           "Chicken & Greens Raw Dog Food (individual portion, frozen)",
@@ -1689,10 +1690,10 @@
           "Beef & Barley Raw Dog Food (individual portion, frozen)",
           "Chicken Raw Cat Food (individual portion, frozen)",
           "Beef Raw Cat Food (individual portion, frozen)",
-          "Duck Raw Cat Food (individual portion, frozen)",
           "Chicken & Squash Raw Dog Food (individual portion, frozen)"
         ],
         "lufa_farms_code": [
+          19135,
           19086,
           19089,
           19092,
@@ -1700,7 +1701,6 @@
           19098,
           19101,
           19105,
-          19135,
           19083
         ],
         "rebate_per_unit": [
@@ -1748,6 +1748,7 @@
           "$2.59"
         ],
         "qty_bought_at_regular_cost": [
+          134,
           46,
           24,
           15,
@@ -1755,10 +1756,10 @@
           22,
           32,
           22,
-          134,
           23
         ],
         "credited_sum": [
+          "$104.52",
           "$35.88",
           "$18.72",
           "$11.70",
@@ -1766,7 +1767,6 @@
           "$17.16",
           "$24.96",
           "$17.16",
-          "$104.52",
           "$17.94"
         ],
         "total_credited": "$284.70"
@@ -1786,36 +1786,36 @@
       "theme": "Easter / Brunch & Main",
       "table": {
         "product_name": [
-          "Sea Kelp Bar Soap",
-          "Shea Butter Bar Soap"
+          "Shea Butter Bar Soap",
+          "Sea Kelp Bar Soap"
         ],
         "lufa_farms_code": [
-          16430,
-          7027
+          7027,
+          16430
         ],
         "rebate_per_unit": [
           "$0.17",
           "$0.17"
         ],
         "rebate_cost": [
-          "$1.08",
-          "$1.13"
+          "$1.13",
+          "$1.08"
         ],
         "qty_bought_at_rebate_cost": [
           0,
           0
         ],
         "regular_cost": [
-          "$1.25",
-          "$1.30"
+          "$1.30",
+          "$1.25"
         ],
         "qty_bought_at_regular_cost": [
-          518,
-          2446
+          2446,
+          518
         ],
         "credited_sum": [
-          "$88.06",
-          "$415.82"
+          "$415.82",
+          "$88.06"
         ],
         "total_credited": "$503.88"
       }
