@@ -1,6 +1,6 @@
 'use client'
 
-import { formatPeriod } from '@/lib/emailService'
+import { formatPeriod, computeSupplierTotal } from '@/lib/emailService'
 import type { WeekData, SentRecord } from '@/lib/types'
 
 interface SupplierListProps {
@@ -57,7 +57,7 @@ export default function SupplierList({
                     {s.table.product_name.length} product{s.table.product_name.length !== 1 ? 's' : ''}
                   </span>
                   <span className="rounded-full bg-emerald-50 px-2 py-0.5 text-xs font-semibold text-emerald-700">
-                    {s.table.total_credited}
+                    {computeSupplierTotal(s.table.credited_sum)}
                   </span>
                 </div>
                 {sentRecord ? (

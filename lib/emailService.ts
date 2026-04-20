@@ -1,5 +1,14 @@
 import type { Supplier } from '@/lib/types'
 
+/** Sums an array of currency strings like ["$52.20", "$90.86"] into "$143.06" */
+export function computeSupplierTotal(creditedSums: string[]): string {
+  const total = creditedSums.reduce((sum, val) => {
+    const num = parseFloat(val.replace(/[^0-9.-]/g, ''))
+    return sum + (isNaN(num) ? 0 : num)
+  }, 0)
+  return `$${total.toLocaleString('en-CA', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`
+}
+
 /** Formats "2026-04-05 to 2026-04-11" → "April 5 - April 11" */
 export function formatPeriod(period: string): string {
   const parts = period.split(' to ')
@@ -51,7 +60,7 @@ export function buildEmailTable(supplier: Supplier): string {
   const totalRow = `<tr>
     ${tdEmpty()}${tdEmpty()}${tdEmpty()}${tdEmpty()}${tdEmpty()}${tdEmpty()}
     ${td('TOTAL', yellow)}
-    ${td(table.total_credited, yellow)}
+    ${td(computeSupplierTotal(table.credited_sum), yellow)}
   </tr>`
 
   return `<table style="border-collapse:collapse;font-family:Arial,sans-serif;">
@@ -112,12 +121,12 @@ export function buildMergedTable(suppliers: Supplier[], isFr: boolean): string {
     return `<tr>
       ${tdEmpty()}${tdEmpty()}${tdEmpty()}${tdEmpty()}${tdEmpty()}${tdEmpty()}
       ${td(label, yellow)}
-      ${td(supplier.table.total_credited, yellow)}
+      ${td(computeSupplierTotal(supplier.table.credited_sum), yellow)}
     </tr>`
   }).join('')
 
   const grandTotal = suppliers.reduce((sum, sup) => {
-    const val = parseFloat(sup.table.total_credited.replace(/[^0-9.-]/g, ''))
+    const val = parseFloat(computeSupplierTotal(sup.table.credited_sum).replace(/[^0-9.-]/g, ''))
     return sum + (isNaN(val) ? 0 : val)
   }, 0)
   const grandFormatted = grandTotal.toLocaleString('en-CA', { minimumFractionDigits: 2, maximumFractionDigits: 2 })
