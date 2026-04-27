@@ -20,14 +20,26 @@ export function formatPeriod(period: string): string {
   return `${fmt(parts[0])} - ${fmt(parts[1])}`
 }
 
+function resolveWeekRange(period: string): [string, string] | null {
+  const parts = period.split(' to ')
+  if (parts.length === 2) return [parts[0], parts[1]]
+  // Single date — treat it as the last day (Saturday) and back-compute the start (Sunday)
+  const end = new Date(parts[0] + 'T00:00:00')
+  if (isNaN(end.getTime())) return null
+  const start = new Date(end)
+  start.setDate(end.getDate() - 6)
+  const pad = (d: Date) => d.toISOString().slice(0, 10)
+  return [pad(start), pad(end)]
+}
+
 export function buildEmailTable(supplier: Supplier): string {
   const { table } = supplier
-  const parts = supplier.period.split(' to ')
+  const range = resolveWeekRange(supplier.period)
   let weekLabel = `W${supplier.week}`
-  if (parts.length === 2) {
+  if (range) {
     const fmt = (s: string) => new Date(s + 'T00:00:00').toLocaleDateString('en-CA', { month: 'short', day: 'numeric' })
-    const year = new Date(parts[1] + 'T00:00:00').getFullYear()
-    weekLabel = `W${supplier.week} · ${fmt(parts[0])}–${fmt(parts[1])}, ${year}`
+    const year = new Date(range[1] + 'T00:00:00').getFullYear()
+    weekLabel = `W${supplier.week} · ${fmt(range[0])}–${fmt(range[1])}, ${year}`
   }
 
   const base = 'border:1px solid #d0d0d0;padding:2px 6px;font-size:11px;font-family:Arial,sans-serif;line-height:1.3;'
@@ -94,12 +106,12 @@ export function buildMergedTable(suppliers: Supplier[], isFr: boolean): string {
 
   const allDataRows = suppliers.map((supplier) => {
     const { table } = supplier
-    const parts = supplier.period.split(' to ')
+    const range = resolveWeekRange(supplier.period)
     let weekCell = `W${supplier.week}`
-    if (parts.length === 2) {
+    if (range) {
       const fmt = (s: string) => new Date(s + 'T00:00:00').toLocaleDateString('en-CA', { month: 'short', day: 'numeric' })
-      const year = new Date(parts[1] + 'T00:00:00').getFullYear()
-      weekCell = `W${supplier.week} · ${fmt(parts[0])}–${fmt(parts[1])}, ${year}`
+      const year = new Date(range[1] + 'T00:00:00').getFullYear()
+      weekCell = `W${supplier.week} · ${fmt(range[0])}–${fmt(range[1])}, ${year}`
     }
     return table.product_name.map((name, i) => {
       const totalQty = (table.qty_bought_at_rebate_cost[i] ?? 0) + (table.qty_bought_at_regular_cost[i] ?? 0)

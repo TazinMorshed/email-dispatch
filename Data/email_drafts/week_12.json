@@ -54,14 +54,14 @@
       "theme": "Spring Greens: GH & Frozen Veg",
       "table": {
         "product_name": [
-          "Artisan Tortilla Chips",
           "Chili-Lime Tortilla Chips",
-          "Ranchero Tortilla Chips"
+          "Ranchero Tortilla Chips",
+          "Artisan Tortilla Chips"
         ],
         "lufa_farms_code": [
-          18946,
           18947,
-          18948
+          18948,
+          18946
         ],
         "rebate_per_unit": [
           "$0.25",
@@ -84,14 +84,14 @@
           "$3.50"
         ],
         "qty_bought_at_regular_cost": [
-          1028,
           247,
-          267
+          267,
+          1028
         ],
         "credited_sum": [
-          "$257.00",
           "$61.75",
-          "$66.75"
+          "$66.75",
+          "$257.00"
         ],
         "total_credited": "$385.50"
       }
@@ -728,36 +728,36 @@
       "theme": "Spring Greens: GH & Frozen Veg",
       "table": {
         "product_name": [
-          "Garlic & Basil Tomato Sauce (frozen)",
-          "Spicy Sesame Mala Sauce (frozen)"
+          "Spicy Sesame Mala Sauce (frozen)",
+          "Garlic & Basil Tomato Sauce (frozen)"
         ],
         "lufa_farms_code": [
-          6089,
-          16599
+          16599,
+          6089
         ],
         "rebate_per_unit": [
           "$0.25",
           "$0.25"
         ],
         "rebate_cost": [
-          "$2.55",
-          "$2.70"
+          "$2.70",
+          "$2.55"
         ],
         "qty_bought_at_rebate_cost": [
           0,
           0
         ],
         "regular_cost": [
-          "$2.80",
-          "$2.95"
+          "$2.95",
+          "$2.80"
         ],
         "qty_bought_at_regular_cost": [
-          2244,
-          267
+          267,
+          2244
         ],
         "credited_sum": [
-          "$561.00",
-          "$66.75"
+          "$66.75",
+          "$561.00"
         ],
         "total_credited": "$627.75"
       }
@@ -1254,27 +1254,27 @@
       "theme": "Spring Greens: GH & Frozen Veg",
       "table": {
         "product_name": [
+          "Greek Gyro Tofu (frozen)",
           "Tahini & Eggplant Veggie Burgers (2, frozen)",
           "Vegan Chili (frozen)",
-          "Roasted Tomato Soup (frozen)",
-          "Greek Gyro Tofu (frozen)"
+          "Roasted Tomato Soup (frozen)"
         ],
         "lufa_farms_code": [
+          8993,
           8988,
           10123,
-          12112,
-          8993
+          12112
         ],
         "rebate_per_unit": [
           "$0.50",
-          "$0.63",
           "$0.50",
+          "$0.63",
           "$0.50"
         ],
         "rebate_cost": [
+          "$3.92",
           "$2.14",
           "$4.12",
-          "$3.92",
           "$3.92"
         ],
         "qty_bought_at_rebate_cost": [
@@ -1284,22 +1284,22 @@
           0
         ],
         "regular_cost": [
+          "$4.42",
           "$2.64",
           "$4.75",
-          "$4.42",
           "$4.42"
         ],
         "qty_bought_at_regular_cost": [
+          82,
           1035,
           1115,
-          700,
-          82
+          700
         ],
         "credited_sum": [
+          "$41.00",
           "$517.50",
           "$702.45",
-          "$350.00",
-          "$41.00"
+          "$350.00"
         ],
         "total_credited": "$1466.00"
       }

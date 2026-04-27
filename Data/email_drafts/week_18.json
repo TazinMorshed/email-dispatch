@@ -1,0 +1,45 @@
+{
+  "week": 18,
+  "total_suppliers": 1,
+  "suppliers": [
+    {
+      "supplier": "Boucherie Nordest",
+      "emails": [
+        "adm@boucherienordest.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 18,
+      "period": "2026-04-26",
+      "theme": "BBQ launch/First Fiddleheads/Seedlings slow launch",
+      "table": {
+        "product_name": [
+          "Pork Cubes (frozen)"
+        ],
+        "lufa_farms_code": [
+          13423
+        ],
+        "rebate_per_unit": [
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$4.30"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$4.80"
+        ],
+        "qty_bought_at_regular_cost": [
+          38
+        ],
+        "credited_sum": [
+          "$19.00"
+        ],
+        "total_credited": "$19.00"
+      }
+    }
+  ]
+}

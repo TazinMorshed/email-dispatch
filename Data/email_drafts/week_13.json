@@ -187,24 +187,24 @@
       "theme": "Cabane À Sucre #1.",
       "table": {
         "product_name": [
-          "Pork Tourtière (uncooked, frozen)",
           "Bacon & Cheese Beef Sausages (frozen)",
-          "Toulouse Pork Sausages (frozen)"
+          "Toulouse Pork Sausages (frozen)",
+          "Pork Tourtière (uncooked, frozen)"
         ],
         "lufa_farms_code": [
-          17366,
           10056,
-          14356
+          14356,
+          17366
         ],
         "rebate_per_unit": [
           "$0.75",
-          "$0.75",
-          "$0.50"
+          "$0.50",
+          "$0.75"
         ],
         "rebate_cost": [
-          "$5.84",
           "$5.69",
-          "$4.05"
+          "$4.05",
+          "$5.84"
         ],
         "qty_bought_at_rebate_cost": [
           0,
@@ -212,21 +212,21 @@
           0
         ],
         "regular_cost": [
-          "$6.59",
           "$6.44",
-          "$4.55"
+          "$4.55",
+          "$6.59"
         ],
         "qty_bought_at_regular_cost": [
-          1189,
           356,
-          917
+          917,
+          1189
         ],
         "credited_sum": [
-          "$891.75",
           "$267.00",
-          "$458.50"
+          "$458.50",
+          "$891.75"
         ],
-        "total_credited": "$1231.00"
+        "total_credited": "$1846.50"
       }
     },
     {
@@ -445,36 +445,36 @@
       "theme": "Cabane À Sucre #2",
       "table": {
         "product_name": [
-          "Organic Amber Maple Syrup (2025 harvest)",
-          "Organic Maple Butter (frozen)"
+          "Organic Maple Butter (frozen)",
+          "Organic Amber Maple Syrup (2026 harvest)"
         ],
         "lufa_farms_code": [
-          8845,
-          247
+          247,
+          8845
         ],
         "rebate_per_unit": [
           "$0.25",
           "$0.25"
         ],
         "rebate_cost": [
-          "$6.96",
-          "$5.40"
+          "$5.40",
+          "$6.96"
         ],
         "qty_bought_at_rebate_cost": [
           0,
           0
         ],
         "regular_cost": [
-          "$7.21",
-          "$5.65"
+          "$5.65",
+          "$7.21"
         ],
         "qty_bought_at_regular_cost": [
-          1217,
-          418
+          418,
+          1217
         ],
         "credited_sum": [
-          "$304.25",
-          "$104.50"
+          "$104.50",
+          "$304.25"
         ],
         "total_credited": "$408.75"
       }
@@ -531,16 +531,16 @@
       "theme": "Cabane À Sucre #2",
       "table": {
         "product_name": [
-          "Organic Kombucha \"The Favourites\" Pack (8)",
           "Pick-Me-Up Organic Kombucha (ginger & raspberry bush, pack of 8)",
           "Organic Kombucha Discovery Pack (8)",
-          "The Tonic Organic Kombucha (ginger, no sugar, pack of 8)"
+          "The Tonic Organic Kombucha (ginger, no sugar, pack of 8)",
+          "Organic Kombucha \"The Favourites\" Pack (8)"
         ],
         "lufa_farms_code": [
-          14265,
           19538,
           14241,
-          19537
+          19537,
+          14265
         ],
         "rebate_per_unit": [
           "$1.00",
@@ -567,16 +567,16 @@
           "$14.00"
         ],
         "qty_bought_at_regular_cost": [
-          667,
           74,
           164,
-          152
+          152,
+          667
         ],
         "credited_sum": [
-          "$667.00",
           "$74.00",
           "$164.00",
-          "$152.00"
+          "$152.00",
+          "$667.00"
         ],
         "total_credited": "$1057.00"
       }
@@ -751,18 +751,18 @@
       "theme": "Cabane À Sucre #2",
       "table": {
         "product_name": [
-          "Zaatar Pita Chips",
           "Mint & Parsley Pita Chips",
           "Sumac & Fleur de Sel Pita Chips",
           "Cumin & Aleppo Pepper Pita Chips",
-          "Mouhamara"
+          "Mouhamara",
+          "Zaatar Pita Chips"
         ],
         "lufa_farms_code": [
-          15344,
           16074,
           17198,
           15343,
-          11534
+          11534,
+          15344
         ],
         "rebate_per_unit": [
           "$0.75",
@@ -775,8 +775,8 @@
           "$3.58",
           "$3.58",
           "$3.58",
-          "$3.58",
-          "$4.42"
+          "$4.42",
+          "$3.58"
         ],
         "qty_bought_at_rebate_cost": [
           0,
@@ -789,22 +789,22 @@
           "$4.33",
           "$4.33",
           "$4.33",
-          "$4.33",
-          "$5.17"
+          "$5.17",
+          "$4.33"
         ],
         "qty_bought_at_regular_cost": [
-          1168,
           209,
           420,
           371,
-          321
+          321,
+          1168
         ],
         "credited_sum": [
-          "$876.00",
           "$156.75",
           "$315.00",
           "$278.25",
-          "$240.75"
+          "$240.75",
+          "$876.00"
         ],
         "total_credited": "$1866.75"
       }
@@ -822,14 +822,14 @@
       "theme": "Cabane À Sucre #2",
       "table": {
         "product_name": [
-          "Organic Dijon Mustard",
           "Organic Old-Fashioned Mustard",
-          "Organic Yellow Mustard"
+          "Organic Yellow Mustard",
+          "Organic Dijon Mustard"
         ],
         "lufa_farms_code": [
-          9237,
           9238,
-          9239
+          9239,
+          9237
         ],
         "rebate_per_unit": [
           "$0.57",
@@ -852,14 +852,14 @@
           "$3.17"
         ],
         "qty_bought_at_regular_cost": [
-          886,
           226,
-          161
+          161,
+          886
         ],
         "credited_sum": [
-          "$505.02",
           "$128.82",
-          "$91.77"
+          "$91.77",
+          "$505.02"
         ],
         "total_credited": "$725.61"
       }
@@ -1060,24 +1060,24 @@
       "theme": "Cabane À Sucre #1.",
       "table": {
         "product_name": [
+          "Ramen Noodles (frozen)",
           "Creamy Mushroom Sauce (frozen)",
-          "Chicken Dumplings (frozen)",
-          "Ramen Noodles (frozen)"
+          "Chicken Dumplings (frozen)"
         ],
         "lufa_farms_code": [
+          4486,
           13331,
-          8356,
-          4486
+          8356
         ],
         "rebate_per_unit": [
+          "$0.25",
           "$0.50",
-          "$0.60",
-          "$0.25"
+          "$0.60"
         ],
         "rebate_cost": [
+          "$2.50",
           "$3.40",
-          "$5.40",
-          "$2.50"
+          "$5.40"
         ],
         "qty_bought_at_rebate_cost": [
           0,
@@ -1085,21 +1085,21 @@
           0
         ],
         "regular_cost": [
+          "$2.75",
           "$3.90",
-          "$6.00",
-          "$2.75"
+          "$6.00"
         ],
         "qty_bought_at_regular_cost": [
+          564,
           927,
-          1335,
-          564
+          1335
         ],
         "credited_sum": [
+          "$141.00",
           "$463.50",
-          "$801.00",
-          "$141.00"
+          "$801.00"
         ],
-        "total_credited": "$706.50"
+        "total_credited": "$1695.60"
       }
     },
     {

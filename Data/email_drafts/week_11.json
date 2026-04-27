@@ -270,32 +270,32 @@
       "taxable": "No",
       "year": 2026,
       "week": 11,
-      "period": "2026-03-14",
+      "period": "2026-03-08",
       "theme": "Bakery Week, nod to: St. Patrick’s",
       "table": {
         "product_name": [
           "Chimichurri Marinated Beef Belly Steak (frozen)",
-          "Chimichurri Marinated Beef Belly Steak (frozen)",
           "Apple, Maple Syrup & Bacon Pork Sausages (frozen)",
-          "Mild Traditional Italian Pork Sausages (frozen)"
+          "Mild Traditional Italian Pork Sausages (frozen)",
+          "Chimichurri Marinated Beef Belly Steak (frozen)"
         ],
         "lufa_farms_code": [
           17600,
-          17600,
           15289,
-          9959
+          9959,
+          17600
         ],
         "rebate_per_unit": [
           "$1.00",
-          "$1.00",
           "$0.50",
-          "$0.50"
+          "$0.50",
+          "$1.00"
         ],
         "rebate_cost": [
           "$8.95",
-          "$8.95",
           "$4.31",
-          "$3.96"
+          "$3.96",
+          "$8.95"
         ],
         "qty_bought_at_rebate_cost": [
           0,
@@ -305,23 +305,23 @@
         ],
         "regular_cost": [
           "$9.95",
-          "$9.95",
           "$4.81",
-          "$4.46"
+          "$4.46",
+          "$9.95"
         ],
         "qty_bought_at_regular_cost": [
-          73,
           149,
           633,
-          860
+          860,
+          73
         ],
         "credited_sum": [
-          "$73.00",
           "$149.00",
           "$316.50",
-          "$430.00"
+          "$430.00",
+          "$73.00"
         ],
-        "total_credited": "$857.50"
+        "total_credited": "$1715.00"
       }
     },
     {

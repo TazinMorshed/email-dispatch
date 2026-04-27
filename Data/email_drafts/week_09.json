@@ -1,6 +1,6 @@
 {
   "week": 9,
-  "total_suppliers": 35,
+  "total_suppliers": 36,
   "suppliers": [
     {
       "supplier": "Atelier BIS",
@@ -1318,6 +1318,45 @@
     },
     {
       "supplier": "Sober Carpenter.",
+      "emails": [
+        "dany@sobercarpenter.com"
+      ],
+      "language": "en",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 9,
+      "period": "2026-02-22 to 2026-02-28",
+      "theme": "Pantry Week",
+      "table": {
+        "product_name": [
+          "Organic Non-Alcoholic Session IPA (pack of 4)"
+        ],
+        "lufa_farms_code": [
+          20340
+        ],
+        "rebate_per_unit": [
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$6.51"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$6.76"
+        ],
+        "qty_bought_at_regular_cost": [
+          210
+        ],
+        "credited_sum": [
+          "$52.50"
+        ],
+        "total_credited": "$52.50"
+      }
+    },
+    {
+      "supplier": "Sober Carpenter",
       "emails": [
         "dany@sobercarpenter.com"
       ],
