@@ -1,0 +1,45 @@
+{
+  "week": 19,
+  "total_suppliers": 1,
+  "suppliers": [
+    {
+      "supplier": "Boucherie Nordest",
+      "emails": [
+        "adm@boucherienordest.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 19,
+      "period": "2026-05-03",
+      "theme": "Mother’s Day Brunch",
+      "table": {
+        "product_name": [
+          "Medium Ground Lamb (frozen)"
+        ],
+        "lufa_farms_code": [
+          10747
+        ],
+        "rebate_per_unit": [
+          "$0.75"
+        ],
+        "rebate_cost": [
+          "$8.21"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$8.96"
+        ],
+        "qty_bought_at_regular_cost": [
+          51
+        ],
+        "credited_sum": [
+          "$38.25"
+        ],
+        "total_credited": "$38.25"
+      }
+    }
+  ]
+}
