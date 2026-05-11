@@ -1,0 +1,45 @@
+{
+  "week": 20,
+  "total_suppliers": 1,
+  "suppliers": [
+    {
+      "supplier": "Boucherie Nordest",
+      "emails": [
+        "adm@boucherienordest.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 20,
+      "period": "2026-05-10",
+      "theme": "Latin Week",
+      "table": {
+        "product_name": [
+          "Chimichurri Marinated Beef Belly Steak (frozen)"
+        ],
+        "lufa_farms_code": [
+          17600
+        ],
+        "rebate_per_unit": [
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$9.45"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$9.95"
+        ],
+        "qty_bought_at_regular_cost": [
+          152
+        ],
+        "credited_sum": [
+          "$76.00"
+        ],
+        "total_credited": "$76.00"
+      }
+    }
+  ]
+}

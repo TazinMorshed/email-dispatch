@@ -122,9 +122,27 @@ export default function Page() {
     setMergeWeekData({})
     setSupplierWeeks([])
     setLoadingSupplierWeeks(true)
-    fetch(`/api/supplier-weeks?supplier=${encodeURIComponent(supplier.supplier)}`)
+    const supplierName = supplier.supplier
+    fetch(`/api/supplier-weeks?supplier=${encodeURIComponent(supplierName)}`)
       .then((r) => r.json())
-      .then((weeks: number[]) => setSupplierWeeks(weeks.filter((w) => w !== selectedWeek)))
+      .then(async (allWeeks: number[]) => {
+        // Only show weeks strictly before the selected week
+        const priorWeeks = allWeeks.filter((w) => w < (selectedWeek ?? Infinity))
+        if (priorWeeks.length === 0) {
+          setSupplierWeeks([])
+          return
+        }
+        // Filter out weeks where this supplier was already sent
+        const sentChecks = await Promise.all(
+          priorWeeks.map((w) =>
+            fetch(`/api/send-log?week=${w}`)
+              .then((r) => r.json())
+              .then((records: SentRecord[]) => ({ week: w, sent: records.some((r) => r.supplier === supplierName) }))
+              .catch(() => ({ week: w, sent: false }))
+          )
+        )
+        setSupplierWeeks(sentChecks.filter((c) => !c.sent).map((c) => c.week))
+      })
       .catch((err) => {
         console.error('[page] Failed to fetch supplier weeks:', err)
         setSupplierWeeks([])
