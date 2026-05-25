@@ -222,48 +222,48 @@
       "taxable": "No",
       "year": 2026,
       "week": 16,
-      "period": "2026-04-18",
-      "theme": "Night Kitchen Likes it Hot: Launch hot meals",
+      "period": "2026-04-12",
+      "theme": "Charcuterie / Cheese Board",
       "table": {
         "product_name": [
+          "Wine, Mustard & Chives Marinated Beef Flank Steak (frozen)",
           "Beef Hanger Steak (frozen)",
           "Mexican Flaky Pie (uncooked, frozen)",
           "Pork Breakfast Sausages (frozen)",
           "Merguez Lamb Sausages (lamb, frozen)",
           "Beef Hanger Steak (frozen)",
           "Wine, Mustard & Chives Marinated Beef Flank Steak (frozen)",
-          "Meatloaf (frozen)",
-          "Wine, Mustard & Chives Marinated Beef Flank Steak (frozen)"
+          "Meatloaf (frozen)"
         ],
         "lufa_farms_code": [
+          12743,
           10749,
           4371,
           15957,
           4437,
           10749,
           12743,
-          6196,
-          12743
+          6196
         ],
         "rebate_per_unit": [
+          "$1.20",
           "$0.50",
           "$0.50",
           "$0.35",
           "$0.50",
           "$0.50",
           "$1.20",
-          "$0.50",
-          "$1.20"
+          "$0.50"
         ],
         "rebate_cost": [
+          "$8.00",
           "$11.89",
           "$7.14",
           "$3.15",
           "$6.26",
           "$11.89",
           "$8.00",
-          "$6.09",
-          "$8.00"
+          "$6.09"
         ],
         "qty_bought_at_rebate_cost": [
           0,
@@ -276,36 +276,36 @@
           0
         ],
         "regular_cost": [
+          "$9.20",
           "$12.39",
           "$7.64",
           "$3.50",
           "$6.76",
           "$12.39",
           "$9.20",
-          "$6.59",
-          "$9.20"
+          "$6.59"
         ],
         "qty_bought_at_regular_cost": [
+          300,
           37,
           286,
           650,
           541,
           58,
           181,
-          408,
-          300
+          408
         ],
         "credited_sum": [
+          "$360.00",
           "$18.50",
           "$143.00",
           "$227.50",
           "$270.50",
           "$29.00",
           "$217.20",
-          "$204.00",
-          "$360.00"
+          "$204.00"
         ],
-        "total_credited": "$2953.20"
+        "total_credited": "$1230.50"
       }
     },
     {

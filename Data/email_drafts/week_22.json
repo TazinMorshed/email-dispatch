@@ -1,0 +1,45 @@
+{
+  "week": 22,
+  "total_suppliers": 1,
+  "suppliers": [
+    {
+      "supplier": "Boucherie Nordest",
+      "emails": [
+        "adm@boucherienordest.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 22,
+      "period": "2026-05-24",
+      "theme": "Local Asparagus / Planting Week",
+      "table": {
+        "product_name": [
+          "Beef Tomahawk Steak (frozen)"
+        ],
+        "lufa_farms_code": [
+          17430
+        ],
+        "rebate_per_unit": [
+          "$3.50"
+        ],
+        "rebate_cost": [
+          "$44.50"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$48.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          13
+        ],
+        "credited_sum": [
+          "$45.50"
+        ],
+        "total_credited": "$45.50"
+      }
+    }
+  ]
+}

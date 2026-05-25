@@ -274,20 +274,20 @@
       "theme": "Spring Cleaning Kickoff",
       "table": {
         "product_name": [
+          "Raspberry Sparkling Lemonade (pack of 4)",
           "Lime & Mint Sparkling Lemonade (pack of 4)",
           "Clementine Sparkling Lemonade (pack of 4)",
           "Blackberry Sparkling Lemonade (pack of 4)",
           "Mango Sparkling Lemonade (pack of 4)",
-          "Basil Sparkling Lemonade (pack of 4)",
-          "Raspberry Sparkling Lemonade (pack of 4)"
+          "Basil Sparkling Lemonade (pack of 4)"
         ],
         "lufa_farms_code": [
+          18903,
           18905,
           18901,
           19581,
           19580,
-          19578,
-          18903
+          19578
         ],
         "rebate_per_unit": [
           "$1.21",
@@ -322,20 +322,20 @@
           "$6.96"
         ],
         "qty_bought_at_regular_cost": [
+          394,
           163,
           158,
           110,
           157,
-          159,
-          394
+          159
         ],
         "credited_sum": [
+          "$476.74",
           "$197.23",
           "$191.18",
           "$133.10",
           "$189.97",
-          "$192.39",
-          "$476.74"
+          "$192.39"
         ],
         "total_credited": "$1380.61"
       }
@@ -502,12 +502,12 @@
       "theme": "Spring Cleaning Kickoff",
       "table": {
         "product_name": [
-          "Fresh Mayonnaise",
-          "Extra Virgin Olive Oil Fresh Mayonnaise"
+          "Extra Virgin Olive Oil Fresh Mayonnaise",
+          "Fresh Mayonnaise"
         ],
         "lufa_farms_code": [
-          9253,
-          18940
+          18940,
+          9253
         ],
         "rebate_per_unit": [
           "$0.69",
@@ -526,12 +526,12 @@
           "$4.60"
         ],
         "qty_bought_at_regular_cost": [
-          214,
-          1057
+          1057,
+          214
         ],
         "credited_sum": [
-          "$147.66",
-          "$729.33"
+          "$729.33",
+          "$147.66"
         ],
         "total_credited": "$876.99"
       }
@@ -897,12 +897,12 @@
       "theme": "Spring Cleaning Kickoff",
       "table": {
         "product_name": [
-          "Organic Non-Alcoholic Blonde Pilsner (pack of 4)",
-          "Organic Non-Alcoholic Session IPA (pack of 4)"
+          "Organic Non-Alcoholic Session IPA (pack of 4)",
+          "Organic Non-Alcoholic Blonde Pilsner (pack of 4)"
         ],
         "lufa_farms_code": [
-          20341,
-          20340
+          20340,
+          20341
         ],
         "rebate_per_unit": [
           "$0.76",
@@ -921,12 +921,12 @@
           "$6.76"
         ],
         "qty_bought_at_regular_cost": [
-          171,
-          471
+          471,
+          171
         ],
         "credited_sum": [
-          "$129.96",
-          "$357.96"
+          "$357.96",
+          "$129.96"
         ],
         "total_credited": "$487.92"
       }
@@ -944,24 +944,24 @@
       "theme": "Spring Cleaning Kickoff",
       "table": {
         "product_name": [
+          "Organic Tuscany-Style Minestrone Soup",
           "Organic Autumn Butternut Squash Soup",
           "Organic Quebec-Style Split Pea Soup",
           "Organic Lentil & Vegetable Soup",
           "Organic Coconut, Curry & Sweet Potato Soup",
           "Organic Tomato & Red Pepper Soup",
           "Organic Mediterranean Lentil Soup",
-          "Organic Caribbean-Style Black Bean Soup",
-          "Organic Tuscany-Style Minestrone Soup"
+          "Organic Caribbean-Style Black Bean Soup"
         ],
         "lufa_farms_code": [
+          17560,
           17558,
           17561,
           17562,
           17617,
           17619,
           17559,
-          17563,
-          17560
+          17563
         ],
         "rebate_per_unit": [
           "$0.30",
@@ -1004,24 +1004,24 @@
           "$2.35"
         ],
         "qty_bought_at_regular_cost": [
+          1189,
           227,
           528,
           396,
           361,
           235,
           273,
-          263,
-          1189
+          263
         ],
         "credited_sum": [
+          "$356.70",
           "$68.10",
           "$158.40",
           "$118.80",
           "$108.30",
           "$70.50",
           "$81.90",
-          "$78.90",
-          "$356.70"
+          "$78.90"
         ],
         "total_credited": "$1041.60"
       }
@@ -1157,40 +1157,40 @@
       "theme": "Spring Cleaning Kickoff",
       "table": {
         "product_name": [
-          "Hand Soap (4 L refill)",
-          "Daily Shampoo (refill 2 L)",
           "Dishwasher Tabs (30)",
           "Floor Cleaner (22 tabs)",
           "Laundry Detergent (4 L refill)",
           "All-Purpose Cleaning Spray",
-          "Dish Soap (4 L refill)"
+          "Dish Soap (4 L refill)",
+          "Hand Soap (4 L refill)",
+          "Daily Shampoo (refill 2 L)"
         ],
         "lufa_farms_code": [
-          8769,
-          17582,
           8759,
           18047,
           8762,
           8754,
-          8758
+          8758,
+          8769,
+          17582
         ],
         "rebate_per_unit": [
-          "$3.80",
-          "$3.74",
           "$1.01",
           "$1.24",
           "$2.69",
           "$0.53",
-          "$2.33"
+          "$2.33",
+          "$3.80",
+          "$3.74"
         ],
         "rebate_cost": [
-          "$21.50",
-          "$21.18",
           "$5.72",
           "$7.04",
           "$15.25",
           "$2.97",
-          "$13.18"
+          "$13.18",
+          "$21.50",
+          "$21.18"
         ],
         "qty_bought_at_rebate_cost": [
           0,
@@ -1202,33 +1202,33 @@
           0
         ],
         "regular_cost": [
-          "$25.30",
-          "$24.92",
           "$6.73",
           "$8.28",
           "$17.94",
           "$3.50",
-          "$15.51"
+          "$15.51",
+          "$25.30",
+          "$24.92"
         ],
         "qty_bought_at_regular_cost": [
-          180,
-          30,
           1132,
           145,
           455,
           408,
-          583
+          583,
+          180,
+          30
         ],
         "credited_sum": [
-          "$684.00",
-          "$112.20",
           "$1143.32",
           "$179.80",
           "$1223.95",
           "$216.24",
-          "$1358.39"
+          "$1358.39",
+          "$684.00",
+          "$112.20"
         ],
-        "total_credited": "$6833.89"
+        "total_credited": "$10969.42"
       }
     },
     {
@@ -1245,32 +1245,32 @@
       "theme": "Spring Cleaning Kickoff",
       "table": {
         "product_name": [
-          "Vegan Shawarma (frozen)",
-          "Greek Gyro Tofu (frozen)",
           "Quinoa & Root Veggie Minestrone Soup (frozen)",
           "Sweet Potato & Black Bean Veggie Burgers (2, frozen)",
-          "Vegan Chickpea & Eggplant Curry (frozen)"
+          "Vegan Chickpea & Eggplant Curry (frozen)",
+          "Vegan Shawarma (frozen)",
+          "Greek Gyro Tofu (frozen)"
         ],
         "lufa_farms_code": [
-          14795,
-          8993,
           10053,
           8992,
-          17272
+          17272,
+          14795,
+          8993
         ],
         "rebate_per_unit": [
           "$0.50",
           "$0.50",
+          "$0.63",
           "$0.50",
-          "$0.50",
-          "$0.63"
+          "$0.50"
         ],
         "rebate_cost": [
-          "$4.80",
-          "$3.92",
           "$3.92",
           "$2.14",
-          "$4.47"
+          "$4.47",
+          "$4.80",
+          "$3.92"
         ],
         "qty_bought_at_rebate_cost": [
           0,
@@ -1280,27 +1280,27 @@
           0
         ],
         "regular_cost": [
-          "$5.30",
-          "$4.42",
           "$4.42",
           "$2.64",
-          "$5.10"
+          "$5.10",
+          "$5.30",
+          "$4.42"
         ],
         "qty_bought_at_regular_cost": [
-          89,
-          63,
           927,
           1665,
-          700
+          700,
+          89,
+          63
         ],
         "credited_sum": [
-          "$44.50",
-          "$31.50",
           "$463.50",
           "$832.50",
-          "$441.00"
+          "$441.00",
+          "$44.50",
+          "$31.50"
         ],
-        "total_credited": "$2169.72"
+        "total_credited": "$1722.00"
       }
     },
     {
