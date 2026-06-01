@@ -179,12 +179,12 @@
       "theme": "Night Kitchen Likes it Hot: Launch hot meals",
       "table": {
         "product_name": [
-          "Kitchen Party Organic Non-Alcoholic Pale Ale (pack of 4)",
-          "Cereal Thriller Organic Non-Alcoholic Oatmeal Stout (pack of 4)"
+          "Cereal Thriller Organic Non-Alcoholic Oatmeal Stout (pack of 4)",
+          "Kitchen Party Organic Non-Alcoholic Pale Ale (pack of 4)"
         ],
         "lufa_farms_code": [
-          18836,
-          18832
+          18832,
+          18836
         ],
         "rebate_per_unit": [
           "$0.75",
@@ -203,12 +203,12 @@
           "$11.17"
         ],
         "qty_bought_at_regular_cost": [
-          160,
-          181
+          181,
+          160
         ],
         "credited_sum": [
-          "$120.00",
-          "$135.75"
+          "$135.75",
+          "$120.00"
         ],
         "total_credited": "$255.75"
       }
@@ -222,48 +222,48 @@
       "taxable": "No",
       "year": 2026,
       "week": 16,
-      "period": "2026-04-12",
+      "period": "2026-04-18",
       "theme": "Charcuterie / Cheese Board",
       "table": {
         "product_name": [
+          "Wine, Mustard & Chives Marinated Beef Flank Steak (frozen)",
+          "Meatloaf (frozen)",
           "Wine, Mustard & Chives Marinated Beef Flank Steak (frozen)",
           "Beef Hanger Steak (frozen)",
           "Mexican Flaky Pie (uncooked, frozen)",
           "Pork Breakfast Sausages (frozen)",
           "Merguez Lamb Sausages (lamb, frozen)",
-          "Beef Hanger Steak (frozen)",
-          "Wine, Mustard & Chives Marinated Beef Flank Steak (frozen)",
-          "Meatloaf (frozen)"
+          "Beef Hanger Steak (frozen)"
         ],
         "lufa_farms_code": [
+          12743,
+          6196,
           12743,
           10749,
           4371,
           15957,
           4437,
-          10749,
-          12743,
-          6196
+          10749
         ],
         "rebate_per_unit": [
+          "$1.20",
+          "$0.50",
           "$1.20",
           "$0.50",
           "$0.50",
           "$0.35",
           "$0.50",
-          "$0.50",
-          "$1.20",
           "$0.50"
         ],
         "rebate_cost": [
+          "$8.00",
+          "$6.09",
           "$8.00",
           "$11.89",
           "$7.14",
           "$3.15",
           "$6.26",
-          "$11.89",
-          "$8.00",
-          "$6.09"
+          "$11.89"
         ],
         "qty_bought_at_rebate_cost": [
           0,
@@ -277,33 +277,33 @@
         ],
         "regular_cost": [
           "$9.20",
+          "$6.59",
+          "$9.20",
           "$12.39",
           "$7.64",
           "$3.50",
           "$6.76",
-          "$12.39",
-          "$9.20",
-          "$6.59"
+          "$12.39"
         ],
         "qty_bought_at_regular_cost": [
+          181,
+          408,
           300,
           37,
           286,
           650,
           541,
-          58,
-          181,
-          408
+          58
         ],
         "credited_sum": [
+          "$217.20",
+          "$204.00",
           "$360.00",
           "$18.50",
           "$143.00",
           "$227.50",
           "$270.50",
-          "$29.00",
-          "$217.20",
-          "$204.00"
+          "$29.00"
         ],
         "total_credited": "$1230.50"
       }
@@ -524,14 +524,14 @@
       "theme": "Night Kitchen Launch",
       "table": {
         "product_name": [
+          "Organic Mango Kombucha (pack of 4)",
           "Organic Ginger Kombucha (pack of 4)",
-          "Organic Guava & Rose Kombucha (pack of 4)",
-          "Organic Mango Kombucha (pack of 4)"
+          "Organic Guava & Rose Kombucha (pack of 4)"
         ],
         "lufa_farms_code": [
+          19209,
           19208,
-          19205,
-          19209
+          19205
         ],
         "rebate_per_unit": [
           "$1.50",
@@ -554,14 +554,14 @@
           "$7.50"
         ],
         "qty_bought_at_regular_cost": [
+          825,
           354,
-          368,
-          825
+          368
         ],
         "credited_sum": [
+          "$1237.50",
           "$531.00",
-          "$552.00",
-          "$1237.50"
+          "$552.00"
         ],
         "total_credited": "$2320.50"
       }
@@ -579,14 +579,14 @@
       "theme": "Night Kitchen Launch",
       "table": {
         "product_name": [
+          "Popcorn Tofu (frozen)",
           "Vegan Corn Dogs (4, frozen)",
-          "Vegan Pepperoni Pizza Saucers (4, frozen)",
-          "Popcorn Tofu (frozen)"
+          "Vegan Pepperoni Pizza Saucers (4, frozen)"
         ],
         "lufa_farms_code": [
+          19235,
           17768,
-          19232,
-          19235
+          19232
         ],
         "rebate_per_unit": [
           "$0.75",
@@ -609,14 +609,14 @@
           "$5.25"
         ],
         "qty_bought_at_regular_cost": [
+          1509,
           528,
-          303,
-          1509
+          303
         ],
         "credited_sum": [
+          "$1131.75",
           "$396.00",
-          "$227.25",
-          "$1131.75"
+          "$227.25"
         ],
         "total_credited": "$1755.00"
       }
@@ -635,14 +635,14 @@
       "theme": "Night Kitchen Launch",
       "table": {
         "product_name": [
+          "Rumbles Organic Sea Salt Ridged Potato Chips",
           "Rumbles Organic All Dressed Ridged Potato Chips",
-          "Rumbles Organic Sour Cream & Onion Ridged Potato Chips",
-          "Rumbles Organic Sea Salt Ridged Potato Chips"
+          "Rumbles Organic Sour Cream & Onion Ridged Potato Chips"
         ],
         "lufa_farms_code": [
+          19001,
           19000,
-          19002,
-          19001
+          19002
         ],
         "rebate_per_unit": [
           "$0.50",
@@ -665,14 +665,14 @@
           "$3.00"
         ],
         "qty_bought_at_regular_cost": [
+          1347,
           561,
-          388,
-          1347
+          388
         ],
         "credited_sum": [
+          "$673.50",
           "$280.50",
-          "$194.00",
-          "$673.50"
+          "$194.00"
         ],
         "total_credited": "$1148.00"
       }
@@ -1484,32 +1484,32 @@
       "theme": "Night Kitchen Likes it Hot: Launch hot meals",
       "table": {
         "product_name": [
-          "Vegan Mushroom Sauce (frozen)",
-          "Ginger Sesame Tofu (frozen)",
           "Carrot & Ginger Soup (frozen)",
           "Vegan Chili (frozen)",
-          "Beet Balls (frozen)"
+          "Beet Balls (frozen)",
+          "Vegan Mushroom Sauce (frozen)",
+          "Ginger Sesame Tofu (frozen)"
         ],
         "lufa_farms_code": [
-          10849,
-          8995,
           10124,
           10123,
-          8997
+          8997,
+          10849,
+          8995
         ],
         "rebate_per_unit": [
           "$0.50",
-          "$0.50",
-          "$0.50",
           "$0.63",
-          "$0.63"
+          "$0.63",
+          "$0.50",
+          "$0.50"
         ],
         "rebate_cost": [
-          "$4.00",
-          "$3.92",
           "$3.85",
           "$4.12",
-          "$3.79"
+          "$3.79",
+          "$4.00",
+          "$3.92"
         ],
         "qty_bought_at_rebate_cost": [
           0,
@@ -1519,27 +1519,27 @@
           0
         ],
         "regular_cost": [
-          "$4.50",
-          "$4.42",
           "$4.35",
           "$4.75",
+          "$4.42",
+          "$4.50",
           "$4.42"
         ],
         "qty_bought_at_regular_cost": [
-          65,
-          135,
           1165,
           1057,
-          737
+          737,
+          65,
+          135
         ],
         "credited_sum": [
-          "$32.50",
-          "$67.50",
           "$582.50",
           "$665.91",
-          "$464.31"
+          "$464.31",
+          "$32.50",
+          "$67.50"
         ],
-        "total_credited": "$1990.17"
+        "total_credited": "$1579.50"
       }
     },
     {

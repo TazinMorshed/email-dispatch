@@ -1145,19 +1145,19 @@
       "year": 2026,
       "week": 17,
       "period": "2026-04-19 to 2026-04-25",
-      "theme": "Earth Week: Zero waste goals",
+      "theme": "Earth Week: Hot Kitchen Launch",
       "table": {
         "product_name": [
+          "Mexican 3-Bean Veggie Burger (2, frozen)",
           "Cuban Black Bean Soup (frozen)",
           "Sticky Sesame Soy Protein Strips (frozen)",
-          "Buffalo Soy Protein Bites (frozen)",
-          "Mexican 3-Bean Veggie Burger (2, frozen)"
+          "Buffalo Soy Protein Bites (frozen)"
         ],
         "lufa_farms_code": [
+          8990,
           14078,
           10186,
-          10273,
-          8990
+          10273
         ],
         "rebate_per_unit": [
           "$0.50",
@@ -1166,10 +1166,10 @@
           "$0.50"
         ],
         "rebate_cost": [
+          "$2.14",
           "$3.85",
           "$5.20",
-          "$4.30",
-          "$2.14"
+          "$4.30"
         ],
         "qty_bought_at_rebate_cost": [
           0,
@@ -1178,22 +1178,22 @@
           0
         ],
         "regular_cost": [
+          "$2.64",
           "$4.35",
           "$5.70",
-          "$4.80",
-          "$2.64"
+          "$4.80"
         ],
         "qty_bought_at_regular_cost": [
+          1309,
           263,
           123,
-          136,
-          1309
+          136
         ],
         "credited_sum": [
+          "$654.50",
           "$131.50",
           "$61.50",
-          "$68.00",
-          "$654.50"
+          "$68.00"
         ],
         "total_credited": "$915.50"
       }
