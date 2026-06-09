@@ -1,6 +1,6 @@
 {
   "week": 19,
-  "total_suppliers": 34,
+  "total_suppliers": 43,
   "suppliers": [
     {
       "supplier": "Agrobio",
@@ -15,30 +15,38 @@
       "theme": "Mother’s Day Brunch",
       "table": {
         "product_name": [
-          "Organic Whole Wheat Flour"
+          "Organic Whole Wheat Flour",
+          "Organic All-Purpose Flour (white, unbleached)"
         ],
         "lufa_farms_code": [
-          17354
+          17354,
+          17351
         ],
         "rebate_per_unit": [
+          "$0.50",
           "$0.50"
         ],
         "rebate_cost": [
-          "$4.88"
+          "$4.88",
+          "$4.95"
         ],
         "qty_bought_at_rebate_cost": [
+          0,
           0
         ],
         "regular_cost": [
-          "$5.38"
+          "$5.38",
+          "$5.45"
         ],
         "qty_bought_at_regular_cost": [
-          177
+          177,
+          737
         ],
         "credited_sum": [
-          "$88.50"
+          "$88.50",
+          "$368.50"
         ],
-        "total_credited": "$88.50"
+        "total_credited": "$457.00"
       }
     },
     {
@@ -111,24 +119,29 @@
         "product_name": [
           "Medium Ground Lamb (frozen)",
           "Apple, Maple Syrup & Bacon Pork Sausages (frozen)",
-          "Medium Ground Lamb (frozen)"
+          "Medium Ground Lamb (frozen)",
+          "Pork Breakfast Sausages (frozen)"
         ],
         "lufa_farms_code": [
           10747,
           15289,
-          10747
+          10747,
+          15957
         ],
         "rebate_per_unit": [
           "$0.75",
           "$0.50",
-          "$0.75"
+          "$0.75",
+          "$0.53"
         ],
         "rebate_cost": [
           "$8.21",
           "$4.31",
-          "$8.21"
+          "$8.21",
+          "$2.97"
         ],
         "qty_bought_at_rebate_cost": [
+          0,
           0,
           0,
           0
@@ -136,19 +149,61 @@
         "regular_cost": [
           "$8.96",
           "$4.81",
-          "$8.96"
+          "$8.96",
+          "$3.50"
         ],
         "qty_bought_at_regular_cost": [
           24,
           621,
-          51
+          51,
+          2326
         ],
         "credited_sum": [
           "$18.00",
           "$310.50",
-          "$38.25"
+          "$38.25",
+          "$1232.78"
         ],
-        "total_credited": "$522.00"
+        "total_credited": "$1601.66"
+      }
+    },
+    {
+      "supplier": "Boulangerie Hof Kelsten",
+      "emails": [
+        "hofkelsten@gmail.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 19,
+      "period": "2026-05-03 to 2026-05-09",
+      "theme": "Mother’s Day Brunch",
+      "table": {
+        "product_name": [
+          "Ready-to-Bake Focaccia (frozen)"
+        ],
+        "lufa_farms_code": [
+          19168
+        ],
+        "rebate_per_unit": [
+          "$0.65"
+        ],
+        "rebate_cost": [
+          "$3.35"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$4.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          880
+        ],
+        "credited_sum": [
+          "$572.00"
+        ],
+        "total_credited": "$572.00"
       }
     },
     {
@@ -235,6 +290,84 @@
           "$45.50"
         ],
         "total_credited": "$70.75"
+      }
+    },
+    {
+      "supplier": "Coloccia",
+      "emails": [
+        "gusberthe@outlook.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 19,
+      "period": "2026-05-03 to 2026-05-09",
+      "theme": "Mother’s Day Brunch",
+      "table": {
+        "product_name": [
+          "Fresh Ricotta & Spinach Cannelloni (6, frozen)"
+        ],
+        "lufa_farms_code": [
+          10586
+        ],
+        "rebate_per_unit": [
+          "$0.72"
+        ],
+        "rebate_cost": [
+          "$5.88"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$6.60"
+        ],
+        "qty_bought_at_regular_cost": [
+          1253
+        ],
+        "credited_sum": [
+          "$902.16"
+        ],
+        "total_credited": "$902.16"
+      }
+    },
+    {
+      "supplier": "C’est Belge",
+      "emails": [
+        "j.bousquet@cestbelge.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 19,
+      "period": "2026-05-03 to 2026-05-09",
+      "theme": "Mother’s Day Brunch",
+      "table": {
+        "product_name": [
+          "Liège Waffles (6, frozen)"
+        ],
+        "lufa_farms_code": [
+          19267
+        ],
+        "rebate_per_unit": [
+          "$0.51"
+        ],
+        "rebate_cost": [
+          "$4.54"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$5.05"
+        ],
+        "qty_bought_at_regular_cost": [
+          1552
+        ],
+        "credited_sum": [
+          "$791.52"
+        ],
+        "total_credited": "$791.52"
       }
     },
     {
@@ -455,15 +588,18 @@
           "Organic Vegan Cheddar Puffs",
           "Organic BBQ Puffs",
           "Organic Churro Sweet Potato Baked Fries",
-          "Organic Jalapeno Puffs"
+          "Organic Jalapeno Puffs",
+          "Organic White Cheddar Puffs"
         ],
         "lufa_farms_code": [
           18241,
           16467,
           16466,
-          16468
+          16468,
+          16469
         ],
         "rebate_per_unit": [
+          "$0.30",
           "$0.30",
           "$0.30",
           "$0.30",
@@ -473,9 +609,11 @@
           "$1.70",
           "$1.70",
           "$1.70",
+          "$1.70",
           "$1.70"
         ],
         "qty_bought_at_rebate_cost": [
+          0,
           0,
           0,
           0,
@@ -485,21 +623,24 @@
           "$2.00",
           "$2.00",
           "$2.00",
+          "$2.00",
           "$2.00"
         ],
         "qty_bought_at_regular_cost": [
           603,
           1057,
           768,
-          404
+          404,
+          3535
         ],
         "credited_sum": [
           "$180.90",
           "$317.10",
           "$230.40",
-          "$121.20"
+          "$121.20",
+          "$1060.50"
         ],
-        "total_credited": "$849.60"
+        "total_credited": "$1910.10"
       }
     },
     {
@@ -513,30 +654,38 @@
       "theme": "Mother’s Day Brunch",
       "table": {
         "product_name": [
-          "Organic White Cheddar Shells (gluten-free, vegan)"
+          "Organic White Cheddar Shells (gluten-free, vegan)",
+          "Vegan Mac & Cheese (gluten-free)"
         ],
         "lufa_farms_code": [
-          19501
+          19501,
+          19502
         ],
         "rebate_per_unit": [
+          "$0.39",
           "$0.39"
         ],
         "rebate_cost": [
+          "$2.20",
           "$2.20"
         ],
         "qty_bought_at_rebate_cost": [
+          0,
           0
         ],
         "regular_cost": [
+          "$2.59",
           "$2.59"
         ],
         "qty_bought_at_regular_cost": [
-          126
+          126,
+          500
         ],
         "credited_sum": [
-          "$49.14"
+          "$49.14",
+          "$195.00"
         ],
-        "total_credited": "$49.14"
+        "total_credited": "$244.14"
       }
     },
     {
@@ -553,37 +702,45 @@
       "table": {
         "product_name": [
           "Vegan Corn Dogs (4, frozen)",
-          "Vegan Pepperoni Pizza Saucers (4, frozen)"
+          "Vegan Pepperoni Pizza Saucers (4, frozen)",
+          "Popcorn Tofu (frozen)"
         ],
         "lufa_farms_code": [
           17768,
-          19232
+          19232,
+          19235
         ],
         "rebate_per_unit": [
+          "$0.75",
           "$0.75",
           "$0.75"
         ],
         "rebate_cost": [
           "$4.50",
+          "$4.50",
           "$4.50"
         ],
         "qty_bought_at_rebate_cost": [
+          0,
           0,
           0
         ],
         "regular_cost": [
           "$5.25",
+          "$5.25",
           "$5.25"
         ],
         "qty_bought_at_regular_cost": [
           524,
-          308
+          308,
+          1294
         ],
         "credited_sum": [
           "$393.00",
-          "$231.00"
+          "$231.00",
+          "$970.50"
         ],
-        "total_credited": "$624.00"
+        "total_credited": "$1594.50"
       }
     },
     {
@@ -724,30 +881,38 @@
       "theme": "Mother’s Day Brunch",
       "table": {
         "product_name": [
-          "Lavender Soap"
+          "Lavender Soap",
+          "Citrus Peel, Verbena & Lime Soap"
         ],
         "lufa_farms_code": [
-          11022
+          11022,
+          516
         ],
         "rebate_per_unit": [
+          "$0.50",
           "$0.50"
         ],
         "rebate_cost": [
+          "$4.40",
           "$4.40"
         ],
         "qty_bought_at_rebate_cost": [
+          0,
           0
         ],
         "regular_cost": [
+          "$4.90",
           "$4.90"
         ],
         "qty_bought_at_regular_cost": [
-          107
+          107,
+          401
         ],
         "credited_sum": [
-          "$53.50"
+          "$53.50",
+          "$200.50"
         ],
-        "total_credited": "$53.50"
+        "total_credited": "$254.00"
       }
     },
     {
@@ -833,7 +998,8 @@
           "Organic Vanilla Oat Beverage (gluten free)",
           "Unsweetened Coconut Almond Beverage",
           "Unsweetened Vanilla Almond Beverage",
-          "Organic Cappuccino Soy Beverage"
+          "Organic Cappuccino Soy Beverage",
+          "Organic Oat Beverage (gluten-free)"
         ],
         "lufa_farms_code": [
           19846,
@@ -849,9 +1015,11 @@
           19817,
           19820,
           19821,
-          19822
+          19822,
+          19813
         ],
         "rebate_per_unit": [
+          "$0.25",
           "$0.25",
           "$0.25",
           "$0.25",
@@ -881,9 +1049,11 @@
           "$1.69",
           "$1.69",
           "$1.69",
+          "$1.69",
           "$1.69"
         ],
         "qty_bought_at_rebate_cost": [
+          0,
           0,
           0,
           0,
@@ -913,6 +1083,7 @@
           "$1.94",
           "$1.94",
           "$1.94",
+          "$1.94",
           "$1.94"
         ],
         "qty_bought_at_regular_cost": [
@@ -929,7 +1100,8 @@
           325,
           500,
           251,
-          189
+          189,
+          1329
         ],
         "credited_sum": [
           "$271.00",
@@ -945,9 +1117,10 @@
           "$81.25",
           "$125.00",
           "$62.75",
-          "$47.25"
+          "$47.25",
+          "$332.25"
         ],
-        "total_credited": "$1276.75"
+        "total_credited": "$1609.00"
       }
     },
     {
@@ -1047,6 +1220,53 @@
       }
     },
     {
+      "supplier": "O'Mari",
+      "emails": [
+        "ningcan@gmail.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 19,
+      "period": "2026-05-03 to 2026-05-09",
+      "theme": "Mother’s Day Brunch",
+      "table": {
+        "product_name": [
+          "Gnocchi (frozen)",
+          "Neapolitan Sauce (frozen)"
+        ],
+        "lufa_farms_code": [
+          3052,
+          7357
+        ],
+        "rebate_per_unit": [
+          "$0.35",
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$3.15",
+          "$2.35"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$3.50",
+          "$2.60"
+        ],
+        "qty_bought_at_regular_cost": [
+          1299,
+          1505
+        ],
+        "credited_sum": [
+          "$454.65",
+          "$376.25"
+        ],
+        "total_credited": "$701.00"
+      }
+    },
+    {
       "supplier": "OLA Bamboo",
       "emails": [
         "spouellet@olabamboo.com"
@@ -1120,6 +1340,45 @@
           "$159.50"
         ],
         "total_credited": "$159.50"
+      }
+    },
+    {
+      "supplier": "Pizzeria Sofia",
+      "emails": [
+        "nicola@pizzeriasofia2go.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 19,
+      "period": "2026-05-03 to 2026-05-09",
+      "theme": "Mother’s Day Brunch",
+      "table": {
+        "product_name": [
+          "Margherita Pizzas (2, frozen)"
+        ],
+        "lufa_farms_code": [
+          16820
+        ],
+        "rebate_per_unit": [
+          "$1.00"
+        ],
+        "rebate_cost": [
+          "$7.70"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$8.70"
+        ],
+        "qty_bought_at_regular_cost": [
+          941
+        ],
+        "credited_sum": [
+          "$941.00"
+        ],
+        "total_credited": "$941.00"
       }
     },
     {
@@ -1225,6 +1484,45 @@
       }
     },
     {
+      "supplier": "Soya Distinction Inc",
+      "emails": [
+        "konthea2000@hotmail.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 19,
+      "period": "2026-05-03 to 2026-05-09",
+      "theme": "Mother’s Day Brunch",
+      "table": {
+        "product_name": [
+          "Extra Firm Tofu"
+        ],
+        "lufa_farms_code": [
+          10665
+        ],
+        "rebate_per_unit": [
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$2.80"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$3.05"
+        ],
+        "qty_bought_at_regular_cost": [
+          2491
+        ],
+        "credited_sum": [
+          "$622.75"
+        ],
+        "total_credited": "$622.75"
+      }
+    },
+    {
       "supplier": "Statera",
       "emails": [
         "p.jacques@stateraspirits.com"
@@ -1323,7 +1621,8 @@
           "Lamb & Rice Raw Dog Food (individual portion, frozen)",
           "Beef & Barley Raw Dog Food (individual portion, frozen)",
           "Chicken Raw Cat Food (individual portion, frozen)",
-          "Beef Raw Cat Food (individual portion, frozen)"
+          "Beef Raw Cat Food (individual portion, frozen)",
+          "Duck & Berries Raw Dog Food (individual portion, frozen)"
         ],
         "lufa_farms_code": [
           19083,
@@ -1333,9 +1632,11 @@
           19095,
           19098,
           19101,
-          19105
+          19105,
+          19086
         ],
         "rebate_per_unit": [
+          "$0.78",
           "$0.78",
           "$0.78",
           "$0.78",
@@ -1353,9 +1654,11 @@
           "$1.81",
           "$1.81",
           "$1.81",
+          "$1.81",
           "$1.81"
         ],
         "qty_bought_at_rebate_cost": [
+          0,
           0,
           0,
           0,
@@ -1373,6 +1676,7 @@
           "$2.59",
           "$2.59",
           "$2.59",
+          "$2.59",
           "$2.59"
         ],
         "qty_bought_at_regular_cost": [
@@ -1383,7 +1687,8 @@
           37,
           35,
           35,
-          15
+          15,
+          132
         ],
         "credited_sum": [
           "$11.70",
@@ -1393,9 +1698,10 @@
           "$28.86",
           "$27.30",
           "$27.30",
-          "$11.70"
+          "$11.70",
+          "$102.96"
         ],
-        "total_credited": "$173.16"
+        "total_credited": "$276.12"
       }
     },
     {
@@ -1539,24 +1845,34 @@
         "product_name": [
           "Vegan Rosée Sauce (frozen)",
           "Greek Gyro Tofu (frozen)",
-          "Vegan Shawarma (frozen)"
+          "Vegan Shawarma (frozen)",
+          "Tahini & Eggplant Veggie Burgers (2, frozen)",
+          "Vegan Chickpea & Eggplant Curry (frozen)"
         ],
         "lufa_farms_code": [
           10332,
           8993,
-          14795
+          14795,
+          8988,
+          17272
         ],
         "rebate_per_unit": [
           "$0.50",
           "$0.50",
-          "$0.50"
+          "$0.50",
+          "$0.50",
+          "$0.63"
         ],
         "rebate_cost": [
           "$4.00",
           "$3.92",
-          "$4.80"
+          "$4.80",
+          "$2.14",
+          "$4.47"
         ],
         "qty_bought_at_rebate_cost": [
+          0,
+          0,
           0,
           0,
           0
@@ -1564,19 +1880,70 @@
         "regular_cost": [
           "$4.50",
           "$4.42",
-          "$5.30"
+          "$5.30",
+          "$2.64",
+          "$5.10"
         ],
         "qty_bought_at_regular_cost": [
           139,
           76,
-          84
+          84,
+          1241,
+          740
         ],
         "credited_sum": [
           "$69.50",
           "$38.00",
-          "$42.00"
+          "$42.00",
+          "$620.50",
+          "$466.20"
         ],
-        "total_credited": "$149.50"
+        "total_credited": "$1436.40"
+      }
+    },
+    {
+      "supplier": "Verger Labonté",
+      "emails": [],
+      "language": "",
+      "taxable": "No",
+      "year": 2026,
+      "week": 19,
+      "period": "2026-05-07 to 2026-05-09",
+      "theme": "Mother’s Day Brunch",
+      "table": {
+        "product_name": [
+          "Ready-To-Bake Apple Crisp (frozen)",
+          "Ready-To-Bake Apple Pie (frozen)"
+        ],
+        "lufa_farms_code": [
+          19815,
+          19814
+        ],
+        "rebate_per_unit": [
+          "$0.75",
+          "$1.00"
+        ],
+        "rebate_cost": [
+          "$7.00",
+          "$7.95"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$7.75",
+          "$8.95"
+        ],
+        "qty_bought_at_regular_cost": [
+          839,
+          1098
+        ],
+        "credited_sum": [
+          "$629.25",
+          "$1098.00"
+        ],
+        "total_credited": "$1937.00"
       }
     },
     {
@@ -1616,6 +1983,45 @@
           "$73.50"
         ],
         "total_credited": "$73.50"
+      }
+    },
+    {
+      "supplier": "Wholly Veggie!",
+      "emails": [
+        "Davidg@whollyveggie.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 19,
+      "period": "2026-05-03 to 2026-05-09",
+      "theme": "Mother's Day & Tropical fruits",
+      "table": {
+        "product_name": [
+          "Organic Sweet Potatoes Fries (frozen)"
+        ],
+        "lufa_farms_code": [
+          18818
+        ],
+        "rebate_per_unit": [
+          "$0.62"
+        ],
+        "rebate_cost": [
+          "$3.00"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$3.62"
+        ],
+        "qty_bought_at_regular_cost": [
+          2287
+        ],
+        "credited_sum": [
+          "$1417.94"
+        ],
+        "total_credited": "$1417.94"
       }
     },
     {
@@ -1680,6 +2086,46 @@
           "$406.60"
         ],
         "total_credited": "$947.15"
+      }
+    },
+    {
+      "supplier": "État Végétal",
+      "emails": [
+        "francis.dubois@etatvegetal.com",
+        "comptabilite@etatvegetal.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 19,
+      "period": "2026-05-03 to 2026-05-09",
+      "theme": "Mother’s Day Brunch",
+      "table": {
+        "product_name": [
+          "Taquitos (frozen)"
+        ],
+        "lufa_farms_code": [
+          17069
+        ],
+        "rebate_per_unit": [
+          "$1.00"
+        ],
+        "rebate_cost": [
+          "$6.08"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$7.08"
+        ],
+        "qty_bought_at_regular_cost": [
+          254
+        ],
+        "credited_sum": [
+          "$254.00"
+        ],
+        "total_credited": "$254.00"
       }
     },
     {

@@ -1,7 +1,46 @@
 {
   "week": 1,
-  "total_suppliers": 19,
+  "total_suppliers": 20,
   "suppliers": [
+    {
+      "supplier": "Afishionado Fishmongers",
+      "emails": [
+        "accounting@afishionado.ca"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2025,
+      "week": 1,
+      "period": "2025-12-28 to 2026-01-03",
+      "theme": "New years! Fresh Start/Immune Boosters",
+      "table": {
+        "product_name": [
+          "Atlantic Salmon Chunks"
+        ],
+        "lufa_farms_code": [
+          16755
+        ],
+        "rebate_per_unit": [
+          "$2.40"
+        ],
+        "rebate_cost": [
+          "$9.60"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$12.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          4517
+        ],
+        "credited_sum": [
+          "$10840.80"
+        ],
+        "total_credited": "$10840.80"
+      }
+    },
     {
       "supplier": "Agrobio",
       "emails": [

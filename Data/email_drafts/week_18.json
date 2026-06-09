@@ -1,6 +1,6 @@
 {
   "week": 18,
-  "total_suppliers": 32,
+  "total_suppliers": 33,
   "suppliers": [
     {
       "supplier": "1642",
@@ -345,6 +345,45 @@
           "$1636.00"
         ],
         "total_credited": "$1636.00"
+      }
+    },
+    {
+      "supplier": "Carrément Tarte",
+      "emails": [
+        "admin@carrementtarte.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 18,
+      "period": "2026-04-26 to 2026-05-02",
+      "theme": "BBQ launch/First Fiddleheads/Seedlings slow launch",
+      "table": {
+        "product_name": [
+          "Feta & Spinach Quiche (frozen)"
+        ],
+        "lufa_farms_code": [
+          18423
+        ],
+        "rebate_per_unit": [
+          "$1.00"
+        ],
+        "rebate_cost": [
+          "$9.30"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$10.30"
+        ],
+        "qty_bought_at_regular_cost": [
+          1228
+        ],
+        "credited_sum": [
+          "$1228.00"
+        ],
+        "total_credited": "$1228.00"
       }
     },
     {
@@ -1398,16 +1437,19 @@
           "Quinoa & Chickpea Veggie Burgers (2, frozen)",
           "Vegan Alfredo Sauce (frozen)",
           "Mini Vegan Kebabs (12, frozen)",
-          "BBQ Pulled Tofu (frozen)"
+          "BBQ Pulled Tofu (frozen)",
+          "Roasted Tomato Soup (frozen)"
         ],
         "lufa_farms_code": [
           8992,
           8989,
           10337,
           11239,
-          17418
+          17418,
+          12112
         ],
         "rebate_per_unit": [
+          "$0.50",
           "$0.50",
           "$0.50",
           "$0.50",
@@ -1419,9 +1461,11 @@
           "$2.14",
           "$4.00",
           "$4.16",
-          "$4.30"
+          "$4.30",
+          "$3.92"
         ],
         "qty_bought_at_rebate_cost": [
+          0,
           0,
           0,
           0,
@@ -1433,23 +1477,26 @@
           "$2.64",
           "$4.50",
           "$4.66",
-          "$4.80"
+          "$4.80",
+          "$4.42"
         ],
         "qty_bought_at_regular_cost": [
           1925,
           647,
           144,
           107,
-          93
+          93,
+          681
         ],
         "credited_sum": [
           "$962.50",
           "$323.50",
           "$72.00",
           "$53.50",
-          "$46.50"
+          "$46.50",
+          "$340.50"
         ],
-        "total_credited": "$1458.00"
+        "total_credited": "$1798.50"
       }
     },
     {

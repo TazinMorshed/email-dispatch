@@ -1,7 +1,46 @@
 {
   "week": 5,
-  "total_suppliers": 26,
+  "total_suppliers": 27,
   "suppliers": [
+    {
+      "supplier": "Afishionado Fishmongers",
+      "emails": [
+        "accounting@afishionado.ca"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 5,
+      "period": "2026-01-25 to 2026-01-31",
+      "theme": "Responsible Dairy",
+      "table": {
+        "product_name": [
+          "Breaded Haddock (2.5 lb, frozen)"
+        ],
+        "lufa_farms_code": [
+          12004
+        ],
+        "rebate_per_unit": [
+          "$3.90"
+        ],
+        "rebate_cost": [
+          "$15.45"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$20.90"
+        ],
+        "qty_bought_at_regular_cost": [
+          7685
+        ],
+        "credited_sum": [
+          "$29971.50"
+        ],
+        "total_credited": "$29971.50"
+      }
+    },
     {
       "supplier": "Artisan Tradition",
       "emails": [
