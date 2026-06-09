@@ -1,6 +1,6 @@
 {
   "week": 21,
-  "total_suppliers": 34,
+  "total_suppliers": 30,
   "suppliers": [
     {
       "supplier": "1642",
@@ -231,45 +231,6 @@
       }
     },
     {
-      "supplier": "Boulangerie Le Pain dans les Voiles",
-      "emails": [
-        "alex@lepaindanslesvoiles.com"
-      ],
-      "language": "fr",
-      "taxable": "No",
-      "year": 2026,
-      "week": 21,
-      "period": "2026-05-17 to 2026-05-23",
-      "theme": "Victoria Day BBQ Season Kickoff/Planting",
-      "table": {
-        "product_name": [
-          "Chocolatines (6, frozen)"
-        ],
-        "lufa_farms_code": [
-          15895
-        ],
-        "rebate_per_unit": [
-          "$1.40"
-        ],
-        "rebate_cost": [
-          "$7.90"
-        ],
-        "qty_bought_at_rebate_cost": [
-          0
-        ],
-        "regular_cost": [
-          "$9.30"
-        ],
-        "qty_bought_at_regular_cost": [
-          1493
-        ],
-        "credited_sum": [
-          "$2090.20"
-        ],
-        "total_credited": "$2090.20"
-      }
-    },
-    {
       "supplier": "Chocolat Boréal",
       "emails": [
         "info@chocolatboreal.com"
@@ -356,45 +317,6 @@
       }
     },
     {
-      "supplier": "Coloccia",
-      "emails": [
-        "gusberthe@outlook.com"
-      ],
-      "language": "fr",
-      "taxable": "No",
-      "year": 2026,
-      "week": 21,
-      "period": "2026-05-17 to 2026-05-23",
-      "theme": "Victoria Day BBQ Season Kickoff/Planting",
-      "table": {
-        "product_name": [
-          "Fresh Meat Tortellini (frozen)"
-        ],
-        "lufa_farms_code": [
-          10584
-        ],
-        "rebate_per_unit": [
-          "$0.65"
-        ],
-        "rebate_cost": [
-          "$5.45"
-        ],
-        "qty_bought_at_rebate_cost": [
-          0
-        ],
-        "regular_cost": [
-          "$6.10"
-        ],
-        "qty_bought_at_regular_cost": [
-          1609
-        ],
-        "credited_sum": [
-          "$1045.85"
-        ],
-        "total_credited": "$1045.85"
-      }
-    },
-    {
       "supplier": "C’est Belge",
       "emails": [
         "j.bousquet@cestbelge.com"
@@ -431,45 +353,6 @@
           "$129.30"
         ],
         "total_credited": "$129.30"
-      }
-    },
-    {
-      "supplier": "DelChef",
-      "emails": [
-        "leonardo@delchef.ca"
-      ],
-      "language": "fr",
-      "taxable": "No",
-      "year": 2026,
-      "week": 21,
-      "period": "2026-05-17 to 2026-05-23",
-      "theme": "Victoria Day BBQ Season Kickoff/Planting",
-      "table": {
-        "product_name": [
-          "Philly Cheesesteak Focaccia (frozen)"
-        ],
-        "lufa_farms_code": [
-          13827
-        ],
-        "rebate_per_unit": [
-          "$0.75"
-        ],
-        "rebate_cost": [
-          "$3.55"
-        ],
-        "qty_bought_at_rebate_cost": [
-          0
-        ],
-        "regular_cost": [
-          "$4.30"
-        ],
-        "qty_bought_at_regular_cost": [
-          822
-        ],
-        "credited_sum": [
-          "$616.50"
-        ],
-        "total_credited": "$616.50"
       }
     },
     {
@@ -522,38 +405,30 @@
       "theme": "Victoria Day BBQ Season Kickoff/Planting",
       "table": {
         "product_name": [
-          "Pick-Me-Up Organic Kombucha (ginger & raspberry bush, pack of 8)",
-          "Organic Kombucha \"The Favourites\" Pack (8)"
+          "Pick-Me-Up Organic Kombucha (ginger & raspberry bush, pack of 8)"
         ],
         "lufa_farms_code": [
-          19538,
-          14265
+          19538
         ],
         "rebate_per_unit": [
-          "$1.00",
           "$1.00"
         ],
         "rebate_cost": [
-          "$13.00",
           "$13.00"
         ],
         "qty_bought_at_rebate_cost": [
-          0,
           0
         ],
         "regular_cost": [
-          "$14.00",
           "$14.00"
         ],
         "qty_bought_at_regular_cost": [
-          141,
-          823
+          141
         ],
         "credited_sum": [
-          "$141.00",
-          "$823.00"
+          "$141.00"
         ],
-        "total_credited": "$964.00"
+        "total_credited": "$141.00"
       }
     },
     {
@@ -575,8 +450,7 @@
           "Organic Ketchup Chips",
           "Organic Sea Salt & Cider Vinegar Potato Chips",
           "Organic Creamy Dill Potato Chips",
-          "Organic Jalapeno Potato Chips",
-          "Organic Regular Potato Chips"
+          "Organic Jalapeno Potato Chips"
         ],
         "lufa_farms_code": [
           17371,
@@ -584,11 +458,9 @@
           18125,
           17374,
           17372,
-          19060,
-          17368
+          19060
         ],
         "rebate_per_unit": [
-          "$0.67",
           "$0.67",
           "$0.67",
           "$0.67",
@@ -602,11 +474,9 @@
           "$2.33",
           "$2.33",
           "$2.33",
-          "$2.33",
           "$2.33"
         ],
         "qty_bought_at_rebate_cost": [
-          0,
           0,
           0,
           0,
@@ -620,7 +490,6 @@
           "$3.00",
           "$3.00",
           "$3.00",
-          "$3.00",
           "$3.00"
         ],
         "qty_bought_at_regular_cost": [
@@ -629,8 +498,7 @@
           216,
           274,
           285,
-          197,
-          1287
+          197
         ],
         "credited_sum": [
           "$231.82",
@@ -638,10 +506,9 @@
           "$144.72",
           "$183.58",
           "$190.95",
-          "$131.99",
-          "$862.29"
+          "$131.99"
         ],
-        "total_credited": "$1958.41"
+        "total_credited": "$1096.12"
       }
     },
     {
@@ -696,38 +563,30 @@
       "theme": "Victoria Day BBQ Season Kickoff/Planting",
       "table": {
         "product_name": [
-          "Organic Basilic White",
-          "Camerise Sour"
+          "Organic Basilic White"
         ],
         "lufa_farms_code": [
-          12747,
-          12206
+          12747
         ],
         "rebate_per_unit": [
-          "$0.72",
-          "$0.75"
+          "$0.72"
         ],
         "rebate_cost": [
-          "$4.20",
-          "$4.35"
+          "$4.20"
         ],
         "qty_bought_at_rebate_cost": [
-          0,
           0
         ],
         "regular_cost": [
-          "$4.92",
-          "$5.10"
+          "$4.92"
         ],
         "qty_bought_at_regular_cost": [
-          164,
-          316
+          164
         ],
         "credited_sum": [
-          "$118.08",
-          "$237.00"
+          "$118.08"
         ],
-        "total_credited": "$360.00"
+        "total_credited": "$118.08"
       }
     },
     {
@@ -765,45 +624,6 @@
           "$64.50"
         ],
         "total_credited": "$64.50"
-      }
-    },
-    {
-      "supplier": "Les Filles Fattoush",
-      "emails": [
-        "alecomte@lesfillesfattoush.com"
-      ],
-      "language": "fr",
-      "taxable": "Yes",
-      "year": 2026,
-      "week": 21,
-      "period": "2026-05-17 to 2026-05-23",
-      "theme": "Victoria Day BBQ Season Kickoff/Planting",
-      "table": {
-        "product_name": [
-          "Mujadarah"
-        ],
-        "lufa_farms_code": [
-          11529
-        ],
-        "rebate_per_unit": [
-          "$0.75"
-        ],
-        "rebate_cost": [
-          "$4.80"
-        ],
-        "qty_bought_at_rebate_cost": [
-          0
-        ],
-        "regular_cost": [
-          "$5.55"
-        ],
-        "qty_bought_at_regular_cost": [
-          862
-        ],
-        "credited_sum": [
-          "$646.50"
-        ],
-        "total_credited": "$646.50"
       }
     },
     {
@@ -861,37 +681,27 @@
           "Organic Old-Fashioned Mustard",
           "Organic Yellow Mustard",
           "Fresh Mayonnaise",
-          "Fine Grey Sea Salt",
-          "Organic Dijon Mustard",
-          "Extra Virgin Olive Oil Fresh Mayonnaise"
+          "Fine Grey Sea Salt"
         ],
         "lufa_farms_code": [
           9238,
           9239,
           9253,
-          18315,
-          9237,
-          18940
+          18315
         ],
         "rebate_per_unit": [
           "$0.57",
           "$0.57",
           "$0.69",
-          "$0.25",
-          "$0.57",
-          "$0.69"
+          "$0.25"
         ],
         "rebate_cost": [
           "$2.60",
           "$2.60",
           "$3.91",
-          "$3.23",
-          "$2.60",
-          "$3.91"
+          "$3.23"
         ],
         "qty_bought_at_rebate_cost": [
-          0,
-          0,
           0,
           0,
           0,
@@ -901,27 +711,21 @@
           "$3.17",
           "$3.17",
           "$4.60",
-          "$3.48",
-          "$3.17",
-          "$4.60"
+          "$3.48"
         ],
         "qty_bought_at_regular_cost": [
           137,
           155,
           180,
-          65,
-          674,
-          871
+          65
         ],
         "credited_sum": [
           "$78.09",
           "$88.35",
           "$124.20",
-          "$16.25",
-          "$384.18",
-          "$600.99"
+          "$16.25"
         ],
-        "total_credited": "$1436.58"
+        "total_credited": "$134.25"
       }
     },
     {
@@ -1070,46 +874,30 @@
       "theme": "Victoria Day BBQ Season Kickoff/Planting",
       "table": {
         "product_name": [
-          "Udon Noodles (frozen)",
-          "Arrabiata Sauce (frozen)",
-          "Spinach & Three Cheese Ravioli (frozen)"
+          "Udon Noodles (frozen)"
         ],
         "lufa_farms_code": [
-          7353,
-          15562,
-          16109
+          7353
         ],
         "rebate_per_unit": [
-          "$0.25",
-          "$0.25",
-          "$0.50"
+          "$0.25"
         ],
         "rebate_cost": [
-          "$2.90",
-          "$2.45",
-          "$3.25"
+          "$2.90"
         ],
         "qty_bought_at_rebate_cost": [
-          0,
-          0,
           0
         ],
         "regular_cost": [
-          "$3.15",
-          "$2.70",
-          "$3.75"
+          "$3.15"
         ],
         "qty_bought_at_regular_cost": [
-          307,
-          1312,
-          3815
+          307
         ],
         "credited_sum": [
-          "$76.75",
-          "$328.00",
-          "$1907.50"
+          "$76.75"
         ],
-        "total_credited": "$2717.00"
+        "total_credited": "$76.75"
       }
     },
     {
@@ -1296,53 +1084,37 @@
       "table": {
         "product_name": [
           "Walleye Bark Dog Treats",
-          "Smelt Dog Treats",
-          "Walleye Chews Dog Treats",
-          "White Perch Fillets (5, frozen)"
+          "Smelt Dog Treats"
         ],
         "lufa_farms_code": [
           17673,
-          17674,
-          17669,
-          9093
+          17674
         ],
         "rebate_per_unit": [
           "$0.75",
-          "$0.75",
-          "$0.75",
-          "$1.00"
+          "$0.75"
         ],
         "rebate_cost": [
           "$6.25",
-          "$6.25",
-          "$6.25",
-          "$6.75"
+          "$6.25"
         ],
         "qty_bought_at_rebate_cost": [
-          0,
-          0,
           0,
           0
         ],
         "regular_cost": [
           "$7.00",
-          "$7.00",
-          "$7.00",
-          "$7.75"
+          "$7.00"
         ],
         "qty_bought_at_regular_cost": [
           76,
-          65,
-          315,
-          631
+          65
         ],
         "credited_sum": [
           "$57.00",
-          "$48.75",
-          "$236.25",
-          "$631.00"
+          "$48.75"
         ],
-        "total_credited": "$1087.00"
+        "total_credited": "$105.75"
       }
     },
     {
@@ -1535,40 +1307,30 @@
           "Mexican 3-Bean Veggie Burger (2, frozen)",
           "Quinoa & Root Veggie Minestrone Soup (frozen)",
           "Ginger Sesame Tofu (frozen)",
-          "Sticky Sesame Soy Protein Strips (frozen)",
-          "Sweet Potato & Black Bean Veggie Burgers (2, frozen)",
-          "Beet Balls (frozen)"
+          "Sticky Sesame Soy Protein Strips (frozen)"
         ],
         "lufa_farms_code": [
           8988,
           8990,
           10053,
           8995,
-          10186,
-          8992,
-          8997
+          10186
         ],
         "rebate_per_unit": [
           "$0.50",
           "$0.50",
           "$0.50",
           "$0.50",
-          "$0.50",
-          "$0.50",
-          "$0.63"
+          "$0.50"
         ],
         "rebate_cost": [
           "$2.14",
           "$2.14",
           "$3.92",
           "$3.92",
-          "$5.20",
-          "$2.14",
-          "$3.79"
+          "$5.20"
         ],
         "qty_bought_at_rebate_cost": [
-          0,
-          0,
           0,
           0,
           0,
@@ -1580,29 +1342,23 @@
           "$2.64",
           "$4.42",
           "$4.42",
-          "$5.70",
-          "$2.64",
-          "$4.42"
+          "$5.70"
         ],
         "qty_bought_at_regular_cost": [
           346,
           425,
           544,
           113,
-          128,
-          1683,
-          788
+          128
         ],
         "credited_sum": [
           "$173.00",
           "$212.50",
           "$272.00",
           "$56.50",
-          "$64.00",
-          "$841.50",
-          "$496.44"
+          "$64.00"
         ],
-        "total_credited": "$2537.01"
+        "total_credited": "$778.00"
       }
     },
     {

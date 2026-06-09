@@ -1,6 +1,6 @@
 {
   "week": 16,
-  "total_suppliers": 34,
+  "total_suppliers": 33,
   "suppliers": [
     {
       "supplier": "57Végane",
@@ -39,45 +39,6 @@
           "$101.50"
         ],
         "total_credited": "$101.50"
-      }
-    },
-    {
-      "supplier": "Afishionado Fishmongers",
-      "emails": [
-        "accounting@afishionado.ca"
-      ],
-      "language": "fr",
-      "taxable": "No",
-      "year": 2026,
-      "week": 16,
-      "period": "2026-04-12 to 2026-04-18",
-      "theme": "Charcuterie / Cheese Board",
-      "table": {
-        "product_name": [
-          "Breaded Haddock (2.5 lb, frozen)"
-        ],
-        "lufa_farms_code": [
-          12004
-        ],
-        "rebate_per_unit": [
-          "$3.90"
-        ],
-        "rebate_cost": [
-          "$17.00"
-        ],
-        "qty_bought_at_rebate_cost": [
-          0
-        ],
-        "regular_cost": [
-          "$20.90"
-        ],
-        "qty_bought_at_regular_cost": [
-          7522
-        ],
-        "credited_sum": [
-          "$29335.80"
-        ],
-        "total_credited": "$29335.80"
       }
     },
     {
@@ -1350,7 +1311,7 @@
       "theme": "Night Kitchen Likes it Hot: Launch hot meals",
       "table": {
         "product_name": [
-          "Vegetable Lasagna (new recipe, 3 to 4 portions, frozen)"
+          "Vegetable Lasagna (3 to 4 portions, frozen)"
         ],
         "lufa_farms_code": [
           19570

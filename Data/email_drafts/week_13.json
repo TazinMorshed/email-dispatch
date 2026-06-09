@@ -1,46 +1,7 @@
 {
   "week": 13,
-  "total_suppliers": 33,
+  "total_suppliers": 32,
   "suppliers": [
-    {
-      "supplier": "Afishionado Fishmongers",
-      "emails": [
-        "accounting@afishionado.ca"
-      ],
-      "language": "fr",
-      "taxable": "No",
-      "year": 2026,
-      "week": 13,
-      "period": "2026-03-22 to 2026-03-28",
-      "theme": "Cabane À Sucre #1.",
-      "table": {
-        "product_name": [
-          "Atlantic Salmon Fillet (frozen)"
-        ],
-        "lufa_farms_code": [
-          14044
-        ],
-        "rebate_per_unit": [
-          "$2.31"
-        ],
-        "rebate_cost": [
-          "$9.24"
-        ],
-        "qty_bought_at_rebate_cost": [
-          0
-        ],
-        "regular_cost": [
-          "$11.55"
-        ],
-        "qty_bought_at_regular_cost": [
-          9916
-        ],
-        "credited_sum": [
-          "$22905.96"
-        ],
-        "total_credited": "$22905.96"
-      }
-    },
     {
       "supplier": "Archie",
       "emails": [

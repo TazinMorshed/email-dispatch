@@ -1,6 +1,6 @@
 {
   "week": 22,
-  "total_suppliers": 33,
+  "total_suppliers": 27,
   "suppliers": [
     {
       "supplier": "57Végane",
@@ -103,29 +103,24 @@
         "product_name": [
           "Beef Tomahawk Steak (frozen)",
           "Poutine Pork Sausages (frozen)",
-          "Beef Tomahawk Steak (frozen)",
-          "Toulouse Pork Sausages (frozen)"
+          "Beef Tomahawk Steak (frozen)"
         ],
         "lufa_farms_code": [
           17430,
           11204,
-          17430,
-          14356
+          17430
         ],
         "rebate_per_unit": [
           "$3.50",
           "$0.50",
-          "$3.50",
-          "$0.75"
+          "$3.50"
         ],
         "rebate_cost": [
           "$44.50",
           "$4.05",
-          "$44.50",
-          "$3.80"
+          "$44.50"
         ],
         "qty_bought_at_rebate_cost": [
-          0,
           0,
           0,
           0
@@ -133,61 +128,19 @@
         "regular_cost": [
           "$48.00",
           "$5.15",
-          "$48.00",
-          "$4.55"
+          "$48.00"
         ],
         "qty_bought_at_regular_cost": [
           9,
           282,
-          13,
-          1863
+          13
         ],
         "credited_sum": [
           "$31.50",
           "$141.00",
-          "$45.50",
-          "$1397.25"
+          "$45.50"
         ],
-        "total_credited": "$1625.25"
-      }
-    },
-    {
-      "supplier": "Boulangerie Le Pain dans les Voiles",
-      "emails": [
-        "alex@lepaindanslesvoiles.com"
-      ],
-      "language": "fr",
-      "taxable": "No",
-      "year": 2026,
-      "week": 22,
-      "period": "2026-05-24 to 2026-05-30",
-      "theme": "Local Asparagus / Planting Week",
-      "table": {
-        "product_name": [
-          "English Muffins (6, frozen)"
-        ],
-        "lufa_farms_code": [
-          17485
-        ],
-        "rebate_per_unit": [
-          "$0.60"
-        ],
-        "rebate_cost": [
-          "$3.30"
-        ],
-        "qty_bought_at_rebate_cost": [
-          0
-        ],
-        "regular_cost": [
-          "$3.90"
-        ],
-        "qty_bought_at_regular_cost": [
-          1971
-        ],
-        "credited_sum": [
-          "$1182.60"
-        ],
-        "total_credited": "$1182.60"
+        "total_credited": "$1064.00"
       }
     },
     {
@@ -205,17 +158,14 @@
         "product_name": [
           "Chick'n Lover's Vegan Jamaican Patty (frozen)",
           "Meatless Lovers Vegan Jamaican Patty (spicy, frozen)",
-          "Coconut Kale Delight Vegan Jamaican Patty (frozen)",
-          "Meatless Lover's Vegan Jamaican Patty (mild, frozen)"
+          "Coconut Kale Delight Vegan Jamaican Patty (frozen)"
         ],
         "lufa_farms_code": [
           19036,
           19035,
-          5764,
-          5763
+          5764
         ],
         "rebate_per_unit": [
-          "$0.25",
           "$0.25",
           "$0.25",
           "$0.25"
@@ -223,11 +173,9 @@
         "rebate_cost": [
           "$2.10",
           "$2.10",
-          "$2.10",
           "$2.10"
         ],
         "qty_bought_at_rebate_cost": [
-          0,
           0,
           0,
           0
@@ -235,22 +183,19 @@
         "regular_cost": [
           "$2.35",
           "$2.35",
-          "$2.35",
           "$2.35"
         ],
         "qty_bought_at_regular_cost": [
           183,
           259,
-          257,
-          529
+          257
         ],
         "credited_sum": [
           "$45.75",
           "$64.75",
-          "$64.25",
-          "$132.25"
+          "$64.25"
         ],
-        "total_credited": "$307.00"
+        "total_credited": "$174.75"
       }
     },
     {
@@ -290,45 +235,6 @@
           "$215.00"
         ],
         "total_credited": "$215.00"
-      }
-    },
-    {
-      "supplier": "Domaine Labranche",
-      "emails": [
-        "commandes@labranche.ca"
-      ],
-      "language": "fr",
-      "taxable": "Yes",
-      "year": 2026,
-      "week": 22,
-      "period": "2026-05-24 to 2026-05-30",
-      "theme": "Local Asparagus / Planting Week",
-      "table": {
-        "product_name": [
-          "Classic White Wine 2024"
-        ],
-        "lufa_farms_code": [
-          17847
-        ],
-        "rebate_per_unit": [
-          "$1.50"
-        ],
-        "rebate_cost": [
-          "$12.32"
-        ],
-        "qty_bought_at_rebate_cost": [
-          0
-        ],
-        "regular_cost": [
-          "$13.82"
-        ],
-        "qty_bought_at_regular_cost": [
-          172
-        ],
-        "credited_sum": [
-          "$258.00"
-        ],
-        "total_credited": "$258.00"
       }
     },
     {
@@ -422,84 +328,37 @@
       "table": {
         "product_name": [
           "Rumbles Organic All Dressed Ridged Potato Chips",
-          "Rumbles Organic Sour Cream & Onion Ridged Potato Chips",
-          "Rumbles Organic Sea Salt Ridged Potato Chips"
+          "Rumbles Organic Sour Cream & Onion Ridged Potato Chips"
         ],
         "lufa_farms_code": [
           19000,
-          19002,
-          19001
+          19002
         ],
         "rebate_per_unit": [
-          "$0.67",
           "$0.67",
           "$0.67"
         ],
         "rebate_cost": [
           "$2.33",
-          "$2.33",
           "$2.33"
         ],
         "qty_bought_at_rebate_cost": [
           0,
-          0,
           0
         ],
         "regular_cost": [
-          "$3.00",
           "$3.00",
           "$3.00"
         ],
         "qty_bought_at_regular_cost": [
           587,
-          352,
-          1595
+          352
         ],
         "credited_sum": [
           "$393.29",
-          "$235.84",
-          "$1068.65"
+          "$235.84"
         ],
-        "total_credited": "$1697.78"
-      }
-    },
-    {
-      "supplier": "Italpasta",
-      "emails": [
-        "gfrantellizzi@italpasta.com"
-      ],
-      "language": "fr",
-      "taxable": "No",
-      "year": 2026,
-      "week": 22,
-      "period": "2026-05-24 to 2026-05-30",
-      "theme": "Local Asparagus / Planting Week",
-      "table": {
-        "product_name": [
-          "Artisan Fusilli"
-        ],
-        "lufa_farms_code": [
-          19223
-        ],
-        "rebate_per_unit": [
-          "$0.25"
-        ],
-        "rebate_cost": [
-          "$1.35"
-        ],
-        "qty_bought_at_rebate_cost": [
-          0
-        ],
-        "regular_cost": [
-          "$1.60"
-        ],
-        "qty_bought_at_regular_cost": [
-          2392
-        ],
-        "credited_sum": [
-          "$598.00"
-        ],
-        "total_credited": "$598.00"
+        "total_credited": "$629.13"
       }
     },
     {
@@ -518,17 +377,14 @@
         "product_name": [
           "Organic Pomegranate & Cherry Juice",
           "Organic Apple Juice",
-          "Organic Strawberry & Watermelon Beverage",
-          "Organic Mango & Orange Juice"
+          "Organic Strawberry & Watermelon Beverage"
         ],
         "lufa_farms_code": [
           15663,
           16552,
-          16925,
-          15668
+          16925
         ],
         "rebate_per_unit": [
-          "$0.09",
           "$0.09",
           "$0.09",
           "$0.09"
@@ -536,11 +392,9 @@
         "rebate_cost": [
           "$2.36",
           "$2.36",
-          "$2.36",
           "$2.36"
         ],
         "qty_bought_at_rebate_cost": [
-          0,
           0,
           0,
           0
@@ -548,22 +402,19 @@
         "regular_cost": [
           "$2.45",
           "$2.45",
-          "$2.45",
           "$2.45"
         ],
         "qty_bought_at_regular_cost": [
           394,
           300,
-          358,
-          1165
+          358
         ],
         "credited_sum": [
           "$35.46",
           "$27.00",
-          "$32.22",
-          "$104.85"
+          "$32.22"
         ],
-        "total_credited": "$199.53"
+        "total_credited": "$94.68"
       }
     },
     {
@@ -653,46 +504,6 @@
       }
     },
     {
-      "supplier": "MANA Yerba Mate",
-      "emails": [
-        "info@theaboire.com",
-        "jocampion@theaboire.com"
-      ],
-      "language": "fr",
-      "taxable": "Yes",
-      "year": 2026,
-      "week": 22,
-      "period": "2026-05-24 to 2026-05-30",
-      "theme": "Local Asparagus / Planting Week",
-      "table": {
-        "product_name": [
-          "Variety Pack: Organic Yerba Mate Energy Infusion"
-        ],
-        "lufa_farms_code": [
-          19520
-        ],
-        "rebate_per_unit": [
-          "$1.00"
-        ],
-        "rebate_cost": [
-          "$6.50"
-        ],
-        "qty_bought_at_rebate_cost": [
-          0
-        ],
-        "regular_cost": [
-          "$7.50"
-        ],
-        "qty_bought_at_regular_cost": [
-          608
-        ],
-        "credited_sum": [
-          "$608.00"
-        ],
-        "total_credited": "$608.00"
-      }
-    },
-    {
       "supplier": "Nut Grove Cheese",
       "emails": [
         "stephanie@nutgrovecheese.com",
@@ -745,46 +556,30 @@
       "theme": "Local Asparagus / Planting Week",
       "table": {
         "product_name": [
-          "Dumpling Wrappers (55 sheets, frozen)",
-          "Ginger & Garlic Paste",
-          "Three Mushrooms Ravioli (frozen)"
+          "Dumpling Wrappers (55 sheets, frozen)"
         ],
         "lufa_farms_code": [
-          15554,
-          15548,
-          16457
+          15554
         ],
         "rebate_per_unit": [
-          "$0.25",
-          "$0.25",
-          "$0.50"
+          "$0.25"
         ],
         "rebate_cost": [
-          "$1.95",
-          "$2.50",
-          "$4.75"
+          "$1.95"
         ],
         "qty_bought_at_rebate_cost": [
-          0,
-          0,
           0
         ],
         "regular_cost": [
-          "$2.20",
-          "$2.75",
-          "$5.25"
+          "$2.20"
         ],
         "qty_bought_at_regular_cost": [
-          283,
-          1294,
-          2068
+          283
         ],
         "credited_sum": [
-          "$70.75",
-          "$323.50",
-          "$1034.00"
+          "$70.75"
         ],
-        "total_credited": "$1822.50"
+        "total_credited": "$70.75"
       }
     },
     {
@@ -1007,45 +802,6 @@
       }
     },
     {
-      "supplier": "Soya Distinction Inc",
-      "emails": [
-        "konthea2000@hotmail.com"
-      ],
-      "language": "en",
-      "taxable": "No",
-      "year": 2026,
-      "week": 22,
-      "period": "2026-05-24 to 2026-05-30",
-      "theme": "Local Asparagus / Planting Week",
-      "table": {
-        "product_name": [
-          "Tamari & Maple Smoked Tofu"
-        ],
-        "lufa_farms_code": [
-          13558
-        ],
-        "rebate_per_unit": [
-          "$0.25"
-        ],
-        "rebate_cost": [
-          "$3.50"
-        ],
-        "qty_bought_at_rebate_cost": [
-          0
-        ],
-        "regular_cost": [
-          "$3.75"
-        ],
-        "qty_bought_at_regular_cost": [
-          1209
-        ],
-        "credited_sum": [
-          "$302.25"
-        ],
-        "total_credited": "$302.25"
-      }
-    },
-    {
       "supplier": "The Port of India",
       "emails": [
         "justin.riggio7@gmail.com"
@@ -1098,38 +854,30 @@
       "theme": "Local Asparagus / Planting Week",
       "table": {
         "product_name": [
-          "Vegan Carbolic Soap",
-          "Tea Tree Oil Bar Soap"
+          "Vegan Carbolic Soap"
         ],
         "lufa_farms_code": [
-          16425,
-          7022
+          16425
         ],
         "rebate_per_unit": [
-          "$0.17",
           "$0.17"
         ],
         "rebate_cost": [
-          "$1.08",
           "$1.08"
         ],
         "qty_bought_at_rebate_cost": [
-          0,
           0
         ],
         "regular_cost": [
-          "$1.25",
           "$1.25"
         ],
         "qty_bought_at_regular_cost": [
-          300,
-          1921
+          300
         ],
         "credited_sum": [
-          "$51.00",
-          "$326.57"
+          "$51.00"
         ],
-        "total_credited": "$377.57"
+        "total_credited": "$51.00"
       }
     },
     {
@@ -1145,7 +893,7 @@
       "theme": "Local Asparagus / Planting Week",
       "table": {
         "product_name": [
-          "Vegetable Lasagna (new recipe, 3 to 4 portions, frozen)"
+          "Vegetable Lasagna (3 to 4 portions, frozen)"
         ],
         "lufa_farms_code": [
           19570
@@ -1271,83 +1019,30 @@
       "theme": "Local Asparagus / Planting Week",
       "table": {
         "product_name": [
-          "Mini Vegan Kebabs (12, frozen)",
-          "Carrot & Ginger Soup (frozen)",
-          "Quinoa & Chickpea Veggie Burgers (2, frozen)"
+          "Mini Vegan Kebabs (12, frozen)"
         ],
         "lufa_farms_code": [
-          11239,
-          10124,
-          8989
+          11239
         ],
         "rebate_per_unit": [
-          "$0.50",
-          "$0.50",
           "$0.50"
         ],
         "rebate_cost": [
-          "$4.16",
-          "$3.85",
-          "$2.14"
-        ],
-        "qty_bought_at_rebate_cost": [
-          0,
-          0,
-          0
-        ],
-        "regular_cost": [
-          "$4.66",
-          "$4.35",
-          "$2.64"
-        ],
-        "qty_bought_at_regular_cost": [
-          69,
-          913,
-          1560
-        ],
-        "credited_sum": [
-          "$34.50",
-          "$456.50",
-          "$780.00"
-        ],
-        "total_credited": "$1271.00"
-      }
-    },
-    {
-      "supplier": "Verger Labonté",
-      "emails": [],
-      "language": "",
-      "taxable": "No",
-      "year": 2026,
-      "week": 22,
-      "period": "2026-05-24 to 2026-05-30",
-      "theme": "Local Asparagus / Planting Week",
-      "table": {
-        "product_name": [
-          "Ready-To-Bake Apple Pie (frozen)"
-        ],
-        "lufa_farms_code": [
-          19814
-        ],
-        "rebate_per_unit": [
-          "$1.00"
-        ],
-        "rebate_cost": [
-          "$7.95"
+          "$4.16"
         ],
         "qty_bought_at_rebate_cost": [
           0
         ],
         "regular_cost": [
-          "$8.95"
+          "$4.66"
         ],
         "qty_bought_at_regular_cost": [
-          1754
+          69
         ],
         "credited_sum": [
-          "$1754.00"
+          "$34.50"
         ],
-        "total_credited": "$1754.00"
+        "total_credited": "$34.50"
       }
     },
     {

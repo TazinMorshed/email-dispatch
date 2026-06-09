@@ -195,16 +195,16 @@
       "theme": "Earth Week: Zero waste goals",
       "table": {
         "product_name": [
+          "Rosie Organic Cider",
           "Willie Organic Cider",
           "Joe Organic Cider",
-          "Klaus Organic Cider",
-          "Rosie Organic Cider"
+          "Klaus Organic Cider"
         ],
         "lufa_farms_code": [
+          17591,
           17590,
           17592,
-          17589,
-          17591
+          17589
         ],
         "rebate_per_unit": [
           "$0.50",
@@ -231,16 +231,16 @@
           "$3.29"
         ],
         "qty_bought_at_regular_cost": [
+          492,
           166,
           146,
-          141,
-          492
+          141
         ],
         "credited_sum": [
+          "$246.00",
           "$83.00",
           "$73.00",
-          "$70.50",
-          "$246.00"
+          "$70.50"
         ],
         "total_credited": "$472.50"
       }
@@ -408,22 +408,22 @@
       "theme": "Earth Week: Zero waste goals",
       "table": {
         "product_name": [
+          "Organic Regular Potato Chips",
           "Organic Smokey BBQ Potato Chips",
           "Organic Hot Honey Mustard Potato Chips",
           "Organic Ketchup Chips",
           "Organic Sea Salt & Cider Vinegar Potato Chips",
           "Organic Creamy Dill Potato Chips",
-          "Organic Jalapeno Potato Chips",
-          "Organic Regular Potato Chips"
+          "Organic Jalapeno Potato Chips"
         ],
         "lufa_farms_code": [
+          17368,
           17371,
           17373,
           18125,
           17374,
           17372,
-          19060,
-          17368
+          19060
         ],
         "rebate_per_unit": [
           "$0.67",
@@ -462,22 +462,22 @@
           "$3.00"
         ],
         "qty_bought_at_regular_cost": [
+          1230,
           344,
           379,
           243,
           337,
           334,
-          220,
-          1230
+          220
         ],
         "credited_sum": [
+          "$824.10",
           "$230.48",
           "$253.93",
           "$162.81",
           "$225.79",
           "$223.78",
-          "$147.40",
-          "$824.10"
+          "$147.40"
         ],
         "total_credited": "$2068.29"
       }
@@ -495,14 +495,14 @@
       "theme": "Earth Week: Zero waste goals",
       "table": {
         "product_name": [
-          "Organic Cotton Daily Menstrual Pads (pack of 40)",
           "100% Organic Cotton Night Menstrual Pads (pack of 34)",
-          "100% Organic Cotton Panty Liners (pack of 80)"
+          "100% Organic Cotton Panty Liners (pack of 80)",
+          "Organic Cotton Daily Menstrual Pads (pack of 40)"
         ],
         "lufa_farms_code": [
-          19600,
           19601,
-          19599
+          19599,
+          19600
         ],
         "rebate_per_unit": [
           "$2.40",
@@ -525,14 +525,14 @@
           "$11.99"
         ],
         "qty_bought_at_regular_cost": [
-          133,
           241,
-          171
+          171,
+          133
         ],
         "credited_sum": [
-          "$319.20",
           "$578.40",
-          "$410.40"
+          "$410.40",
+          "$319.20"
         ],
         "total_credited": "$1308.00"
       }
@@ -550,12 +550,12 @@
       "theme": "Earth Week: Zero waste goals",
       "table": {
         "product_name": [
-          "Artisan Macaroni",
-          "Artisan Spaghettini"
+          "Artisan Spaghettini",
+          "Artisan Macaroni"
         ],
         "lufa_farms_code": [
-          19225,
-          19228
+          19228,
+          19225
         ],
         "rebate_per_unit": [
           "$0.25",
@@ -574,12 +574,12 @@
           "$1.60"
         ],
         "qty_bought_at_regular_cost": [
-          987,
-          2744
+          2744,
+          987
         ],
         "credited_sum": [
-          "$246.75",
-          "$686.00"
+          "$686.00",
+          "$246.75"
         ],
         "total_credited": "$932.75"
       }
@@ -699,14 +699,14 @@
       "theme": "Earth Week: Zero waste goals",
       "table": {
         "product_name": [
+          "Organic Dijon Mustard",
           "Organic Old-Fashioned Mustard",
-          "Organic Yellow Mustard",
-          "Organic Dijon Mustard"
+          "Organic Yellow Mustard"
         ],
         "lufa_farms_code": [
+          9237,
           9238,
-          9239,
-          9237
+          9239
         ],
         "rebate_per_unit": [
           "$0.57",
@@ -729,14 +729,14 @@
           "$3.17"
         ],
         "qty_bought_at_regular_cost": [
+          1040,
           272,
-          172,
-          1040
+          172
         ],
         "credited_sum": [
+          "$592.80",
           "$155.04",
-          "$98.04",
-          "$592.80"
+          "$98.04"
         ],
         "total_credited": "$845.88"
       }
@@ -842,38 +842,38 @@
       "theme": "Earth Week: Zero waste goals",
       "table": {
         "product_name": [
-          "Udon Noodles (frozen)",
-          "Sweet Potato Gnocchi (frozen)"
+          "Sweet Potato Gnocchi (frozen)",
+          "Udon Noodles (frozen)"
         ],
         "lufa_farms_code": [
-          7353,
-          4539
+          4539,
+          7353
         ],
         "rebate_per_unit": [
-          "$0.25",
-          "$0.40"
+          "$0.40",
+          "$0.25"
         ],
         "rebate_cost": [
-          "$2.90",
-          "$3.30"
+          "$3.30",
+          "$2.90"
         ],
         "qty_bought_at_rebate_cost": [
           0,
           0
         ],
         "regular_cost": [
-          "$3.15",
-          "$3.70"
+          "$3.70",
+          "$3.15"
         ],
         "qty_bought_at_regular_cost": [
-          447,
-          2210
+          2210,
+          447
         ],
         "credited_sum": [
-          "$111.75",
-          "$884.00"
+          "$884.00",
+          "$111.75"
         ],
-        "total_credited": "$1062.80"
+        "total_credited": "$664.25"
       }
     },
     {

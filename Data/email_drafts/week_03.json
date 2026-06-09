@@ -1,46 +1,7 @@
 {
   "week": 3,
-  "total_suppliers": 32,
+  "total_suppliers": 31,
   "suppliers": [
-    {
-      "supplier": "Afishionado Fishmongers",
-      "emails": [
-        "accounting@afishionado.ca"
-      ],
-      "language": "fr",
-      "taxable": "No",
-      "year": 2026,
-      "week": 3,
-      "period": "2026-01-11 to 2026-01-17",
-      "theme": "Seafood Week",
-      "table": {
-        "product_name": [
-          "Atlantic Salmon Fillet (frozen)"
-        ],
-        "lufa_farms_code": [
-          14044
-        ],
-        "rebate_per_unit": [
-          "$2.31"
-        ],
-        "rebate_cost": [
-          "$9.24"
-        ],
-        "qty_bought_at_rebate_cost": [
-          0
-        ],
-        "regular_cost": [
-          "$11.55"
-        ],
-        "qty_bought_at_regular_cost": [
-          11417
-        ],
-        "credited_sum": [
-          "$26373.27"
-        ],
-        "total_credited": "$26373.27"
-      }
-    },
     {
       "supplier": "Agga Coffee",
       "emails": [

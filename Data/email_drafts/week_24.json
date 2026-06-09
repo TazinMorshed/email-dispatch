@@ -1,0 +1,84 @@
+{
+  "week": 24,
+  "total_suppliers": 2,
+  "suppliers": [
+    {
+      "supplier": "Atelier BIS",
+      "emails": [
+        "alexis@atelier-bis.ca"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 24,
+      "period": "2026-06-07 to 2026-06-08",
+      "theme": "Father’s Day Grilling",
+      "table": {
+        "product_name": [
+          "Cheese Curds & Sweet Potato Pork Sausages (frozen)"
+        ],
+        "lufa_farms_code": [
+          16142
+        ],
+        "rebate_per_unit": [
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$6.50"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$7.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          59
+        ],
+        "credited_sum": [
+          "$29.50"
+        ],
+        "total_credited": "$29.50"
+      }
+    },
+    {
+      "supplier": "Boucherie Nordest",
+      "emails": [
+        "adm@boucherienordest.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 24,
+      "period": "2026-06-07",
+      "theme": "Strawberries",
+      "table": {
+        "product_name": [
+          "Medium Ground Lamb (frozen)"
+        ],
+        "lufa_farms_code": [
+          10747
+        ],
+        "rebate_per_unit": [
+          "$0.75"
+        ],
+        "rebate_cost": [
+          "$8.21"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$8.96"
+        ],
+        "qty_bought_at_regular_cost": [
+          46
+        ],
+        "credited_sum": [
+          "$34.50"
+        ],
+        "total_credited": "$34.50"
+      }
+    }
+  ]
+}
