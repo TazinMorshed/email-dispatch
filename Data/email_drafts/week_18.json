@@ -1433,20 +1433,20 @@
       "theme": "BBQ launch/First Fiddleheads/Seedlings slow launch",
       "table": {
         "product_name": [
+          "Roasted Tomato Soup (frozen)",
           "Sweet Potato & Black Bean Veggie Burgers (2, frozen)",
           "Quinoa & Chickpea Veggie Burgers (2, frozen)",
           "Vegan Alfredo Sauce (frozen)",
           "Mini Vegan Kebabs (12, frozen)",
-          "BBQ Pulled Tofu (frozen)",
-          "Roasted Tomato Soup (frozen)"
+          "BBQ Pulled Tofu (frozen)"
         ],
         "lufa_farms_code": [
+          12112,
           8992,
           8989,
           10337,
           11239,
-          17418,
-          12112
+          17418
         ],
         "rebate_per_unit": [
           "$0.50",
@@ -1457,12 +1457,12 @@
           "$0.50"
         ],
         "rebate_cost": [
+          "$3.92",
           "$2.14",
           "$2.14",
           "$4.00",
           "$4.16",
-          "$4.30",
-          "$3.92"
+          "$4.30"
         ],
         "qty_bought_at_rebate_cost": [
           0,
@@ -1473,28 +1473,28 @@
           0
         ],
         "regular_cost": [
+          "$4.42",
           "$2.64",
           "$2.64",
           "$4.50",
           "$4.66",
-          "$4.80",
-          "$4.42"
+          "$4.80"
         ],
         "qty_bought_at_regular_cost": [
+          681,
           1925,
           647,
           144,
           107,
-          93,
-          681
+          93
         ],
         "credited_sum": [
+          "$340.50",
           "$962.50",
           "$323.50",
           "$72.00",
           "$53.50",
-          "$46.50",
-          "$340.50"
+          "$46.50"
         ],
         "total_credited": "$1798.50"
       }
