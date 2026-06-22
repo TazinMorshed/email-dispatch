@@ -97,20 +97,20 @@
       "taxable": "No",
       "year": 2026,
       "week": 20,
-      "period": "2026-05-10 to 2026-05-16",
+      "period": "2026-05-16",
       "theme": "Latin Week",
       "table": {
         "product_name": [
-          "Merguez Lamb Sausages (lamb, frozen)",
-          "Mild Traditional Italian Pork Sausages (frozen)",
           "Chimichurri Marinated Beef Belly Steak (frozen)",
-          "Chimichurri Marinated Beef Belly Steak (frozen)"
+          "Chimichurri Marinated Beef Belly Steak (frozen)",
+          "Merguez Lamb Sausages (lamb, frozen)",
+          "Mild Traditional Italian Pork Sausages (frozen)"
         ],
         "lufa_farms_code": [
-          4437,
-          9959,
           17600,
-          17600
+          17600,
+          4437,
+          9959
         ],
         "rebate_per_unit": [
           "$0.50",
@@ -119,10 +119,10 @@
           "$0.50"
         ],
         "rebate_cost": [
-          "$6.26",
-          "$3.96",
           "$9.45",
-          "$9.45"
+          "$9.45",
+          "$6.26",
+          "$3.96"
         ],
         "qty_bought_at_rebate_cost": [
           0,
@@ -131,22 +131,22 @@
           0
         ],
         "regular_cost": [
-          "$6.76",
-          "$4.46",
           "$9.95",
-          "$9.95"
+          "$9.95",
+          "$6.76",
+          "$4.46"
         ],
         "qty_bought_at_regular_cost": [
-          563,
-          766,
           81,
-          152
+          152,
+          563,
+          766
         ],
         "credited_sum": [
-          "$281.50",
-          "$383.00",
           "$40.50",
-          "$76.00"
+          "$76.00",
+          "$281.50",
+          "$383.00"
         ],
         "total_credited": "$781.00"
       }
@@ -318,20 +318,20 @@
       "theme": "Latin Week (TBD weather mention Asparagus season)",
       "table": {
         "product_name": [
+          "Raspberry Sparkling Lemonade (1 L)",
           "Lime & Mint Sparkling Lemonade (1 L)",
           "Sparkling Basil Lemonade (1 L)",
           "Blackberry Sparkling Lemonade (1 L)",
           "Clementine Sparkling Lemonade (1 L)",
-          "Mango Sparkling Lemonade (1 L)",
-          "Raspberry Sparkling Lemonade (1 L)"
+          "Mango Sparkling Lemonade (1 L)"
         ],
         "lufa_farms_code": [
+          15862,
           15818,
           15817,
           16893,
           18108,
-          19582,
-          15862
+          19582
         ],
         "rebate_per_unit": [
           "$0.76",
@@ -366,20 +366,20 @@
           "$3.90"
         ],
         "qty_bought_at_regular_cost": [
+          753,
           314,
           444,
           225,
           268,
-          240,
-          753
+          240
         ],
         "credited_sum": [
+          "$572.28",
           "$238.64",
           "$337.44",
           "$171.00",
           "$203.68",
-          "$182.40",
-          "$572.28"
+          "$182.40"
         ],
         "total_credited": "$1705.44"
       }
@@ -514,18 +514,18 @@
       "theme": "Latin Week (TBD weather mention Asparagus season)",
       "table": {
         "product_name": [
+          "Zaatar Pita Chips",
           "Mint & Parsley Pita Chips",
           "Sumac & Fleur de Sel Pita Chips",
           "Cumin & Aleppo Pepper Pita Chips",
-          "Mouhamara",
-          "Zaatar Pita Chips"
+          "Mouhamara"
         ],
         "lufa_farms_code": [
+          15344,
           16074,
           17198,
           15343,
-          11534,
-          15344
+          11534
         ],
         "rebate_per_unit": [
           "$0.75",
@@ -538,8 +538,8 @@
           "$3.58",
           "$3.58",
           "$3.58",
-          "$4.42",
-          "$3.58"
+          "$3.58",
+          "$4.42"
         ],
         "qty_bought_at_rebate_cost": [
           0,
@@ -552,22 +552,22 @@
           "$4.33",
           "$4.33",
           "$4.33",
-          "$5.17",
-          "$4.33"
+          "$4.33",
+          "$5.17"
         ],
         "qty_bought_at_regular_cost": [
+          1101,
           185,
           391,
           351,
-          246,
-          1101
+          246
         ],
         "credited_sum": [
+          "$825.75",
           "$138.75",
           "$293.25",
           "$263.25",
-          "$184.50",
-          "$825.75"
+          "$184.50"
         ],
         "total_credited": "$1705.50"
       }
@@ -685,31 +685,31 @@
       "year": 2026,
       "week": 20,
       "period": "2026-05-10 to 2026-05-16",
-      "theme": "Latin Week",
+      "theme": "Latin Week (TBD weather mention Asparagus season)",
       "table": {
         "product_name": [
-          "Dumpling Sauce",
-          "Chicken Dumplings (frozen)",
           "Squash & Almond Ravioli (frozen)",
-          "Rosée Sauce (frozen)"
+          "Rosée Sauce (frozen)",
+          "Dumpling Sauce",
+          "Chicken Dumplings (frozen)"
         ],
         "lufa_farms_code": [
-          14079,
-          8356,
           5071,
-          6021
+          6021,
+          14079,
+          8356
         ],
         "rebate_per_unit": [
+          "$0.50",
+          "$0.50",
           "$0.25",
-          "$0.50",
-          "$0.50",
           "$0.50"
         ],
         "rebate_cost": [
-          "$2.15",
-          "$5.50",
           "$4.00",
-          "$3.25"
+          "$3.25",
+          "$2.15",
+          "$5.50"
         ],
         "qty_bought_at_rebate_cost": [
           0,
@@ -718,22 +718,22 @@
           0
         ],
         "regular_cost": [
-          "$2.40",
-          "$6.00",
           "$4.50",
-          "$3.75"
+          "$3.75",
+          "$2.40",
+          "$6.00"
         ],
         "qty_bought_at_regular_cost": [
-          517,
-          566,
           3639,
-          2093
+          2093,
+          517,
+          566
         ],
         "credited_sum": [
-          "$129.25",
-          "$283.00",
           "$1819.50",
-          "$1046.50"
+          "$1046.50",
+          "$129.25",
+          "$283.00"
         ],
         "total_credited": "$3407.50"
       }
@@ -1025,24 +1025,24 @@
       "theme": "Latin Week (TBD weather mention Asparagus season)",
       "table": {
         "product_name": [
+          "Organic Tuscany-Style Minestrone Soup",
           "Organic Autumn Butternut Squash Soup",
           "Organic Mediterranean Lentil Soup",
           "Organic Quebec-Style Split Pea Soup",
           "Organic Lentil & Vegetable Soup",
           "Organic Caribbean-Style Black Bean Soup",
           "Organic Coconut, Curry & Sweet Potato Soup",
-          "Organic Tomato & Red Pepper Soup",
-          "Organic Tuscany-Style Minestrone Soup"
+          "Organic Tomato & Red Pepper Soup"
         ],
         "lufa_farms_code": [
+          17560,
           17558,
           17559,
           17561,
           17562,
           17563,
           17617,
-          17619,
-          17560
+          17619
         ],
         "rebate_per_unit": [
           "$0.30",
@@ -1085,24 +1085,24 @@
           "$2.35"
         ],
         "qty_bought_at_regular_cost": [
+          1260,
           187,
           277,
           462,
           375,
           233,
           297,
-          206,
-          1260
+          206
         ],
         "credited_sum": [
+          "$378.00",
           "$56.10",
           "$83.10",
           "$138.60",
           "$112.50",
           "$69.90",
           "$89.10",
-          "$61.80",
-          "$378.00"
+          "$61.80"
         ],
         "total_credited": "$989.10"
       }
@@ -1274,39 +1274,39 @@
       "year": 2026,
       "week": 20,
       "period": "2026-05-10 to 2026-05-16",
-      "theme": "Local Asparagus / Planting Week",
+      "theme": "Latin Week (TBD weather mention Asparagus season)",
       "table": {
         "product_name": [
+          "Vegan Chili (frozen)",
+          "Lentil & Walnut Veggie Burgers (2, frozen)",
           "Green Pea Soup (frozen)",
           "Vegan Mushroom Sauce (frozen)",
           "Vegan Taco & Chili Crumble (frozen)",
-          "Buffalo Soy Protein Bites (frozen)",
-          "Vegan Chili (frozen)",
-          "Lentil & Walnut Veggie Burgers (2, frozen)"
+          "Buffalo Soy Protein Bites (frozen)"
         ],
         "lufa_farms_code": [
+          10123,
+          8991,
           10736,
           10849,
           8996,
-          10273,
-          10123,
-          8991
+          10273
         ],
         "rebate_per_unit": [
-          "$0.50",
-          "$0.50",
-          "$0.50",
-          "$0.50",
           "$0.63",
+          "$0.50",
+          "$0.50",
+          "$0.50",
+          "$0.50",
           "$0.50"
         ],
         "rebate_cost": [
+          "$4.12",
+          "$2.14",
           "$4.00",
           "$4.00",
           "$3.92",
-          "$4.30",
-          "$4.12",
-          "$2.14"
+          "$4.30"
         ],
         "qty_bought_at_rebate_cost": [
           0,
@@ -1317,28 +1317,28 @@
           0
         ],
         "regular_cost": [
+          "$4.75",
+          "$2.64",
           "$4.50",
           "$4.50",
           "$4.42",
-          "$4.80",
-          "$4.75",
-          "$2.64"
+          "$4.80"
         ],
         "qty_bought_at_regular_cost": [
+          1076,
+          1531,
           294,
           68,
           87,
-          114,
-          1076,
-          1531
+          114
         ],
         "credited_sum": [
+          "$677.88",
+          "$765.50",
           "$147.00",
           "$34.00",
           "$43.50",
-          "$57.00",
-          "$677.88",
-          "$765.50"
+          "$57.00"
         ],
         "total_credited": "$1585.00"
       }
@@ -1413,20 +1413,20 @@
       "theme": "Latin Week (TBD weather mention Asparagus season)",
       "table": {
         "product_name": [
-          "Taquitos (family format, frozen)",
-          "Dried Tomato & Basil Arancini (family format, frozen)"
+          "Dried Tomato & Basil Arancini (family format, frozen)",
+          "Taquitos (family format, frozen)"
         ],
         "lufa_farms_code": [
-          16370,
-          16371
+          16371,
+          16370
         ],
         "rebate_per_unit": [
-          "$1.10",
-          "$0.90"
+          "$0.90",
+          "$1.10"
         ],
         "rebate_cost": [
-          "$16.90",
-          "$17.10"
+          "$17.10",
+          "$16.90"
         ],
         "qty_bought_at_rebate_cost": [
           0,
@@ -1437,14 +1437,14 @@
           "$18.00"
         ],
         "qty_bought_at_regular_cost": [
-          56,
-          261
+          261,
+          56
         ],
         "credited_sum": [
-          "$61.60",
-          "$234.90"
+          "$234.90",
+          "$61.60"
         ],
-        "total_credited": "$285.30"
+        "total_credited": "$348.70"
       }
     },
     {
