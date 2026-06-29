@@ -97,32 +97,32 @@
       "taxable": "No",
       "year": 2026,
       "week": 22,
-      "period": "2026-05-30",
+      "period": "2026-05-24 to 2026-05-30",
       "theme": "Local Asparagus / Planting Week",
       "table": {
         "product_name": [
+          "Toulouse Pork Sausages (frozen)",
           "Beef Tomahawk Steak (frozen)",
           "Poutine Pork Sausages (frozen)",
-          "Beef Tomahawk Steak (frozen)",
-          "Toulouse Pork Sausages (frozen)"
+          "Beef Tomahawk Steak (frozen)"
         ],
         "lufa_farms_code": [
+          14356,
           17430,
           11204,
-          17430,
-          14356
+          17430
         ],
         "rebate_per_unit": [
+          "$0.75",
           "$3.50",
           "$0.50",
-          "$3.50",
-          "$0.75"
+          "$3.50"
         ],
         "rebate_cost": [
+          "$3.80",
           "$44.50",
           "$4.05",
-          "$44.50",
-          "$3.80"
+          "$44.50"
         ],
         "qty_bought_at_rebate_cost": [
           0,
@@ -131,24 +131,24 @@
           0
         ],
         "regular_cost": [
+          "$4.55",
           "$48.00",
           "$5.15",
-          "$48.00",
-          "$4.55"
+          "$48.00"
         ],
         "qty_bought_at_regular_cost": [
+          1863,
           9,
           282,
-          13,
-          1863
+          13
         ],
         "credited_sum": [
+          "$1397.25",
           "$31.50",
           "$141.00",
-          "$45.50",
-          "$1397.25"
+          "$45.50"
         ],
-        "total_credited": "$1625.25"
+        "total_credited": "$7584.50"
       }
     },
     {
@@ -516,16 +516,16 @@
       "theme": "Local Asparagus / Planting Week",
       "table": {
         "product_name": [
+          "Organic Mango & Orange Juice",
           "Organic Pomegranate & Cherry Juice",
           "Organic Apple Juice",
-          "Organic Strawberry & Watermelon Beverage",
-          "Organic Mango & Orange Juice"
+          "Organic Strawberry & Watermelon Beverage"
         ],
         "lufa_farms_code": [
+          15668,
           15663,
           16552,
-          16925,
-          15668
+          16925
         ],
         "rebate_per_unit": [
           "$0.09",
@@ -552,16 +552,16 @@
           "$2.45"
         ],
         "qty_bought_at_regular_cost": [
+          1165,
           394,
           300,
-          358,
-          1165
+          358
         ],
         "credited_sum": [
+          "$104.85",
           "$35.46",
           "$27.00",
-          "$32.22",
-          "$104.85"
+          "$32.22"
         ],
         "total_credited": "$199.53"
       }
@@ -1271,14 +1271,14 @@
       "theme": "Local Asparagus / Planting Week",
       "table": {
         "product_name": [
+          "Quinoa & Chickpea Veggie Burgers (2, frozen)",
           "Mini Vegan Kebabs (12, frozen)",
-          "Carrot & Ginger Soup (frozen)",
-          "Quinoa & Chickpea Veggie Burgers (2, frozen)"
+          "Carrot & Ginger Soup (frozen)"
         ],
         "lufa_farms_code": [
+          8989,
           11239,
-          10124,
-          8989
+          10124
         ],
         "rebate_per_unit": [
           "$0.50",
@@ -1286,9 +1286,9 @@
           "$0.50"
         ],
         "rebate_cost": [
+          "$2.14",
           "$4.16",
-          "$3.85",
-          "$2.14"
+          "$3.85"
         ],
         "qty_bought_at_rebate_cost": [
           0,
@@ -1296,19 +1296,19 @@
           0
         ],
         "regular_cost": [
+          "$2.64",
           "$4.66",
-          "$4.35",
-          "$2.64"
+          "$4.35"
         ],
         "qty_bought_at_regular_cost": [
+          1560,
           69,
-          913,
-          1560
+          913
         ],
         "credited_sum": [
+          "$780.00",
           "$34.50",
-          "$456.50",
-          "$780.00"
+          "$456.50"
         ],
         "total_credited": "$1271.00"
       }
