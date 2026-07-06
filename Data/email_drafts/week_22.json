@@ -203,16 +203,16 @@
       "theme": "Local Asparagus / Planting Week",
       "table": {
         "product_name": [
+          "Meatless Lover's Vegan Jamaican Patty (mild, frozen)",
           "Chick'n Lover's Vegan Jamaican Patty (frozen)",
           "Meatless Lovers Vegan Jamaican Patty (spicy, frozen)",
-          "Coconut Kale Delight Vegan Jamaican Patty (frozen)",
-          "Meatless Lover's Vegan Jamaican Patty (mild, frozen)"
+          "Coconut Kale Delight Vegan Jamaican Patty (frozen)"
         ],
         "lufa_farms_code": [
+          5763,
           19036,
           19035,
-          5764,
-          5763
+          5764
         ],
         "rebate_per_unit": [
           "$0.25",
@@ -239,16 +239,16 @@
           "$2.35"
         ],
         "qty_bought_at_regular_cost": [
+          529,
           183,
           259,
-          257,
-          529
+          257
         ],
         "credited_sum": [
+          "$132.25",
           "$45.75",
           "$64.75",
-          "$64.25",
-          "$132.25"
+          "$64.25"
         ],
         "total_credited": "$307.00"
       }
@@ -421,14 +421,14 @@
       "theme": "Local Asparagus / Planting Week",
       "table": {
         "product_name": [
+          "Rumbles Organic Sea Salt Ridged Potato Chips",
           "Rumbles Organic All Dressed Ridged Potato Chips",
-          "Rumbles Organic Sour Cream & Onion Ridged Potato Chips",
-          "Rumbles Organic Sea Salt Ridged Potato Chips"
+          "Rumbles Organic Sour Cream & Onion Ridged Potato Chips"
         ],
         "lufa_farms_code": [
+          19001,
           19000,
-          19002,
-          19001
+          19002
         ],
         "rebate_per_unit": [
           "$0.67",
@@ -451,14 +451,14 @@
           "$3.00"
         ],
         "qty_bought_at_regular_cost": [
+          1595,
           587,
-          352,
-          1595
+          352
         ],
         "credited_sum": [
+          "$1068.65",
           "$393.29",
-          "$235.84",
-          "$1068.65"
+          "$235.84"
         ],
         "total_credited": "$1697.78"
       }
@@ -745,24 +745,24 @@
       "theme": "Local Asparagus / Planting Week",
       "table": {
         "product_name": [
-          "Dumpling Wrappers (55 sheets, frozen)",
           "Ginger & Garlic Paste",
-          "Three Mushrooms Ravioli (frozen)"
+          "Three Mushrooms Ravioli (frozen)",
+          "Dumpling Wrappers (55 sheets, frozen)"
         ],
         "lufa_farms_code": [
-          15554,
           15548,
-          16457
+          16457,
+          15554
         ],
         "rebate_per_unit": [
           "$0.25",
-          "$0.25",
-          "$0.50"
+          "$0.50",
+          "$0.25"
         ],
         "rebate_cost": [
-          "$1.95",
           "$2.50",
-          "$4.75"
+          "$4.75",
+          "$1.95"
         ],
         "qty_bought_at_rebate_cost": [
           0,
@@ -770,21 +770,21 @@
           0
         ],
         "regular_cost": [
-          "$2.20",
           "$2.75",
-          "$5.25"
+          "$5.25",
+          "$2.20"
         ],
         "qty_bought_at_regular_cost": [
-          283,
           1294,
-          2068
+          2068,
+          283
         ],
         "credited_sum": [
-          "$70.75",
           "$323.50",
-          "$1034.00"
+          "$1034.00",
+          "$70.75"
         ],
-        "total_credited": "$1822.50"
+        "total_credited": "$911.25"
       }
     },
     {
@@ -1098,12 +1098,12 @@
       "theme": "Local Asparagus / Planting Week",
       "table": {
         "product_name": [
-          "Vegan Carbolic Soap",
-          "Tea Tree Oil Bar Soap"
+          "Tea Tree Oil Bar Soap",
+          "Vegan Carbolic Soap"
         ],
         "lufa_farms_code": [
-          16425,
-          7022
+          7022,
+          16425
         ],
         "rebate_per_unit": [
           "$0.17",
@@ -1122,12 +1122,12 @@
           "$1.25"
         ],
         "qty_bought_at_regular_cost": [
-          300,
-          1921
+          1921,
+          300
         ],
         "credited_sum": [
-          "$51.00",
-          "$326.57"
+          "$326.57",
+          "$51.00"
         ],
         "total_credited": "$377.57"
       }
@@ -1271,14 +1271,14 @@
       "theme": "Local Asparagus / Planting Week",
       "table": {
         "product_name": [
+          "Carrot & Ginger Soup (frozen)",
           "Quinoa & Chickpea Veggie Burgers (2, frozen)",
-          "Mini Vegan Kebabs (12, frozen)",
-          "Carrot & Ginger Soup (frozen)"
+          "Mini Vegan Kebabs (12, frozen)"
         ],
         "lufa_farms_code": [
+          10124,
           8989,
-          11239,
-          10124
+          11239
         ],
         "rebate_per_unit": [
           "$0.50",
@@ -1286,9 +1286,9 @@
           "$0.50"
         ],
         "rebate_cost": [
+          "$3.85",
           "$2.14",
-          "$4.16",
-          "$3.85"
+          "$4.16"
         ],
         "qty_bought_at_rebate_cost": [
           0,
@@ -1296,19 +1296,19 @@
           0
         ],
         "regular_cost": [
+          "$4.35",
           "$2.64",
-          "$4.66",
-          "$4.35"
+          "$4.66"
         ],
         "qty_bought_at_regular_cost": [
+          913,
           1560,
-          69,
-          913
+          69
         ],
         "credited_sum": [
+          "$456.50",
           "$780.00",
-          "$34.50",
-          "$456.50"
+          "$34.50"
         ],
         "total_credited": "$1271.00"
       }

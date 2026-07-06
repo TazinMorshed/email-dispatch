@@ -517,32 +517,32 @@
       "theme": "Fruit Week",
       "table": {
         "product_name": [
+          "100% Organic Cotton Panty Liners (pack of 20)",
+          "Regular Cotton Tampons (pack of 16)",
           "100% Organic Cotton Night Menstrual Pads (pack of 10)",
           "Organic Cotton Daily Menstrual Pads (pack of 10)",
-          "Regular Cotton Tampons (without applicators, pack of 18)",
-          "100% Organic Cotton Panty Liners (pack of 20)",
-          "Regular Cotton Tampons (pack of 16)"
+          "Regular Cotton Tampons (without applicators, pack of 18)"
         ],
         "lufa_farms_code": [
+          19196,
+          19197,
           19195,
           19194,
-          19198,
-          19196,
-          19197
+          19198
         ],
         "rebate_per_unit": [
+          "$0.84",
+          "$1.20",
           "$1.02",
           "$0.96",
-          "$1.08",
-          "$0.84",
-          "$1.20"
+          "$1.08"
         ],
         "rebate_cost": [
+          "$3.36",
+          "$4.80",
           "$4.08",
           "$3.84",
-          "$4.32",
-          "$3.36",
-          "$4.80"
+          "$4.32"
         ],
         "qty_bought_at_rebate_cost": [
           0,
@@ -552,27 +552,27 @@
           0
         ],
         "regular_cost": [
+          "$4.20",
+          "$6.00",
           "$5.10",
           "$4.80",
-          "$5.40",
-          "$4.20",
-          "$6.00"
+          "$5.40"
         ],
         "qty_bought_at_regular_cost": [
+          247,
+          176,
           66,
           68,
-          57,
-          247,
-          176
+          57
         ],
         "credited_sum": [
+          "$207.48",
+          "$211.20",
           "$67.32",
           "$65.28",
-          "$61.56",
-          "$207.48",
-          "$211.20"
+          "$61.56"
         ],
-        "total_credited": "$736.80"
+        "total_credited": "$663.12"
       }
     },
     {
@@ -713,18 +713,18 @@
       "theme": "Fruit Week",
       "table": {
         "product_name": [
+          "Peanut Butter Squares (12)",
           "Cookie Dough Squares (12)",
           "Almond Crunch Squares (12)",
           "Crunchy Peanut Squares (12)",
-          "Brownie Batter Squares (12)",
-          "Peanut Butter Squares (12)"
+          "Brownie Batter Squares (12)"
         ],
         "lufa_farms_code": [
+          16438,
           16440,
           16441,
           18046,
-          16439,
-          16438
+          16439
         ],
         "rebate_per_unit": [
           "$4.00",
@@ -755,18 +755,18 @@
           "$18.00"
         ],
         "qty_bought_at_regular_cost": [
+          562,
           149,
           161,
           174,
-          107,
-          562
+          107
         ],
         "credited_sum": [
+          "$2248.00",
           "$596.00",
           "$644.00",
           "$696.00",
-          "$428.00",
-          "$2248.00"
+          "$428.00"
         ],
         "total_credited": "$4612.00"
       }
@@ -832,24 +832,24 @@
       "theme": "Fruit Week",
       "table": {
         "product_name": [
+          "Sweet Potato Gnocchi (frozen)",
           "Soba Noodles (frozen)",
-          "Neapolitan Sauce (frozen)",
-          "Sweet Potato Gnocchi (frozen)"
+          "Neapolitan Sauce (frozen)"
         ],
         "lufa_farms_code": [
+          4539,
           9772,
-          7357,
-          4539
+          7357
         ],
         "rebate_per_unit": [
+          "$0.35",
           "$0.25",
-          "$0.25",
-          "$0.35"
+          "$0.25"
         ],
         "rebate_cost": [
+          "$3.35",
           "$3.10",
-          "$2.35",
-          "$3.35"
+          "$2.35"
         ],
         "qty_bought_at_rebate_cost": [
           0,
@@ -857,21 +857,21 @@
           0
         ],
         "regular_cost": [
+          "$3.70",
           "$3.35",
-          "$2.60",
-          "$3.70"
+          "$2.60"
         ],
         "qty_bought_at_regular_cost": [
+          1508,
           185,
-          1343,
-          1508
+          1343
         ],
         "credited_sum": [
+          "$527.80",
           "$46.25",
-          "$335.75",
-          "$527.80"
+          "$335.75"
         ],
-        "total_credited": "$1062.60"
+        "total_credited": "$759.00"
       }
     },
     {
@@ -1146,32 +1146,32 @@
       "theme": "Fruit Week",
       "table": {
         "product_name": [
+          "Vegan Chickpea & Eggplant Curry (frozen)",
           "Vegan Alfredo Sauce (frozen)",
           "Greek Gyro Tofu (frozen)",
           "Vegan Shawarma (frozen)",
-          "Roasted Tomato Soup (frozen)",
-          "Vegan Chickpea & Eggplant Curry (frozen)"
+          "Roasted Tomato Soup (frozen)"
         ],
         "lufa_farms_code": [
+          17272,
           10337,
           8993,
           14795,
-          12112,
-          17272
+          12112
         ],
         "rebate_per_unit": [
+          "$0.63",
           "$0.50",
           "$0.50",
           "$0.50",
-          "$0.50",
-          "$0.63"
+          "$0.50"
         ],
         "rebate_cost": [
+          "$4.47",
           "$4.00",
           "$3.92",
           "$4.80",
-          "$3.92",
-          "$4.47"
+          "$3.92"
         ],
         "qty_bought_at_rebate_cost": [
           0,
@@ -1181,27 +1181,27 @@
           0
         ],
         "regular_cost": [
+          "$5.10",
           "$4.50",
           "$4.42",
           "$5.30",
-          "$4.42",
-          "$5.10"
+          "$4.42"
         ],
         "qty_bought_at_regular_cost": [
+          723,
           136,
           57,
           69,
-          567,
-          723
+          567
         ],
         "credited_sum": [
+          "$455.49",
           "$68.00",
           "$28.50",
           "$34.50",
-          "$283.50",
-          "$455.49"
+          "$283.50"
         ],
-        "total_credited": "$977.76"
+        "total_credited": "$776.00"
       }
     },
     {
