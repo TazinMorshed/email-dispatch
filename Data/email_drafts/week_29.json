@@ -1,0 +1,46 @@
+{
+  "week": 29,
+  "total_suppliers": 1,
+  "suppliers": [
+    {
+      "supplier": "Nuts for Cheese",
+      "emails": [
+        "Sarah.Sowden@nutsforcheese.com",
+        "Terra.Farmilo@nutsforcheese.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 29,
+      "period": "2026-07-12 to 2026-07-13",
+      "theme": "Plan A: Blueberries Begin/ B: Summer Salads & Light Meals",
+      "table": {
+        "product_name": [
+          "Organic Vegan Cream Cheese-Style Spread"
+        ],
+        "lufa_farms_code": [
+          17115
+        ],
+        "rebate_per_unit": [
+          "$0.92"
+        ],
+        "rebate_cost": [
+          "$5.10"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$6.02"
+        ],
+        "qty_bought_at_regular_cost": [
+          14
+        ],
+        "credited_sum": [
+          "$12.88"
+        ],
+        "total_credited": "$12.88"
+      }
+    }
+  ]
+}

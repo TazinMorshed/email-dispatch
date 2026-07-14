@@ -530,18 +530,18 @@
       "theme": "Father’s Day Grilling",
       "table": {
         "product_name": [
+          "Zaatar Pita Chips",
           "Mint & Parsley Pita Chips",
           "Sumac & Fleur de Sel Pita Chips",
           "Cumin & Aleppo Pepper Pita Chips",
-          "Nut & Olive Labneh (fresh)",
-          "Zaatar Pita Chips"
+          "Nut & Olive Labneh (fresh)"
         ],
         "lufa_farms_code": [
+          15344,
           16074,
           17198,
           15343,
-          14796,
-          15344
+          14796
         ],
         "rebate_per_unit": [
           "$0.75",
@@ -554,8 +554,8 @@
           "$3.58",
           "$3.58",
           "$3.58",
-          "$4.33",
-          "$3.58"
+          "$3.58",
+          "$4.33"
         ],
         "qty_bought_at_rebate_cost": [
           0,
@@ -568,22 +568,22 @@
           "$4.33",
           "$4.33",
           "$4.33",
-          "$5.08",
-          "$4.33"
+          "$4.33",
+          "$5.08"
         ],
         "qty_bought_at_regular_cost": [
+          1103,
           235,
           390,
           338,
-          430,
-          1103
+          430
         ],
         "credited_sum": [
+          "$827.25",
           "$176.25",
           "$292.50",
           "$253.50",
-          "$322.50",
-          "$827.25"
+          "$322.50"
         ],
         "total_credited": "$1872.00"
       }
@@ -601,28 +601,28 @@
       "theme": "Father’s Day Grilling",
       "table": {
         "product_name": [
+          "Organic Dijon Mustard",
           "Organic Old-Fashioned Mustard",
           "Organic Yellow Mustard",
-          "Fine Grey Sea Salt",
-          "Organic Dijon Mustard"
+          "Fine Grey Sea Salt"
         ],
         "lufa_farms_code": [
+          9237,
           9238,
           9239,
-          18315,
-          9237
+          18315
         ],
         "rebate_per_unit": [
           "$0.57",
           "$0.57",
-          "$0.25",
-          "$0.57"
+          "$0.57",
+          "$0.25"
         ],
         "rebate_cost": [
           "$2.60",
           "$2.60",
-          "$3.23",
-          "$2.60"
+          "$2.60",
+          "$3.23"
         ],
         "qty_bought_at_rebate_cost": [
           0,
@@ -633,22 +633,22 @@
         "regular_cost": [
           "$3.17",
           "$3.17",
-          "$3.48",
-          "$3.17"
+          "$3.17",
+          "$3.48"
         ],
         "qty_bought_at_regular_cost": [
+          768,
           158,
           150,
-          67,
-          768
+          67
         ],
         "credited_sum": [
+          "$437.76",
           "$90.06",
           "$85.50",
-          "$16.75",
-          "$437.76"
+          "$16.75"
         ],
-        "total_credited": "$651.51"
+        "total_credited": "$285.75"
       }
     },
     {
@@ -662,23 +662,23 @@
       "theme": "Father’s Day Grilling",
       "table": {
         "product_name": [
-          "Il était une fois: La Mort Czech Pilsner (pack of 4)",
           "Canal Fatal IPA (pack of 4)",
-          "Flotter Sur La Mer Morte Tangerine Gose (pack of 4)"
+          "Flotter Sur La Mer Morte Tangerine Gose (pack of 4)",
+          "Il était une fois: La Mort Czech Pilsner (pack of 4)"
         ],
         "lufa_farms_code": [
-          19462,
           19460,
-          19461
+          19461,
+          19462
         ],
         "rebate_per_unit": [
-          "$0.25",
           "$0.50",
+          "$0.25",
           "$0.25"
         ],
         "rebate_cost": [
-          "$14.62",
           "$16.09",
+          "$14.62",
           "$14.62"
         ],
         "qty_bought_at_rebate_cost": [
@@ -687,19 +687,19 @@
           0
         ],
         "regular_cost": [
-          "$14.87",
           "$16.59",
+          "$14.87",
           "$14.87"
         ],
         "qty_bought_at_regular_cost": [
-          62,
           192,
-          151
+          151,
+          62
         ],
         "credited_sum": [
-          "$15.50",
           "$96.00",
-          "$37.75"
+          "$37.75",
+          "$15.50"
         ],
         "total_credited": "$101.25"
       }
@@ -765,38 +765,38 @@
       "theme": "Father’s Day Grilling",
       "table": {
         "product_name": [
-          "White Wine Alfredo Sauce (frozen)",
-          "Chicken Dumplings (frozen)"
+          "Chicken Dumplings (frozen)",
+          "White Wine Alfredo Sauce (frozen)"
         ],
         "lufa_farms_code": [
-          13485,
-          8356
+          8356,
+          13485
         ],
         "rebate_per_unit": [
-          "$0.25",
-          "$0.60"
+          "$0.60",
+          "$0.25"
         ],
         "rebate_cost": [
-          "$3.50",
-          "$5.40"
+          "$5.40",
+          "$3.50"
         ],
         "qty_bought_at_rebate_cost": [
           0,
           0
         ],
         "regular_cost": [
-          "$3.75",
-          "$6.00"
+          "$6.00",
+          "$3.75"
         ],
         "qty_bought_at_regular_cost": [
-          447,
-          1214
+          1214,
+          447
         ],
         "credited_sum": [
-          "$111.75",
-          "$728.40"
+          "$728.40",
+          "$111.75"
         ],
-        "total_credited": "$996.60"
+        "total_credited": "$415.25"
       }
     },
     {
@@ -888,38 +888,38 @@
       "theme": "Father’s Day Grilling",
       "table": {
         "product_name": [
-          "Pepperoni Pizza (frozen)",
-          "Margherita Pizzas (2, frozen)"
+          "Margherita Pizzas (2, frozen)",
+          "Pepperoni Pizza (frozen)"
         ],
         "lufa_farms_code": [
-          16899,
-          16820
+          16820,
+          16899
         ],
         "rebate_per_unit": [
-          "$0.75",
-          "$1.00"
+          "$1.00",
+          "$0.75"
         ],
         "rebate_cost": [
-          "$4.54",
-          "$7.70"
+          "$7.70",
+          "$4.54"
         ],
         "qty_bought_at_rebate_cost": [
           0,
           0
         ],
         "regular_cost": [
-          "$5.29",
-          "$8.70"
+          "$8.70",
+          "$5.29"
         ],
         "qty_bought_at_regular_cost": [
-          432,
-          900
+          900,
+          432
         ],
         "credited_sum": [
-          "$324.00",
-          "$900.00"
+          "$900.00",
+          "$324.00"
         ],
-        "total_credited": "$1332.00"
+        "total_credited": "$999.00"
       }
     },
     {
@@ -935,14 +935,14 @@
       "theme": "Father’s Day Grilling",
       "table": {
         "product_name": [
+          "Tomato, Thyme & Rosemary Crackers",
           "BBQ Crackers",
-          "Black & White Sesame Seed Crackers",
-          "Tomato, Thyme & Rosemary Crackers"
+          "Black & White Sesame Seed Crackers"
         ],
         "lufa_farms_code": [
+          13856,
           16368,
-          14428,
-          13856
+          14428
         ],
         "rebate_per_unit": [
           "$1.00",
@@ -965,14 +965,14 @@
           "$3.05"
         ],
         "qty_bought_at_regular_cost": [
+          948,
           261,
-          364,
-          948
+          364
         ],
         "credited_sum": [
+          "$948.00",
           "$261.00",
-          "$364.00",
-          "$948.00"
+          "$364.00"
         ],
         "total_credited": "$1573.00"
       }
@@ -1200,6 +1200,7 @@
       "theme": "Father’s Day Grilling",
       "table": {
         "product_name": [
+          "Duck Raw Cat Food (individual portion, frozen)",
           "Duck & Berries Raw Dog Food (individual portion, frozen)",
           "Chicken & Squash Raw Dog Food (individual portion, frozen)",
           "Beef & Fresh Herbs Raw Dog Food (individual portion, frozen)",
@@ -1207,10 +1208,10 @@
           "Lamb & Rice Raw Dog Food (individual portion, frozen)",
           "Beef & Barley Raw Dog Food (individual portion, frozen)",
           "Chicken Raw Cat Food (individual portion, frozen)",
-          "Beef Raw Cat Food (individual portion, frozen)",
-          "Duck Raw Cat Food (individual portion, frozen)"
+          "Beef Raw Cat Food (individual portion, frozen)"
         ],
         "lufa_farms_code": [
+          19135,
           19086,
           19083,
           19089,
@@ -1218,8 +1219,7 @@
           19095,
           19098,
           19101,
-          19105,
-          19135
+          19105
         ],
         "rebate_per_unit": [
           "$0.78",
@@ -1266,6 +1266,7 @@
           "$2.59"
         ],
         "qty_bought_at_regular_cost": [
+          98,
           41,
           16,
           33,
@@ -1273,10 +1274,10 @@
           23,
           26,
           14,
-          8,
-          98
+          8
         ],
         "credited_sum": [
+          "$76.44",
           "$31.98",
           "$12.48",
           "$25.74",
@@ -1284,8 +1285,7 @@
           "$17.94",
           "$20.28",
           "$10.92",
-          "$6.24",
-          "$76.44"
+          "$6.24"
         ],
         "total_credited": "$213.72"
       }
@@ -1422,20 +1422,20 @@
       "theme": "Father’s Day Grilling",
       "table": {
         "product_name": [
+          "Sweet Potato & Black Bean Veggie Burgers (2, frozen)",
+          "Quinoa & Root Veggie Minestrone Soup (frozen)",
           "Green Pea Soup (frozen)",
           "Vegan Taco & Chili Crumble (frozen)",
           "Sticky Sesame Soy Protein Strips (frozen)",
-          "Vegan Rosée Sauce (frozen)",
-          "Sweet Potato & Black Bean Veggie Burgers (2, frozen)",
-          "Quinoa & Root Veggie Minestrone Soup (frozen)"
+          "Vegan Rosée Sauce (frozen)"
         ],
         "lufa_farms_code": [
+          8992,
+          10053,
           10736,
           8996,
           10186,
-          10332,
-          8992,
-          10053
+          10332
         ],
         "rebate_per_unit": [
           "$0.50",
@@ -1446,12 +1446,12 @@
           "$0.50"
         ],
         "rebate_cost": [
+          "$2.14",
+          "$3.92",
           "$4.00",
           "$3.92",
           "$5.20",
-          "$4.00",
-          "$2.14",
-          "$3.92"
+          "$4.00"
         ],
         "qty_bought_at_rebate_cost": [
           0,
@@ -1462,28 +1462,28 @@
           0
         ],
         "regular_cost": [
+          "$2.64",
+          "$4.42",
           "$4.50",
           "$4.42",
           "$5.70",
-          "$4.50",
-          "$2.64",
-          "$4.42"
+          "$4.50"
         ],
         "qty_bought_at_regular_cost": [
+          1742,
+          698,
           264,
           87,
           96,
-          117,
-          1742,
-          698
+          117
         ],
         "credited_sum": [
+          "$871.00",
+          "$349.00",
           "$132.00",
           "$43.50",
           "$48.00",
-          "$58.50",
-          "$871.00",
-          "$349.00"
+          "$58.50"
         ],
         "total_credited": "$1502.00"
       }

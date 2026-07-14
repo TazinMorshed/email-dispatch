@@ -1,0 +1,1370 @@
+{
+  "week": 28,
+  "total_suppliers": 28,
+  "suppliers": [
+    {
+      "supplier": "Agrobio",
+      "emails": [
+        "joey@agrobioquebec.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 28,
+      "period": "2026-07-05 to 2026-07-11",
+      "theme": "Plan A: Blueberries Begin/ B: Summer Salads & Light Meals",
+      "table": {
+        "product_name": [
+          "Organic Whole Wheat Flour",
+          "Organic All-Purpose Flour (white, unbleached)"
+        ],
+        "lufa_farms_code": [
+          17354,
+          17351
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$4.88",
+          "$4.95"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$5.38",
+          "$5.45"
+        ],
+        "qty_bought_at_regular_cost": [
+          116,
+          491
+        ],
+        "credited_sum": [
+          "$58.00",
+          "$245.50"
+        ],
+        "total_credited": "$303.50"
+      }
+    },
+    {
+      "supplier": "Boldwin",
+      "emails": [
+        "jlaforest@collectifensemble.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 28,
+      "period": "2026-07-05 to 2026-07-11",
+      "theme": "Plan A: Blueberries Begin/ B: Summer Salads & Light Meals",
+      "table": {
+        "product_name": [
+          "Light Series: Rêve Organic Cold IPA (pack of 4)",
+          "Fleuve Organic White Witbier (pack of 4)"
+        ],
+        "lufa_farms_code": [
+          20112,
+          20113
+        ],
+        "rebate_per_unit": [
+          "$1.04",
+          "$1.04"
+        ],
+        "rebate_cost": [
+          "$10.00",
+          "$10.00"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$11.04",
+          "$11.04"
+        ],
+        "qty_bought_at_regular_cost": [
+          71,
+          61
+        ],
+        "credited_sum": [
+          "$73.84",
+          "$63.44"
+        ],
+        "total_credited": "$137.28"
+      }
+    },
+    {
+      "supplier": "Boulangerie Le Pain dans les Voiles",
+      "emails": [
+        "alex@lepaindanslesvoiles.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 28,
+      "period": "2026-07-05 to 2026-07-11",
+      "theme": "Plan A: Blueberries Begin/ B: Summer Salads & Light Meals",
+      "table": {
+        "product_name": [
+          "Puff Pastry (frozen)"
+        ],
+        "lufa_farms_code": [
+          17488
+        ],
+        "rebate_per_unit": [
+          "$1.25"
+        ],
+        "rebate_cost": [
+          "$7.75"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$9.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          217
+        ],
+        "credited_sum": [
+          "$271.25"
+        ],
+        "total_credited": "$271.25"
+      }
+    },
+    {
+      "supplier": "Carrément Tarte",
+      "emails": [
+        "admin@carrementtarte.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 28,
+      "period": "2026-07-05 to 2026-07-11",
+      "theme": "Plan A: Blueberries Begin/ B: Summer Salads & Light Meals",
+      "table": {
+        "product_name": [
+          "Feta & Spinach Quiche (frozen)"
+        ],
+        "lufa_farms_code": [
+          18423
+        ],
+        "rebate_per_unit": [
+          "$1.00"
+        ],
+        "rebate_cost": [
+          "$9.30"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$10.30"
+        ],
+        "qty_bought_at_regular_cost": [
+          985
+        ],
+        "credited_sum": [
+          "$985.00"
+        ],
+        "total_credited": "$985.00"
+      }
+    },
+    {
+      "supplier": "Chocolat Boréal",
+      "emails": [
+        "info@chocolatboreal.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 28,
+      "period": "2026-07-05 to 2026-07-11",
+      "theme": "Plan A: Blueberries Begin/ B: Summer Salads & Light Meals",
+      "table": {
+        "product_name": [
+          "72% Dark Chocolate Bar",
+          "37% Milk Chocolate Bar"
+        ],
+        "lufa_farms_code": [
+          10728,
+          10731
+        ],
+        "rebate_per_unit": [
+          "$0.25",
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$4.95",
+          "$4.95"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$5.20",
+          "$5.20"
+        ],
+        "qty_bought_at_regular_cost": [
+          245,
+          62
+        ],
+        "credited_sum": [
+          "$61.25",
+          "$15.50"
+        ],
+        "total_credited": "$76.75"
+      }
+    },
+    {
+      "supplier": "Coloccia",
+      "emails": [
+        "gusberthe@outlook.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 28,
+      "period": "2026-07-05 to 2026-07-11",
+      "theme": "Plan A: Blueberries Begin/ B: Summer Salads & Light Meals",
+      "table": {
+        "product_name": [
+          "Fresh Ricotta & Spinach Cannelloni (6, frozen)"
+        ],
+        "lufa_farms_code": [
+          10586
+        ],
+        "rebate_per_unit": [
+          "$0.72"
+        ],
+        "rebate_cost": [
+          "$6.15"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$6.87"
+        ],
+        "qty_bought_at_regular_cost": [
+          876
+        ],
+        "credited_sum": [
+          "$630.72"
+        ],
+        "total_credited": "$630.72"
+      }
+    },
+    {
+      "supplier": "DelChef",
+      "emails": [
+        "leonardo@delchef.ca"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 28,
+      "period": "2026-07-05 to 2026-07-11",
+      "theme": "Plan A: Blueberries Begin/ B: Summer Salads & Light Meals",
+      "table": {
+        "product_name": [
+          "Chicken Parmigiana Focaccia (frozen)"
+        ],
+        "lufa_farms_code": [
+          16653
+        ],
+        "rebate_per_unit": [
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$2.65"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$3.15"
+        ],
+        "qty_bought_at_regular_cost": [
+          341
+        ],
+        "credited_sum": [
+          "$170.50"
+        ],
+        "total_credited": "$170.50"
+      }
+    },
+    {
+      "supplier": "Des Cantons",
+      "emails": [
+        "jlaforest@collectifensemble.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 28,
+      "period": "2026-07-05 to 2026-07-11",
+      "theme": "Plan A: Blueberries Begin/ B: Summer Salads & Light Meals",
+      "table": {
+        "product_name": [
+          "Pic de l'Ours Organic Blonde Ale (pack of 4)"
+        ],
+        "lufa_farms_code": [
+          20111
+        ],
+        "rebate_per_unit": [
+          "$1.04"
+        ],
+        "rebate_cost": [
+          "$10.00"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$11.04"
+        ],
+        "qty_bought_at_regular_cost": [
+          146
+        ],
+        "credited_sum": [
+          "$151.84"
+        ],
+        "total_credited": "$151.84"
+      }
+    },
+    {
+      "supplier": "Fous de l'île",
+      "emails": [
+        "jerry@fousdelile.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 28,
+      "period": "2026-07-05 to 2026-07-11",
+      "theme": "Plan A: Blueberries Begin/ B: Summer Salads & Light Meals",
+      "table": {
+        "product_name": [
+          "Organic Ginger Kombucha",
+          "Organic Green Tea & Lemongrass Kombucha",
+          "Organic Guava Rose Kombucha",
+          "Organic Hibiscus Chai Kombucha",
+          "Organic Lychee Butterfly Pea Kombucha",
+          "Organic Turmeric & Ginger Kombucha"
+        ],
+        "lufa_farms_code": [
+          14690,
+          14693,
+          16733,
+          14745,
+          16315,
+          14749
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50",
+          "$0.50",
+          "$0.50",
+          "$0.50",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$1.37",
+          "$1.37",
+          "$1.37",
+          "$1.37",
+          "$1.37",
+          "$1.37"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$1.87",
+          "$1.87",
+          "$1.87",
+          "$1.87",
+          "$1.87",
+          "$1.87"
+        ],
+        "qty_bought_at_regular_cost": [
+          627,
+          579,
+          828,
+          586,
+          734,
+          559
+        ],
+        "credited_sum": [
+          "$313.50",
+          "$289.50",
+          "$414.00",
+          "$293.00",
+          "$367.00",
+          "$279.50"
+        ],
+        "total_credited": "$1956.50"
+      }
+    },
+    {
+      "supplier": "Harmon's Craft Brewing",
+      "emails": [
+        "ludovic.onfray@olintl.ca"
+      ],
+      "language": "en",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 28,
+      "period": "2026-07-05 to 2026-07-11",
+      "theme": "Plan A: Blueberries Begin/ B: Summer Salads & Light Meals",
+      "table": {
+        "product_name": [
+          "Harmon's Lunchbox Organic Non-Alcoholic Lagered Ale (pack of 4)"
+        ],
+        "lufa_farms_code": [
+          18524
+        ],
+        "rebate_per_unit": [
+          "$0.75"
+        ],
+        "rebate_cost": [
+          "$6.25"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$7.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          209
+        ],
+        "credited_sum": [
+          "$156.75"
+        ],
+        "total_credited": "$156.75"
+      }
+    },
+    {
+      "supplier": "L'Issue Végane Maison",
+      "emails": [
+        "laurentvanderwee.lissue@gmail.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 28,
+      "period": "2026-07-05 to 2026-07-11",
+      "theme": "Plan A: Blueberries Begin/ B: Summer Salads & Light Meals",
+      "table": {
+        "product_name": [
+          "Le Piccante Seitan (frozen)"
+        ],
+        "lufa_farms_code": [
+          16876
+        ],
+        "rebate_per_unit": [
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$5.50"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$6.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          44
+        ],
+        "credited_sum": [
+          "$22.00"
+        ],
+        "total_credited": "$22.00"
+      }
+    },
+    {
+      "supplier": "Le Mas des Patriotes",
+      "emails": [],
+      "language": "",
+      "taxable": "No",
+      "year": 2026,
+      "week": 28,
+      "period": "2026-07-05 to 2026-07-11",
+      "theme": "Plan A: Blueberries Begin/ B: Summer Salads & Light Meals",
+      "table": {
+        "product_name": [
+          "Le Chaume Organic White Wine 2024"
+        ],
+        "lufa_farms_code": [
+          16548
+        ],
+        "rebate_per_unit": [
+          "$1.50"
+        ],
+        "rebate_cost": [
+          "$19.50"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$21.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          30
+        ],
+        "credited_sum": [
+          "$45.00"
+        ],
+        "total_credited": "$45.00"
+      }
+    },
+    {
+      "supplier": "Les Artisans de l'Aube",
+      "emails": [
+        "info@lesartisansdelaube.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 28,
+      "period": "2026-07-05 to 2026-07-11",
+      "theme": "Plan A: Blueberries Begin/ B: Summer Salads & Light Meals",
+      "table": {
+        "product_name": [
+          "Organic Veggie Soup (frozen)"
+        ],
+        "lufa_farms_code": [
+          19207
+        ],
+        "rebate_per_unit": [
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$4.65"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$5.15"
+        ],
+        "qty_bought_at_regular_cost": [
+          58
+        ],
+        "credited_sum": [
+          "$29.00"
+        ],
+        "total_credited": "$29.00"
+      }
+    },
+    {
+      "supplier": "Maison Orphée",
+      "emails": [
+        "Stefanie.Janin@maisonorphee.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 28,
+      "period": "2026-07-05 to 2026-07-11",
+      "theme": "Plan A: Blueberries Begin/ B: Summer Salads & Light Meals",
+      "table": {
+        "product_name": [
+          "Organic Unrefined Sesame Oil (first cold-pressed)"
+        ],
+        "lufa_farms_code": [
+          17802
+        ],
+        "rebate_per_unit": [
+          "$0.95"
+        ],
+        "rebate_cost": [
+          "$8.55"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$9.50"
+        ],
+        "qty_bought_at_regular_cost": [
+          79
+        ],
+        "credited_sum": [
+          "$75.05"
+        ],
+        "total_credited": "$75.05"
+      }
+    },
+    {
+      "supplier": "Mate Libre",
+      "emails": [],
+      "language": "",
+      "taxable": "No",
+      "year": 2026,
+      "week": 28,
+      "period": "2026-07-05 to 2026-07-11",
+      "theme": "Plan A: Blueberries Begin/ B: Summer Salads & Light Meals",
+      "table": {
+        "product_name": [
+          "Organic Mint & Lime Yerba Mate Energy Infusion (pack of 4)",
+          "Organic Original Yerba Mate Energy Infusion (pack of 4)",
+          "Organic Ginger Yerba Mate Energy Infusion (sugar-free, pack of 4)",
+          "Organic Rose & Hibiscus Yerba Mate Energy Infusion (pack of 4)",
+          "Organic Peach Yerba Mate Energy Infusion (pack of 4)",
+          "Organic Mint & Lime Yerba Mate Energy Infusion (pack of 4)",
+          "Organic Passion Yerba Mate Energy Infusion (pack of 4)"
+        ],
+        "lufa_farms_code": [
+          19340,
+          19344,
+          20499,
+          20498,
+          20728,
+          20912,
+          19342
+        ],
+        "rebate_per_unit": [
+          "$1.00",
+          "$1.00",
+          "$1.00",
+          "$1.00",
+          "$1.00",
+          "$1.00",
+          "$1.00"
+        ],
+        "rebate_cost": [
+          "$6.30",
+          "$6.30",
+          "$6.30",
+          "$6.30",
+          "$6.30",
+          "$6.30",
+          "$6.30"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$7.30",
+          "$7.30",
+          "$7.30",
+          "$7.30",
+          "$7.30",
+          "$7.30",
+          "$7.30"
+        ],
+        "qty_bought_at_regular_cost": [
+          89,
+          118,
+          128,
+          123,
+          208,
+          125,
+          361
+        ],
+        "credited_sum": [
+          "$89.00",
+          "$118.00",
+          "$128.00",
+          "$123.00",
+          "$208.00",
+          "$125.00",
+          "$361.00"
+        ],
+        "total_credited": "$1152.00"
+      }
+    },
+    {
+      "supplier": "Nut Grove Cheese",
+      "emails": [
+        "stephanie@nutgrovecheese.com",
+        "angelique@nutgrovecheese.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 28,
+      "period": "2026-07-05 to 2026-07-11",
+      "theme": "Plan A: Blueberries Begin/ B: Summer Salads & Light Meals",
+      "table": {
+        "product_name": [
+          "Vegan Chèvre Style Cheese with Ash Rind"
+        ],
+        "lufa_farms_code": [
+          15711
+        ],
+        "rebate_per_unit": [
+          "$1.00"
+        ],
+        "rebate_cost": [
+          "$7.29"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$8.29"
+        ],
+        "qty_bought_at_regular_cost": [
+          51
+        ],
+        "credited_sum": [
+          "$51.00"
+        ],
+        "total_credited": "$51.00"
+      }
+    },
+    {
+      "supplier": "O'Mari",
+      "emails": [
+        "ningcan@gmail.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 28,
+      "period": "2026-07-05 to 2026-07-11",
+      "theme": "Plan A: Blueberries Begin/ B: Summer Salads & Light Meals",
+      "table": {
+        "product_name": [
+          "Dumpling Wrappers (55 sheets, frozen)",
+          "Three Mushrooms Ravioli (frozen)",
+          "White Wine Alfredo Sauce (frozen)"
+        ],
+        "lufa_farms_code": [
+          15554,
+          16457,
+          13485
+        ],
+        "rebate_per_unit": [
+          "$0.25",
+          "$0.50",
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$1.95",
+          "$4.75",
+          "$3.50"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$2.20",
+          "$5.25",
+          "$3.75"
+        ],
+        "qty_bought_at_regular_cost": [
+          202,
+          1530,
+          729
+        ],
+        "credited_sum": [
+          "$50.50",
+          "$765.00",
+          "$182.25"
+        ],
+        "total_credited": "$615.25"
+      }
+    },
+    {
+      "supplier": "Rebon",
+      "emails": [
+        "gaetan@alice-ambre.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 28,
+      "period": "2026-07-05 to 2026-07-11",
+      "theme": "Plan A: Blueberries Begin/ B: Summer Salads & Light Meals",
+      "table": {
+        "product_name": [
+          "BBQ Crackers",
+          "Black & White Sesame Seed Crackers",
+          "Tomato, Thyme & Rosemary Crackers"
+        ],
+        "lufa_farms_code": [
+          16368,
+          14428,
+          13856
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$2.55",
+          "$2.55",
+          "$2.55"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$3.05",
+          "$3.05",
+          "$3.05"
+        ],
+        "qty_bought_at_regular_cost": [
+          164,
+          209,
+          207
+        ],
+        "credited_sum": [
+          "$82.00",
+          "$104.50",
+          "$103.50"
+        ],
+        "total_credited": "$290.00"
+      }
+    },
+    {
+      "supplier": "Savanil",
+      "emails": [
+        "nancia@savanil.ca"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 28,
+      "period": "2026-07-05 to 2026-07-11",
+      "theme": "Plan A: Blueberries Begin/ B: Summer Salads & Light Meals",
+      "table": {
+        "product_name": [
+          "Wild Black Voatsiperifery Pepper",
+          "Cinnamon Powder from Vatomandry, Madagascar (2024 harvest)",
+          "Ground Cumin from Mananjary, Madagascar",
+          "Cajun Seasoning"
+        ],
+        "lufa_farms_code": [
+          10903,
+          10908,
+          12466,
+          18130
+        ],
+        "rebate_per_unit": [
+          "$0.30",
+          "$0.25",
+          "$0.30",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$2.48",
+          "$1.63",
+          "$2.53",
+          "$3.00"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$2.78",
+          "$1.88",
+          "$2.83",
+          "$3.50"
+        ],
+        "qty_bought_at_regular_cost": [
+          114,
+          94,
+          88,
+          48
+        ],
+        "credited_sum": [
+          "$34.20",
+          "$23.50",
+          "$26.40",
+          "$24.00"
+        ],
+        "total_credited": "$172.00"
+      }
+    },
+    {
+      "supplier": "Soya Distinction Inc",
+      "emails": [
+        "konthea2000@hotmail.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 28,
+      "period": "2026-07-05 to 2026-07-11",
+      "theme": "Plan A: Blueberries Begin/ B: Summer Salads & Light Meals",
+      "table": {
+        "product_name": [
+          "Tamari & Maple Smoked Tofu"
+        ],
+        "lufa_farms_code": [
+          13558
+        ],
+        "rebate_per_unit": [
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$3.50"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$3.75"
+        ],
+        "qty_bought_at_regular_cost": [
+          1088
+        ],
+        "credited_sum": [
+          "$272.00"
+        ],
+        "total_credited": "$272.00"
+      }
+    },
+    {
+      "supplier": "Sprague",
+      "emails": [
+        "jenn@spraguefoods.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 28,
+      "period": "2026-07-05 to 2026-07-11",
+      "theme": "Plan A: Blueberries Begin/ B: Summer Salads & Light Meals",
+      "table": {
+        "product_name": [
+          "Organic Autumn Butternut Squash Soup",
+          "Organic Mediterranean Lentil Soup",
+          "Organic Quebec-Style Split Pea Soup",
+          "Organic Lentil & Vegetable Soup",
+          "Organic Caribbean-Style Black Bean Soup",
+          "Organic Coconut, Curry & Sweet Potato Soup",
+          "Organic Tomato & Red Pepper Soup",
+          "Organic Tuscany-Style Minestrone Soup"
+        ],
+        "lufa_farms_code": [
+          17558,
+          17559,
+          17561,
+          17562,
+          17563,
+          17617,
+          17619,
+          17560
+        ],
+        "rebate_per_unit": [
+          "$0.30",
+          "$0.30",
+          "$0.30",
+          "$0.30",
+          "$0.30",
+          "$0.30",
+          "$0.30",
+          "$0.30"
+        ],
+        "rebate_cost": [
+          "$2.05",
+          "$2.05",
+          "$1.62",
+          "$1.62",
+          "$2.05",
+          "$2.05",
+          "$2.05",
+          "$1.62"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$2.35",
+          "$2.35",
+          "$1.92",
+          "$1.92",
+          "$2.35",
+          "$2.35",
+          "$2.35",
+          "$1.92"
+        ],
+        "qty_bought_at_regular_cost": [
+          115,
+          180,
+          306,
+          283,
+          227,
+          199,
+          143,
+          741
+        ],
+        "credited_sum": [
+          "$34.50",
+          "$54.00",
+          "$91.80",
+          "$84.90",
+          "$68.10",
+          "$59.70",
+          "$42.90",
+          "$222.30"
+        ],
+        "total_credited": "$658.20"
+      }
+    },
+    {
+      "supplier": "The Port of India",
+      "emails": [
+        "justin.riggio7@gmail.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 28,
+      "period": "2026-07-05 to 2026-07-11",
+      "theme": "Plan A: Blueberries Begin/ B: Summer Salads & Light Meals",
+      "table": {
+        "product_name": [
+          "Vindaloo Curry Paste (spicy)"
+        ],
+        "lufa_farms_code": [
+          10644
+        ],
+        "rebate_per_unit": [
+          "$1.10"
+        ],
+        "rebate_cost": [
+          "$4.00"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$5.10"
+        ],
+        "qty_bought_at_regular_cost": [
+          32
+        ],
+        "credited_sum": [
+          "$35.20"
+        ],
+        "total_credited": "$35.20"
+      }
+    },
+    {
+      "supplier": "The Unscented Company",
+      "emails": [
+        "finance@unscentedco.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 28,
+      "period": "2026-07-05 to 2026-07-11",
+      "theme": "Plan A: Blueberries Begin/ B: Summer Salads & Light Meals",
+      "table": {
+        "product_name": [
+          "Toilet Bowl Cleaner (22 tabs)"
+        ],
+        "lufa_farms_code": [
+          18048
+        ],
+        "rebate_per_unit": [
+          "$0.67"
+        ],
+        "rebate_cost": [
+          "$7.61"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$8.28"
+        ],
+        "qty_bought_at_regular_cost": [
+          115
+        ],
+        "credited_sum": [
+          "$77.05"
+        ],
+        "total_credited": "$77.05"
+      }
+    },
+    {
+      "supplier": "Umami Épicerie",
+      "emails": [
+        "umamiepicerie@gmail.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 28,
+      "period": "2026-07-05 to 2026-07-11",
+      "theme": "Plan A: Blueberries Begin/ B: Summer Salads & Light Meals",
+      "table": {
+        "product_name": [
+          "Spicy Korean Pepper Ramen (frozen)"
+        ],
+        "lufa_farms_code": [
+          14439
+        ],
+        "rebate_per_unit": [
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$2.30"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$2.55"
+        ],
+        "qty_bought_at_regular_cost": [
+          152
+        ],
+        "credited_sum": [
+          "$38.00"
+        ],
+        "total_credited": "$38.00"
+      }
+    },
+    {
+      "supplier": "VG Gourmet",
+      "emails": [
+        "info@vegetariangourmet.com",
+        "bookkeeping.vggourmet@gmail.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 28,
+      "period": "2026-07-05 to 2026-07-11",
+      "theme": "Plan A: Blueberries Begin/ B: Summer Salads & Light Meals",
+      "table": {
+        "product_name": [
+          "Ginger Sesame Tofu (frozen)",
+          "Sticky Sesame Soy Protein Strips (frozen)",
+          "Mini Vegan Kebabs (12, frozen)",
+          "Roasted Tomato Soup (frozen)",
+          "Mexican 3-Bean Veggie Burger (2, frozen)",
+          "Beet Balls (frozen)"
+        ],
+        "lufa_farms_code": [
+          8995,
+          10186,
+          11239,
+          12112,
+          8990,
+          8997
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50",
+          "$0.50",
+          "$0.50",
+          "$0.50",
+          "$0.63"
+        ],
+        "rebate_cost": [
+          "$3.92",
+          "$5.20",
+          "$4.16",
+          "$3.92",
+          "$2.14",
+          "$3.79"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$4.42",
+          "$5.70",
+          "$4.66",
+          "$4.42",
+          "$2.64",
+          "$4.42"
+        ],
+        "qty_bought_at_regular_cost": [
+          101,
+          103,
+          75,
+          365,
+          1086,
+          582
+        ],
+        "credited_sum": [
+          "$50.50",
+          "$51.50",
+          "$37.50",
+          "$182.50",
+          "$543.00",
+          "$366.66"
+        ],
+        "total_credited": "$1456.56"
+      }
+    },
+    {
+      "supplier": "Yupik",
+      "emails": [
+        "mleclerc@tootsi.com",
+        "jllachance@tootsi.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 28,
+      "period": "2026-07-05 to 2026-07-11",
+      "theme": "Plan A: Blueberries Begin/ B: Summer Salads & Light Meals",
+      "table": {
+        "product_name": [
+          "Organic Cocoa Powder"
+        ],
+        "lufa_farms_code": [
+          8024
+        ],
+        "rebate_per_unit": [
+          "$0.69"
+        ],
+        "rebate_cost": [
+          "$3.90"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$4.59"
+        ],
+        "qty_bought_at_regular_cost": [
+          150
+        ],
+        "credited_sum": [
+          "$103.50"
+        ],
+        "total_credited": "$103.50"
+      }
+    },
+    {
+      "supplier": "État Végétal",
+      "emails": [
+        "francis.dubois@etatvegetal.com",
+        "comptabilite@etatvegetal.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 28,
+      "period": "2026-07-05 to 2026-07-11",
+      "theme": "Plan A: Blueberries Begin/ B: Summer Salads & Light Meals",
+      "table": {
+        "product_name": [
+          "Taquitos (frozen)"
+        ],
+        "lufa_farms_code": [
+          17069
+        ],
+        "rebate_per_unit": [
+          "$1.00"
+        ],
+        "rebate_cost": [
+          "$6.08"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$7.08"
+        ],
+        "qty_bought_at_regular_cost": [
+          150
+        ],
+        "credited_sum": [
+          "$150.00"
+        ],
+        "total_credited": "$150.00"
+      }
+    },
+    {
+      "supplier": "Öko Créations",
+      "emails": [
+        "info@okocreations.ca"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 28,
+      "period": "2026-07-05 to 2026-07-11",
+      "theme": "Plan A: Blueberries Begin/ B: Summer Salads & Light Meals",
+      "table": {
+        "product_name": [
+          "Soap Bar Sack",
+          "Reusable Makeup Removal Pads (black, 8)"
+        ],
+        "lufa_farms_code": [
+          17211,
+          14344
+        ],
+        "rebate_per_unit": [
+          "$0.25",
+          "$1.48"
+        ],
+        "rebate_cost": [
+          "$3.59",
+          "$7.29"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$3.84",
+          "$8.77"
+        ],
+        "qty_bought_at_regular_cost": [
+          36,
+          27
+        ],
+        "credited_sum": [
+          "$9.00",
+          "$39.96"
+        ],
+        "total_credited": "$93.24"
+      }
+    }
+  ]
+}

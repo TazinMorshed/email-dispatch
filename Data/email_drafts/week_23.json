@@ -15,36 +15,36 @@
       "theme": null,
       "table": {
         "product_name": [
-          "Organic Whole Wheat Flour",
-          "Organic All-Purpose Flour (white, unbleached)"
+          "Organic All-Purpose Flour (white, unbleached)",
+          "Organic Whole Wheat Flour"
         ],
         "lufa_farms_code": [
-          17354,
-          17351
+          17351,
+          17354
         ],
         "rebate_per_unit": [
           "$0.50",
           "$0.50"
         ],
         "rebate_cost": [
-          "$4.88",
-          "$4.95"
+          "$4.95",
+          "$4.88"
         ],
         "qty_bought_at_rebate_cost": [
           0,
           0
         ],
         "regular_cost": [
-          "$5.38",
-          "$5.45"
+          "$5.45",
+          "$5.38"
         ],
         "qty_bought_at_regular_cost": [
-          148,
-          652
+          652,
+          148
         ],
         "credited_sum": [
-          "$74.00",
-          "$326.00"
+          "$326.00",
+          "$74.00"
         ],
         "total_credited": "$400.00"
       }
@@ -829,27 +829,27 @@
       "year": 2026,
       "week": 23,
       "period": "2026-05-31 to 2026-06-06",
-      "theme": "Fruit Week",
+      "theme": "Fruit",
       "table": {
         "product_name": [
+          "Neapolitan Sauce (frozen)",
           "Sweet Potato Gnocchi (frozen)",
-          "Soba Noodles (frozen)",
-          "Neapolitan Sauce (frozen)"
+          "Soba Noodles (frozen)"
         ],
         "lufa_farms_code": [
+          7357,
           4539,
-          9772,
-          7357
+          9772
         ],
         "rebate_per_unit": [
-          "$0.35",
           "$0.25",
+          "$0.35",
           "$0.25"
         ],
         "rebate_cost": [
+          "$2.35",
           "$3.35",
-          "$3.10",
-          "$2.35"
+          "$3.10"
         ],
         "qty_bought_at_rebate_cost": [
           0,
@@ -857,19 +857,19 @@
           0
         ],
         "regular_cost": [
+          "$2.60",
           "$3.70",
-          "$3.35",
-          "$2.60"
+          "$3.35"
         ],
         "qty_bought_at_regular_cost": [
+          1343,
           1508,
-          185,
-          1343
+          185
         ],
         "credited_sum": [
+          "$335.75",
           "$527.80",
-          "$46.25",
-          "$335.75"
+          "$46.25"
         ],
         "total_credited": "$759.00"
       }
@@ -1095,39 +1095,39 @@
       "year": 2026,
       "week": 23,
       "period": "2026-05-31 to 2026-06-06",
-      "theme": "Fruit Week",
+      "theme": null,
       "table": {
         "product_name": [
-          "Spicy Miso Broth (frozen)",
-          "Japanese Vegetable Curry (frozen)"
+          "Japanese Vegetable Curry (frozen)",
+          "Spicy Miso Broth (frozen)"
         ],
         "lufa_farms_code": [
-          19009,
-          19068
+          19068,
+          19009
         ],
         "rebate_per_unit": [
           "$0.50",
           "$0.50"
         ],
         "rebate_cost": [
-          "$5.50",
-          "$4.65"
+          "$4.65",
+          "$5.50"
         ],
         "qty_bought_at_rebate_cost": [
           0,
           0
         ],
         "regular_cost": [
-          "$6.00",
-          "$5.15"
+          "$5.15",
+          "$6.00"
         ],
         "qty_bought_at_regular_cost": [
-          62,
-          1293
+          1293,
+          62
         ],
         "credited_sum": [
-          "$31.00",
-          "$646.50"
+          "$646.50",
+          "$31.00"
         ],
         "total_credited": "$677.50"
       }
@@ -1143,35 +1143,35 @@
       "year": 2026,
       "week": 23,
       "period": "2026-05-31 to 2026-06-06",
-      "theme": "Fruit Week",
+      "theme": null,
       "table": {
         "product_name": [
+          "Roasted Tomato Soup (frozen)",
           "Vegan Chickpea & Eggplant Curry (frozen)",
           "Vegan Alfredo Sauce (frozen)",
           "Greek Gyro Tofu (frozen)",
-          "Vegan Shawarma (frozen)",
-          "Roasted Tomato Soup (frozen)"
+          "Vegan Shawarma (frozen)"
         ],
         "lufa_farms_code": [
+          12112,
           17272,
           10337,
           8993,
-          14795,
-          12112
+          14795
         ],
         "rebate_per_unit": [
-          "$0.63",
           "$0.50",
+          "$0.63",
           "$0.50",
           "$0.50",
           "$0.50"
         ],
         "rebate_cost": [
+          "$3.92",
           "$4.47",
           "$4.00",
           "$3.92",
-          "$4.80",
-          "$3.92"
+          "$4.80"
         ],
         "qty_bought_at_rebate_cost": [
           0,
@@ -1181,25 +1181,25 @@
           0
         ],
         "regular_cost": [
+          "$4.42",
           "$5.10",
           "$4.50",
           "$4.42",
-          "$5.30",
-          "$4.42"
+          "$5.30"
         ],
         "qty_bought_at_regular_cost": [
+          567,
           723,
           136,
           57,
-          69,
-          567
+          69
         ],
         "credited_sum": [
+          "$283.50",
           "$455.49",
           "$68.00",
           "$28.50",
-          "$34.50",
-          "$283.50"
+          "$34.50"
         ],
         "total_credited": "$776.00"
       }
