@@ -1351,32 +1351,32 @@
       "theme": "St-Jean-Baptiste Celebration",
       "table": {
         "product_name": [
+          "All-Purpose Cleaning Spray (4L Refill)",
+          "Dishwasher Tabs (72)",
           "Natural Laundry Whitener & Brightener",
           "Shampoo Bar",
-          "Dish Soap (4 L refill)",
-          "All-Purpose Cleaning Spray (4L Refill)",
-          "Dishwasher Tabs (72)"
+          "Dish Soap (4 L refill)"
         ],
         "lufa_farms_code": [
+          10794,
+          18588,
           17213,
           10394,
-          8758,
-          10794,
-          18588
+          8758
         ],
         "rebate_per_unit": [
+          "$1.47",
+          "$1.44",
           "$0.85",
           "$0.72",
-          "$1.55",
-          "$1.47",
-          "$1.44"
+          "$1.55"
         ],
         "rebate_cost": [
+          "$13.21",
+          "$12.99",
           "$9.65",
           "$6.74",
-          "$13.96",
-          "$13.21",
-          "$12.99"
+          "$13.96"
         ],
         "qty_bought_at_rebate_cost": [
           0,
@@ -1386,27 +1386,27 @@
           0
         ],
         "regular_cost": [
+          "$14.68",
+          "$14.43",
           "$10.50",
           "$7.46",
-          "$15.51",
-          "$14.68",
-          "$14.43"
+          "$15.51"
         ],
         "qty_bought_at_regular_cost": [
+          149,
+          747,
           75,
           167,
-          353,
-          149,
-          747
+          353
         ],
         "credited_sum": [
+          "$219.03",
+          "$1075.68",
           "$63.75",
           "$120.24",
-          "$547.15",
-          "$219.03",
-          "$1075.68"
+          "$547.15"
         ],
-        "total_credited": "$2147.04"
+        "total_credited": "$2311.05"
       }
     },
     {

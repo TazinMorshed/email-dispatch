@@ -406,38 +406,38 @@
       "theme": "Seafood Week",
       "table": {
         "product_name": [
-          "Roasted Ham (sliced)",
-          "Pork Chops (thin, frozen)"
+          "Pork Chops (thin, frozen)",
+          "Roasted Ham (sliced)"
         ],
         "lufa_farms_code": [
-          18614,
-          10771
+          10771,
+          18614
         ],
         "rebate_per_unit": [
-          "$0.40",
-          "$0.25"
+          "$0.25",
+          "$0.40"
         ],
         "rebate_cost": [
-          "$2.15",
-          "$2.66"
+          "$2.66",
+          "$2.15"
         ],
         "qty_bought_at_rebate_cost": [
           0,
           0
         ],
         "regular_cost": [
-          "$2.95",
-          "$2.91"
+          "$2.91",
+          "$2.95"
         ],
         "qty_bought_at_regular_cost": [
-          2074,
-          532
+          532,
+          2074
         ],
         "credited_sum": [
-          "$829.60",
-          "$133.00"
+          "$133.00",
+          "$829.60"
         ],
-        "total_credited": "$651.50"
+        "total_credited": "$1042.40"
       }
     },
     {
@@ -729,38 +729,38 @@
       "theme": "Seafood Week",
       "table": {
         "product_name": [
-          "Organic Wild Salmon Pie (frozen)",
-          "Organic Veggie Soup (frozen)"
+          "Organic Veggie Soup (frozen)",
+          "Organic Wild Salmon Pie (frozen)"
         ],
         "lufa_farms_code": [
-          19145,
-          19207
+          19207,
+          19145
         ],
         "rebate_per_unit": [
-          "$1.50",
-          "$0.50"
+          "$0.50",
+          "$1.50"
         ],
         "rebate_cost": [
-          "$10.00",
-          "$4.15"
+          "$4.15",
+          "$10.00"
         ],
         "qty_bought_at_rebate_cost": [
           0,
           0
         ],
         "regular_cost": [
-          "$11.50",
-          "$5.15"
+          "$5.15",
+          "$11.50"
         ],
         "qty_bought_at_regular_cost": [
-          770,
-          183
+          183,
+          770
         ],
         "credited_sum": [
-          "$1155.00",
-          "$91.50"
+          "$91.50",
+          "$1155.00"
         ],
-        "total_credited": "$476.50"
+        "total_credited": "$1429.50"
       }
     },
     {
@@ -940,24 +940,24 @@
       "theme": "Seafood Week",
       "table": {
         "product_name": [
+          "Soba Noodles (frozen)",
           "Neapolitan Sauce (frozen)",
-          "Squash & Almond Ravioli (frozen)",
-          "Soba Noodles (frozen)"
+          "Squash & Almond Ravioli (frozen)"
         ],
         "lufa_farms_code": [
+          9772,
           7357,
-          5071,
-          9772
+          5071
         ],
         "rebate_per_unit": [
           "$0.25",
-          "$0.50",
-          "$0.25"
+          "$0.25",
+          "$0.50"
         ],
         "rebate_cost": [
+          "$2.85",
           "$2.10",
-          "$3.50",
-          "$2.85"
+          "$3.50"
         ],
         "qty_bought_at_rebate_cost": [
           0,
@@ -965,21 +965,21 @@
           0
         ],
         "regular_cost": [
+          "$3.35",
           "$2.60",
-          "$4.50",
-          "$3.35"
+          "$4.50"
         ],
         "qty_bought_at_regular_cost": [
+          262,
           1702,
-          3496,
-          262
+          3496
         ],
         "credited_sum": [
+          "$65.50",
           "$425.50",
-          "$1748.00",
-          "$65.50"
+          "$1748.00"
         ],
-        "total_credited": "$1365.00"
+        "total_credited": "$2730.00"
       }
     },
     {
@@ -1389,38 +1389,38 @@
       "theme": "Seafood Week",
       "table": {
         "product_name": [
-          "Organic Long Grain White Rice",
-          "Organic Black Chia Seeds"
+          "Organic Black Chia Seeds",
+          "Organic Long Grain White Rice"
         ],
         "lufa_farms_code": [
-          18086,
-          18098
+          18098,
+          18086
         ],
         "rebate_per_unit": [
-          "$1.09",
-          "$0.90"
+          "$0.90",
+          "$1.09"
         ],
         "rebate_cost": [
-          "$6.15",
-          "$5.10"
+          "$5.10",
+          "$6.15"
         ],
         "qty_bought_at_rebate_cost": [
           0,
           0
         ],
         "regular_cost": [
-          "$7.24",
-          "$6.00"
+          "$6.00",
+          "$7.24"
         ],
         "qty_bought_at_regular_cost": [
-          250,
-          297
+          297,
+          250
         ],
         "credited_sum": [
-          "$272.50",
-          "$267.30"
+          "$267.30",
+          "$272.50"
         ],
-        "total_credited": "$492.30"
+        "total_credited": "$596.23"
       }
     },
     {
