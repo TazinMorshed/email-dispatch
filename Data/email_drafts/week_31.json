@@ -1,0 +1,45 @@
+{
+  "week": 31,
+  "total_suppliers": 1,
+  "suppliers": [
+    {
+      "supplier": "Chocolat Boréal",
+      "emails": [
+        "info@chocolatboreal.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 31,
+      "period": "2026-07-26 to 2026-08-01",
+      "theme": "Bumper crops",
+      "table": {
+        "product_name": [
+          "72% Dark Chocolate Bar"
+        ],
+        "lufa_farms_code": [
+          10728
+        ],
+        "rebate_per_unit": [
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$4.95"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$5.20"
+        ],
+        "qty_bought_at_regular_cost": [
+          110
+        ],
+        "credited_sum": [
+          "$27.50"
+        ],
+        "total_credited": "$27.50"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1189 @@
+{
+  "week": 30,
+  "total_suppliers": 25,
+  "suppliers": [
+    {
+      "supplier": "1642",
+      "emails": [
+        "bpoulain@1642mix.ca"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 30,
+      "period": "2026-07-19 to 2026-07-25",
+      "theme": "Field fresh: all the veggies/Heirlooms/Tomatoes",
+      "table": {
+        "product_name": [
+          "Tonic Water (pack of 4)",
+          "Light Tonic (pack of 4)"
+        ],
+        "lufa_farms_code": [
+          11031,
+          12299
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$5.75",
+          "$5.75"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$6.25",
+          "$6.25"
+        ],
+        "qty_bought_at_regular_cost": [
+          49,
+          43
+        ],
+        "credited_sum": [
+          "$24.50",
+          "$21.50"
+        ],
+        "total_credited": "$46.00"
+      }
+    },
+    {
+      "supplier": "Boulangerie Le Pain dans les Voiles",
+      "emails": [
+        "alex@lepaindanslesvoiles.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 30,
+      "period": "2026-07-19 to 2026-07-25",
+      "theme": "Field fresh: all the veggies/Heirlooms/Tomatoes",
+      "table": {
+        "product_name": [
+          "Chocolate Chip Cookie Dough (frozen)"
+        ],
+        "lufa_farms_code": [
+          17486
+        ],
+        "rebate_per_unit": [
+          "$0.57"
+        ],
+        "rebate_cost": [
+          "$5.13"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$5.70"
+        ],
+        "qty_bought_at_regular_cost": [
+          204
+        ],
+        "credited_sum": [
+          "$116.28"
+        ],
+        "total_credited": "$116.28"
+      }
+    },
+    {
+      "supplier": "Chocolat Boréal",
+      "emails": [
+        "info@chocolatboreal.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 30,
+      "period": "2026-07-19 to 2026-07-25",
+      "theme": "Field fresh: all the veggies/Heirlooms/Tomatoes",
+      "table": {
+        "product_name": [
+          "Fleur de Sel Caramel Milk Chocolate Bar",
+          "Fleur de Sel Caramel Dark Chocolate Bar"
+        ],
+        "lufa_farms_code": [
+          10734,
+          10727
+        ],
+        "rebate_per_unit": [
+          "$0.25",
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$5.15",
+          "$5.15"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$5.40",
+          "$5.40"
+        ],
+        "qty_bought_at_regular_cost": [
+          65,
+          120
+        ],
+        "credited_sum": [
+          "$16.25",
+          "$30.00"
+        ],
+        "total_credited": "$46.25"
+      }
+    },
+    {
+      "supplier": "Cidres Fleuri",
+      "emails": [
+        "mario@vergermaia.ca"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 30,
+      "period": "2026-07-19 to 2026-07-25",
+      "theme": "Field fresh: all the veggies/Heirlooms/Tomatoes",
+      "table": {
+        "product_name": [
+          "Joe Organic Cider",
+          "Willie Organic Cider",
+          "Rosie Organic Cider"
+        ],
+        "lufa_farms_code": [
+          17592,
+          17590,
+          17591
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$2.79",
+          "$2.79",
+          "$2.79"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$3.29",
+          "$3.29",
+          "$3.29"
+        ],
+        "qty_bought_at_regular_cost": [
+          90,
+          103,
+          126
+        ],
+        "credited_sum": [
+          "$45.00",
+          "$51.50",
+          "$63.00"
+        ],
+        "total_credited": "$159.50"
+      }
+    },
+    {
+      "supplier": "Coloccia",
+      "emails": [
+        "gusberthe@outlook.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 30,
+      "period": "2026-07-19 to 2026-07-25",
+      "theme": "Field fresh: all the veggies/Heirlooms/Tomatoes",
+      "table": {
+        "product_name": [
+          "Fresh Meat Tortellini (frozen)"
+        ],
+        "lufa_farms_code": [
+          10584
+        ],
+        "rebate_per_unit": [
+          "$0.65"
+        ],
+        "rebate_cost": [
+          "$5.70"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$6.35"
+        ],
+        "qty_bought_at_regular_cost": [
+          1124
+        ],
+        "credited_sum": [
+          "$730.60"
+        ],
+        "total_credited": "$730.60"
+      }
+    },
+    {
+      "supplier": "Everland",
+      "emails": [
+        "simran@jivaorganics.ca"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 30,
+      "period": "2026-07-19 to 2026-07-25",
+      "theme": "Field fresh: all the veggies/Heirlooms/Tomatoes",
+      "table": {
+        "product_name": [
+          "Organic Coconut Milk"
+        ],
+        "lufa_farms_code": [
+          19436
+        ],
+        "rebate_per_unit": [
+          "$0.29"
+        ],
+        "rebate_cost": [
+          "$1.67"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$1.96"
+        ],
+        "qty_bought_at_regular_cost": [
+          1509
+        ],
+        "credited_sum": [
+          "$437.61"
+        ],
+        "total_credited": "$437.61"
+      }
+    },
+    {
+      "supplier": "Fous de l'île",
+      "emails": [
+        "jerry@fousdelile.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 30,
+      "period": "2026-07-19 to 2026-07-25",
+      "theme": "Field fresh: all the veggies/Heirlooms/Tomatoes",
+      "table": {
+        "product_name": [
+          "Organic Ginger Kombucha (pack of 4)",
+          "Organic Guava & Rose Kombucha (pack of 4)",
+          "Organic Mango Kombucha (pack of 4)"
+        ],
+        "lufa_farms_code": [
+          19208,
+          19205,
+          19209
+        ],
+        "rebate_per_unit": [
+          "$1.50",
+          "$1.50",
+          "$1.50"
+        ],
+        "rebate_cost": [
+          "$6.00",
+          "$6.00",
+          "$6.00"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$7.50",
+          "$7.50",
+          "$7.50"
+        ],
+        "qty_bought_at_regular_cost": [
+          284,
+          338,
+          632
+        ],
+        "credited_sum": [
+          "$426.00",
+          "$507.00",
+          "$948.00"
+        ],
+        "total_credited": "$1881.00"
+      }
+    },
+    {
+      "supplier": "Gogo Quinoa",
+      "emails": [],
+      "language": "",
+      "taxable": "No",
+      "year": 2026,
+      "week": 30,
+      "period": "2026-07-19 to 2026-07-25",
+      "theme": "Field fresh: all the veggies/Heirlooms/Tomatoes",
+      "table": {
+        "product_name": [
+          "Organic White Cheddar Shells (gluten-free, vegan)",
+          "Vegan Mac & Cheese (gluten-free)"
+        ],
+        "lufa_farms_code": [
+          19501,
+          19502
+        ],
+        "rebate_per_unit": [
+          "$0.39",
+          "$0.39"
+        ],
+        "rebate_cost": [
+          "$2.20",
+          "$2.20"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$2.59",
+          "$2.59"
+        ],
+        "qty_bought_at_regular_cost": [
+          116,
+          358
+        ],
+        "credited_sum": [
+          "$45.24",
+          "$139.62"
+        ],
+        "total_credited": "$184.86"
+      }
+    },
+    {
+      "supplier": "L'Issue Végane Maison",
+      "emails": [
+        "laurentvanderwee.lissue@gmail.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 30,
+      "period": "2026-07-19 to 2026-07-25",
+      "theme": "Field fresh: all the veggies/Heirlooms/Tomatoes",
+      "table": {
+        "product_name": [
+          "Le Classique Seitan (frozen)"
+        ],
+        "lufa_farms_code": [
+          16874
+        ],
+        "rebate_per_unit": [
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$5.50"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$6.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          57
+        ],
+        "credited_sum": [
+          "$28.50"
+        ],
+        "total_credited": "$28.50"
+      }
+    },
+    {
+      "supplier": "Le Mas des Patriotes",
+      "emails": [],
+      "language": "",
+      "taxable": "No",
+      "year": 2026,
+      "week": 30,
+      "period": "2026-07-19 to 2026-07-25",
+      "theme": "Field fresh: all the veggies/Heirlooms/Tomatoes",
+      "table": {
+        "product_name": [
+          "L'Enclos Chenin Blanc Organic White Wine 2024"
+        ],
+        "lufa_farms_code": [
+          20426
+        ],
+        "rebate_per_unit": [
+          "$1.50"
+        ],
+        "rebate_cost": [
+          "$19.50"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$21.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          58
+        ],
+        "credited_sum": [
+          "$87.00"
+        ],
+        "total_credited": "$87.00"
+      }
+    },
+    {
+      "supplier": "Les Artisans de l'Aube",
+      "emails": [
+        "info@lesartisansdelaube.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 30,
+      "period": "2026-07-19 to 2026-07-25",
+      "theme": "Field fresh: all the veggies/Heirlooms/Tomatoes",
+      "table": {
+        "product_name": [
+          "Organic Wild Salmon Pie (frozen)"
+        ],
+        "lufa_farms_code": [
+          19145
+        ],
+        "rebate_per_unit": [
+          "$0.75"
+        ],
+        "rebate_cost": [
+          "$10.75"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$11.50"
+        ],
+        "qty_bought_at_regular_cost": [
+          165
+        ],
+        "credited_sum": [
+          "$123.75"
+        ],
+        "total_credited": "$123.75"
+      }
+    },
+    {
+      "supplier": "Les Filles Fattoush",
+      "emails": [
+        "alecomte@lesfillesfattoush.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 30,
+      "period": "2026-07-19 to 2026-07-25",
+      "theme": "Field fresh: all the veggies/Heirlooms/Tomatoes",
+      "table": {
+        "product_name": [
+          "Mint & Parsley Pita Chips",
+          "Sumac & Fleur de Sel Pita Chips",
+          "Cumin & Aleppo Pepper Pita Chips",
+          "Cucumber Yogurt Dip (fresh)",
+          "Zaatar Pita Chips"
+        ],
+        "lufa_farms_code": [
+          16074,
+          17198,
+          15343,
+          17625,
+          15344
+        ],
+        "rebate_per_unit": [
+          "$0.75",
+          "$0.75",
+          "$0.75",
+          "$0.75",
+          "$0.75"
+        ],
+        "rebate_cost": [
+          "$3.58",
+          "$3.58",
+          "$3.58",
+          "$3.60",
+          "$3.58"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$4.33",
+          "$4.33",
+          "$4.33",
+          "$4.35",
+          "$4.33"
+        ],
+        "qty_bought_at_regular_cost": [
+          158,
+          316,
+          260,
+          291,
+          889
+        ],
+        "credited_sum": [
+          "$118.50",
+          "$237.00",
+          "$195.00",
+          "$218.25",
+          "$666.75"
+        ],
+        "total_credited": "$1435.50"
+      }
+    },
+    {
+      "supplier": "Maison Orphée",
+      "emails": [
+        "Stefanie.Janin@maisonorphee.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 30,
+      "period": "2026-07-19 to 2026-07-25",
+      "theme": "Field fresh: all the veggies/Heirlooms/Tomatoes",
+      "table": {
+        "product_name": [
+          "Fine Grey Sea Salt"
+        ],
+        "lufa_farms_code": [
+          18315
+        ],
+        "rebate_per_unit": [
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$3.23"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$3.48"
+        ],
+        "qty_bought_at_regular_cost": [
+          59
+        ],
+        "credited_sum": [
+          "$14.75"
+        ],
+        "total_credited": "$14.75"
+      }
+    },
+    {
+      "supplier": "Nuts for Cheese",
+      "emails": [
+        "Sarah.Sowden@nutsforcheese.com",
+        "Terra.Farmilo@nutsforcheese.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 30,
+      "period": "2026-07-19 to 2026-07-25",
+      "theme": "Field fresh: all the veggies/Heirlooms/Tomatoes",
+      "table": {
+        "product_name": [
+          "Organic Smokey Gouda Cashew Cheese",
+          "Organic Smoky Artichoke & Herb Cashew Cheese",
+          "Organic Super Blue Cashew Cheese",
+          "Organic Chipotle Cheddar Cashew Cheese",
+          "Organic Brie-Style Cashew Cheese",
+          "Organic Black Garlic Cashew Cheese",
+          "Organic Cranberry & Pink Peppercorn Cashew Cheese"
+        ],
+        "lufa_farms_code": [
+          9064,
+          9065,
+          9066,
+          9067,
+          9068,
+          9796,
+          13514
+        ],
+        "rebate_per_unit": [
+          "$1.10",
+          "$1.10",
+          "$1.10",
+          "$1.10",
+          "$1.10",
+          "$1.10",
+          "$1.10"
+        ],
+        "rebate_cost": [
+          "$6.15",
+          "$6.15",
+          "$6.15",
+          "$6.15",
+          "$6.15",
+          "$6.15",
+          "$6.15"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$7.25",
+          "$7.25",
+          "$7.25",
+          "$7.25",
+          "$7.25",
+          "$7.25",
+          "$7.25"
+        ],
+        "qty_bought_at_regular_cost": [
+          34,
+          29,
+          23,
+          23,
+          40,
+          45,
+          19
+        ],
+        "credited_sum": [
+          "$37.40",
+          "$31.90",
+          "$25.30",
+          "$25.30",
+          "$44.00",
+          "$49.50",
+          "$20.90"
+        ],
+        "total_credited": "$234.30"
+      }
+    },
+    {
+      "supplier": "O'Mari",
+      "emails": [
+        "ningcan@gmail.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 30,
+      "period": "2026-07-19 to 2026-07-25",
+      "theme": "Field fresh: all the veggies/Heirlooms/Tomatoes",
+      "table": {
+        "product_name": [
+          "Udon Noodles (frozen)",
+          "Creamy Mushroom Sauce (frozen)"
+        ],
+        "lufa_farms_code": [
+          7353,
+          13331
+        ],
+        "rebate_per_unit": [
+          "$0.25",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$2.65",
+          "$3.40"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$3.15",
+          "$3.90"
+        ],
+        "qty_bought_at_regular_cost": [
+          168,
+          277
+        ],
+        "credited_sum": [
+          "$42.00",
+          "$138.50"
+        ],
+        "total_credited": "$222.50"
+      }
+    },
+    {
+      "supplier": "Savanil",
+      "emails": [
+        "nancia@savanil.ca"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 30,
+      "period": "2026-07-19 to 2026-07-25",
+      "theme": "Field fresh: all the veggies/Heirlooms/Tomatoes",
+      "table": {
+        "product_name": [
+          "Pink Pepper from Mananjary, Madagascar (2024 harvest)",
+          "Whole Nutmeg from Mananjary, Madagascar (2024 harvest)",
+          "Lebanese 7 Spice Mix",
+          "Madagascar Fleur de Sel"
+        ],
+        "lufa_farms_code": [
+          10905,
+          10910,
+          17466,
+          18220
+        ],
+        "rebate_per_unit": [
+          "$0.30",
+          "$0.50",
+          "$0.50",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$2.19",
+          "$4.00",
+          "$3.10",
+          "$3.60"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$2.49",
+          "$4.50",
+          "$3.60",
+          "$4.10"
+        ],
+        "qty_bought_at_regular_cost": [
+          57,
+          11,
+          46,
+          40
+        ],
+        "credited_sum": [
+          "$17.10",
+          "$5.50",
+          "$23.00",
+          "$20.00"
+        ],
+        "total_credited": "$77.00"
+      }
+    },
+    {
+      "supplier": "The Port of India",
+      "emails": [
+        "justin.riggio7@gmail.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 30,
+      "period": "2026-07-19 to 2026-07-25",
+      "theme": "Field fresh: all the veggies/Heirlooms/Tomatoes",
+      "table": {
+        "product_name": [
+          "Korma Curry Paste (medium)"
+        ],
+        "lufa_farms_code": [
+          11567
+        ],
+        "rebate_per_unit": [
+          "$0.65"
+        ],
+        "rebate_cost": [
+          "$4.75"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$5.40"
+        ],
+        "qty_bought_at_regular_cost": [
+          63
+        ],
+        "credited_sum": [
+          "$40.95"
+        ],
+        "total_credited": "$40.95"
+      }
+    },
+    {
+      "supplier": "The Unscented Company",
+      "emails": [
+        "finance@unscentedco.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 30,
+      "period": "2026-07-19 to 2026-07-25",
+      "theme": "Field fresh: all the veggies/Heirlooms/Tomatoes",
+      "table": {
+        "product_name": [
+          "Natural Laundry Whitener & Brightener"
+        ],
+        "lufa_farms_code": [
+          17213
+        ],
+        "rebate_per_unit": [
+          "$0.85"
+        ],
+        "rebate_cost": [
+          "$9.65"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$10.50"
+        ],
+        "qty_bought_at_regular_cost": [
+          88
+        ],
+        "credited_sum": [
+          "$74.80"
+        ],
+        "total_credited": "$74.80"
+      }
+    },
+    {
+      "supplier": "Tout Cru!",
+      "emails": [
+        "admin@toutcrufermentation.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 30,
+      "period": "2026-07-19 to 2026-07-25",
+      "theme": "Field fresh: all the veggies/Heirlooms/Tomatoes",
+      "table": {
+        "product_name": [
+          "Organic Juniper Berry Sauerkraut",
+          "Fermented Radishes with Garlic Scapes",
+          "Organic Lemon & Dill Sauerkraut"
+        ],
+        "lufa_farms_code": [
+          13266,
+          13268,
+          13269
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$5.18",
+          "$5.18",
+          "$5.18"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$5.68",
+          "$5.68",
+          "$5.68"
+        ],
+        "qty_bought_at_regular_cost": [
+          72,
+          64,
+          107
+        ],
+        "credited_sum": [
+          "$36.00",
+          "$32.00",
+          "$53.50"
+        ],
+        "total_credited": "$121.50"
+      }
+    },
+    {
+      "supplier": "Umami Épicerie",
+      "emails": [
+        "umamiepicerie@gmail.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 30,
+      "period": "2026-07-19 to 2026-07-25",
+      "theme": "Field fresh: all the veggies/Heirlooms/Tomatoes",
+      "table": {
+        "product_name": [
+          "Black Sesame & Charcoal Ramen Noodles (frozen)"
+        ],
+        "lufa_farms_code": [
+          14437
+        ],
+        "rebate_per_unit": [
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$2.30"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$2.55"
+        ],
+        "qty_bought_at_regular_cost": [
+          668
+        ],
+        "credited_sum": [
+          "$167.00"
+        ],
+        "total_credited": "$167.00"
+      }
+    },
+    {
+      "supplier": "VG Gourmet",
+      "emails": [
+        "info@vegetariangourmet.com",
+        "bookkeeping.vggourmet@gmail.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 30,
+      "period": "2026-07-19 to 2026-07-25",
+      "theme": "Field fresh: all the veggies/Heirlooms/Tomatoes",
+      "table": {
+        "product_name": [
+          "Greek Gyro Tofu (frozen)",
+          "Green Pea Soup (frozen)",
+          "Sweet Potato & Black Bean Veggie Burgers (2, frozen)",
+          "Vegan Chili (frozen)"
+        ],
+        "lufa_farms_code": [
+          8993,
+          10736,
+          8992,
+          10123
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50",
+          "$0.50",
+          "$0.63"
+        ],
+        "rebate_cost": [
+          "$3.92",
+          "$3.50",
+          "$2.14",
+          "$4.12"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$4.42",
+          "$4.50",
+          "$2.64",
+          "$4.75"
+        ],
+        "qty_bought_at_regular_cost": [
+          68,
+          340,
+          1227,
+          617
+        ],
+        "credited_sum": [
+          "$34.00",
+          "$170.00",
+          "$613.50",
+          "$388.71"
+        ],
+        "total_credited": "$1418.76"
+      }
+    },
+    {
+      "supplier": "Vignoble Les Bacchantes",
+      "emails": [
+        "ecrire@sebastiendaoust.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 30,
+      "period": "2026-07-19 to 2026-07-25",
+      "theme": "Field fresh: all the veggies/Heirlooms/Tomatoes",
+      "table": {
+        "product_name": [
+          "Cuvée R2 - Enfin Pinot Noir Red Wine 2022"
+        ],
+        "lufa_farms_code": [
+          19737
+        ],
+        "rebate_per_unit": [
+          "$1.50"
+        ],
+        "rebate_cost": [
+          "$20.50"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$22.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          4
+        ],
+        "credited_sum": [
+          "$6.00"
+        ],
+        "total_credited": "$6.00"
+      }
+    },
+    {
+      "supplier": "Yupik",
+      "emails": [
+        "mleclerc@tootsi.com",
+        "jllachance@tootsi.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 30,
+      "period": "2026-07-19 to 2026-07-25",
+      "theme": "Field fresh: all the veggies/Heirlooms/Tomatoes",
+      "table": {
+        "product_name": [
+          "Organic Black Chia Seeds"
+        ],
+        "lufa_farms_code": [
+          18098
+        ],
+        "rebate_per_unit": [
+          "$0.90"
+        ],
+        "rebate_cost": [
+          "$5.10"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$6.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          172
+        ],
+        "credited_sum": [
+          "$154.80"
+        ],
+        "total_credited": "$154.80"
+      }
+    },
+    {
+      "supplier": "État Végétal",
+      "emails": [
+        "francis.dubois@etatvegetal.com",
+        "comptabilite@etatvegetal.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 30,
+      "period": "2026-07-19 to 2026-07-25",
+      "theme": "Field fresh: all the veggies/Heirlooms/Tomatoes",
+      "table": {
+        "product_name": [
+          "Taquitos (frozen)"
+        ],
+        "lufa_farms_code": [
+          17069
+        ],
+        "rebate_per_unit": [
+          "$1.00"
+        ],
+        "rebate_cost": [
+          "$6.08"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$7.08"
+        ],
+        "qty_bought_at_regular_cost": [
+          256
+        ],
+        "credited_sum": [
+          "$256.00"
+        ],
+        "total_credited": "$256.00"
+      }
+    },
+    {
+      "supplier": "Öko Créations",
+      "emails": [
+        "info@okocreations.ca"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 30,
+      "period": "2026-07-19 to 2026-07-25",
+      "theme": "Field fresh: all the veggies/Heirlooms/Tomatoes",
+      "table": {
+        "product_name": [
+          "Washable Sanitary Pad (regular)"
+        ],
+        "lufa_farms_code": [
+          17015
+        ],
+        "rebate_per_unit": [
+          "$1.00"
+        ],
+        "rebate_cost": [
+          "$5.84"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$6.84"
+        ],
+        "qty_bought_at_regular_cost": [
+          16
+        ],
+        "credited_sum": [
+          "$16.00"
+        ],
+        "total_credited": "$16.00"
+      }
+    }
+  ]
+}

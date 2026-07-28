@@ -140,16 +140,16 @@
       "theme": "Canada Day: BBQ #2",
       "table": {
         "product_name": [
+          "Meatless Lover's Vegan Jamaican Patty (mild, frozen)",
           "Coconut Kale Delight Vegan Jamaican Patty (frozen)",
           "Meatless Lovers Vegan Jamaican Patty (spicy, frozen)",
-          "Chick'n Lover's Vegan Jamaican Patty (frozen)",
-          "Meatless Lover's Vegan Jamaican Patty (mild, frozen)"
+          "Chick'n Lover's Vegan Jamaican Patty (frozen)"
         ],
         "lufa_farms_code": [
+          5763,
           5764,
           19035,
-          19036,
-          5763
+          19036
         ],
         "rebate_per_unit": [
           "$0.25",
@@ -176,16 +176,16 @@
           "$2.35"
         ],
         "qty_bought_at_regular_cost": [
+          391,
           210,
           213,
-          143,
-          391
+          143
         ],
         "credited_sum": [
+          "$97.75",
           "$52.50",
           "$53.25",
-          "$35.75",
-          "$97.75"
+          "$35.75"
         ],
         "total_credited": "$239.25"
       }
@@ -350,24 +350,24 @@
       "theme": "Canada Day: BBQ #2",
       "table": {
         "product_name": [
+          "Organic Kombucha \"The Favourites\" Pack (8)",
           "Pick-Me-Up Organic Kombucha (ginger & raspberry bush, pack of 8)",
-          "Ginger Beer",
-          "Organic Kombucha \"The Favourites\" Pack (8)"
+          "Ginger Beer"
         ],
         "lufa_farms_code": [
+          14265,
           19538,
-          20631,
-          14265
+          20631
         ],
         "rebate_per_unit": [
           "$1.00",
-          "$0.50",
-          "$1.00"
+          "$1.00",
+          "$0.50"
         ],
         "rebate_cost": [
           "$13.00",
-          "$1.60",
-          "$13.00"
+          "$13.00",
+          "$1.60"
         ],
         "qty_bought_at_rebate_cost": [
           0,
@@ -376,20 +376,20 @@
         ],
         "regular_cost": [
           "$14.00",
-          "$2.10",
-          "$14.00"
+          "$14.00",
+          "$2.10"
         ],
         "qty_bought_at_regular_cost": [
+          708,
           96,
-          735,
-          708
+          735
         ],
         "credited_sum": [
+          "$708.00",
           "$96.00",
-          "$367.50",
-          "$708.00"
+          "$367.50"
         ],
-        "total_credited": "$1539.00"
+        "total_credited": "$769.50"
       }
     },
     {
@@ -406,22 +406,22 @@
       "theme": "Canada Day: BBQ #2",
       "table": {
         "product_name": [
+          "Organic Regular Potato Chips",
           "Organic Smokey BBQ Potato Chips",
           "Organic Hot Honey Mustard Potato Chips",
           "Organic Ketchup Chips",
           "Organic Sea Salt & Cider Vinegar Potato Chips",
           "Organic Creamy Dill Potato Chips",
-          "Organic Jalapeno Potato Chips",
-          "Organic Regular Potato Chips"
+          "Organic Jalapeno Potato Chips"
         ],
         "lufa_farms_code": [
+          17368,
           17371,
           17373,
           18125,
           17374,
           17372,
-          19060,
-          17368
+          19060
         ],
         "rebate_per_unit": [
           "$0.67",
@@ -460,22 +460,22 @@
           "$3.00"
         ],
         "qty_bought_at_regular_cost": [
+          959,
           307,
           284,
           227,
           270,
           292,
-          166,
-          959
+          166
         ],
         "credited_sum": [
+          "$642.53",
           "$205.69",
           "$190.28",
           "$152.09",
           "$180.90",
           "$195.64",
-          "$111.22",
-          "$642.53"
+          "$111.22"
         ],
         "total_credited": "$1678.35"
       }
@@ -635,32 +635,32 @@
       "theme": "Canada Day: BBQ #2",
       "table": {
         "product_name": [
+          "Organic Dijon Mustard",
           "Organic Old-Fashioned Mustard",
           "Organic Yellow Mustard",
           "Fine Grey Sea Salt",
-          "Organic Virgin Flaxseed Oil",
-          "Organic Dijon Mustard"
+          "Organic Virgin Flaxseed Oil"
         ],
         "lufa_farms_code": [
+          9237,
           9238,
           9239,
           18316,
-          19028,
-          9237
+          19028
         ],
         "rebate_per_unit": [
           "$0.57",
           "$0.57",
+          "$0.57",
           "$0.25",
-          "$0.50",
-          "$0.57"
+          "$0.50"
         ],
         "rebate_cost": [
           "$2.60",
           "$2.60",
+          "$2.60",
           "$3.41",
-          "$5.00",
-          "$2.60"
+          "$5.00"
         ],
         "qty_bought_at_rebate_cost": [
           0,
@@ -672,25 +672,25 @@
         "regular_cost": [
           "$3.17",
           "$3.17",
+          "$3.17",
           "$3.66",
-          "$5.50",
-          "$3.17"
+          "$5.50"
         ],
         "qty_bought_at_regular_cost": [
+          619,
           123,
           149,
           126,
-          37,
-          619
+          37
         ],
         "credited_sum": [
+          "$352.83",
           "$70.11",
           "$84.93",
           "$31.50",
-          "$18.50",
-          "$352.83"
+          "$18.50"
         ],
-        "total_credited": "$600.78"
+        "total_credited": "$527.00"
       }
     },
     {
@@ -777,24 +777,24 @@
       "theme": "Canada Day: BBQ #2",
       "table": {
         "product_name": [
-          "Ramen Noodles (frozen)",
           "Squash & Almond Ravioli (frozen)",
-          "Rosée Sauce (frozen)"
+          "Rosée Sauce (frozen)",
+          "Ramen Noodles (frozen)"
         ],
         "lufa_farms_code": [
-          4486,
           5071,
-          6021
+          6021,
+          4486
         ],
         "rebate_per_unit": [
-          "$0.25",
           "$0.50",
-          "$0.50"
+          "$0.50",
+          "$0.25"
         ],
         "rebate_cost": [
-          "$2.50",
           "$4.00",
-          "$3.25"
+          "$3.25",
+          "$2.50"
         ],
         "qty_bought_at_rebate_cost": [
           0,
@@ -802,21 +802,21 @@
           0
         ],
         "regular_cost": [
-          "$2.75",
           "$4.50",
-          "$3.75"
+          "$3.75",
+          "$2.75"
         ],
         "qty_bought_at_regular_cost": [
-          240,
           2332,
-          1320
+          1320,
+          240
         ],
         "credited_sum": [
-          "$60.00",
           "$1166.00",
-          "$660.00"
+          "$660.00",
+          "$60.00"
         ],
-        "total_credited": "$1946.00"
+        "total_credited": "$973.00"
       }
     },
     {
@@ -1091,16 +1091,16 @@
       "theme": "Canada Day: BBQ #2",
       "table": {
         "product_name": [
-          "Buffalo Soy Protein Bites (frozen)",
-          "BBQ Pulled Tofu (frozen)",
           "Carrot & Ginger Soup (frozen)",
-          "Beet Power Veggie Burger (2, frozen)"
+          "Beet Power Veggie Burger (2, frozen)",
+          "Buffalo Soy Protein Bites (frozen)",
+          "BBQ Pulled Tofu (frozen)"
         ],
         "lufa_farms_code": [
-          10273,
-          17418,
           10124,
-          20692
+          20692,
+          10273,
+          17418
         ],
         "rebate_per_unit": [
           "$0.50",
@@ -1109,10 +1109,10 @@
           "$0.50"
         ],
         "rebate_cost": [
-          "$4.30",
-          "$4.30",
           "$3.85",
-          "$2.14"
+          "$2.14",
+          "$4.30",
+          "$4.30"
         ],
         "qty_bought_at_rebate_cost": [
           0,
@@ -1121,22 +1121,22 @@
           0
         ],
         "regular_cost": [
-          "$4.80",
-          "$4.80",
           "$4.35",
-          "$2.64"
+          "$2.64",
+          "$4.80",
+          "$4.80"
         ],
         "qty_bought_at_regular_cost": [
-          95,
-          51,
           521,
-          1042
+          1042,
+          95,
+          51
         ],
         "credited_sum": [
-          "$47.50",
-          "$25.50",
           "$260.50",
-          "$521.00"
+          "$521.00",
+          "$47.50",
+          "$25.50"
         ],
         "total_credited": "$854.50"
       }
