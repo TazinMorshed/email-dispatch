@@ -15,36 +15,36 @@
       "theme": "Plan A: Blueberries Begin/ B: Summer Salads & Light Meals",
       "table": {
         "product_name": [
-          "Organic Whole Wheat Flour",
-          "Organic All-Purpose Flour (white, unbleached)"
+          "Organic All-Purpose Flour (white, unbleached)",
+          "Organic Whole Wheat Flour"
         ],
         "lufa_farms_code": [
-          17354,
-          17351
+          17351,
+          17354
         ],
         "rebate_per_unit": [
           "$0.50",
           "$0.50"
         ],
         "rebate_cost": [
-          "$4.88",
-          "$4.95"
+          "$4.95",
+          "$4.88"
         ],
         "qty_bought_at_rebate_cost": [
           0,
           0
         ],
         "regular_cost": [
-          "$5.38",
-          "$5.45"
+          "$5.45",
+          "$5.38"
         ],
         "qty_bought_at_regular_cost": [
-          116,
-          491
+          491,
+          116
         ],
         "credited_sum": [
-          "$58.00",
-          "$245.50"
+          "$245.50",
+          "$58.00"
         ],
         "total_credited": "$303.50"
       }
@@ -621,22 +621,22 @@
       "theme": "Plan A: Blueberries Begin/ B: Summer Salads & Light Meals",
       "table": {
         "product_name": [
+          "Organic Passion Yerba Mate Energy Infusion (pack of 4)",
           "Organic Mint & Lime Yerba Mate Energy Infusion (pack of 4)",
           "Organic Original Yerba Mate Energy Infusion (pack of 4)",
           "Organic Ginger Yerba Mate Energy Infusion (sugar-free, pack of 4)",
           "Organic Rose & Hibiscus Yerba Mate Energy Infusion (pack of 4)",
           "Organic Peach Yerba Mate Energy Infusion (pack of 4)",
-          "Organic Mint & Lime Yerba Mate Energy Infusion (pack of 4)",
-          "Organic Passion Yerba Mate Energy Infusion (pack of 4)"
+          "Organic Mint & Lime Yerba Mate Energy Infusion (pack of 4)"
         ],
         "lufa_farms_code": [
+          19342,
           19340,
           19344,
           20499,
           20498,
           20728,
-          20912,
-          19342
+          20912
         ],
         "rebate_per_unit": [
           "$1.00",
@@ -675,22 +675,22 @@
           "$7.30"
         ],
         "qty_bought_at_regular_cost": [
+          361,
           89,
           118,
           128,
           123,
           208,
-          125,
-          361
+          125
         ],
         "credited_sum": [
+          "$361.00",
           "$89.00",
           "$118.00",
           "$128.00",
           "$123.00",
           "$208.00",
-          "$125.00",
-          "$361.00"
+          "$125.00"
         ],
         "total_credited": "$1152.00"
       }
@@ -748,24 +748,24 @@
       "theme": "Plan A: Blueberries Begin/ B: Summer Salads & Light Meals",
       "table": {
         "product_name": [
-          "Dumpling Wrappers (55 sheets, frozen)",
           "Three Mushrooms Ravioli (frozen)",
-          "White Wine Alfredo Sauce (frozen)"
+          "White Wine Alfredo Sauce (frozen)",
+          "Dumpling Wrappers (55 sheets, frozen)"
         ],
         "lufa_farms_code": [
-          15554,
           16457,
-          13485
+          13485,
+          15554
         ],
         "rebate_per_unit": [
-          "$0.25",
           "$0.50",
+          "$0.25",
           "$0.25"
         ],
         "rebate_cost": [
-          "$1.95",
           "$4.75",
-          "$3.50"
+          "$3.50",
+          "$1.95"
         ],
         "qty_bought_at_rebate_cost": [
           0,
@@ -773,19 +773,19 @@
           0
         ],
         "regular_cost": [
-          "$2.20",
           "$5.25",
-          "$3.75"
+          "$3.75",
+          "$2.20"
         ],
         "qty_bought_at_regular_cost": [
-          202,
           1530,
-          729
+          729,
+          202
         ],
         "credited_sum": [
-          "$50.50",
           "$765.00",
-          "$182.25"
+          "$182.25",
+          "$50.50"
         ],
         "total_credited": "$615.25"
       }
@@ -960,24 +960,24 @@
       "theme": "Plan A: Blueberries Begin/ B: Summer Salads & Light Meals",
       "table": {
         "product_name": [
+          "Organic Tuscany-Style Minestrone Soup",
           "Organic Autumn Butternut Squash Soup",
           "Organic Mediterranean Lentil Soup",
           "Organic Quebec-Style Split Pea Soup",
           "Organic Lentil & Vegetable Soup",
           "Organic Caribbean-Style Black Bean Soup",
           "Organic Coconut, Curry & Sweet Potato Soup",
-          "Organic Tomato & Red Pepper Soup",
-          "Organic Tuscany-Style Minestrone Soup"
+          "Organic Tomato & Red Pepper Soup"
         ],
         "lufa_farms_code": [
+          17560,
           17558,
           17559,
           17561,
           17562,
           17563,
           17617,
-          17619,
-          17560
+          17619
         ],
         "rebate_per_unit": [
           "$0.30",
@@ -990,14 +990,14 @@
           "$0.30"
         ],
         "rebate_cost": [
+          "$1.62",
           "$2.05",
           "$2.05",
           "$1.62",
           "$1.62",
           "$2.05",
           "$2.05",
-          "$2.05",
-          "$1.62"
+          "$2.05"
         ],
         "qty_bought_at_rebate_cost": [
           0,
@@ -1010,34 +1010,34 @@
           0
         ],
         "regular_cost": [
+          "$1.92",
           "$2.35",
           "$2.35",
           "$1.92",
           "$1.92",
           "$2.35",
           "$2.35",
-          "$2.35",
-          "$1.92"
+          "$2.35"
         ],
         "qty_bought_at_regular_cost": [
+          741,
           115,
           180,
           306,
           283,
           227,
           199,
-          143,
-          741
+          143
         ],
         "credited_sum": [
+          "$222.30",
           "$34.50",
           "$54.00",
           "$91.80",
           "$84.90",
           "$68.10",
           "$59.70",
-          "$42.90",
-          "$222.30"
+          "$42.90"
         ],
         "total_credited": "$658.20"
       }
@@ -1173,36 +1173,36 @@
       "theme": "Plan A: Blueberries Begin/ B: Summer Salads & Light Meals",
       "table": {
         "product_name": [
-          "Ginger Sesame Tofu (frozen)",
-          "Sticky Sesame Soy Protein Strips (frozen)",
-          "Mini Vegan Kebabs (12, frozen)",
           "Roasted Tomato Soup (frozen)",
           "Mexican 3-Bean Veggie Burger (2, frozen)",
-          "Beet Balls (frozen)"
+          "Beet Balls (frozen)",
+          "Ginger Sesame Tofu (frozen)",
+          "Sticky Sesame Soy Protein Strips (frozen)",
+          "Mini Vegan Kebabs (12, frozen)"
         ],
         "lufa_farms_code": [
-          8995,
-          10186,
-          11239,
           12112,
           8990,
-          8997
+          8997,
+          8995,
+          10186,
+          11239
         ],
         "rebate_per_unit": [
           "$0.50",
           "$0.50",
+          "$0.63",
           "$0.50",
           "$0.50",
-          "$0.50",
-          "$0.63"
+          "$0.50"
         ],
         "rebate_cost": [
           "$3.92",
-          "$5.20",
-          "$4.16",
-          "$3.92",
           "$2.14",
-          "$3.79"
+          "$3.79",
+          "$3.92",
+          "$5.20",
+          "$4.16"
         ],
         "qty_bought_at_rebate_cost": [
           0,
@@ -1214,29 +1214,29 @@
         ],
         "regular_cost": [
           "$4.42",
-          "$5.70",
-          "$4.66",
-          "$4.42",
           "$2.64",
-          "$4.42"
+          "$4.42",
+          "$4.42",
+          "$5.70",
+          "$4.66"
         ],
         "qty_bought_at_regular_cost": [
-          101,
-          103,
-          75,
           365,
           1086,
-          582
+          582,
+          101,
+          103,
+          75
         ],
         "credited_sum": [
-          "$50.50",
-          "$51.50",
-          "$37.50",
           "$182.50",
           "$543.00",
-          "$366.66"
+          "$366.66",
+          "$50.50",
+          "$51.50",
+          "$37.50"
         ],
-        "total_credited": "$1456.56"
+        "total_credited": "$1156.00"
       }
     },
     {

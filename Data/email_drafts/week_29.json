@@ -1127,18 +1127,18 @@
       "theme": "Plan A: Blueberries Begin/ B: Summer Salads & Light Meals",
       "table": {
         "product_name": [
+          "Quinoa & Chickpea Veggie Burgers (2, frozen)",
           "Vegan Alfredo Sauce (frozen)",
           "Cuban Black Bean Soup (frozen)",
           "Vegan Taco & Chili Crumble (frozen)",
-          "Vegan Chickpea & Eggplant Curry (frozen)",
-          "Quinoa & Chickpea Veggie Burgers (2, frozen)"
+          "Vegan Chickpea & Eggplant Curry (frozen)"
         ],
         "lufa_farms_code": [
+          8989,
           10337,
           14078,
           8996,
-          17272,
-          8989
+          17272
         ],
         "rebate_per_unit": [
           "$0.50",
@@ -1148,11 +1148,11 @@
           "$0.50"
         ],
         "rebate_cost": [
+          "$2.14",
           "$4.00",
           "$3.85",
           "$3.92",
-          "$4.60",
-          "$2.14"
+          "$4.60"
         ],
         "qty_bought_at_rebate_cost": [
           0,
@@ -1162,25 +1162,25 @@
           0
         ],
         "regular_cost": [
+          "$2.64",
           "$4.50",
           "$4.35",
           "$4.42",
-          "$5.10",
-          "$2.64"
+          "$5.10"
         ],
         "qty_bought_at_regular_cost": [
+          1389,
           84,
           116,
           83,
-          264,
-          1389
+          264
         ],
         "credited_sum": [
+          "$694.50",
           "$42.00",
           "$58.00",
           "$41.50",
-          "$132.00",
-          "$694.50"
+          "$132.00"
         ],
         "total_credited": "$968.00"
       }
