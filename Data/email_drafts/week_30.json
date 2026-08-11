@@ -281,14 +281,14 @@
       "theme": "Field fresh: all the veggies/Heirlooms/Tomatoes",
       "table": {
         "product_name": [
+          "Organic Mango Kombucha (pack of 4)",
           "Organic Ginger Kombucha (pack of 4)",
-          "Organic Guava & Rose Kombucha (pack of 4)",
-          "Organic Mango Kombucha (pack of 4)"
+          "Organic Guava & Rose Kombucha (pack of 4)"
         ],
         "lufa_farms_code": [
+          19209,
           19208,
-          19205,
-          19209
+          19205
         ],
         "rebate_per_unit": [
           "$1.50",
@@ -311,14 +311,14 @@
           "$7.50"
         ],
         "qty_bought_at_regular_cost": [
+          632,
           284,
-          338,
-          632
+          338
         ],
         "credited_sum": [
+          "$948.00",
           "$426.00",
-          "$507.00",
-          "$948.00"
+          "$507.00"
         ],
         "total_credited": "$1881.00"
       }
@@ -334,12 +334,12 @@
       "theme": "Field fresh: all the veggies/Heirlooms/Tomatoes",
       "table": {
         "product_name": [
-          "Organic White Cheddar Shells (gluten-free, vegan)",
-          "Vegan Mac & Cheese (gluten-free)"
+          "Vegan Mac & Cheese (gluten-free)",
+          "Organic White Cheddar Shells (gluten-free, vegan)"
         ],
         "lufa_farms_code": [
-          19501,
-          19502
+          19502,
+          19501
         ],
         "rebate_per_unit": [
           "$0.39",
@@ -358,12 +358,12 @@
           "$2.59"
         ],
         "qty_bought_at_regular_cost": [
-          116,
-          358
+          358,
+          116
         ],
         "credited_sum": [
-          "$45.24",
-          "$139.62"
+          "$139.62",
+          "$45.24"
         ],
         "total_credited": "$184.86"
       }
@@ -496,18 +496,18 @@
       "theme": "Field fresh: all the veggies/Heirlooms/Tomatoes",
       "table": {
         "product_name": [
+          "Zaatar Pita Chips",
           "Mint & Parsley Pita Chips",
           "Sumac & Fleur de Sel Pita Chips",
           "Cumin & Aleppo Pepper Pita Chips",
-          "Cucumber Yogurt Dip (fresh)",
-          "Zaatar Pita Chips"
+          "Cucumber Yogurt Dip (fresh)"
         ],
         "lufa_farms_code": [
+          15344,
           16074,
           17198,
           15343,
-          17625,
-          15344
+          17625
         ],
         "rebate_per_unit": [
           "$0.75",
@@ -520,8 +520,8 @@
           "$3.58",
           "$3.58",
           "$3.58",
-          "$3.60",
-          "$3.58"
+          "$3.58",
+          "$3.60"
         ],
         "qty_bought_at_rebate_cost": [
           0,
@@ -534,22 +534,22 @@
           "$4.33",
           "$4.33",
           "$4.33",
-          "$4.35",
-          "$4.33"
+          "$4.33",
+          "$4.35"
         ],
         "qty_bought_at_regular_cost": [
+          889,
           158,
           316,
           260,
-          291,
-          889
+          291
         ],
         "credited_sum": [
+          "$666.75",
           "$118.50",
           "$237.00",
           "$195.00",
-          "$218.25",
-          "$666.75"
+          "$218.25"
         ],
         "total_credited": "$1435.50"
       }
@@ -977,28 +977,28 @@
       "theme": "Field fresh: all the veggies/Heirlooms/Tomatoes",
       "table": {
         "product_name": [
-          "Greek Gyro Tofu (frozen)",
           "Green Pea Soup (frozen)",
           "Sweet Potato & Black Bean Veggie Burgers (2, frozen)",
-          "Vegan Chili (frozen)"
+          "Vegan Chili (frozen)",
+          "Greek Gyro Tofu (frozen)"
         ],
         "lufa_farms_code": [
-          8993,
           10736,
           8992,
-          10123
+          10123,
+          8993
         ],
         "rebate_per_unit": [
           "$0.50",
           "$0.50",
-          "$0.50",
-          "$0.63"
+          "$0.63",
+          "$0.50"
         ],
         "rebate_cost": [
-          "$3.92",
           "$3.50",
           "$2.14",
-          "$4.12"
+          "$4.12",
+          "$3.92"
         ],
         "qty_bought_at_rebate_cost": [
           0,
@@ -1007,24 +1007,24 @@
           0
         ],
         "regular_cost": [
-          "$4.42",
           "$4.50",
           "$2.64",
-          "$4.75"
+          "$4.75",
+          "$4.42"
         ],
         "qty_bought_at_regular_cost": [
-          68,
           340,
           1227,
-          617
+          617,
+          68
         ],
         "credited_sum": [
-          "$34.00",
           "$170.00",
           "$613.50",
-          "$388.71"
+          "$388.71",
+          "$34.00"
         ],
-        "total_credited": "$1418.76"
+        "total_credited": "$1126.00"
       }
     },
     {

@@ -148,20 +148,20 @@
       "theme": "Plan A: Blueberries Begin/ B: Summer Salads & Light Meals",
       "table": {
         "product_name": [
+          "Raspberry Sparkling Lemonade (pack of 4)",
           "Lime & Mint Sparkling Lemonade (pack of 4)",
           "Clementine Sparkling Lemonade (pack of 4)",
           "Blackberry Sparkling Lemonade (pack of 4)",
           "Mango Sparkling Lemonade (pack of 4)",
-          "Basil Sparkling Lemonade (pack of 4)",
-          "Raspberry Sparkling Lemonade (pack of 4)"
+          "Basil Sparkling Lemonade (pack of 4)"
         ],
         "lufa_farms_code": [
+          18903,
           18905,
           18901,
           19581,
           19580,
-          19578,
-          18903
+          19578
         ],
         "rebate_per_unit": [
           "$1.21",
@@ -196,20 +196,20 @@
           "$6.96"
         ],
         "qty_bought_at_regular_cost": [
+          435,
           177,
           157,
           85,
           155,
-          234,
-          435
+          234
         ],
         "credited_sum": [
+          "$526.35",
           "$214.17",
           "$189.97",
           "$102.85",
           "$187.55",
-          "$283.14",
-          "$526.35"
+          "$283.14"
         ],
         "total_credited": "$1504.03"
       }
@@ -228,22 +228,22 @@
       "theme": "Plan A: Blueberries Begin/ B: Summer Salads & Light Meals",
       "table": {
         "product_name": [
+          "Organic Regular Potato Chips",
           "Organic Smokey BBQ Potato Chips",
           "Organic Hot Honey Mustard Potato Chips",
           "Organic Ketchup Chips",
           "Organic Sea Salt & Cider Vinegar Potato Chips",
           "Organic Creamy Dill Potato Chips",
-          "Organic Jalapeno Potato Chips",
-          "Organic Regular Potato Chips"
+          "Organic Jalapeno Potato Chips"
         ],
         "lufa_farms_code": [
+          17368,
           17371,
           17373,
           18125,
           17374,
           17372,
-          19060,
-          17368
+          19060
         ],
         "rebate_per_unit": [
           "$0.50",
@@ -282,22 +282,22 @@
           "$3.00"
         ],
         "qty_bought_at_regular_cost": [
+          905,
           238,
           234,
           168,
           234,
           241,
-          149,
-          905
+          149
         ],
         "credited_sum": [
+          "$452.50",
           "$119.00",
           "$117.00",
           "$84.00",
           "$117.00",
           "$120.50",
-          "$74.50",
-          "$452.50"
+          "$74.50"
         ],
         "total_credited": "$1084.50"
       }
@@ -472,12 +472,12 @@
       "theme": "Plan A: Blueberries Begin/ B: Summer Salads & Light Meals",
       "table": {
         "product_name": [
-          "Fresh Mayonnaise",
-          "Extra Virgin Olive Oil Fresh Mayonnaise"
+          "Extra Virgin Olive Oil Fresh Mayonnaise",
+          "Fresh Mayonnaise"
         ],
         "lufa_farms_code": [
-          9253,
-          18940
+          18940,
+          9253
         ],
         "rebate_per_unit": [
           "$0.69",
@@ -496,12 +496,12 @@
           "$4.60"
         ],
         "qty_bought_at_regular_cost": [
-          155,
-          752
+          752,
+          155
         ],
         "credited_sum": [
-          "$106.95",
-          "$518.88"
+          "$518.88",
+          "$106.95"
         ],
         "total_credited": "$625.83"
       }
@@ -607,28 +607,28 @@
       "theme": "Plan A: Blueberries Begin/ B: Summer Salads & Light Meals",
       "table": {
         "product_name": [
-          "Dumpling Sauce",
-          "Ginger & Garlic Paste",
           "Chicken Dumplings (frozen)",
-          "Neapolitan Sauce (frozen)"
+          "Neapolitan Sauce (frozen)",
+          "Dumpling Sauce",
+          "Ginger & Garlic Paste"
         ],
         "lufa_farms_code": [
-          14079,
-          15548,
           8356,
-          7357
+          7357,
+          14079,
+          15548
         ],
         "rebate_per_unit": [
-          "$0.25",
-          "$0.25",
           "$0.60",
+          "$0.25",
+          "$0.25",
           "$0.25"
         ],
         "rebate_cost": [
-          "$2.15",
-          "$2.50",
           "$5.40",
-          "$2.35"
+          "$2.35",
+          "$2.15",
+          "$2.50"
         ],
         "qty_bought_at_rebate_cost": [
           0,
@@ -637,22 +637,22 @@
           0
         ],
         "regular_cost": [
-          "$2.40",
-          "$2.75",
           "$6.00",
-          "$2.60"
+          "$2.60",
+          "$2.40",
+          "$2.75"
         ],
         "qty_bought_at_regular_cost": [
-          455,
-          423,
           1225,
-          808
+          808,
+          455,
+          423
         ],
         "credited_sum": [
-          "$113.75",
-          "$105.75",
           "$735.00",
-          "$202.00"
+          "$202.00",
+          "$113.75",
+          "$105.75"
         ],
         "total_credited": "$727.75"
       }
@@ -851,6 +851,7 @@
       "theme": "Plan A: Blueberries Begin/ B: Summer Salads & Light Meals",
       "table": {
         "product_name": [
+          "Duck Raw Cat Food (individual portion, frozen)",
           "Duck & Berries Raw Dog Food (individual portion, frozen)",
           "Chicken & Squash Raw Dog Food (individual portion, frozen)",
           "Beef & Fresh Herbs Raw Dog Food (individual portion, frozen)",
@@ -858,10 +859,10 @@
           "Lamb & Rice Raw Dog Food (individual portion, frozen)",
           "Beef & Barley Raw Dog Food (individual portion, frozen)",
           "Chicken Raw Cat Food (individual portion, frozen)",
-          "Beef Raw Cat Food (individual portion, frozen)",
-          "Duck Raw Cat Food (individual portion, frozen)"
+          "Beef Raw Cat Food (individual portion, frozen)"
         ],
         "lufa_farms_code": [
+          19135,
           19086,
           19083,
           19089,
@@ -869,8 +870,7 @@
           19095,
           19098,
           19101,
-          19105,
-          19135
+          19105
         ],
         "rebate_per_unit": [
           "$0.78",
@@ -917,6 +917,7 @@
           "$2.59"
         ],
         "qty_bought_at_regular_cost": [
+          53,
           54,
           32,
           13,
@@ -924,10 +925,10 @@
           29,
           27,
           28,
-          11,
-          53
+          11
         ],
         "credited_sum": [
+          "$41.34",
           "$42.12",
           "$24.96",
           "$10.14",
@@ -935,8 +936,7 @@
           "$22.62",
           "$21.06",
           "$21.84",
-          "$8.58",
-          "$41.34"
+          "$8.58"
         ],
         "total_credited": "$199.68"
       }
@@ -1079,36 +1079,36 @@
       "theme": "Plan A: Blueberries Begin/ B: Summer Salads & Light Meals",
       "table": {
         "product_name": [
-          "Spicy Miso Broth (frozen)",
-          "Japanese Vegetable Curry (frozen)"
+          "Japanese Vegetable Curry (frozen)",
+          "Spicy Miso Broth (frozen)"
         ],
         "lufa_farms_code": [
-          19009,
-          19068
+          19068,
+          19009
         ],
         "rebate_per_unit": [
           "$0.50",
           "$0.50"
         ],
         "rebate_cost": [
-          "$5.50",
-          "$4.65"
+          "$4.65",
+          "$5.50"
         ],
         "qty_bought_at_rebate_cost": [
           0,
           0
         ],
         "regular_cost": [
-          "$6.00",
-          "$5.15"
+          "$5.15",
+          "$6.00"
         ],
         "qty_bought_at_regular_cost": [
-          32,
-          909
+          909,
+          32
         ],
         "credited_sum": [
-          "$16.00",
-          "$454.50"
+          "$454.50",
+          "$16.00"
         ],
         "total_credited": "$470.50"
       }
