@@ -1,6 +1,6 @@
 {
   "week": 27,
-  "total_suppliers": 26,
+  "total_suppliers": 27,
   "suppliers": [
     {
       "supplier": "Boulangerie Le Pain dans les Voiles",
@@ -233,6 +233,45 @@
       "supplier": "Finfinoix.",
       "emails": [],
       "language": "",
+      "taxable": "No",
+      "year": 2026,
+      "week": 27,
+      "period": "2026-06-28 to 2026-07-04",
+      "theme": "Canada Day: BBQ #2",
+      "table": {
+        "product_name": [
+          "Plain Cashew Spread (frozen)"
+        ],
+        "lufa_farms_code": [
+          20646
+        ],
+        "rebate_per_unit": [
+          "$0.75"
+        ],
+        "rebate_cost": [
+          "$3.25"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$4.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          27
+        ],
+        "credited_sum": [
+          "$20.25"
+        ],
+        "total_credited": "$20.25"
+      }
+    },
+    {
+      "supplier": "Finfinoix",
+      "emails": [
+        "marie@finfinoix.ca"
+      ],
+      "language": "fr",
       "taxable": "No",
       "year": 2026,
       "week": 27,

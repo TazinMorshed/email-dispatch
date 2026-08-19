@@ -1,6 +1,6 @@
 {
   "week": 20,
-  "total_suppliers": 30,
+  "total_suppliers": 31,
   "suppliers": [
     {
       "supplier": "Agrobio",
@@ -272,6 +272,45 @@
       "supplier": "Finfinoix.",
       "emails": [],
       "language": "",
+      "taxable": "No",
+      "year": 2026,
+      "week": 20,
+      "period": "2026-05-10 to 2026-05-16",
+      "theme": "Latin Week (TBD weather mention Asparagus season)",
+      "table": {
+        "product_name": [
+          "Chipotle Cashew Spread (frozen)"
+        ],
+        "lufa_farms_code": [
+          20647
+        ],
+        "rebate_per_unit": [
+          "$0.75"
+        ],
+        "rebate_cost": [
+          "$3.25"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$4.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          107
+        ],
+        "credited_sum": [
+          "$80.25"
+        ],
+        "total_credited": "$80.25"
+      }
+    },
+    {
+      "supplier": "Finfinoix",
+      "emails": [
+        "marie@finfinoix.ca"
+      ],
+      "language": "fr",
       "taxable": "No",
       "year": 2026,
       "week": 20,

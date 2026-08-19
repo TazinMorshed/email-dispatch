@@ -1,6 +1,6 @@
 {
   "week": 21,
-  "total_suppliers": 34,
+  "total_suppliers": 35,
   "suppliers": [
     {
       "supplier": "1642",
@@ -476,6 +476,45 @@
       "supplier": "Finfinoix.",
       "emails": [],
       "language": "",
+      "taxable": "No",
+      "year": 2026,
+      "week": 21,
+      "period": "2026-05-17 to 2026-05-23",
+      "theme": "Victoria Day BBQ Season Kickoff/Planting",
+      "table": {
+        "product_name": [
+          "Turmeric Cashew Spread (frozen)"
+        ],
+        "lufa_farms_code": [
+          20645
+        ],
+        "rebate_per_unit": [
+          "$0.75"
+        ],
+        "rebate_cost": [
+          "$3.25"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$4.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          114
+        ],
+        "credited_sum": [
+          "$85.50"
+        ],
+        "total_credited": "$85.50"
+      }
+    },
+    {
+      "supplier": "Finfinoix",
+      "emails": [
+        "marie@finfinoix.ca"
+      ],
+      "language": "fr",
       "taxable": "No",
       "year": 2026,
       "week": 21,

@@ -86,12 +86,12 @@
       "theme": null,
       "table": {
         "product_name": [
-          "Kitchen Party Organic Non-Alcoholic Pale Ale (pack of 4)",
-          "Cereal Thriller Organic Non-Alcoholic Oatmeal Stout (pack of 4)"
+          "Cereal Thriller Organic Non-Alcoholic Oatmeal Stout (pack of 4)",
+          "Kitchen Party Organic Non-Alcoholic Pale Ale (pack of 4)"
         ],
         "lufa_farms_code": [
-          18836,
-          18832
+          18832,
+          18836
         ],
         "rebate_per_unit": [
           "$0.75",
@@ -110,12 +110,12 @@
           "$11.17"
         ],
         "qty_bought_at_regular_cost": [
-          105,
-          148
+          148,
+          105
         ],
         "credited_sum": [
-          "$78.75",
-          "$111.00"
+          "$111.00",
+          "$78.75"
         ],
         "total_credited": "$189.75"
       }
@@ -258,16 +258,16 @@
       "theme": "Bumper crops",
       "table": {
         "product_name": [
+          "Meatless Lover's Vegan Jamaican Patty (mild, frozen)",
           "Coconut Kale Delight Vegan Jamaican Patty (frozen)",
           "Meatless Lovers Vegan Jamaican Patty (spicy, frozen)",
-          "Chick'n Lover's Vegan Jamaican Patty (frozen)",
-          "Meatless Lover's Vegan Jamaican Patty (mild, frozen)"
+          "Chick'n Lover's Vegan Jamaican Patty (frozen)"
         ],
         "lufa_farms_code": [
+          5763,
           5764,
           19035,
-          19036,
-          5763
+          19036
         ],
         "rebate_per_unit": [
           "$0.25",
@@ -294,16 +294,16 @@
           "$2.35"
         ],
         "qty_bought_at_regular_cost": [
+          386,
           209,
           160,
-          128,
-          386
+          128
         ],
         "credited_sum": [
+          "$96.50",
           "$52.25",
           "$40.00",
-          "$32.00",
-          "$96.50"
+          "$32.00"
         ],
         "total_credited": "$220.75"
       }
@@ -321,16 +321,16 @@
       "theme": "Bumper crops",
       "table": {
         "product_name": [
+          "Popcorn Tofu (frozen)",
           "Vegan Corn Dogs (4, frozen)",
           "Vegan Pepperoni Pizza Saucers (4, frozen)",
-          "Vegan Cheeseburger Saucers (4, frozen)",
-          "Popcorn Tofu (frozen)"
+          "Vegan Cheeseburger Saucers (4, frozen)"
         ],
         "lufa_farms_code": [
+          19235,
           17768,
           19232,
-          20770,
-          19235
+          20770
         ],
         "rebate_per_unit": [
           "$0.75",
@@ -357,16 +357,16 @@
           "$5.25"
         ],
         "qty_bought_at_regular_cost": [
+          886,
           368,
           199,
-          122,
-          886
+          122
         ],
         "credited_sum": [
+          "$664.50",
           "$276.00",
           "$149.25",
-          "$91.50",
-          "$664.50"
+          "$91.50"
         ],
         "total_credited": "$1181.25"
       }
@@ -384,24 +384,24 @@
       "theme": null,
       "table": {
         "product_name": [
+          "Organic Kombucha Discovery Pack (8)",
           "The Tonic Organic Kombucha (ginger, no sugar, pack of 8)",
-          "Ginger Beer",
-          "Organic Kombucha Discovery Pack (8)"
+          "Ginger Beer"
         ],
         "lufa_farms_code": [
+          14241,
           19537,
-          20631,
-          14241
+          20631
         ],
         "rebate_per_unit": [
           "$1.00",
-          "$0.50",
-          "$1.00"
+          "$1.00",
+          "$0.50"
         ],
         "rebate_cost": [
           "$13.00",
-          "$1.60",
-          "$13.00"
+          "$13.00",
+          "$1.60"
         ],
         "qty_bought_at_rebate_cost": [
           0,
@@ -410,20 +410,20 @@
         ],
         "regular_cost": [
           "$14.00",
-          "$2.10",
-          "$14.00"
+          "$14.00",
+          "$2.10"
         ],
         "qty_bought_at_regular_cost": [
+          586,
           173,
-          661,
-          586
+          661
         ],
         "credited_sum": [
+          "$586.00",
           "$173.00",
-          "$330.50",
-          "$586.00"
+          "$330.50"
         ],
-        "total_credited": "$1420.00"
+        "total_credited": "$710.00"
       }
     },
     {
@@ -440,14 +440,14 @@
       "theme": null,
       "table": {
         "product_name": [
+          "Rumbles Organic Sea Salt Ridged Potato Chips",
           "Rumbles Organic All Dressed Ridged Potato Chips",
-          "Rumbles Organic Sour Cream & Onion Ridged Potato Chips",
-          "Rumbles Organic Sea Salt Ridged Potato Chips"
+          "Rumbles Organic Sour Cream & Onion Ridged Potato Chips"
         ],
         "lufa_farms_code": [
+          19001,
           19000,
-          19002,
-          19001
+          19002
         ],
         "rebate_per_unit": [
           "$0.50",
@@ -470,14 +470,14 @@
           "$3.00"
         ],
         "qty_bought_at_regular_cost": [
+          1270,
           479,
-          307,
-          1270
+          307
         ],
         "credited_sum": [
+          "$635.00",
           "$239.50",
-          "$153.50",
-          "$635.00"
+          "$153.50"
         ],
         "total_credited": "$1028.00"
       }
