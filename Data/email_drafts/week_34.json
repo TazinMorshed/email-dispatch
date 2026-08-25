@@ -1,0 +1,723 @@
+{
+  "week": 34,
+  "total_suppliers": 15,
+  "suppliers": [
+    {
+      "supplier": "Agrobio",
+      "emails": [
+        "joey@agrobioquebec.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 34,
+      "period": "2026-08-16 to 2026-08-22",
+      "theme": "Stone Fruit",
+      "table": {
+        "product_name": [
+          "Organic Cold-Pressed Sunflower Oil (oleic)"
+        ],
+        "lufa_farms_code": [
+          17612
+        ],
+        "rebate_per_unit": [
+          "$0.75"
+        ],
+        "rebate_cost": [
+          "$11.78"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$12.53"
+        ],
+        "qty_bought_at_regular_cost": [
+          65
+        ],
+        "credited_sum": [
+          "$48.75"
+        ],
+        "total_credited": "$48.75"
+      }
+    },
+    {
+      "supplier": "Boulangerie Le Pain dans les Voiles",
+      "emails": [
+        "alex@lepaindanslesvoiles.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 34,
+      "period": "2026-08-16 to 2026-08-22",
+      "theme": "Stone Fruit",
+      "table": {
+        "product_name": [
+          "Pizza Dough (frozen)",
+          "Chocolatines (6, frozen)"
+        ],
+        "lufa_farms_code": [
+          16673,
+          15895
+        ],
+        "rebate_per_unit": [
+          "$0.80",
+          "$1.40"
+        ],
+        "rebate_cost": [
+          "$3.35",
+          "$7.90"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$4.15",
+          "$9.30"
+        ],
+        "qty_bought_at_regular_cost": [
+          1415,
+          1048
+        ],
+        "credited_sum": [
+          "$1132.00",
+          "$1467.20"
+        ],
+        "total_credited": "$3448.20"
+      }
+    },
+    {
+      "supplier": "Chocolat Boréal",
+      "emails": [
+        "info@chocolatboreal.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 34,
+      "period": "2026-08-16 to 2026-08-22",
+      "theme": "Stone Fruit",
+      "table": {
+        "product_name": [
+          "72% Dark Chocolate Bar",
+          "37% Milk Chocolate Bar"
+        ],
+        "lufa_farms_code": [
+          10728,
+          10731
+        ],
+        "rebate_per_unit": [
+          "$0.25",
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$4.95",
+          "$4.95"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$5.20",
+          "$5.20"
+        ],
+        "qty_bought_at_regular_cost": [
+          246,
+          80
+        ],
+        "credited_sum": [
+          "$61.50",
+          "$20.00"
+        ],
+        "total_credited": "$81.50"
+      }
+    },
+    {
+      "supplier": "Everland",
+      "emails": [
+        "simran@jivaorganics.ca"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 34,
+      "period": "2026-08-16 to 2026-08-22",
+      "theme": "Stone Fruit",
+      "table": {
+        "product_name": [
+          "Organic Coconut Milk"
+        ],
+        "lufa_farms_code": [
+          19436
+        ],
+        "rebate_per_unit": [
+          "$0.29"
+        ],
+        "rebate_cost": [
+          "$1.67"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$1.96"
+        ],
+        "qty_bought_at_regular_cost": [
+          1713
+        ],
+        "credited_sum": [
+          "$496.77"
+        ],
+        "total_credited": "$496.77"
+      }
+    },
+    {
+      "supplier": "L'Issue Végane Maison",
+      "emails": [
+        "laurentvanderwee.lissue@gmail.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 34,
+      "period": "2026-08-16 to 2026-08-22",
+      "theme": "Stone Fruit",
+      "table": {
+        "product_name": [
+          "Le Piccante Seitan (frozen)"
+        ],
+        "lufa_farms_code": [
+          16876
+        ],
+        "rebate_per_unit": [
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$5.50"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$6.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          36
+        ],
+        "credited_sum": [
+          "$18.00"
+        ],
+        "total_credited": "$18.00"
+      }
+    },
+    {
+      "supplier": "Les Filles Fattoush",
+      "emails": [
+        "alecomte@lesfillesfattoush.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 34,
+      "period": "2026-08-16 to 2026-08-22",
+      "theme": "Stone Fruit",
+      "table": {
+        "product_name": [
+          "Zaatar Pita Chips",
+          "Mint & Parsley Pita Chips",
+          "Sumac & Fleur de Sel Pita Chips",
+          "Cumin & Aleppo Pepper Pita Chips"
+        ],
+        "lufa_farms_code": [
+          15344,
+          16074,
+          17198,
+          15343
+        ],
+        "rebate_per_unit": [
+          "$0.75",
+          "$0.75",
+          "$0.75",
+          "$0.75"
+        ],
+        "rebate_cost": [
+          "$3.58",
+          "$3.58",
+          "$3.58",
+          "$3.58"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$4.33",
+          "$4.33",
+          "$4.33",
+          "$4.33"
+        ],
+        "qty_bought_at_regular_cost": [
+          395,
+          101,
+          179,
+          150
+        ],
+        "credited_sum": [
+          "$296.25",
+          "$75.75",
+          "$134.25",
+          "$112.50"
+        ],
+        "total_credited": "$618.75"
+      }
+    },
+    {
+      "supplier": "Maison Orphée",
+      "emails": [
+        "Stefanie.Janin@maisonorphee.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 34,
+      "period": "2026-08-16 to 2026-08-22",
+      "theme": "Stone Fruit",
+      "table": {
+        "product_name": [
+          "Organic Unrefined Sesame Oil (first cold-pressed)"
+        ],
+        "lufa_farms_code": [
+          17802
+        ],
+        "rebate_per_unit": [
+          "$0.95"
+        ],
+        "rebate_cost": [
+          "$8.55"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$9.50"
+        ],
+        "qty_bought_at_regular_cost": [
+          61
+        ],
+        "credited_sum": [
+          "$57.95"
+        ],
+        "total_credited": "$57.95"
+      }
+    },
+    {
+      "supplier": "Nuts for Cheese",
+      "emails": [
+        "Sarah.Sowden@nutsforcheese.com",
+        "Terra.Farmilo@nutsforcheese.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 34,
+      "period": "2026-08-16 to 2026-08-22",
+      "theme": "Stone Fruit",
+      "table": {
+        "product_name": [
+          "Organic Vegan Cream Cheese-Style Spread",
+          "Organic Garlic & Herb Vegan Cream Cheese-Style Spread"
+        ],
+        "lufa_farms_code": [
+          17115,
+          17555
+        ],
+        "rebate_per_unit": [
+          "$0.92",
+          "$0.92"
+        ],
+        "rebate_cost": [
+          "$5.10",
+          "$5.10"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$6.02",
+          "$6.02"
+        ],
+        "qty_bought_at_regular_cost": [
+          39,
+          52
+        ],
+        "credited_sum": [
+          "$35.88",
+          "$47.84"
+        ],
+        "total_credited": "$83.72"
+      }
+    },
+    {
+      "supplier": "Rebon",
+      "emails": [
+        "gaetan@alice-ambre.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 34,
+      "period": "2026-08-16 to 2026-08-22",
+      "theme": "Stone Fruit",
+      "table": {
+        "product_name": [
+          "BBQ Crackers",
+          "Black & White Sesame Seed Crackers",
+          "Tomato, Thyme & Rosemary Crackers"
+        ],
+        "lufa_farms_code": [
+          16368,
+          14428,
+          13856
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$2.55",
+          "$2.55",
+          "$2.55"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$3.05",
+          "$3.05",
+          "$3.05"
+        ],
+        "qty_bought_at_regular_cost": [
+          110,
+          123,
+          156
+        ],
+        "credited_sum": [
+          "$55.00",
+          "$61.50",
+          "$78.00"
+        ],
+        "total_credited": "$194.50"
+      }
+    },
+    {
+      "supplier": "Savanil",
+      "emails": [
+        "nancia@savanil.ca"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 34,
+      "period": "2026-08-16 to 2026-08-22",
+      "theme": "Stone Fruit",
+      "table": {
+        "product_name": [
+          "Curry Powder from Madagascar (2025 harvest)",
+          "Ground Turmeric from Mananjary, Madagascar (2024 harvest)",
+          "Bourbon Vanilla Bean Paste (liquid)"
+        ],
+        "lufa_farms_code": [
+          17567,
+          10909,
+          13595
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50",
+          "$0.75"
+        ],
+        "rebate_cost": [
+          "$2.90",
+          "$2.78",
+          "$9.00"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$3.40",
+          "$3.28",
+          "$9.75"
+        ],
+        "qty_bought_at_regular_cost": [
+          77,
+          46,
+          28
+        ],
+        "credited_sum": [
+          "$38.50",
+          "$23.00",
+          "$21.00"
+        ],
+        "total_credited": "$113.25"
+      }
+    },
+    {
+      "supplier": "The Port of India",
+      "emails": [
+        "justin.riggio7@gmail.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 34,
+      "period": "2026-08-16 to 2026-08-22",
+      "theme": "Stone Fruit",
+      "table": {
+        "product_name": [
+          "Madras Curry Paste (spicy)"
+        ],
+        "lufa_farms_code": [
+          11565
+        ],
+        "rebate_per_unit": [
+          "$1.10"
+        ],
+        "rebate_cost": [
+          "$4.00"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$5.10"
+        ],
+        "qty_bought_at_regular_cost": [
+          41
+        ],
+        "credited_sum": [
+          "$45.10"
+        ],
+        "total_credited": "$45.10"
+      }
+    },
+    {
+      "supplier": "Tout Cru!",
+      "emails": [
+        "admin@toutcrufermentation.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 34,
+      "period": "2026-08-16 to 2026-08-22",
+      "theme": "Stone Fruit",
+      "table": {
+        "product_name": [
+          "Organic Juniper Berry Sauerkraut",
+          "Fermented Radishes with Garlic Scapes",
+          "Organic Lemon & Dill Sauerkraut"
+        ],
+        "lufa_farms_code": [
+          13266,
+          13268,
+          13269
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$5.18",
+          "$5.18",
+          "$5.18"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$5.68",
+          "$5.68",
+          "$5.68"
+        ],
+        "qty_bought_at_regular_cost": [
+          41,
+          56,
+          90
+        ],
+        "credited_sum": [
+          "$20.50",
+          "$28.00",
+          "$45.00"
+        ],
+        "total_credited": "$93.50"
+      }
+    },
+    {
+      "supplier": "VG Gourmet",
+      "emails": [
+        "info@vegetariangourmet.com",
+        "bookkeeping.vggourmet@gmail.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 34,
+      "period": "2026-08-16 to 2026-08-22",
+      "theme": "Stone Fruit",
+      "table": {
+        "product_name": [
+          "Greek Gyro Tofu (frozen)",
+          "Vegan Shawarma (frozen)",
+          "Vegan Chili (frozen)",
+          "Mexican 3-Bean Veggie Burger (2, frozen)"
+        ],
+        "lufa_farms_code": [
+          8993,
+          14795,
+          10123,
+          8990
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50",
+          "$0.63",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$3.92",
+          "$4.80",
+          "$4.12",
+          "$2.14"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$4.42",
+          "$5.30",
+          "$4.75",
+          "$2.64"
+        ],
+        "qty_bought_at_regular_cost": [
+          76,
+          59,
+          716,
+          819
+        ],
+        "credited_sum": [
+          "$38.00",
+          "$29.50",
+          "$451.08",
+          "$409.50"
+        ],
+        "total_credited": "$835.00"
+      }
+    },
+    {
+      "supplier": "Yupik",
+      "emails": [
+        "mleclerc@tootsi.com",
+        "jllachance@tootsi.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 34,
+      "period": "2026-08-16 to 2026-08-22",
+      "theme": "Stone Fruit",
+      "table": {
+        "product_name": [
+          "Organic White Basmati Rice",
+          "Organic Brown Basmati Rice"
+        ],
+        "lufa_farms_code": [
+          9584,
+          20480
+        ],
+        "rebate_per_unit": [
+          "$0.69",
+          "$0.58"
+        ],
+        "rebate_cost": [
+          "$3.90",
+          "$3.34"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$4.59",
+          "$3.92"
+        ],
+        "qty_bought_at_regular_cost": [
+          350,
+          234
+        ],
+        "credited_sum": [
+          "$241.50",
+          "$135.72"
+        ],
+        "total_credited": "$338.72"
+      }
+    },
+    {
+      "supplier": "État Végétal",
+      "emails": [
+        "francis.dubois@etatvegetal.com",
+        "comptabilite@etatvegetal.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 34,
+      "period": "2026-08-16 to 2026-08-22",
+      "theme": "Stone Fruit",
+      "table": {
+        "product_name": [
+          "Taquitos (frozen)"
+        ],
+        "lufa_farms_code": [
+          17069
+        ],
+        "rebate_per_unit": [
+          "$1.00"
+        ],
+        "rebate_cost": [
+          "$6.08"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$7.08"
+        ],
+        "qty_bought_at_regular_cost": [
+          240
+        ],
+        "credited_sum": [
+          "$240.00"
+        ],
+        "total_credited": "$240.00"
+      }
+    }
+  ]
+}

@@ -15,36 +15,36 @@
       "theme": "Drinks & Snacks",
       "table": {
         "product_name": [
-          "Organic Whole Wheat Flour",
-          "Organic All-Purpose Flour (white, unbleached)"
+          "Organic All-Purpose Flour (white, unbleached)",
+          "Organic Whole Wheat Flour"
         ],
         "lufa_farms_code": [
-          17354,
-          17351
+          17351,
+          17354
         ],
         "rebate_per_unit": [
           "$0.50",
           "$0.50"
         ],
         "rebate_cost": [
-          "$4.88",
-          "$4.95"
+          "$4.95",
+          "$4.88"
         ],
         "qty_bought_at_rebate_cost": [
           0,
           0
         ],
         "regular_cost": [
-          "$5.38",
-          "$5.45"
+          "$5.45",
+          "$5.38"
         ],
         "qty_bought_at_regular_cost": [
-          102,
-          449
+          449,
+          102
         ],
         "credited_sum": [
-          "$51.00",
-          "$224.50"
+          "$224.50",
+          "$51.00"
         ],
         "total_credited": "$275.50"
       }
@@ -148,20 +148,20 @@
       "theme": "Drinks & Snacks",
       "table": {
         "product_name": [
+          "Raspberry Sparkling Lemonade (1 L)",
           "Lime & Mint Sparkling Lemonade (1 L)",
           "Sparkling Basil Lemonade (1 L)",
           "Blackberry Sparkling Lemonade (1 L)",
           "Clementine Sparkling Lemonade (1 L)",
-          "Mango Sparkling Lemonade (1 L)",
-          "Raspberry Sparkling Lemonade (1 L)"
+          "Mango Sparkling Lemonade (1 L)"
         ],
         "lufa_farms_code": [
+          15862,
           15818,
           15817,
           16893,
           18108,
-          19582,
-          15862
+          19582
         ],
         "rebate_per_unit": [
           "$0.76",
@@ -196,20 +196,20 @@
           "$3.90"
         ],
         "qty_bought_at_regular_cost": [
+          579,
           256,
           308,
           151,
           226,
-          200,
-          579
+          200
         ],
         "credited_sum": [
+          "$440.04",
           "$194.56",
           "$234.08",
           "$114.76",
           "$171.76",
-          "$152.00",
-          "$440.04"
+          "$152.00"
         ],
         "total_credited": "$1307.20"
       }
@@ -345,16 +345,16 @@
       "theme": "Drinks & Snacks",
       "table": {
         "product_name": [
+          "Zaatar Pita Chips",
           "Mint & Parsley Pita Chips",
           "Sumac & Fleur de Sel Pita Chips",
-          "Cumin & Aleppo Pepper Pita Chips",
-          "Zaatar Pita Chips"
+          "Cumin & Aleppo Pepper Pita Chips"
         ],
         "lufa_farms_code": [
+          15344,
           16074,
           17198,
-          15343,
-          15344
+          15343
         ],
         "rebate_per_unit": [
           "$0.75",
@@ -381,16 +381,16 @@
           "$4.33"
         ],
         "qty_bought_at_regular_cost": [
+          771,
           136,
           289,
-          242,
-          771
+          242
         ],
         "credited_sum": [
+          "$578.25",
           "$102.00",
           "$216.75",
-          "$181.50",
-          "$578.25"
+          "$181.50"
         ],
         "total_credited": "$1078.50"
       }
@@ -539,35 +539,35 @@
       "year": 2026,
       "week": 32,
       "period": "2026-08-02 to 2026-08-08",
-      "theme": null,
+      "theme": "Drinks & Snacks",
       "table": {
         "product_name": [
+          "Beet Power Veggie Burger (2, frozen)",
+          "Vegan Chickpea & Eggplant Curry (frozen)",
           "Ginger Sesame Tofu (frozen)",
           "Mini Vegan Kebabs (12, frozen)",
-          "BBQ Pulled Tofu (frozen)",
-          "Beet Power Veggie Burger (2, frozen)",
-          "Vegan Chickpea & Eggplant Curry (frozen)"
+          "BBQ Pulled Tofu (frozen)"
         ],
         "lufa_farms_code": [
+          20692,
+          17272,
           8995,
           11239,
-          17418,
-          20692,
-          17272
+          17418
         ],
         "rebate_per_unit": [
           "$0.50",
+          "$0.63",
           "$0.50",
           "$0.50",
-          "$0.50",
-          "$0.63"
+          "$0.50"
         ],
         "rebate_cost": [
+          "$2.14",
+          "$4.47",
           "$3.92",
           "$4.16",
-          "$4.30",
-          "$2.14",
-          "$4.47"
+          "$4.30"
         ],
         "qty_bought_at_rebate_cost": [
           0,
@@ -577,27 +577,27 @@
           0
         ],
         "regular_cost": [
+          "$2.64",
+          "$5.10",
           "$4.42",
           "$4.66",
-          "$4.80",
-          "$2.64",
-          "$5.10"
+          "$4.80"
         ],
         "qty_bought_at_regular_cost": [
+          1018,
+          525,
           82,
           56,
-          64,
-          1018,
-          525
+          64
         ],
         "credited_sum": [
+          "$509.00",
+          "$330.75",
           "$41.00",
           "$28.00",
-          "$32.00",
-          "$509.00",
-          "$330.75"
+          "$32.00"
         ],
-        "total_credited": "$1099.35"
+        "total_credited": "$872.50"
       }
     },
     {

@@ -1,0 +1,45 @@
+{
+  "week": 35,
+  "total_suppliers": 1,
+  "suppliers": [
+    {
+      "supplier": "1642",
+      "emails": [
+        "bpoulain@1642mix.ca"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 35,
+      "period": "2026-08-23 to 2026-08-24",
+      "theme": "Costco 100!! Back-to-School Meal Prep",
+      "table": {
+        "product_name": [
+          "Light Tonic (pack of 4)"
+        ],
+        "lufa_farms_code": [
+          12299
+        ],
+        "rebate_per_unit": [
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$5.75"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$6.25"
+        ],
+        "qty_bought_at_regular_cost": [
+          0
+        ],
+        "credited_sum": [
+          "$0.00"
+        ],
+        "total_credited": "$0.00"
+      }
+    }
+  ]
+}
