@@ -1,6 +1,6 @@
 {
   "week": 35,
-  "total_suppliers": 1,
+  "total_suppliers": 16,
   "suppliers": [
     {
       "supplier": "1642",
@@ -11,34 +11,847 @@
       "taxable": "Yes",
       "year": 2026,
       "week": 35,
-      "period": "2026-08-23 to 2026-08-24",
+      "period": "2026-08-23 to 2026-08-29",
       "theme": "Costco 100!! Back-to-School Meal Prep",
       "table": {
         "product_name": [
+          "Tonic Water (pack of 4)",
           "Light Tonic (pack of 4)"
         ],
         "lufa_farms_code": [
+          11031,
           12299
         ],
         "rebate_per_unit": [
+          "$0.50",
           "$0.50"
         ],
         "rebate_cost": [
+          "$5.75",
           "$5.75"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$6.25",
+          "$6.25"
+        ],
+        "qty_bought_at_regular_cost": [
+          36,
+          0
+        ],
+        "credited_sum": [
+          "$18.00",
+          "$0.00"
+        ],
+        "total_credited": "$18.00"
+      }
+    },
+    {
+      "supplier": "Agrobio",
+      "emails": [
+        "joey@agrobioquebec.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 35,
+      "period": "2026-08-23 to 2026-08-29",
+      "theme": "Costco 100!! Back-to-School Meal Prep",
+      "table": {
+        "product_name": [
+          "Organic All-Purpose Flour (white, unbleached)"
+        ],
+        "lufa_farms_code": [
+          17352
+        ],
+        "rebate_per_unit": [
+          "$1.00"
+        ],
+        "rebate_cost": [
+          "$10.75"
         ],
         "qty_bought_at_rebate_cost": [
           0
         ],
         "regular_cost": [
-          "$6.25"
+          "$11.75"
         ],
         "qty_bought_at_regular_cost": [
-          0
+          227
         ],
         "credited_sum": [
-          "$0.00"
+          "$227.00"
         ],
-        "total_credited": "$0.00"
+        "total_credited": "$227.00"
+      }
+    },
+    {
+      "supplier": "DelChef",
+      "emails": [
+        "leonardo@delchef.ca"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 35,
+      "period": "2026-08-23 to 2026-08-29",
+      "theme": "Costco 100!! Back-to-School Meal Prep",
+      "table": {
+        "product_name": [
+          "Vegan Eggplant Focaccia (frozen)"
+        ],
+        "lufa_farms_code": [
+          13916
+        ],
+        "rebate_per_unit": [
+          "$0.75"
+        ],
+        "rebate_cost": [
+          "$2.40"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$3.15"
+        ],
+        "qty_bought_at_regular_cost": [
+          264
+        ],
+        "credited_sum": [
+          "$198.00"
+        ],
+        "total_credited": "$198.00"
+      }
+    },
+    {
+      "supplier": "Fous de l'île",
+      "emails": [
+        "jerry@fousdelile.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 35,
+      "period": "2026-08-23 to 2026-08-29",
+      "theme": "Back-to-School Meal Prep",
+      "table": {
+        "product_name": [
+          "Organic Ginger Kombucha",
+          "Organic Green Tea & Lemongrass Kombucha",
+          "Organic Guava Rose Kombucha",
+          "Organic Hibiscus Chai Kombucha",
+          "Organic Lychee Butterfly Pea Kombucha",
+          "Organic Turmeric & Ginger Kombucha"
+        ],
+        "lufa_farms_code": [
+          14690,
+          14693,
+          16733,
+          14745,
+          16315,
+          14749
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50",
+          "$0.50",
+          "$0.50",
+          "$0.50",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$1.37",
+          "$1.37",
+          "$1.37",
+          "$1.37",
+          "$1.37",
+          "$1.37"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$1.87",
+          "$1.87",
+          "$1.87",
+          "$1.87",
+          "$1.87",
+          "$1.87"
+        ],
+        "qty_bought_at_regular_cost": [
+          648,
+          635,
+          809,
+          679,
+          726,
+          266
+        ],
+        "credited_sum": [
+          "$324.00",
+          "$317.50",
+          "$404.50",
+          "$339.50",
+          "$363.00",
+          "$133.00"
+        ],
+        "total_credited": "$1881.50"
+      }
+    },
+    {
+      "supplier": "Green Brothers",
+      "emails": [
+        "comptabilite@greenbrothers.ca"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 35,
+      "period": "2026-08-23 to 2026-08-29",
+      "theme": "Costco 100!! Back-to-School Meal Prep",
+      "table": {
+        "product_name": [
+          "Vegan Corn Dogs (4, frozen)",
+          "Vegan Pepperoni Pizza Saucers (4, frozen)",
+          "Vegan Cheeseburger Saucers (4, frozen)",
+          "Popcorn Tofu (frozen)"
+        ],
+        "lufa_farms_code": [
+          17768,
+          19232,
+          20770,
+          19235
+        ],
+        "rebate_per_unit": [
+          "$0.75",
+          "$0.75",
+          "$0.75",
+          "$0.75"
+        ],
+        "rebate_cost": [
+          "$4.50",
+          "$4.50",
+          "$4.50",
+          "$4.50"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$5.25",
+          "$5.25",
+          "$5.25",
+          "$5.25"
+        ],
+        "qty_bought_at_regular_cost": [
+          424,
+          224,
+          153,
+          985
+        ],
+        "credited_sum": [
+          "$318.00",
+          "$168.00",
+          "$114.75",
+          "$738.75"
+        ],
+        "total_credited": "$1339.50"
+      }
+    },
+    {
+      "supplier": "Humble Potato Chips",
+      "emails": [
+        "marie-soleil@humblechips.com",
+        "accounting@humblechips.com"
+      ],
+      "language": "en",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 35,
+      "period": "2026-08-23 to 2026-08-29",
+      "theme": "Costco 100!! Back-to-School Meal Prep",
+      "table": {
+        "product_name": [
+          "Organic Smokey BBQ Potato Chips",
+          "Organic Hot Honey Mustard Potato Chips",
+          "Organic Ketchup Chips",
+          "Organic Sea Salt & Cider Vinegar Potato Chips",
+          "Organic Creamy Dill Potato Chips",
+          "Organic Jalapeno Potato Chips",
+          "Organic Regular Potato Chips"
+        ],
+        "lufa_farms_code": [
+          17371,
+          17373,
+          18125,
+          17374,
+          17372,
+          19060,
+          17368
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50",
+          "$0.50",
+          "$0.50",
+          "$0.50",
+          "$0.50",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$2.50",
+          "$2.50",
+          "$2.50",
+          "$2.50",
+          "$2.50",
+          "$2.50",
+          "$2.50"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$3.00",
+          "$3.00",
+          "$3.00",
+          "$3.00",
+          "$3.00",
+          "$3.00",
+          "$3.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          255,
+          197,
+          141,
+          214,
+          214,
+          121,
+          856
+        ],
+        "credited_sum": [
+          "$127.50",
+          "$98.50",
+          "$70.50",
+          "$107.00",
+          "$107.00",
+          "$60.50",
+          "$428.00"
+        ],
+        "total_credited": "$999.00"
+      }
+    },
+    {
+      "supplier": "Impress Foods",
+      "emails": [
+        "comptabilite@impressfoods.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 35,
+      "period": "2026-08-23 to 2026-08-29",
+      "theme": "Back-to-School Meal Prep",
+      "table": {
+        "product_name": [
+          "Organic Pear Puree (beginner)",
+          "Organic Kale, Spinach & Apple Puree (6+ months)",
+          "Strawberry, Blueberry & Rhubarb Puree (6+ months)",
+          "Butternut Squash, Coconut & Mango Puree (9+ months)",
+          "Organic Apple Puree (beginner)"
+        ],
+        "lufa_farms_code": [
+          17864,
+          17873,
+          17874,
+          17876,
+          18318
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50",
+          "$0.50",
+          "$0.50",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$1.55",
+          "$1.55",
+          "$1.55",
+          "$1.55",
+          "$1.55"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$2.05",
+          "$2.05",
+          "$2.05",
+          "$2.05",
+          "$2.05"
+        ],
+        "qty_bought_at_regular_cost": [
+          68,
+          78,
+          111,
+          79,
+          31
+        ],
+        "credited_sum": [
+          "$34.00",
+          "$39.00",
+          "$55.50",
+          "$39.50",
+          "$15.50"
+        ],
+        "total_credited": "$183.50"
+      }
+    },
+    {
+      "supplier": "L'Issue Végane Maison",
+      "emails": [
+        "laurentvanderwee.lissue@gmail.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 35,
+      "period": "2026-08-23 to 2026-08-29",
+      "theme": "Back-to-School Meal Prep",
+      "table": {
+        "product_name": [
+          "Le Costaud des Laurentides Seitan (frozen)"
+        ],
+        "lufa_farms_code": [
+          16875
+        ],
+        "rebate_per_unit": [
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$5.50"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$6.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          62
+        ],
+        "credited_sum": [
+          "$31.00"
+        ],
+        "total_credited": "$31.00"
+      }
+    },
+    {
+      "supplier": "Les Filles Fattoush",
+      "emails": [
+        "alecomte@lesfillesfattoush.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 35,
+      "period": "2026-08-23 to 2026-08-29",
+      "theme": "Costco 100!! Back-to-School Meal Prep",
+      "table": {
+        "product_name": [
+          "Zaatar Pita Chips",
+          "Mint & Parsley Pita Chips",
+          "Sumac & Fleur de Sel Pita Chips",
+          "Cumin & Aleppo Pepper Pita Chips"
+        ],
+        "lufa_farms_code": [
+          15344,
+          16074,
+          17198,
+          15343
+        ],
+        "rebate_per_unit": [
+          "$0.75",
+          "$0.75",
+          "$0.75",
+          "$0.75"
+        ],
+        "rebate_cost": [
+          "$3.58",
+          "$3.58",
+          "$3.58",
+          "$3.58"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$4.33",
+          "$4.33",
+          "$4.33",
+          "$4.33"
+        ],
+        "qty_bought_at_regular_cost": [
+          500,
+          124,
+          250,
+          202
+        ],
+        "credited_sum": [
+          "$375.00",
+          "$93.00",
+          "$187.50",
+          "$151.50"
+        ],
+        "total_credited": "$807.00"
+      }
+    },
+    {
+      "supplier": "Maison Orphée",
+      "emails": [
+        "Stefanie.Janin@maisonorphee.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 35,
+      "period": "2026-08-23 to 2026-08-29",
+      "theme": "Costco 100!! Back-to-School Meal Prep",
+      "table": {
+        "product_name": [
+          "Fresh Mayonnaise",
+          "Extra Virgin Olive Oil Fresh Mayonnaise"
+        ],
+        "lufa_farms_code": [
+          9253,
+          18940
+        ],
+        "rebate_per_unit": [
+          "$0.69",
+          "$0.69"
+        ],
+        "rebate_cost": [
+          "$3.91",
+          "$3.91"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$4.60",
+          "$4.60"
+        ],
+        "qty_bought_at_regular_cost": [
+          201,
+          862
+        ],
+        "credited_sum": [
+          "$138.69",
+          "$594.78"
+        ],
+        "total_credited": "$733.47"
+      }
+    },
+    {
+      "supplier": "Savanil",
+      "emails": [
+        "nancia@savanil.ca"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 35,
+      "period": "2026-08-23 to 2026-08-29",
+      "theme": "Back-to-School Meal Prep",
+      "table": {
+        "product_name": [
+          "Cajun Seasoning",
+          "Whole Nutmeg from Mananjary, Madagascar (2024 harvest)",
+          "Lebanese 7 Spice Mix"
+        ],
+        "lufa_farms_code": [
+          18130,
+          10910,
+          17466
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$3.00",
+          "$4.00",
+          "$3.10"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$3.50",
+          "$4.50",
+          "$3.60"
+        ],
+        "qty_bought_at_regular_cost": [
+          54,
+          15,
+          56
+        ],
+        "credited_sum": [
+          "$27.00",
+          "$7.50",
+          "$28.00"
+        ],
+        "total_credited": "$62.50"
+      }
+    },
+    {
+      "supplier": "Soya Distinction Inc",
+      "emails": [
+        "konthea2000@hotmail.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 35,
+      "period": "2026-08-23 to 2026-08-29",
+      "theme": "Costco 100!! Back-to-School Meal Prep",
+      "table": {
+        "product_name": [
+          "Extra Firm Tofu"
+        ],
+        "lufa_farms_code": [
+          10665
+        ],
+        "rebate_per_unit": [
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$2.80"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$3.05"
+        ],
+        "qty_bought_at_regular_cost": [
+          2308
+        ],
+        "credited_sum": [
+          "$577.00"
+        ],
+        "total_credited": "$577.00"
+      }
+    },
+    {
+      "supplier": "The Port of India",
+      "emails": [
+        "justin.riggio7@gmail.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 35,
+      "period": "2026-08-23 to 2026-08-29",
+      "theme": "Back-to-School Meal Prep",
+      "table": {
+        "product_name": [
+          "Korma Curry Paste (medium)"
+        ],
+        "lufa_farms_code": [
+          11567
+        ],
+        "rebate_per_unit": [
+          "$0.65"
+        ],
+        "rebate_cost": [
+          "$4.75"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$5.40"
+        ],
+        "qty_bought_at_regular_cost": [
+          54
+        ],
+        "credited_sum": [
+          "$35.10"
+        ],
+        "total_credited": "$35.10"
+      }
+    },
+    {
+      "supplier": "VG Gourmet",
+      "emails": [
+        "info@vegetariangourmet.com",
+        "bookkeeping.vggourmet@gmail.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 35,
+      "period": "2026-08-23 to 2026-08-29",
+      "theme": "Back-to-School Meal Prep",
+      "table": {
+        "product_name": [
+          "Mini Vegan Kebabs (12, frozen)",
+          "Beet Balls (frozen)",
+          "Quinoa & Chickpea Veggie Burgers (2, frozen)"
+        ],
+        "lufa_farms_code": [
+          11239,
+          8997,
+          8989
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$4.16",
+          "$3.92",
+          "$2.14"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$4.66",
+          "$4.42",
+          "$2.64"
+        ],
+        "qty_bought_at_regular_cost": [
+          78,
+          184,
+          1761
+        ],
+        "credited_sum": [
+          "$39.00",
+          "$92.00",
+          "$880.50"
+        ],
+        "total_credited": "$1011.50"
+      }
+    },
+    {
+      "supplier": "Yupik",
+      "emails": [
+        "mleclerc@tootsi.com",
+        "jllachance@tootsi.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 35,
+      "period": "2026-08-23 to 2026-08-29",
+      "theme": "Costco 100!! Back-to-School Meal Prep",
+      "table": {
+        "product_name": [
+          "Organic Black Chia Seeds"
+        ],
+        "lufa_farms_code": [
+          18098
+        ],
+        "rebate_per_unit": [
+          "$0.90"
+        ],
+        "rebate_cost": [
+          "$5.10"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$6.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          281
+        ],
+        "credited_sum": [
+          "$252.90"
+        ],
+        "total_credited": "$252.90"
+      }
+    },
+    {
+      "supplier": "État Végétal",
+      "emails": [
+        "francis.dubois@etatvegetal.com",
+        "comptabilite@etatvegetal.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 35,
+      "period": "2026-08-23 to 2026-08-29",
+      "theme": "Costco 100!! Back-to-School Meal Prep",
+      "table": {
+        "product_name": [
+          "Taquitos (family format, frozen)",
+          "Dried Tomato & Basil Arancini (family format, frozen)"
+        ],
+        "lufa_farms_code": [
+          16370,
+          16371
+        ],
+        "rebate_per_unit": [
+          "$1.10",
+          "$0.90"
+        ],
+        "rebate_cost": [
+          "$16.90",
+          "$17.10"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$18.00",
+          "$18.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          51,
+          218
+        ],
+        "credited_sum": [
+          "$56.10",
+          "$196.20"
+        ],
+        "total_credited": "$242.10"
       }
     }
   ]

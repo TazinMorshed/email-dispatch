@@ -148,16 +148,16 @@
       "theme": "Corn, BBQ & Lobsterfest!",
       "table": {
         "product_name": [
+          "Zaatar Pita Chips",
           "Sumac & Fleur de Sel Pita Chips",
           "Mint & Parsley Pita Chips",
-          "Cumin & Aleppo Pepper Pita Chips",
-          "Zaatar Pita Chips"
+          "Cumin & Aleppo Pepper Pita Chips"
         ],
         "lufa_farms_code": [
+          15344,
           17198,
           16074,
-          15343,
-          15344
+          15343
         ],
         "rebate_per_unit": [
           "$0.75",
@@ -184,16 +184,16 @@
           "$4.33"
         ],
         "qty_bought_at_regular_cost": [
+          738,
           286,
           134,
-          239,
-          738
+          239
         ],
         "credited_sum": [
+          "$553.50",
           "$214.50",
           "$100.50",
-          "$179.25",
-          "$553.50"
+          "$179.25"
         ],
         "total_credited": "$1047.75"
       }
@@ -211,32 +211,32 @@
       "theme": "Corn, BBQ & Lobsterfest!",
       "table": {
         "product_name": [
+          "Organic Dijon Mustard",
           "Organic Old-Fashioned Mustard",
           "Organic Yellow Mustard",
           "Fine Grey Sea Salt",
-          "Organic Virgin Flaxseed Oil",
-          "Organic Dijon Mustard"
+          "Organic Virgin Flaxseed Oil"
         ],
         "lufa_farms_code": [
+          9237,
           9238,
           9239,
           18316,
-          19028,
-          9237
+          19028
         ],
         "rebate_per_unit": [
           "$0.57",
           "$0.57",
+          "$0.57",
           "$0.25",
-          "$0.50",
-          "$0.57"
+          "$0.50"
         ],
         "rebate_cost": [
           "$2.60",
           "$2.60",
+          "$2.60",
           "$3.41",
-          "$5.00",
-          "$2.60"
+          "$5.00"
         ],
         "qty_bought_at_rebate_cost": [
           0,
@@ -248,25 +248,25 @@
         "regular_cost": [
           "$3.17",
           "$3.17",
+          "$3.17",
           "$3.66",
-          "$5.50",
-          "$3.17"
+          "$5.50"
         ],
         "qty_bought_at_regular_cost": [
+          1158,
           140,
           130,
           118,
-          35,
-          1158
+          35
         ],
         "credited_sum": [
+          "$660.06",
           "$79.80",
           "$74.10",
           "$29.50",
-          "$17.50",
-          "$660.06"
+          "$17.50"
         ],
-        "total_credited": "$901.17"
+        "total_credited": "$790.50"
       }
     },
     {
@@ -282,18 +282,18 @@
       "theme": "Corn & BBQ Finale",
       "table": {
         "product_name": [
+          "Peanut Butter Squares (12)",
           "Cookie Dough Squares (12)",
           "Almond Crunch Squares (12)",
           "Crunchy Peanut Squares (12)",
-          "Brownie Batter Squares (12)",
-          "Peanut Butter Squares (12)"
+          "Brownie Batter Squares (12)"
         ],
         "lufa_farms_code": [
+          16438,
           16440,
           16441,
           18046,
-          16439,
-          16438
+          16439
         ],
         "rebate_per_unit": [
           "$4.00",
@@ -324,18 +324,18 @@
           "$18.00"
         ],
         "qty_bought_at_regular_cost": [
+          356,
           108,
           156,
           135,
-          103,
-          356
+          103
         ],
         "credited_sum": [
+          "$1424.00",
           "$432.00",
           "$624.00",
           "$540.00",
-          "$412.00",
-          "$1424.00"
+          "$412.00"
         ],
         "total_credited": "$3432.00"
       }
@@ -619,17 +619,17 @@
       "year": 2026,
       "week": 33,
       "period": "2026-08-09 to 2026-08-15",
-      "theme": "Corn & BBQ Finale",
+      "theme": "Corn, BBQ & Lobsterfest!",
       "table": {
         "product_name": [
+          "Tahini & Eggplant Veggie Burgers (2, frozen)",
           "Sticky Sesame Soy Protein Strips (frozen)",
-          "Vegan Taco & Chili Crumble (frozen)",
-          "Tahini & Eggplant Veggie Burgers (2, frozen)"
+          "Vegan Taco & Chili Crumble (frozen)"
         ],
         "lufa_farms_code": [
+          8988,
           10186,
-          8996,
-          8988
+          8996
         ],
         "rebate_per_unit": [
           "$0.50",
@@ -637,9 +637,9 @@
           "$0.50"
         ],
         "rebate_cost": [
+          "$2.14",
           "$5.20",
-          "$3.92",
-          "$2.14"
+          "$3.92"
         ],
         "qty_bought_at_rebate_cost": [
           0,
@@ -647,19 +647,19 @@
           0
         ],
         "regular_cost": [
+          "$2.64",
           "$5.70",
-          "$4.42",
-          "$2.64"
+          "$4.42"
         ],
         "qty_bought_at_regular_cost": [
+          797,
           126,
-          103,
-          797
+          103
         ],
         "credited_sum": [
+          "$398.50",
           "$63.00",
-          "$51.50",
-          "$398.50"
+          "$51.50"
         ],
         "total_credited": "$513.00"
       }
