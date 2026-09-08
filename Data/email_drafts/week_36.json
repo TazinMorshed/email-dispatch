@@ -1,0 +1,1095 @@
+{
+  "week": 36,
+  "total_suppliers": 19,
+  "suppliers": [
+    {
+      "supplier": "Belov",
+      "emails": [
+        "stephanie.rochon@hellobelov.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 36,
+      "period": "2026-08-30 to 2026-09-05",
+      "theme": "Labour Day Weekend- BTS #2 & Tomato & Canning Season",
+      "table": {
+        "product_name": [
+          "Organic Original Textured Oat Blend",
+          "Organic Apple & Cinnamon Textured Oat Blend",
+          "Organic Blueberry Coco Textured Oat Blend",
+          "Organic Apple & Banana Puffed Cereal Snack",
+          "Organic Carrot, Sweet Potato & Kale Puffed Cereal Snack"
+        ],
+        "lufa_farms_code": [
+          17891,
+          17892,
+          17893,
+          18221,
+          18224
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50",
+          "$0.50",
+          "$0.50",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$3.75",
+          "$3.75",
+          "$3.75",
+          "$2.54",
+          "$2.54"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$4.25",
+          "$4.25",
+          "$4.25",
+          "$3.04",
+          "$3.04"
+        ],
+        "qty_bought_at_regular_cost": [
+          76,
+          37,
+          44,
+          47,
+          78
+        ],
+        "credited_sum": [
+          "$38.00",
+          "$18.50",
+          "$22.00",
+          "$23.50",
+          "$39.00"
+        ],
+        "total_credited": "$141.00"
+      }
+    },
+    {
+      "supplier": "Choose Life Foods",
+      "emails": [
+        "info@chooselifefoods.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 36,
+      "period": "2026-08-30 to 2026-09-05",
+      "theme": "Labour Day Weekend: Back-to-School #2 (Tomato canning weekend!)",
+      "table": {
+        "product_name": [
+          "Coconut Kale Delight Vegan Jamaican Patty (frozen)",
+          "Meatless Lovers Vegan Jamaican Patty (spicy, frozen)",
+          "Chick'n Lover's Vegan Jamaican Patty (frozen)",
+          "Meatless Lover's Vegan Jamaican Patty (mild, frozen)"
+        ],
+        "lufa_farms_code": [
+          5764,
+          19035,
+          19036,
+          5763
+        ],
+        "rebate_per_unit": [
+          "$0.25",
+          "$0.25",
+          "$0.25",
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$2.10",
+          "$2.10",
+          "$2.10",
+          "$2.10"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$2.35",
+          "$2.35",
+          "$2.35",
+          "$2.35"
+        ],
+        "qty_bought_at_regular_cost": [
+          234,
+          182,
+          131,
+          468
+        ],
+        "credited_sum": [
+          "$58.50",
+          "$45.50",
+          "$32.75",
+          "$117.00"
+        ],
+        "total_credited": "$253.75"
+      }
+    },
+    {
+      "supplier": "DelChef",
+      "emails": [
+        "leonardo@delchef.ca"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 36,
+      "period": "2026-08-30 to 2026-09-05",
+      "theme": "Labour Day Weekend: Back-to-School #2 (Tomato canning weekend!)",
+      "table": {
+        "product_name": [
+          "Vegan Eggplant Focaccia (frozen)"
+        ],
+        "lufa_farms_code": [
+          13916
+        ],
+        "rebate_per_unit": [
+          "$0.75"
+        ],
+        "rebate_cost": [
+          "$2.40"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$3.15"
+        ],
+        "qty_bought_at_regular_cost": [
+          233
+        ],
+        "credited_sum": [
+          "$174.75"
+        ],
+        "total_credited": "$174.75"
+      }
+    },
+    {
+      "supplier": "Flirt Drinks",
+      "emails": [
+        "aglaee@flirtdrinks.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 36,
+      "period": "2026-08-30 to 2026-09-05",
+      "theme": "Labour Day Weekend- BTS #2 & Tomato & Canning Season",
+      "table": {
+        "product_name": [
+          "Lime & Mint Sparkling Lemonade (1 L)",
+          "Sparkling Basil Lemonade (1 L)",
+          "Blackberry Sparkling Lemonade (1 L)",
+          "Clementine Sparkling Lemonade (1 L)",
+          "Mango Sparkling Lemonade (1 L)",
+          "Raspberry Sparkling Lemonade (1 L)"
+        ],
+        "lufa_farms_code": [
+          15818,
+          15817,
+          16893,
+          18108,
+          19582,
+          15862
+        ],
+        "rebate_per_unit": [
+          "$0.76",
+          "$0.76",
+          "$0.76",
+          "$0.76",
+          "$0.76",
+          "$0.76"
+        ],
+        "rebate_cost": [
+          "$3.14",
+          "$3.14",
+          "$3.14",
+          "$3.14",
+          "$3.14",
+          "$3.14"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$3.90",
+          "$3.90",
+          "$3.90",
+          "$3.90",
+          "$3.90",
+          "$3.90"
+        ],
+        "qty_bought_at_regular_cost": [
+          250,
+          286,
+          144,
+          205,
+          162,
+          579
+        ],
+        "credited_sum": [
+          "$190.00",
+          "$217.36",
+          "$109.44",
+          "$155.80",
+          "$123.12",
+          "$440.04"
+        ],
+        "total_credited": "$1235.76"
+      }
+    },
+    {
+      "supplier": "Gogo Quinoa",
+      "emails": [],
+      "language": "",
+      "taxable": "No",
+      "year": 2026,
+      "week": 36,
+      "period": "2026-08-30 to 2026-09-05",
+      "theme": "Labour Day Weekend: Back-to-School #2 (Tomato canning weekend!)",
+      "table": {
+        "product_name": [
+          "Organic White Cheddar Shells (gluten-free, vegan)",
+          "Vegan Mac & Cheese (gluten-free)"
+        ],
+        "lufa_farms_code": [
+          19501,
+          19502
+        ],
+        "rebate_per_unit": [
+          "$0.39",
+          "$0.39"
+        ],
+        "rebate_cost": [
+          "$2.20",
+          "$2.20"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$2.59",
+          "$2.59"
+        ],
+        "qty_bought_at_regular_cost": [
+          85,
+          345
+        ],
+        "credited_sum": [
+          "$33.15",
+          "$134.55"
+        ],
+        "total_credited": "$167.70"
+      }
+    },
+    {
+      "supplier": "Gutsy Kombucha",
+      "emails": [
+        "camille@gutsykombucha.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 36,
+      "period": "2026-08-30 to 2026-09-05",
+      "theme": "Labour Day Weekend: Back-to-School #2 (Tomato canning weekend!)",
+      "table": {
+        "product_name": [
+          "Ginger Beer",
+          "Vitality Organic Kombucha (raspberry, mint & echinacea)",
+          "Pick-Me-Up Organic Kombucha (ginger & raspberry leaves)",
+          "Energy Boost Organic Kombucha (cardamom & moringa)",
+          "Digestive Organic Kombucha (hibiscus & fennel)",
+          "Flamboyant Organic Kombucha (passion fruit)",
+          "The Tonic Organic Kombucha (ginger, no sugar)"
+        ],
+        "lufa_farms_code": [
+          20631,
+          10774,
+          9951,
+          9997,
+          9998,
+          10776,
+          14926
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.25",
+          "$0.25",
+          "$0.25",
+          "$0.25",
+          "$0.25",
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$1.60",
+          "$1.65",
+          "$1.65",
+          "$1.65",
+          "$1.65",
+          "$1.65",
+          "$1.65"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$2.10",
+          "$1.90",
+          "$1.90",
+          "$1.90",
+          "$1.90",
+          "$1.90",
+          "$1.90"
+        ],
+        "qty_bought_at_regular_cost": [
+          542,
+          676,
+          296,
+          454,
+          450,
+          675,
+          452
+        ],
+        "credited_sum": [
+          "$271.00",
+          "$169.00",
+          "$74.00",
+          "$113.50",
+          "$112.50",
+          "$168.75",
+          "$113.00"
+        ],
+        "total_credited": "$886.25"
+      }
+    },
+    {
+      "supplier": "Humble Potato Chips",
+      "emails": [
+        "marie-soleil@humblechips.com",
+        "accounting@humblechips.com"
+      ],
+      "language": "en",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 36,
+      "period": "2026-08-30 to 2026-09-05",
+      "theme": "Labour Day Weekend- BTS #2 & Tomato & Canning Season",
+      "table": {
+        "product_name": [
+          "Rumbles Organic All Dressed Ridged Potato Chips",
+          "Rumbles Organic Sour Cream & Onion Ridged Potato Chips",
+          "Rumbles Organic Sea Salt Ridged Potato Chips"
+        ],
+        "lufa_farms_code": [
+          19000,
+          19002,
+          19001
+        ],
+        "rebate_per_unit": [
+          "$0.67",
+          "$0.67",
+          "$0.67"
+        ],
+        "rebate_cost": [
+          "$2.33",
+          "$2.33",
+          "$2.33"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$3.00",
+          "$3.00",
+          "$3.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          522,
+          354,
+          1406
+        ],
+        "credited_sum": [
+          "$349.74",
+          "$237.18",
+          "$942.02"
+        ],
+        "total_credited": "$1528.94"
+      }
+    },
+    {
+      "supplier": "L'Issue Végane Maison",
+      "emails": [
+        "laurentvanderwee.lissue@gmail.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 36,
+      "period": "2026-08-30 to 2026-09-05",
+      "theme": "Labour Day Weekend: Back-to-School #2 (Tomato canning weekend!)",
+      "table": {
+        "product_name": [
+          "Le Classique Seitan (frozen)"
+        ],
+        "lufa_farms_code": [
+          16874
+        ],
+        "rebate_per_unit": [
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$5.50"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$6.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          47
+        ],
+        "credited_sum": [
+          "$23.50"
+        ],
+        "total_credited": "$23.50"
+      }
+    },
+    {
+      "supplier": "MANA Yerba Mate",
+      "emails": [
+        "info@theaboire.com",
+        "jocampion@theaboire.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 36,
+      "period": "2026-08-30 to 2026-09-05",
+      "theme": "Labour Day Weekend: Back-to-School #2 (Tomato canning weekend!)",
+      "table": {
+        "product_name": [
+          "Variety Pack: Organic Yerba Mate Energy Infusion"
+        ],
+        "lufa_farms_code": [
+          19520
+        ],
+        "rebate_per_unit": [
+          "$1.00"
+        ],
+        "rebate_cost": [
+          "$6.50"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$7.50"
+        ],
+        "qty_bought_at_regular_cost": [
+          528
+        ],
+        "credited_sum": [
+          "$528.00"
+        ],
+        "total_credited": "$528.00"
+      }
+    },
+    {
+      "supplier": "Maison Orphée",
+      "emails": [
+        "Stefanie.Janin@maisonorphee.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 36,
+      "period": "2026-08-30 to 2026-09-05",
+      "theme": "Labour Day Weekend- BTS #2 & Tomato & Canning Season",
+      "table": {
+        "product_name": [
+          "Fine Grey Sea Salt"
+        ],
+        "lufa_farms_code": [
+          18315
+        ],
+        "rebate_per_unit": [
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$3.23"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$3.48"
+        ],
+        "qty_bought_at_regular_cost": [
+          92
+        ],
+        "credited_sum": [
+          "$23.00"
+        ],
+        "total_credited": "$23.00"
+      }
+    },
+    {
+      "supplier": "Mid-Day Squares",
+      "emails": [
+        "caroline@middaysquares.com"
+      ],
+      "language": "en",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 36,
+      "period": "2026-08-30 to 2026-09-05",
+      "theme": "Labour Day Weekend- BTS #2 & Tomato & Canning Season",
+      "table": {
+        "product_name": [
+          "Almond Crunch Square",
+          "Brownie Batter Square",
+          "Cookie Dough Square",
+          "Peanut Butter Square",
+          "Crunchy Peanut Square"
+        ],
+        "lufa_farms_code": [
+          16434,
+          16435,
+          16436,
+          16437,
+          18045
+        ],
+        "rebate_per_unit": [
+          "$0.25",
+          "$0.25",
+          "$0.25",
+          "$0.25",
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$1.25",
+          "$1.25",
+          "$1.25",
+          "$1.25",
+          "$1.25"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$1.50",
+          "$1.50",
+          "$1.50",
+          "$1.50",
+          "$1.50"
+        ],
+        "qty_bought_at_regular_cost": [
+          408,
+          324,
+          410,
+          567,
+          343
+        ],
+        "credited_sum": [
+          "$102.00",
+          "$81.00",
+          "$102.50",
+          "$141.75",
+          "$85.75"
+        ],
+        "total_credited": "$513.00"
+      }
+    },
+    {
+      "supplier": "Nuts for Cheese",
+      "emails": [
+        "Sarah.Sowden@nutsforcheese.com",
+        "Terra.Farmilo@nutsforcheese.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 36,
+      "period": "2026-08-30 to 2026-09-05",
+      "theme": "Labour Day Weekend: Back-to-School #2 (Tomato canning weekend!)",
+      "table": {
+        "product_name": [
+          "Organic Smokey Gouda Cashew Cheese",
+          "Organic Smoky Artichoke & Herb Cashew Cheese",
+          "Organic Super Blue Cashew Cheese",
+          "Organic Chipotle Cheddar Cashew Cheese",
+          "Organic Brie-Style Cashew Cheese",
+          "Organic Black Garlic Cashew Cheese",
+          "Organic Cranberry & Pink Peppercorn Cashew Cheese"
+        ],
+        "lufa_farms_code": [
+          9064,
+          9065,
+          9066,
+          9067,
+          9068,
+          9796,
+          13514
+        ],
+        "rebate_per_unit": [
+          "$1.10",
+          "$1.10",
+          "$1.10",
+          "$1.10",
+          "$1.10",
+          "$1.10",
+          "$1.10"
+        ],
+        "rebate_cost": [
+          "$6.15",
+          "$6.15",
+          "$6.15",
+          "$6.15",
+          "$6.15",
+          "$6.15",
+          "$6.15"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$7.25",
+          "$7.25",
+          "$7.25",
+          "$7.25",
+          "$7.25",
+          "$7.25",
+          "$7.25"
+        ],
+        "qty_bought_at_regular_cost": [
+          33,
+          31,
+          30,
+          15,
+          46,
+          38,
+          21
+        ],
+        "credited_sum": [
+          "$36.30",
+          "$34.10",
+          "$33.00",
+          "$16.50",
+          "$50.60",
+          "$41.80",
+          "$23.10"
+        ],
+        "total_credited": "$235.40"
+      }
+    },
+    {
+      "supplier": "Savanil",
+      "emails": [
+        "nancia@savanil.ca"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 36,
+      "period": "2026-08-30 to 2026-09-05",
+      "theme": "Labour Day Weekend- BTS #2 & Tomato & Canning Season",
+      "table": {
+        "product_name": [
+          "Fish & Seafood Seasoning",
+          "Organic Bourbon Vanilla Pods from Sambava, Madagascar (2)"
+        ],
+        "lufa_farms_code": [
+          18131,
+          10912
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.75"
+        ],
+        "rebate_cost": [
+          "$3.00",
+          "$6.90"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$3.50",
+          "$7.65"
+        ],
+        "qty_bought_at_regular_cost": [
+          32,
+          45
+        ],
+        "credited_sum": [
+          "$16.00",
+          "$33.75"
+        ],
+        "total_credited": "$57.75"
+      }
+    },
+    {
+      "supplier": "Soya Distinction Inc",
+      "emails": [
+        "konthea2000@hotmail.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 36,
+      "period": "2026-08-30 to 2026-09-05",
+      "theme": "Labour Day Weekend: Back-to-School #2 (Tomato canning weekend!)",
+      "table": {
+        "product_name": [
+          "Semi Firm Tofu"
+        ],
+        "lufa_farms_code": [
+          10666
+        ],
+        "rebate_per_unit": [
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$1.85"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$2.10"
+        ],
+        "qty_bought_at_regular_cost": [
+          1964
+        ],
+        "credited_sum": [
+          "$491.00"
+        ],
+        "total_credited": "$491.00"
+      }
+    },
+    {
+      "supplier": "Sprague",
+      "emails": [
+        "jenn@spraguefoods.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 36,
+      "period": "2026-08-30 to 2026-09-05",
+      "theme": "Labour Day Weekend: Back-to-School #2 (Tomato canning weekend!)",
+      "table": {
+        "product_name": [
+          "Organic Autumn Butternut Squash Soup",
+          "Organic Mediterranean Lentil Soup",
+          "Organic Quebec-Style Split Pea Soup",
+          "Organic Lentil & Vegetable Soup",
+          "Organic Caribbean-Style Black Bean Soup",
+          "Organic Coconut, Curry & Sweet Potato Soup",
+          "Organic Tomato & Red Pepper Soup",
+          "Organic Tuscany-Style Minestrone Soup"
+        ],
+        "lufa_farms_code": [
+          17558,
+          17559,
+          17561,
+          17562,
+          17563,
+          17617,
+          17619,
+          17560
+        ],
+        "rebate_per_unit": [
+          "$0.30",
+          "$0.30",
+          "$0.30",
+          "$0.30",
+          "$0.30",
+          "$0.30",
+          "$0.30",
+          "$0.30"
+        ],
+        "rebate_cost": [
+          "$2.05",
+          "$2.05",
+          "$2.05",
+          "$2.05",
+          "$2.05",
+          "$2.05",
+          "$2.05",
+          "$2.05"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$2.35",
+          "$2.35",
+          "$2.35",
+          "$2.35",
+          "$2.35",
+          "$2.35",
+          "$2.35",
+          "$2.35"
+        ],
+        "qty_bought_at_regular_cost": [
+          240,
+          258,
+          484,
+          327,
+          202,
+          264,
+          183,
+          1064
+        ],
+        "credited_sum": [
+          "$72.00",
+          "$77.40",
+          "$145.20",
+          "$98.10",
+          "$60.60",
+          "$79.20",
+          "$54.90",
+          "$319.20"
+        ],
+        "total_credited": "$906.60"
+      }
+    },
+    {
+      "supplier": "The Port of India",
+      "emails": [
+        "justin.riggio7@gmail.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 36,
+      "period": "2026-08-30 to 2026-09-05",
+      "theme": "Labour Day Weekend- BTS #2 & Tomato & Canning Season",
+      "table": {
+        "product_name": [
+          "Makhani Curry Paste (medium)"
+        ],
+        "lufa_farms_code": [
+          12853
+        ],
+        "rebate_per_unit": [
+          "$0.90"
+        ],
+        "rebate_cost": [
+          "$4.50"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$5.40"
+        ],
+        "qty_bought_at_regular_cost": [
+          55
+        ],
+        "credited_sum": [
+          "$49.50"
+        ],
+        "total_credited": "$49.50"
+      }
+    },
+    {
+      "supplier": "VG Gourmet",
+      "emails": [
+        "info@vegetariangourmet.com",
+        "bookkeeping.vggourmet@gmail.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 36,
+      "period": "2026-08-30 to 2026-09-05",
+      "theme": "Corn & BBQ Finale",
+      "table": {
+        "product_name": [
+          "Sticky Sesame Soy Protein Strips (frozen)",
+          "Vegan Chickpea & Eggplant Curry (frozen)",
+          "Sweet Potato & Black Bean Veggie Burgers (2, frozen)"
+        ],
+        "lufa_farms_code": [
+          10186,
+          17272,
+          8992
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$5.20",
+          "$4.60",
+          "$2.14"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$5.70",
+          "$5.10",
+          "$2.64"
+        ],
+        "qty_bought_at_regular_cost": [
+          125,
+          321,
+          1287
+        ],
+        "credited_sum": [
+          "$62.50",
+          "$160.50",
+          "$643.50"
+        ],
+        "total_credited": "$866.50"
+      }
+    },
+    {
+      "supplier": "Yupik",
+      "emails": [
+        "mleclerc@tootsi.com",
+        "jllachance@tootsi.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 36,
+      "period": "2026-08-30 to 2026-09-05",
+      "theme": "Labour Day Weekend: Back-to-School #2 (Tomato canning weekend!)",
+      "table": {
+        "product_name": [
+          "Organic Coconut Sugar",
+          "Organic Shredded Coconut (fine, unsweetened)"
+        ],
+        "lufa_farms_code": [
+          18399,
+          18401
+        ],
+        "rebate_per_unit": [
+          "$0.90",
+          "$0.77"
+        ],
+        "rebate_cost": [
+          "$5.10",
+          "$4.34"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$6.00",
+          "$5.11"
+        ],
+        "qty_bought_at_regular_cost": [
+          56,
+          78
+        ],
+        "credited_sum": [
+          "$50.40",
+          "$60.06"
+        ],
+        "total_credited": "$103.18"
+      }
+    },
+    {
+      "supplier": "État Végétal",
+      "emails": [
+        "francis.dubois@etatvegetal.com",
+        "comptabilite@etatvegetal.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 36,
+      "period": "2026-08-30 to 2026-09-05",
+      "theme": "Labour Day Weekend: Back-to-School #2 (Tomato canning weekend!)",
+      "table": {
+        "product_name": [
+          "Taquitos (family format, frozen)",
+          "Dried Tomato & Basil Arancini (family format, frozen)"
+        ],
+        "lufa_farms_code": [
+          16370,
+          16371
+        ],
+        "rebate_per_unit": [
+          "$1.00",
+          "$1.00"
+        ],
+        "rebate_cost": [
+          "$17.00",
+          "$17.00"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$18.00",
+          "$18.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          34,
+          59
+        ],
+        "credited_sum": [
+          "$34.00",
+          "$59.00"
+        ],
+        "total_credited": "$93.00"
+      }
+    }
+  ]
+}
