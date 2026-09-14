@@ -1,0 +1,614 @@
+{
+  "week": 37,
+  "total_suppliers": 12,
+  "suppliers": [
+    {
+      "supplier": "Agrobio",
+      "emails": [
+        "joey@agrobioquebec.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 37,
+      "period": "2026-09-06 to 2026-09-12",
+      "theme": "LABOUR DAY: Monday September 7",
+      "table": {
+        "product_name": [
+          "Organic Spelt Flour",
+          "Organic Rye Flour"
+        ],
+        "lufa_farms_code": [
+          17356,
+          17357
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$3.83",
+          "$2.60"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$4.33",
+          "$3.10"
+        ],
+        "qty_bought_at_regular_cost": [
+          97,
+          80
+        ],
+        "credited_sum": [
+          "$48.50",
+          "$40.00"
+        ],
+        "total_credited": "$88.50"
+      }
+    },
+    {
+      "supplier": "Chocolat Boréal",
+      "emails": [
+        "info@chocolatboreal.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 37,
+      "period": "2026-09-06 to 2026-09-12",
+      "theme": "LABOUR DAY: Monday September 7",
+      "table": {
+        "product_name": [
+          "Fleur de Sel Caramel Milk Chocolate Bar",
+          "Fleur de Sel Caramel Dark Chocolate Bar"
+        ],
+        "lufa_farms_code": [
+          10734,
+          10727
+        ],
+        "rebate_per_unit": [
+          "$0.25",
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$5.15",
+          "$5.15"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$5.40",
+          "$5.40"
+        ],
+        "qty_bought_at_regular_cost": [
+          62,
+          109
+        ],
+        "credited_sum": [
+          "$15.50",
+          "$27.25"
+        ],
+        "total_credited": "$42.75"
+      }
+    },
+    {
+      "supplier": "Fous de l'île",
+      "emails": [
+        "jerry@fousdelile.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 37,
+      "period": "2026-09-06 to 2026-09-12",
+      "theme": null,
+      "table": {
+        "product_name": [
+          "Organic Ginger Kombucha",
+          "Organic Green Tea & Lemongrass Kombucha",
+          "Organic Guava Rose Kombucha",
+          "Organic Hibiscus Chai Kombucha",
+          "Organic Lychee Butterfly Pea Kombucha",
+          "Organic Turmeric & Ginger Kombucha"
+        ],
+        "lufa_farms_code": [
+          14690,
+          14693,
+          16733,
+          14745,
+          16315,
+          14749
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50",
+          "$0.50",
+          "$0.50",
+          "$0.50",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$1.37",
+          "$1.37",
+          "$1.37",
+          "$1.37",
+          "$1.37",
+          "$1.37"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$1.87",
+          "$1.87",
+          "$1.87",
+          "$1.87",
+          "$1.87",
+          "$1.87"
+        ],
+        "qty_bought_at_regular_cost": [
+          450,
+          422,
+          569,
+          456,
+          478,
+          514
+        ],
+        "credited_sum": [
+          "$225.00",
+          "$211.00",
+          "$284.50",
+          "$228.00",
+          "$239.00",
+          "$257.00"
+        ],
+        "total_credited": "$1444.50"
+      }
+    },
+    {
+      "supplier": "Gutsy Kombucha",
+      "emails": [
+        "camille@gutsykombucha.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 37,
+      "period": "2026-09-06 to 2026-09-12",
+      "theme": "LABOUR DAY: Monday September 7",
+      "table": {
+        "product_name": [
+          "Pick-Me-Up Organic Kombucha (ginger & raspberry bush, pack of 8)",
+          "Organic Kombucha \"The Favourites\" Pack (8)"
+        ],
+        "lufa_farms_code": [
+          19538,
+          14265
+        ],
+        "rebate_per_unit": [
+          "$1.00",
+          "$1.00"
+        ],
+        "rebate_cost": [
+          "$13.00",
+          "$13.00"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$14.00",
+          "$14.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          88,
+          701
+        ],
+        "credited_sum": [
+          "$88.00",
+          "$701.00"
+        ],
+        "total_credited": "$789.00"
+      }
+    },
+    {
+      "supplier": "L'Issue Végane Maison",
+      "emails": [
+        "laurentvanderwee.lissue@gmail.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 37,
+      "period": "2026-09-06 to 2026-09-12",
+      "theme": "LABOUR DAY: Monday September 7",
+      "table": {
+        "product_name": [
+          "Le Piccante Seitan (frozen)"
+        ],
+        "lufa_farms_code": [
+          16876
+        ],
+        "rebate_per_unit": [
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$5.50"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$6.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          37
+        ],
+        "credited_sum": [
+          "$18.50"
+        ],
+        "total_credited": "$18.50"
+      }
+    },
+    {
+      "supplier": "Nuts for Cheese",
+      "emails": [
+        "Sarah.Sowden@nutsforcheese.com",
+        "Terra.Farmilo@nutsforcheese.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 37,
+      "period": "2026-09-06 to 2026-09-12",
+      "theme": "LABOUR DAY: Monday September 7",
+      "table": {
+        "product_name": [
+          "Organic Vegan Cream Cheese-Style Spread",
+          "Organic Garlic & Herb Vegan Cream Cheese-Style Spread"
+        ],
+        "lufa_farms_code": [
+          17115,
+          17555
+        ],
+        "rebate_per_unit": [
+          "$0.92",
+          "$0.92"
+        ],
+        "rebate_cost": [
+          "$5.10",
+          "$5.10"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$6.02",
+          "$6.02"
+        ],
+        "qty_bought_at_regular_cost": [
+          71,
+          37
+        ],
+        "credited_sum": [
+          "$65.32",
+          "$34.04"
+        ],
+        "total_credited": "$99.36"
+      }
+    },
+    {
+      "supplier": "Savanil",
+      "emails": [
+        "nancia@savanil.ca"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 37,
+      "period": "2026-09-06 to 2026-09-12",
+      "theme": null,
+      "table": {
+        "product_name": [
+          "Organic Pure Bourbon Vanilla Extract from Madagascar",
+          "Madagascar Fleur de Sel",
+          "Ground Ginger from Madagascar (2025 harvest)"
+        ],
+        "lufa_farms_code": [
+          11609,
+          18220,
+          17468
+        ],
+        "rebate_per_unit": [
+          "$0.75",
+          "$0.50",
+          "$0.30"
+        ],
+        "rebate_cost": [
+          "$9.00",
+          "$3.60",
+          "$2.20"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$9.75",
+          "$4.10",
+          "$2.50"
+        ],
+        "qty_bought_at_regular_cost": [
+          84,
+          49,
+          52
+        ],
+        "credited_sum": [
+          "$63.00",
+          "$24.50",
+          "$15.60"
+        ],
+        "total_credited": "$55.50"
+      }
+    },
+    {
+      "supplier": "The Port of India",
+      "emails": [
+        "justin.riggio7@gmail.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 37,
+      "period": "2026-09-06 to 2026-09-12",
+      "theme": null,
+      "table": {
+        "product_name": [
+          "Green Masala Curry Paste (medium)"
+        ],
+        "lufa_farms_code": [
+          10643
+        ],
+        "rebate_per_unit": [
+          "$1.40"
+        ],
+        "rebate_cost": [
+          "$4.00"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$5.40"
+        ],
+        "qty_bought_at_regular_cost": [
+          49
+        ],
+        "credited_sum": [
+          "$68.60"
+        ],
+        "total_credited": "$68.60"
+      }
+    },
+    {
+      "supplier": "Tout Cru!",
+      "emails": [
+        "admin@toutcrufermentation.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 37,
+      "period": "2026-09-06 to 2026-09-12",
+      "theme": "LABOUR DAY: Monday September 7",
+      "table": {
+        "product_name": [
+          "Organic Kimchi Napa",
+          "Organic Mild Napa Kimchi"
+        ],
+        "lufa_farms_code": [
+          13264,
+          13265
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$6.95",
+          "$6.95"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$7.45",
+          "$7.45"
+        ],
+        "qty_bought_at_regular_cost": [
+          200,
+          94
+        ],
+        "credited_sum": [
+          "$100.00",
+          "$47.00"
+        ],
+        "total_credited": "$147.00"
+      }
+    },
+    {
+      "supplier": "VG Gourmet",
+      "emails": [
+        "info@vegetariangourmet.com",
+        "bookkeeping.vggourmet@gmail.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 37,
+      "period": "2026-09-06 to 2026-09-12",
+      "theme": "LABOUR DAY: Monday September 7",
+      "table": {
+        "product_name": [
+          "Ginger Sesame Tofu (frozen)",
+          "Buffalo Soy Protein Bites (frozen)",
+          "Lentil & Walnut Veggie Burgers (2, frozen)",
+          "Beet Balls (frozen)",
+          "Vegan Chili (frozen)"
+        ],
+        "lufa_farms_code": [
+          8995,
+          10273,
+          8991,
+          8997,
+          10123
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50",
+          "$0.50",
+          "$0.63",
+          "$0.63"
+        ],
+        "rebate_cost": [
+          "$3.92",
+          "$4.30",
+          "$2.14",
+          "$3.79",
+          "$4.12"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$4.42",
+          "$4.80",
+          "$2.64",
+          "$4.42",
+          "$4.75"
+        ],
+        "qty_bought_at_regular_cost": [
+          97,
+          97,
+          882,
+          505,
+          803
+        ],
+        "credited_sum": [
+          "$48.50",
+          "$48.50",
+          "$441.00",
+          "$318.15",
+          "$505.89"
+        ],
+        "total_credited": "$1501.92"
+      }
+    },
+    {
+      "supplier": "Yupik",
+      "emails": [
+        "mleclerc@tootsi.com",
+        "jllachance@tootsi.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 37,
+      "period": "2026-09-06 to 2026-09-12",
+      "theme": "LABOUR DAY: Monday September 7",
+      "table": {
+        "product_name": [
+          "Organic Long Grain White Rice",
+          "Organic Sweetened Banana Chips"
+        ],
+        "lufa_farms_code": [
+          18086,
+          18084
+        ],
+        "rebate_per_unit": [
+          "$1.09",
+          "$0.75"
+        ],
+        "rebate_cost": [
+          "$6.15",
+          "$4.30"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$7.24",
+          "$5.05"
+        ],
+        "qty_bought_at_regular_cost": [
+          148,
+          290
+        ],
+        "credited_sum": [
+          "$161.32",
+          "$217.50"
+        ],
+        "total_credited": "$328.50"
+      }
+    },
+    {
+      "supplier": "État Végétal",
+      "emails": [
+        "francis.dubois@etatvegetal.com",
+        "comptabilite@etatvegetal.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 37,
+      "period": "2026-09-06 to 2026-09-12",
+      "theme": "LABOUR DAY: Monday September 7",
+      "table": {
+        "product_name": [
+          "Dried Tomato & Basil Arancini (frozen)"
+        ],
+        "lufa_farms_code": [
+          17077
+        ],
+        "rebate_per_unit": [
+          "$1.00"
+        ],
+        "rebate_cost": [
+          "$5.86"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$6.86"
+        ],
+        "qty_bought_at_regular_cost": [
+          194
+        ],
+        "credited_sum": [
+          "$194.00"
+        ],
+        "total_credited": "$194.00"
+      }
+    }
+  ]
+}
