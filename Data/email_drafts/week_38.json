@@ -1,0 +1,645 @@
+{
+  "week": 38,
+  "total_suppliers": 13,
+  "suppliers": [
+    {
+      "supplier": "Agrobio",
+      "emails": [
+        "joey@agrobioquebec.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 38,
+      "period": "2026-09-13 to 2026-09-19",
+      "theme": null,
+      "table": {
+        "product_name": [
+          "Organic Cold-Pressed Sunflower Oil (oleic)"
+        ],
+        "lufa_farms_code": [
+          17612
+        ],
+        "rebate_per_unit": [
+          "$0.75"
+        ],
+        "rebate_cost": [
+          "$11.78"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$12.53"
+        ],
+        "qty_bought_at_regular_cost": [
+          70
+        ],
+        "credited_sum": [
+          "$52.50"
+        ],
+        "total_credited": "$52.50"
+      }
+    },
+    {
+      "supplier": "Everland",
+      "emails": [
+        "simran@jivaorganics.ca"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 38,
+      "period": "2026-09-13 to 2026-09-19",
+      "theme": null,
+      "table": {
+        "product_name": [
+          "Organic Coconut Milk (Box of 6 cans)"
+        ],
+        "lufa_farms_code": [
+          19437
+        ],
+        "rebate_per_unit": [
+          "$1.76"
+        ],
+        "rebate_cost": [
+          "$9.99"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$11.75"
+        ],
+        "qty_bought_at_regular_cost": [
+          326
+        ],
+        "credited_sum": [
+          "$573.76"
+        ],
+        "total_credited": "$573.76"
+      }
+    },
+    {
+      "supplier": "Flirt Drinks",
+      "emails": [
+        "aglaee@flirtdrinks.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 38,
+      "period": "2026-09-13 to 2026-09-19",
+      "theme": "Lufanimaux! Launch pet food",
+      "table": {
+        "product_name": [
+          "Lime & Mint Sparkling Lemonade (pack of 4)",
+          "Clementine Sparkling Lemonade (pack of 4)",
+          "Blackberry Sparkling Lemonade (pack of 4)",
+          "Mango Sparkling Lemonade (pack of 4)",
+          "Basil Sparkling Lemonade (pack of 4)",
+          "Raspberry Sparkling Lemonade (pack of 4)"
+        ],
+        "lufa_farms_code": [
+          18905,
+          18901,
+          19581,
+          19580,
+          19578,
+          18903
+        ],
+        "rebate_per_unit": [
+          "$1.21",
+          "$1.21",
+          "$1.21",
+          "$1.21",
+          "$1.21",
+          "$1.21"
+        ],
+        "rebate_cost": [
+          "$5.75",
+          "$5.75",
+          "$5.75",
+          "$5.75",
+          "$5.75",
+          "$5.75"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$6.96",
+          "$6.96",
+          "$6.96",
+          "$6.96",
+          "$6.96",
+          "$6.96"
+        ],
+        "qty_bought_at_regular_cost": [
+          123,
+          118,
+          57,
+          97,
+          101,
+          305
+        ],
+        "credited_sum": [
+          "$148.83",
+          "$142.78",
+          "$68.97",
+          "$117.37",
+          "$122.21",
+          "$369.05"
+        ],
+        "total_credited": "$969.21"
+      }
+    },
+    {
+      "supplier": "Humble Potato Chips",
+      "emails": [
+        "marie-soleil@humblechips.com",
+        "accounting@humblechips.com"
+      ],
+      "language": "en",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 38,
+      "period": "2026-09-13 to 2026-09-19",
+      "theme": "Lufanimaux! Launch pet food",
+      "table": {
+        "product_name": [
+          "Organic Smokey BBQ Potato Chips",
+          "Organic Hot Honey Mustard Potato Chips",
+          "Organic Ketchup Chips",
+          "Organic Sea Salt & Cider Vinegar Potato Chips",
+          "Organic Creamy Dill Potato Chips",
+          "Organic Jalapeno Potato Chips",
+          "Organic Regular Potato Chips"
+        ],
+        "lufa_farms_code": [
+          17371,
+          17373,
+          18125,
+          17374,
+          17372,
+          19060,
+          17368
+        ],
+        "rebate_per_unit": [
+          "$0.67",
+          "$0.67",
+          "$0.67",
+          "$0.67",
+          "$0.67",
+          "$0.67",
+          "$0.67"
+        ],
+        "rebate_cost": [
+          "$2.33",
+          "$2.33",
+          "$2.33",
+          "$2.33",
+          "$2.33",
+          "$2.33",
+          "$2.33"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$3.00",
+          "$3.00",
+          "$3.00",
+          "$3.00",
+          "$3.00",
+          "$3.00",
+          "$3.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          253,
+          253,
+          180,
+          247,
+          230,
+          151,
+          1001
+        ],
+        "credited_sum": [
+          "$169.51",
+          "$169.51",
+          "$120.60",
+          "$165.49",
+          "$154.10",
+          "$101.17",
+          "$670.67"
+        ],
+        "total_credited": "$1551.05"
+      }
+    },
+    {
+      "supplier": "L'Issue Végane Maison",
+      "emails": [
+        "laurentvanderwee.lissue@gmail.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 38,
+      "period": "2026-09-13 to 2026-09-19",
+      "theme": null,
+      "table": {
+        "product_name": [
+          "Le Costaud des Laurentides Seitan (frozen)"
+        ],
+        "lufa_farms_code": [
+          16875
+        ],
+        "rebate_per_unit": [
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$5.50"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$6.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          61
+        ],
+        "credited_sum": [
+          "$30.50"
+        ],
+        "total_credited": "$30.50"
+      }
+    },
+    {
+      "supplier": "Maison Orphée",
+      "emails": [
+        "Stefanie.Janin@maisonorphee.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 38,
+      "period": "2026-09-13 to 2026-09-19",
+      "theme": null,
+      "table": {
+        "product_name": [
+          "Organic Unrefined Sesame Oil (first cold-pressed)"
+        ],
+        "lufa_farms_code": [
+          17802
+        ],
+        "rebate_per_unit": [
+          "$0.95"
+        ],
+        "rebate_cost": [
+          "$8.55"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$9.50"
+        ],
+        "qty_bought_at_regular_cost": [
+          70
+        ],
+        "credited_sum": [
+          "$66.50"
+        ],
+        "total_credited": "$66.50"
+      }
+    },
+    {
+      "supplier": "Savanil",
+      "emails": [
+        "nancia@savanil.ca"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 38,
+      "period": "2026-09-13 to 2026-09-19",
+      "theme": null,
+      "table": {
+        "product_name": [
+          "Ground Cumin from Mananjary, Madagascar",
+          "Ground Coriander from Madagascar (2025 harvest)"
+        ],
+        "lufa_farms_code": [
+          12466,
+          17566
+        ],
+        "rebate_per_unit": [
+          "$0.30",
+          "$0.30"
+        ],
+        "rebate_cost": [
+          "$2.53",
+          "$2.30"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$2.83",
+          "$2.60"
+        ],
+        "qty_bought_at_regular_cost": [
+          89,
+          45
+        ],
+        "credited_sum": [
+          "$26.70",
+          "$13.50"
+        ],
+        "total_credited": "$40.20"
+      }
+    },
+    {
+      "supplier": "Soya Distinction Inc",
+      "emails": [
+        "konthea2000@hotmail.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 38,
+      "period": "2026-09-13 to 2026-09-19",
+      "theme": null,
+      "table": {
+        "product_name": [
+          "Tamari & Maple Smoked Tofu"
+        ],
+        "lufa_farms_code": [
+          13558
+        ],
+        "rebate_per_unit": [
+          "$0.25"
+        ],
+        "rebate_cost": [
+          "$3.50"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$3.75"
+        ],
+        "qty_bought_at_regular_cost": [
+          1527
+        ],
+        "credited_sum": [
+          "$381.75"
+        ],
+        "total_credited": "$381.75"
+      }
+    },
+    {
+      "supplier": "The Port of India",
+      "emails": [
+        "justin.riggio7@gmail.com"
+      ],
+      "language": "en",
+      "taxable": "No",
+      "year": 2026,
+      "week": 38,
+      "period": "2026-09-13 to 2026-09-19",
+      "theme": null,
+      "table": {
+        "product_name": [
+          "Vindaloo Curry Paste (spicy)"
+        ],
+        "lufa_farms_code": [
+          10644
+        ],
+        "rebate_per_unit": [
+          "$1.10"
+        ],
+        "rebate_cost": [
+          "$4.00"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$5.10"
+        ],
+        "qty_bought_at_regular_cost": [
+          30
+        ],
+        "credited_sum": [
+          "$33.00"
+        ],
+        "total_credited": "$33.00"
+      }
+    },
+    {
+      "supplier": "Tout Cru!",
+      "emails": [
+        "admin@toutcrufermentation.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 38,
+      "period": "2026-09-13 to 2026-09-19",
+      "theme": "Lufanimaux! Launch pet food",
+      "table": {
+        "product_name": [
+          "Organic Juniper Berry Sauerkraut",
+          "Fermented Radishes with Garlic Scapes",
+          "Organic Lemon & Dill Sauerkraut"
+        ],
+        "lufa_farms_code": [
+          13266,
+          13268,
+          13269
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$5.18",
+          "$5.18",
+          "$5.18"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$5.68",
+          "$5.68",
+          "$5.68"
+        ],
+        "qty_bought_at_regular_cost": [
+          49,
+          69,
+          76
+        ],
+        "credited_sum": [
+          "$24.50",
+          "$34.50",
+          "$38.00"
+        ],
+        "total_credited": "$97.00"
+      }
+    },
+    {
+      "supplier": "VG Gourmet",
+      "emails": [
+        "info@vegetariangourmet.com",
+        "bookkeeping.vggourmet@gmail.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 38,
+      "period": "2026-09-13 to 2026-09-19",
+      "theme": "Pasta week",
+      "table": {
+        "product_name": [
+          "BBQ Pulled Tofu (frozen)",
+          "Tahini & Eggplant Veggie Burgers (2, frozen)"
+        ],
+        "lufa_farms_code": [
+          17418,
+          8988
+        ],
+        "rebate_per_unit": [
+          "$0.50",
+          "$0.50"
+        ],
+        "rebate_cost": [
+          "$4.30",
+          "$2.14"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$4.80",
+          "$2.64"
+        ],
+        "qty_bought_at_regular_cost": [
+          92,
+          734
+        ],
+        "credited_sum": [
+          "$46.00",
+          "$367.00"
+        ],
+        "total_credited": "$413.00"
+      }
+    },
+    {
+      "supplier": "Yupik",
+      "emails": [
+        "mleclerc@tootsi.com",
+        "jllachance@tootsi.com"
+      ],
+      "language": "fr",
+      "taxable": "Yes",
+      "year": 2026,
+      "week": 38,
+      "period": "2026-09-13 to 2026-09-19",
+      "theme": "Lufanimaux! Launch pet food",
+      "table": {
+        "product_name": [
+          "Organic Brown Basmati Rice",
+          "Organic 70% Dark Chocolate Chips"
+        ],
+        "lufa_farms_code": [
+          20480,
+          18235
+        ],
+        "rebate_per_unit": [
+          "$0.58",
+          "$2.25"
+        ],
+        "rebate_cost": [
+          "$3.34",
+          "$12.75"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0,
+          0
+        ],
+        "regular_cost": [
+          "$3.92",
+          "$15.00"
+        ],
+        "qty_bought_at_regular_cost": [
+          23,
+          1435
+        ],
+        "credited_sum": [
+          "$13.34",
+          "$3228.75"
+        ],
+        "total_credited": "$3280.50"
+      }
+    },
+    {
+      "supplier": "État Végétal",
+      "emails": [
+        "francis.dubois@etatvegetal.com",
+        "comptabilite@etatvegetal.com"
+      ],
+      "language": "fr",
+      "taxable": "No",
+      "year": 2026,
+      "week": 38,
+      "period": "2026-09-13 to 2026-09-19",
+      "theme": "Lufanimaux! Launch pet food",
+      "table": {
+        "product_name": [
+          "Taquitos (frozen)"
+        ],
+        "lufa_farms_code": [
+          17069
+        ],
+        "rebate_per_unit": [
+          "$1.00"
+        ],
+        "rebate_cost": [
+          "$6.08"
+        ],
+        "qty_bought_at_rebate_cost": [
+          0
+        ],
+        "regular_cost": [
+          "$7.08"
+        ],
+        "qty_bought_at_regular_cost": [
+          249
+        ],
+        "credited_sum": [
+          "$249.00"
+        ],
+        "total_credited": "$249.00"
+      }
+    }
+  ]
+}

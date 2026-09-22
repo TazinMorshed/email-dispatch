@@ -16,37 +16,53 @@
       "table": {
         "product_name": [
           "Tonic Water (pack of 4)",
+          "Light Tonic (pack of 4)",
+          "Tonic Water (pack of 4)",
           "Light Tonic (pack of 4)"
         ],
         "lufa_farms_code": [
+          11031,
+          12299,
           11031,
           12299
         ],
         "rebate_per_unit": [
           "$0.50",
+          "$0.50",
+          "$0.50",
           "$0.50"
         ],
         "rebate_cost": [
+          "$5.75",
+          "$5.75",
           "$5.75",
           "$5.75"
         ],
         "qty_bought_at_rebate_cost": [
           0,
+          0,
+          0,
           0
         ],
         "regular_cost": [
+          "$6.25",
+          "$6.25",
           "$6.25",
           "$6.25"
         ],
         "qty_bought_at_regular_cost": [
           46,
+          60,
+          46,
           60
         ],
         "credited_sum": [
           "$23.00",
+          "$30.00",
+          "$23.00",
           "$30.00"
         ],
-        "total_credited": "$53.00"
+        "total_credited": "$106.00"
       }
     },
     {
@@ -63,37 +79,53 @@
       "table": {
         "product_name": [
           "Organic Spelt Flour",
+          "Organic Rye Flour",
+          "Organic Spelt Flour",
           "Organic Rye Flour"
         ],
         "lufa_farms_code": [
+          17356,
+          17357,
           17356,
           17357
         ],
         "rebate_per_unit": [
           "$0.50",
+          "$0.50",
+          "$0.50",
           "$0.50"
         ],
         "rebate_cost": [
+          "$3.83",
+          "$2.60",
           "$3.83",
           "$2.60"
         ],
         "qty_bought_at_rebate_cost": [
           0,
+          0,
+          0,
           0
         ],
         "regular_cost": [
+          "$4.33",
+          "$3.10",
           "$4.33",
           "$3.10"
         ],
         "qty_bought_at_regular_cost": [
           79,
+          60,
+          79,
           60
         ],
         "credited_sum": [
           "$39.50",
+          "$30.00",
+          "$39.50",
           "$30.00"
         ],
-        "total_credited": "$69.50"
+        "total_credited": "$139.00"
       }
     },
     {
@@ -109,30 +141,38 @@
       "theme": "Corn, BBQ & Lobsterfest!",
       "table": {
         "product_name": [
+          "Le Classique Seitan (frozen)",
           "Le Classique Seitan (frozen)"
         ],
         "lufa_farms_code": [
+          16874,
           16874
         ],
         "rebate_per_unit": [
+          "$0.50",
           "$0.50"
         ],
         "rebate_cost": [
+          "$5.50",
           "$5.50"
         ],
         "qty_bought_at_rebate_cost": [
+          0,
           0
         ],
         "regular_cost": [
+          "$6.00",
           "$6.00"
         ],
         "qty_bought_at_regular_cost": [
+          54,
           54
         ],
         "credited_sum": [
+          "$27.00",
           "$27.00"
         ],
-        "total_credited": "$27.00"
+        "total_credited": "$54.00"
       }
     },
     {
@@ -215,11 +255,15 @@
           "Organic Yellow Mustard",
           "Fine Grey Sea Salt",
           "Organic Virgin Flaxseed Oil",
+          "Fine Grey Sea Salt",
+          "Organic Virgin Flaxseed Oil",
           "Organic Dijon Mustard"
         ],
         "lufa_farms_code": [
           9238,
           9239,
+          18316,
+          19028,
           18316,
           19028,
           9237
@@ -229,6 +273,8 @@
           "$0.57",
           "$0.25",
           "$0.50",
+          "$0.25",
+          "$0.50",
           "$0.57"
         ],
         "rebate_cost": [
@@ -236,9 +282,13 @@
           "$2.60",
           "$3.41",
           "$5.00",
+          "$3.41",
+          "$5.00",
           "$2.60"
         ],
         "qty_bought_at_rebate_cost": [
+          0,
+          0,
           0,
           0,
           0,
@@ -250,11 +300,15 @@
           "$3.17",
           "$3.66",
           "$5.50",
+          "$3.66",
+          "$5.50",
           "$3.17"
         ],
         "qty_bought_at_regular_cost": [
           140,
           130,
+          118,
+          35,
           118,
           35,
           1158
@@ -264,9 +318,11 @@
           "$74.10",
           "$29.50",
           "$17.50",
+          "$29.50",
+          "$17.50",
           "$660.06"
         ],
-        "total_credited": "$901.17"
+        "total_credited": "$988.38"
       }
     },
     {
@@ -360,9 +416,23 @@
           "Organic Chipotle Cheddar Cashew Cheese",
           "Organic Brie-Style Cashew Cheese",
           "Organic Black Garlic Cashew Cheese",
+          "Organic Cranberry & Pink Peppercorn Cashew Cheese",
+          "Organic Smokey Gouda Cashew Cheese",
+          "Organic Smoky Artichoke & Herb Cashew Cheese",
+          "Organic Super Blue Cashew Cheese",
+          "Organic Chipotle Cheddar Cashew Cheese",
+          "Organic Brie-Style Cashew Cheese",
+          "Organic Black Garlic Cashew Cheese",
           "Organic Cranberry & Pink Peppercorn Cashew Cheese"
         ],
         "lufa_farms_code": [
+          9064,
+          9065,
+          9066,
+          9067,
+          9068,
+          9796,
+          13514,
           9064,
           9065,
           9066,
@@ -378,9 +448,23 @@
           "$1.10",
           "$1.10",
           "$1.10",
+          "$1.10",
+          "$1.10",
+          "$1.10",
+          "$1.10",
+          "$1.10",
+          "$1.10",
+          "$1.10",
           "$1.10"
         ],
         "rebate_cost": [
+          "$6.15",
+          "$6.15",
+          "$6.15",
+          "$6.15",
+          "$6.15",
+          "$6.15",
+          "$6.15",
           "$6.15",
           "$6.15",
           "$6.15",
@@ -396,9 +480,23 @@
           0,
           0,
           0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           0
         ],
         "regular_cost": [
+          "$7.25",
+          "$7.25",
+          "$7.25",
+          "$7.25",
+          "$7.25",
+          "$7.25",
+          "$7.25",
           "$7.25",
           "$7.25",
           "$7.25",
@@ -414,6 +512,13 @@
           18,
           46,
           39,
+          22,
+          33,
+          42,
+          37,
+          18,
+          46,
+          39,
           22
         ],
         "credited_sum": [
@@ -423,9 +528,16 @@
           "$19.80",
           "$50.60",
           "$42.90",
+          "$24.20",
+          "$36.30",
+          "$46.20",
+          "$40.70",
+          "$19.80",
+          "$50.60",
+          "$42.90",
           "$24.20"
         ],
-        "total_credited": "$260.70"
+        "total_credited": "$521.40"
       }
     },
     {
@@ -441,11 +553,17 @@
       "theme": "Corn & BBQ Finale",
       "table": {
         "product_name": [
-          "Cinnamon Powder from Vatomandry, Madagascar (2024 harvest)",
+          "Cinnamon Powder from Vatomandry, Madagascar (2025 harvest)",
+          "Ground Cumin from Mananjary, Madagascar",
+          "Ground Coriander from Madagascar (2025 harvest)",
+          "Cinnamon Powder from Vatomandry, Madagascar (2025 harvest)",
           "Ground Cumin from Mananjary, Madagascar",
           "Ground Coriander from Madagascar (2025 harvest)"
         ],
         "lufa_farms_code": [
+          10908,
+          12466,
+          17566,
           10908,
           12466,
           17566
@@ -453,9 +571,15 @@
         "rebate_per_unit": [
           "$0.25",
           "$0.30",
+          "$0.30",
+          "$0.25",
+          "$0.30",
           "$0.30"
         ],
         "rebate_cost": [
+          "$1.63",
+          "$2.53",
+          "$2.30",
           "$1.63",
           "$2.53",
           "$2.30"
@@ -463,9 +587,15 @@
         "qty_bought_at_rebate_cost": [
           0,
           0,
+          0,
+          0,
+          0,
           0
         ],
         "regular_cost": [
+          "$1.88",
+          "$2.83",
+          "$2.60",
           "$1.88",
           "$2.83",
           "$2.60"
@@ -473,14 +603,20 @@
         "qty_bought_at_regular_cost": [
           112,
           80,
+          36,
+          112,
+          80,
           36
         ],
         "credited_sum": [
           "$28.00",
           "$24.00",
+          "$10.80",
+          "$28.00",
+          "$24.00",
           "$10.80"
         ],
-        "total_credited": "$68.40"
+        "total_credited": "$136.80"
       }
     },
     {
@@ -535,30 +671,38 @@
       "theme": "Corn & BBQ Finale",
       "table": {
         "product_name": [
+          "Vindaloo Curry Paste (spicy)",
           "Vindaloo Curry Paste (spicy)"
         ],
         "lufa_farms_code": [
+          10644,
           10644
         ],
         "rebate_per_unit": [
+          "$1.10",
           "$1.10"
         ],
         "rebate_cost": [
+          "$4.00",
           "$4.00"
         ],
         "qty_bought_at_rebate_cost": [
+          0,
           0
         ],
         "regular_cost": [
+          "$5.10",
           "$5.10"
         ],
         "qty_bought_at_regular_cost": [
+          36,
           36
         ],
         "credited_sum": [
+          "$39.60",
           "$39.60"
         ],
-        "total_credited": "$39.60"
+        "total_credited": "$79.20"
       }
     },
     {
@@ -575,37 +719,53 @@
       "table": {
         "product_name": [
           "Organic Kimchi Napa",
+          "Organic Mild Napa Kimchi",
+          "Organic Kimchi Napa",
           "Organic Mild Napa Kimchi"
         ],
         "lufa_farms_code": [
+          13264,
+          13265,
           13264,
           13265
         ],
         "rebate_per_unit": [
           "$0.50",
+          "$0.50",
+          "$0.50",
           "$0.50"
         ],
         "rebate_cost": [
+          "$6.95",
+          "$6.95",
           "$6.95",
           "$6.95"
         ],
         "qty_bought_at_rebate_cost": [
           0,
+          0,
+          0,
           0
         ],
         "regular_cost": [
+          "$7.45",
+          "$7.45",
           "$7.45",
           "$7.45"
         ],
         "qty_bought_at_regular_cost": [
           278,
+          97,
+          278,
           97
         ],
         "credited_sum": [
           "$139.00",
+          "$48.50",
+          "$139.00",
           "$48.50"
         ],
-        "total_credited": "$187.50"
+        "total_credited": "$375.00"
       }
     },
     {
@@ -624,9 +784,13 @@
         "product_name": [
           "Sticky Sesame Soy Protein Strips (frozen)",
           "Vegan Taco & Chili Crumble (frozen)",
+          "Sticky Sesame Soy Protein Strips (frozen)",
+          "Vegan Taco & Chili Crumble (frozen)",
           "Tahini & Eggplant Veggie Burgers (2, frozen)"
         ],
         "lufa_farms_code": [
+          10186,
+          8996,
           10186,
           8996,
           8988
@@ -634,9 +798,13 @@
         "rebate_per_unit": [
           "$0.50",
           "$0.50",
+          "$0.50",
+          "$0.50",
           "$0.50"
         ],
         "rebate_cost": [
+          "$5.20",
+          "$3.92",
           "$5.20",
           "$3.92",
           "$2.14"
@@ -644,9 +812,13 @@
         "qty_bought_at_rebate_cost": [
           0,
           0,
+          0,
+          0,
           0
         ],
         "regular_cost": [
+          "$5.70",
+          "$4.42",
           "$5.70",
           "$4.42",
           "$2.64"
@@ -654,14 +826,18 @@
         "qty_bought_at_regular_cost": [
           126,
           103,
+          126,
+          103,
           797
         ],
         "credited_sum": [
           "$63.00",
           "$51.50",
+          "$63.00",
+          "$51.50",
           "$398.50"
         ],
-        "total_credited": "$513.00"
+        "total_credited": "$627.50"
       }
     },
     {

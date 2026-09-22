@@ -15,36 +15,36 @@
       "theme": "Drinks & Snacks",
       "table": {
         "product_name": [
-          "Organic Whole Wheat Flour",
-          "Organic All-Purpose Flour (white, unbleached)"
+          "Organic All-Purpose Flour (white, unbleached)",
+          "Organic Whole Wheat Flour"
         ],
         "lufa_farms_code": [
-          17354,
-          17351
+          17351,
+          17354
         ],
         "rebate_per_unit": [
           "$0.50",
           "$0.50"
         ],
         "rebate_cost": [
-          "$4.88",
-          "$4.95"
+          "$4.95",
+          "$4.88"
         ],
         "qty_bought_at_rebate_cost": [
           0,
           0
         ],
         "regular_cost": [
-          "$5.38",
-          "$5.45"
+          "$5.45",
+          "$5.38"
         ],
         "qty_bought_at_regular_cost": [
-          102,
-          449
+          449,
+          102
         ],
         "credited_sum": [
-          "$51.00",
-          "$224.50"
+          "$224.50",
+          "$51.00"
         ],
         "total_credited": "$275.50"
       }
@@ -62,30 +62,38 @@
       "theme": "Drinks & Snacks",
       "table": {
         "product_name": [
+          "Croissants (6, frozen)",
           "Croissants (6, frozen)"
         ],
         "lufa_farms_code": [
+          15901,
           15901
         ],
         "rebate_per_unit": [
+          "$1.00",
           "$1.00"
         ],
         "rebate_cost": [
+          "$6.20",
           "$6.20"
         ],
         "qty_bought_at_rebate_cost": [
+          0,
           0
         ],
         "regular_cost": [
+          "$7.20",
           "$7.20"
         ],
         "qty_bought_at_regular_cost": [
+          536,
           536
         ],
         "credited_sum": [
+          "$536.00",
           "$536.00"
         ],
-        "total_credited": "$536.00"
+        "total_credited": "$1072.00"
       }
     },
     {
@@ -102,37 +110,53 @@
       "table": {
         "product_name": [
           "Matcha White Chocolate Bar",
+          "Candied Ginger Dark Chocolate Bar",
+          "Matcha White Chocolate Bar",
           "Candied Ginger Dark Chocolate Bar"
         ],
         "lufa_farms_code": [
+          10293,
+          10295,
           10293,
           10295
         ],
         "rebate_per_unit": [
           "$0.25",
+          "$0.25",
+          "$0.25",
           "$0.25"
         ],
         "rebate_cost": [
+          "$5.50",
+          "$5.15",
           "$5.50",
           "$5.15"
         ],
         "qty_bought_at_rebate_cost": [
           0,
+          0,
+          0,
           0
         ],
         "regular_cost": [
+          "$5.75",
+          "$5.40",
           "$5.75",
           "$5.40"
         ],
         "qty_bought_at_regular_cost": [
           104,
+          105,
+          104,
           105
         ],
         "credited_sum": [
           "$26.00",
+          "$26.25",
+          "$26.00",
           "$26.25"
         ],
-        "total_credited": "$52.25"
+        "total_credited": "$104.50"
       }
     },
     {
@@ -148,20 +172,20 @@
       "theme": "Drinks & Snacks",
       "table": {
         "product_name": [
+          "Raspberry Sparkling Lemonade (1 L)",
           "Lime & Mint Sparkling Lemonade (1 L)",
           "Sparkling Basil Lemonade (1 L)",
           "Blackberry Sparkling Lemonade (1 L)",
           "Clementine Sparkling Lemonade (1 L)",
-          "Mango Sparkling Lemonade (1 L)",
-          "Raspberry Sparkling Lemonade (1 L)"
+          "Mango Sparkling Lemonade (1 L)"
         ],
         "lufa_farms_code": [
+          15862,
           15818,
           15817,
           16893,
           18108,
-          19582,
-          15862
+          19582
         ],
         "rebate_per_unit": [
           "$0.76",
@@ -196,20 +220,20 @@
           "$3.90"
         ],
         "qty_bought_at_regular_cost": [
+          579,
           256,
           308,
           151,
           226,
-          200,
-          579
+          200
         ],
         "credited_sum": [
+          "$440.04",
           "$194.56",
           "$234.08",
           "$114.76",
           "$171.76",
-          "$152.00",
-          "$440.04"
+          "$152.00"
         ],
         "total_credited": "$1307.20"
       }
@@ -232,9 +256,21 @@
           "Energy Boost Organic Kombucha (cardamom & moringa)",
           "Digestive Organic Kombucha (hibiscus & fennel)",
           "Flamboyant Organic Kombucha (passion fruit)",
+          "The Tonic Organic Kombucha (ginger, no sugar)",
+          "Vitality Organic Kombucha (raspberry, mint & echinacea)",
+          "Pick-Me-Up Organic Kombucha (ginger & raspberry leaves)",
+          "Energy Boost Organic Kombucha (cardamom & moringa)",
+          "Digestive Organic Kombucha (hibiscus & fennel)",
+          "Flamboyant Organic Kombucha (passion fruit)",
           "The Tonic Organic Kombucha (ginger, no sugar)"
         ],
         "lufa_farms_code": [
+          10774,
+          9951,
+          9997,
+          9998,
+          10776,
+          14926,
           10774,
           9951,
           9997,
@@ -248,9 +284,21 @@
           "$0.25",
           "$0.25",
           "$0.25",
+          "$0.25",
+          "$0.25",
+          "$0.25",
+          "$0.25",
+          "$0.25",
+          "$0.25",
           "$0.25"
         ],
         "rebate_cost": [
+          "$1.65",
+          "$1.65",
+          "$1.65",
+          "$1.65",
+          "$1.65",
+          "$1.65",
           "$1.65",
           "$1.65",
           "$1.65",
@@ -264,9 +312,21 @@
           0,
           0,
           0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           0
         ],
         "regular_cost": [
+          "$1.90",
+          "$1.90",
+          "$1.90",
+          "$1.90",
+          "$1.90",
+          "$1.90",
           "$1.90",
           "$1.90",
           "$1.90",
@@ -280,6 +340,12 @@
           405,
           418,
           688,
+          513,
+          579,
+          245,
+          405,
+          418,
+          688,
           513
         ],
         "credited_sum": [
@@ -288,9 +354,15 @@
           "$101.25",
           "$104.50",
           "$172.00",
+          "$128.25",
+          "$144.75",
+          "$61.25",
+          "$101.25",
+          "$104.50",
+          "$172.00",
           "$128.25"
         ],
-        "total_credited": "$712.00"
+        "total_credited": "$1424.00"
       }
     },
     {
@@ -306,30 +378,38 @@
       "theme": null,
       "table": {
         "product_name": [
+          "Le Costaud des Laurentides Seitan (frozen)",
           "Le Costaud des Laurentides Seitan (frozen)"
         ],
         "lufa_farms_code": [
+          16875,
           16875
         ],
         "rebate_per_unit": [
+          "$0.50",
           "$0.50"
         ],
         "rebate_cost": [
+          "$5.50",
           "$5.50"
         ],
         "qty_bought_at_rebate_cost": [
+          0,
           0
         ],
         "regular_cost": [
+          "$6.00",
           "$6.00"
         ],
         "qty_bought_at_regular_cost": [
+          47,
           47
         ],
         "credited_sum": [
+          "$23.50",
           "$23.50"
         ],
-        "total_credited": "$23.50"
+        "total_credited": "$47.00"
       }
     },
     {
@@ -408,11 +488,17 @@
       "theme": null,
       "table": {
         "product_name": [
-          "Cinnamon Sticks from Vatomandry, Madagascar (2024 harvest)",
+          "Cinnamon Sticks from Vatomandry, Madagascar (2025 harvest)",
+          "Organic Pure Bourbon Vanilla Extract from Madagascar",
+          "Ground Ginger from Madagascar (2025 harvest)",
+          "Cinnamon Sticks from Vatomandry, Madagascar (2025 harvest)",
           "Organic Pure Bourbon Vanilla Extract from Madagascar",
           "Ground Ginger from Madagascar (2025 harvest)"
         ],
         "lufa_farms_code": [
+          10907,
+          11609,
+          17468,
           10907,
           11609,
           17468
@@ -420,9 +506,15 @@
         "rebate_per_unit": [
           "$0.30",
           "$0.75",
+          "$0.30",
+          "$0.30",
+          "$0.75",
           "$0.30"
         ],
         "rebate_cost": [
+          "$2.15",
+          "$9.00",
+          "$2.20",
           "$2.15",
           "$9.00",
           "$2.20"
@@ -430,9 +522,15 @@
         "qty_bought_at_rebate_cost": [
           0,
           0,
+          0,
+          0,
+          0,
           0
         ],
         "regular_cost": [
+          "$2.45",
+          "$9.75",
+          "$2.50",
           "$2.45",
           "$9.75",
           "$2.50"
@@ -440,14 +538,20 @@
         "qty_bought_at_regular_cost": [
           92,
           80,
+          82,
+          92,
+          80,
           82
         ],
         "credited_sum": [
           "$27.60",
           "$60.00",
+          "$24.60",
+          "$27.60",
+          "$60.00",
           "$24.60"
         ],
-        "total_credited": "$76.20"
+        "total_credited": "$152.40"
       }
     },
     {
@@ -502,30 +606,38 @@
       "theme": null,
       "table": {
         "product_name": [
+          "Green Masala Curry Paste (medium)",
           "Green Masala Curry Paste (medium)"
         ],
         "lufa_farms_code": [
+          10643,
           10643
         ],
         "rebate_per_unit": [
+          "$1.40",
           "$1.40"
         ],
         "rebate_cost": [
+          "$4.00",
           "$4.00"
         ],
         "qty_bought_at_rebate_cost": [
+          0,
           0
         ],
         "regular_cost": [
+          "$5.40",
           "$5.40"
         ],
         "qty_bought_at_regular_cost": [
+          78,
           78
         ],
         "credited_sum": [
+          "$109.20",
           "$109.20"
         ],
-        "total_credited": "$109.20"
+        "total_credited": "$218.40"
       }
     },
     {
@@ -539,37 +651,52 @@
       "year": 2026,
       "week": 32,
       "period": "2026-08-02 to 2026-08-08",
-      "theme": null,
+      "theme": "Drinks & Snacks",
       "table": {
         "product_name": [
+          "Beet Power Veggie Burger (2, frozen)",
+          "Vegan Chickpea & Eggplant Curry (frozen)",
           "Ginger Sesame Tofu (frozen)",
           "Mini Vegan Kebabs (12, frozen)",
           "BBQ Pulled Tofu (frozen)",
-          "Beet Power Veggie Burger (2, frozen)",
-          "Vegan Chickpea & Eggplant Curry (frozen)"
+          "Ginger Sesame Tofu (frozen)",
+          "Mini Vegan Kebabs (12, frozen)",
+          "BBQ Pulled Tofu (frozen)"
         ],
         "lufa_farms_code": [
+          20692,
+          17272,
           8995,
           11239,
           17418,
-          20692,
-          17272
+          8995,
+          11239,
+          17418
         ],
         "rebate_per_unit": [
           "$0.50",
+          "$0.63",
           "$0.50",
           "$0.50",
           "$0.50",
-          "$0.63"
+          "$0.50",
+          "$0.50",
+          "$0.50"
         ],
         "rebate_cost": [
+          "$2.14",
+          "$4.47",
           "$3.92",
           "$4.16",
           "$4.30",
-          "$2.14",
-          "$4.47"
+          "$3.92",
+          "$4.16",
+          "$4.30"
         ],
         "qty_bought_at_rebate_cost": [
+          0,
+          0,
+          0,
           0,
           0,
           0,
@@ -577,27 +704,36 @@
           0
         ],
         "regular_cost": [
+          "$2.64",
+          "$5.10",
           "$4.42",
           "$4.66",
           "$4.80",
-          "$2.64",
-          "$5.10"
+          "$4.42",
+          "$4.66",
+          "$4.80"
         ],
         "qty_bought_at_regular_cost": [
+          1018,
+          525,
           82,
           56,
           64,
-          1018,
-          525
+          82,
+          56,
+          64
         ],
         "credited_sum": [
+          "$509.00",
+          "$330.75",
           "$41.00",
           "$28.00",
           "$32.00",
-          "$509.00",
-          "$330.75"
+          "$41.00",
+          "$28.00",
+          "$32.00"
         ],
-        "total_credited": "$1099.35"
+        "total_credited": "$973.50"
       }
     },
     {
@@ -615,37 +751,53 @@
       "table": {
         "product_name": [
           "Organic Long Grain White Rice",
+          "Organic Sweetened Banana Chips",
+          "Organic Long Grain White Rice",
           "Organic Sweetened Banana Chips"
         ],
         "lufa_farms_code": [
+          18086,
+          18084,
           18086,
           18084
         ],
         "rebate_per_unit": [
           "$1.09",
+          "$0.75",
+          "$1.09",
           "$0.75"
         ],
         "rebate_cost": [
+          "$6.15",
+          "$4.30",
           "$6.15",
           "$4.30"
         ],
         "qty_bought_at_rebate_cost": [
           0,
+          0,
+          0,
           0
         ],
         "regular_cost": [
+          "$7.24",
+          "$5.05",
           "$7.24",
           "$5.05"
         ],
         "qty_bought_at_regular_cost": [
           105,
+          217,
+          105,
           217
         ],
         "credited_sum": [
           "$114.45",
+          "$162.75",
+          "$114.45",
           "$162.75"
         ],
-        "total_credited": "$241.50"
+        "total_credited": "$483.00"
       }
     },
     {
@@ -662,30 +814,38 @@
       "theme": null,
       "table": {
         "product_name": [
+          "Taquitos (frozen)",
           "Taquitos (frozen)"
         ],
         "lufa_farms_code": [
+          17069,
           17069
         ],
         "rebate_per_unit": [
+          "$1.00",
           "$1.00"
         ],
         "rebate_cost": [
+          "$6.08",
           "$6.08"
         ],
         "qty_bought_at_rebate_cost": [
+          0,
           0
         ],
         "regular_cost": [
+          "$7.08",
           "$7.08"
         ],
         "qty_bought_at_regular_cost": [
+          105,
           105
         ],
         "credited_sum": [
+          "$105.00",
           "$105.00"
         ],
-        "total_credited": "$105.00"
+        "total_credited": "$210.00"
       }
     }
   ]

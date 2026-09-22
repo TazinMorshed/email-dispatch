@@ -229,9 +229,17 @@
           "Zaatar Pita Chips",
           "Mint & Parsley Pita Chips",
           "Sumac & Fleur de Sel Pita Chips",
+          "Cumin & Aleppo Pepper Pita Chips",
+          "Zaatar Pita Chips",
+          "Mint & Parsley Pita Chips",
+          "Sumac & Fleur de Sel Pita Chips",
           "Cumin & Aleppo Pepper Pita Chips"
         ],
         "lufa_farms_code": [
+          15344,
+          16074,
+          17198,
+          15343,
           15344,
           16074,
           17198,
@@ -241,9 +249,17 @@
           "$0.75",
           "$0.75",
           "$0.75",
+          "$0.75",
+          "$0.75",
+          "$0.75",
+          "$0.75",
           "$0.75"
         ],
         "rebate_cost": [
+          "$3.58",
+          "$3.58",
+          "$3.58",
+          "$3.58",
           "$3.58",
           "$3.58",
           "$3.58",
@@ -253,9 +269,17 @@
           0,
           0,
           0,
+          0,
+          0,
+          0,
+          0,
           0
         ],
         "regular_cost": [
+          "$4.33",
+          "$4.33",
+          "$4.33",
+          "$4.33",
           "$4.33",
           "$4.33",
           "$4.33",
@@ -265,15 +289,23 @@
           395,
           101,
           179,
+          150,
+          395,
+          101,
+          179,
           150
         ],
         "credited_sum": [
           "$296.25",
           "$75.75",
           "$134.25",
+          "$112.50",
+          "$296.25",
+          "$75.75",
+          "$134.25",
           "$112.50"
         ],
-        "total_credited": "$618.75"
+        "total_credited": "$1237.50"
       }
     },
     {
@@ -432,7 +464,7 @@
       "table": {
         "product_name": [
           "Curry Powder from Madagascar (2025 harvest)",
-          "Ground Turmeric from Mananjary, Madagascar (2024 harvest)",
+          "Ground Turmeric from Mananjary, Madagascar (2025 harvest)",
           "Bourbon Vanilla Bean Paste (liquid)"
         ],
         "lufa_farms_code": [

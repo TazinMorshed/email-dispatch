@@ -16,37 +16,53 @@
       "table": {
         "product_name": [
           "Tonic Water (pack of 4)",
+          "Light Tonic (pack of 4)",
+          "Tonic Water (pack of 4)",
           "Light Tonic (pack of 4)"
         ],
         "lufa_farms_code": [
+          11031,
+          12299,
           11031,
           12299
         ],
         "rebate_per_unit": [
           "$0.50",
+          "$0.50",
+          "$0.50",
           "$0.50"
         ],
         "rebate_cost": [
+          "$5.75",
+          "$5.75",
           "$5.75",
           "$5.75"
         ],
         "qty_bought_at_rebate_cost": [
           0,
+          0,
+          0,
           0
         ],
         "regular_cost": [
+          "$6.25",
+          "$6.25",
           "$6.25",
           "$6.25"
         ],
         "qty_bought_at_regular_cost": [
           49,
+          43,
+          49,
           43
         ],
         "credited_sum": [
           "$24.50",
+          "$21.50",
+          "$24.50",
           "$21.50"
         ],
-        "total_credited": "$46.00"
+        "total_credited": "$92.00"
       }
     },
     {
@@ -62,30 +78,38 @@
       "theme": "Field fresh: all the veggies/Heirlooms/Tomatoes",
       "table": {
         "product_name": [
+          "Chocolate Chip Cookie Dough (frozen)",
           "Chocolate Chip Cookie Dough (frozen)"
         ],
         "lufa_farms_code": [
+          17486,
           17486
         ],
         "rebate_per_unit": [
+          "$0.57",
           "$0.57"
         ],
         "rebate_cost": [
+          "$5.13",
           "$5.13"
         ],
         "qty_bought_at_rebate_cost": [
+          0,
           0
         ],
         "regular_cost": [
+          "$5.70",
           "$5.70"
         ],
         "qty_bought_at_regular_cost": [
+          204,
           204
         ],
         "credited_sum": [
+          "$116.28",
           "$116.28"
         ],
-        "total_credited": "$116.28"
+        "total_credited": "$232.56"
       }
     },
     {
@@ -102,37 +126,53 @@
       "table": {
         "product_name": [
           "Fleur de Sel Caramel Milk Chocolate Bar",
+          "Fleur de Sel Caramel Dark Chocolate Bar",
+          "Fleur de Sel Caramel Milk Chocolate Bar",
           "Fleur de Sel Caramel Dark Chocolate Bar"
         ],
         "lufa_farms_code": [
+          10734,
+          10727,
           10734,
           10727
         ],
         "rebate_per_unit": [
           "$0.25",
+          "$0.25",
+          "$0.25",
           "$0.25"
         ],
         "rebate_cost": [
+          "$5.15",
+          "$5.15",
           "$5.15",
           "$5.15"
         ],
         "qty_bought_at_rebate_cost": [
           0,
+          0,
+          0,
           0
         ],
         "regular_cost": [
+          "$5.40",
+          "$5.40",
           "$5.40",
           "$5.40"
         ],
         "qty_bought_at_regular_cost": [
           65,
+          120,
+          65,
           120
         ],
         "credited_sum": [
           "$16.25",
+          "$30.00",
+          "$16.25",
           "$30.00"
         ],
-        "total_credited": "$46.25"
+        "total_credited": "$92.50"
       }
     },
     {
@@ -150,9 +190,15 @@
         "product_name": [
           "Joe Organic Cider",
           "Willie Organic Cider",
+          "Rosie Organic Cider",
+          "Joe Organic Cider",
+          "Willie Organic Cider",
           "Rosie Organic Cider"
         ],
         "lufa_farms_code": [
+          17592,
+          17590,
+          17591,
           17592,
           17590,
           17591
@@ -160,9 +206,15 @@
         "rebate_per_unit": [
           "$0.50",
           "$0.50",
+          "$0.50",
+          "$0.50",
+          "$0.50",
           "$0.50"
         ],
         "rebate_cost": [
+          "$2.79",
+          "$2.79",
+          "$2.79",
           "$2.79",
           "$2.79",
           "$2.79"
@@ -170,9 +222,15 @@
         "qty_bought_at_rebate_cost": [
           0,
           0,
+          0,
+          0,
+          0,
           0
         ],
         "regular_cost": [
+          "$3.29",
+          "$3.29",
+          "$3.29",
           "$3.29",
           "$3.29",
           "$3.29"
@@ -180,14 +238,20 @@
         "qty_bought_at_regular_cost": [
           90,
           103,
+          126,
+          90,
+          103,
           126
         ],
         "credited_sum": [
           "$45.00",
           "$51.50",
+          "$63.00",
+          "$45.00",
+          "$51.50",
           "$63.00"
         ],
-        "total_credited": "$159.50"
+        "total_credited": "$319.00"
       }
     },
     {
@@ -381,30 +445,38 @@
       "theme": "Field fresh: all the veggies/Heirlooms/Tomatoes",
       "table": {
         "product_name": [
+          "Le Classique Seitan (frozen)",
           "Le Classique Seitan (frozen)"
         ],
         "lufa_farms_code": [
+          16874,
           16874
         ],
         "rebate_per_unit": [
+          "$0.50",
           "$0.50"
         ],
         "rebate_cost": [
+          "$5.50",
           "$5.50"
         ],
         "qty_bought_at_rebate_cost": [
+          0,
           0
         ],
         "regular_cost": [
+          "$6.00",
           "$6.00"
         ],
         "qty_bought_at_regular_cost": [
+          57,
           57
         ],
         "credited_sum": [
+          "$28.50",
           "$28.50"
         ],
-        "total_credited": "$28.50"
+        "total_credited": "$57.00"
       }
     },
     {
@@ -418,30 +490,38 @@
       "theme": "Field fresh: all the veggies/Heirlooms/Tomatoes",
       "table": {
         "product_name": [
+          "L'Enclos Chenin Blanc Organic White Wine 2025",
           "L'Enclos Chenin Blanc Organic White Wine 2025"
         ],
         "lufa_farms_code": [
+          20426,
           20426
         ],
         "rebate_per_unit": [
+          "$1.50",
           "$1.50"
         ],
         "rebate_cost": [
+          "$19.50",
           "$19.50"
         ],
         "qty_bought_at_rebate_cost": [
+          0,
           0
         ],
         "regular_cost": [
+          "$21.00",
           "$21.00"
         ],
         "qty_bought_at_regular_cost": [
+          58,
           58
         ],
         "credited_sum": [
+          "$87.00",
           "$87.00"
         ],
-        "total_credited": "$87.00"
+        "total_credited": "$174.00"
       }
     },
     {
@@ -457,30 +537,38 @@
       "theme": "Field fresh: all the veggies/Heirlooms/Tomatoes",
       "table": {
         "product_name": [
+          "Organic Wild Salmon Pie (frozen)",
           "Organic Wild Salmon Pie (frozen)"
         ],
         "lufa_farms_code": [
+          19145,
           19145
         ],
         "rebate_per_unit": [
+          "$0.75",
           "$0.75"
         ],
         "rebate_cost": [
+          "$10.75",
           "$10.75"
         ],
         "qty_bought_at_rebate_cost": [
+          0,
           0
         ],
         "regular_cost": [
+          "$11.50",
           "$11.50"
         ],
         "qty_bought_at_regular_cost": [
+          165,
           165
         ],
         "credited_sum": [
+          "$123.75",
           "$123.75"
         ],
-        "total_credited": "$123.75"
+        "total_credited": "$247.50"
       }
     },
     {
@@ -500,6 +588,7 @@
           "Mint & Parsley Pita Chips",
           "Sumac & Fleur de Sel Pita Chips",
           "Cumin & Aleppo Pepper Pita Chips",
+          "Cucumber Yogurt Dip (fresh)",
           "Cucumber Yogurt Dip (fresh)"
         ],
         "lufa_farms_code": [
@@ -507,9 +596,11 @@
           16074,
           17198,
           15343,
+          17625,
           17625
         ],
         "rebate_per_unit": [
+          "$0.75",
           "$0.75",
           "$0.75",
           "$0.75",
@@ -521,9 +612,11 @@
           "$3.58",
           "$3.58",
           "$3.58",
+          "$3.60",
           "$3.60"
         ],
         "qty_bought_at_rebate_cost": [
+          0,
           0,
           0,
           0,
@@ -535,6 +628,7 @@
           "$4.33",
           "$4.33",
           "$4.33",
+          "$4.35",
           "$4.35"
         ],
         "qty_bought_at_regular_cost": [
@@ -542,6 +636,7 @@
           158,
           316,
           260,
+          291,
           291
         ],
         "credited_sum": [
@@ -549,9 +644,10 @@
           "$118.50",
           "$237.00",
           "$195.00",
+          "$218.25",
           "$218.25"
         ],
-        "total_credited": "$1435.50"
+        "total_credited": "$1653.75"
       }
     },
     {
@@ -567,30 +663,38 @@
       "theme": "Field fresh: all the veggies/Heirlooms/Tomatoes",
       "table": {
         "product_name": [
+          "Fine Grey Sea Salt",
           "Fine Grey Sea Salt"
         ],
         "lufa_farms_code": [
+          18315,
           18315
         ],
         "rebate_per_unit": [
+          "$0.25",
           "$0.25"
         ],
         "rebate_cost": [
+          "$3.23",
           "$3.23"
         ],
         "qty_bought_at_rebate_cost": [
+          0,
           0
         ],
         "regular_cost": [
+          "$3.48",
           "$3.48"
         ],
         "qty_bought_at_regular_cost": [
+          59,
           59
         ],
         "credited_sum": [
+          "$14.75",
           "$14.75"
         ],
-        "total_credited": "$14.75"
+        "total_credited": "$29.50"
       }
     },
     {
@@ -613,9 +717,23 @@
           "Organic Chipotle Cheddar Cashew Cheese",
           "Organic Brie-Style Cashew Cheese",
           "Organic Black Garlic Cashew Cheese",
+          "Organic Cranberry & Pink Peppercorn Cashew Cheese",
+          "Organic Smokey Gouda Cashew Cheese",
+          "Organic Smoky Artichoke & Herb Cashew Cheese",
+          "Organic Super Blue Cashew Cheese",
+          "Organic Chipotle Cheddar Cashew Cheese",
+          "Organic Brie-Style Cashew Cheese",
+          "Organic Black Garlic Cashew Cheese",
           "Organic Cranberry & Pink Peppercorn Cashew Cheese"
         ],
         "lufa_farms_code": [
+          9064,
+          9065,
+          9066,
+          9067,
+          9068,
+          9796,
+          13514,
           9064,
           9065,
           9066,
@@ -631,9 +749,23 @@
           "$1.10",
           "$1.10",
           "$1.10",
+          "$1.10",
+          "$1.10",
+          "$1.10",
+          "$1.10",
+          "$1.10",
+          "$1.10",
+          "$1.10",
           "$1.10"
         ],
         "rebate_cost": [
+          "$6.15",
+          "$6.15",
+          "$6.15",
+          "$6.15",
+          "$6.15",
+          "$6.15",
+          "$6.15",
           "$6.15",
           "$6.15",
           "$6.15",
@@ -649,9 +781,23 @@
           0,
           0,
           0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           0
         ],
         "regular_cost": [
+          "$7.25",
+          "$7.25",
+          "$7.25",
+          "$7.25",
+          "$7.25",
+          "$7.25",
+          "$7.25",
           "$7.25",
           "$7.25",
           "$7.25",
@@ -667,6 +813,13 @@
           23,
           40,
           45,
+          19,
+          34,
+          29,
+          23,
+          23,
+          40,
+          45,
           19
         ],
         "credited_sum": [
@@ -676,9 +829,16 @@
           "$25.30",
           "$44.00",
           "$49.50",
+          "$20.90",
+          "$37.40",
+          "$31.90",
+          "$25.30",
+          "$25.30",
+          "$44.00",
+          "$49.50",
           "$20.90"
         ],
-        "total_credited": "$234.30"
+        "total_credited": "$468.60"
       }
     },
     {
@@ -695,37 +855,53 @@
       "table": {
         "product_name": [
           "Udon Noodles (frozen)",
+          "Creamy Mushroom Sauce (frozen)",
+          "Udon Noodles (frozen)",
           "Creamy Mushroom Sauce (frozen)"
         ],
         "lufa_farms_code": [
+          7353,
+          13331,
           7353,
           13331
         ],
         "rebate_per_unit": [
           "$0.25",
+          "$0.50",
+          "$0.25",
           "$0.50"
         ],
         "rebate_cost": [
+          "$2.65",
+          "$3.40",
           "$2.65",
           "$3.40"
         ],
         "qty_bought_at_rebate_cost": [
           0,
+          0,
+          0,
           0
         ],
         "regular_cost": [
+          "$3.15",
+          "$3.90",
           "$3.15",
           "$3.90"
         ],
         "qty_bought_at_regular_cost": [
           168,
+          277,
+          168,
           277
         ],
         "credited_sum": [
           "$42.00",
+          "$138.50",
+          "$42.00",
           "$138.50"
         ],
-        "total_credited": "$222.50"
+        "total_credited": "$445.00"
       }
     },
     {
@@ -741,12 +917,20 @@
       "theme": "Field fresh: all the veggies/Heirlooms/Tomatoes",
       "table": {
         "product_name": [
-          "Pink Pepper from Mananjary, Madagascar (2024 harvest)",
-          "Whole Nutmeg from Mananjary, Madagascar (2024 harvest)",
+          "Pink Pepper from Mananjary, Madagascar (2025 harvest)",
+          "Whole Nutmeg from Mananjary, Madagascar (2025 harvest)",
+          "Lebanese 7 Spice Mix",
+          "Madagascar Fleur de Sel",
+          "Pink Pepper from Mananjary, Madagascar (2025 harvest)",
+          "Whole Nutmeg from Mananjary, Madagascar (2025 harvest)",
           "Lebanese 7 Spice Mix",
           "Madagascar Fleur de Sel"
         ],
         "lufa_farms_code": [
+          10905,
+          10910,
+          17466,
+          18220,
           10905,
           10910,
           17466,
@@ -756,9 +940,17 @@
           "$0.30",
           "$0.50",
           "$0.50",
+          "$0.50",
+          "$0.30",
+          "$0.50",
+          "$0.50",
           "$0.50"
         ],
         "rebate_cost": [
+          "$2.19",
+          "$4.00",
+          "$3.10",
+          "$3.60",
           "$2.19",
           "$4.00",
           "$3.10",
@@ -768,9 +960,17 @@
           0,
           0,
           0,
+          0,
+          0,
+          0,
+          0,
           0
         ],
         "regular_cost": [
+          "$2.49",
+          "$4.50",
+          "$3.60",
+          "$4.10",
           "$2.49",
           "$4.50",
           "$3.60",
@@ -780,15 +980,23 @@
           57,
           11,
           46,
+          40,
+          57,
+          11,
+          46,
           40
         ],
         "credited_sum": [
           "$17.10",
           "$5.50",
           "$23.00",
+          "$20.00",
+          "$17.10",
+          "$5.50",
+          "$23.00",
           "$20.00"
         ],
-        "total_credited": "$77.00"
+        "total_credited": "$154.00"
       }
     },
     {
@@ -804,30 +1012,38 @@
       "theme": "Field fresh: all the veggies/Heirlooms/Tomatoes",
       "table": {
         "product_name": [
+          "Korma Curry Paste (medium)",
           "Korma Curry Paste (medium)"
         ],
         "lufa_farms_code": [
+          11567,
           11567
         ],
         "rebate_per_unit": [
+          "$0.65",
           "$0.65"
         ],
         "rebate_cost": [
+          "$4.75",
           "$4.75"
         ],
         "qty_bought_at_rebate_cost": [
+          0,
           0
         ],
         "regular_cost": [
+          "$5.40",
           "$5.40"
         ],
         "qty_bought_at_regular_cost": [
+          63,
           63
         ],
         "credited_sum": [
+          "$40.95",
           "$40.95"
         ],
-        "total_credited": "$40.95"
+        "total_credited": "$81.90"
       }
     },
     {
@@ -843,30 +1059,38 @@
       "theme": "Field fresh: all the veggies/Heirlooms/Tomatoes",
       "table": {
         "product_name": [
+          "Natural Laundry Whitener & Brightener",
           "Natural Laundry Whitener & Brightener"
         ],
         "lufa_farms_code": [
+          17213,
           17213
         ],
         "rebate_per_unit": [
+          "$0.85",
           "$0.85"
         ],
         "rebate_cost": [
+          "$9.65",
           "$9.65"
         ],
         "qty_bought_at_rebate_cost": [
+          0,
           0
         ],
         "regular_cost": [
+          "$10.50",
           "$10.50"
         ],
         "qty_bought_at_regular_cost": [
+          88,
           88
         ],
         "credited_sum": [
+          "$74.80",
           "$74.80"
         ],
-        "total_credited": "$74.80"
+        "total_credited": "$149.60"
       }
     },
     {
@@ -884,9 +1108,15 @@
         "product_name": [
           "Organic Juniper Berry Sauerkraut",
           "Fermented Radishes with Garlic Scapes",
+          "Organic Lemon & Dill Sauerkraut",
+          "Organic Juniper Berry Sauerkraut",
+          "Fermented Radishes with Garlic Scapes",
           "Organic Lemon & Dill Sauerkraut"
         ],
         "lufa_farms_code": [
+          13266,
+          13268,
+          13269,
           13266,
           13268,
           13269
@@ -894,9 +1124,15 @@
         "rebate_per_unit": [
           "$0.50",
           "$0.50",
+          "$0.50",
+          "$0.50",
+          "$0.50",
           "$0.50"
         ],
         "rebate_cost": [
+          "$5.18",
+          "$5.18",
+          "$5.18",
           "$5.18",
           "$5.18",
           "$5.18"
@@ -904,9 +1140,15 @@
         "qty_bought_at_rebate_cost": [
           0,
           0,
+          0,
+          0,
+          0,
           0
         ],
         "regular_cost": [
+          "$5.68",
+          "$5.68",
+          "$5.68",
           "$5.68",
           "$5.68",
           "$5.68"
@@ -914,14 +1156,20 @@
         "qty_bought_at_regular_cost": [
           72,
           64,
+          107,
+          72,
+          64,
           107
         ],
         "credited_sum": [
           "$36.00",
           "$32.00",
+          "$53.50",
+          "$36.00",
+          "$32.00",
           "$53.50"
         ],
-        "total_credited": "$121.50"
+        "total_credited": "$243.00"
       }
     },
     {
@@ -980,27 +1228,32 @@
           "Green Pea Soup (frozen)",
           "Sweet Potato & Black Bean Veggie Burgers (2, frozen)",
           "Vegan Chili (frozen)",
+          "Greek Gyro Tofu (frozen)",
           "Greek Gyro Tofu (frozen)"
         ],
         "lufa_farms_code": [
           10736,
           8992,
           10123,
+          8993,
           8993
         ],
         "rebate_per_unit": [
           "$0.50",
           "$0.50",
           "$0.63",
+          "$0.50",
           "$0.50"
         ],
         "rebate_cost": [
           "$3.50",
           "$2.14",
           "$4.12",
+          "$3.92",
           "$3.92"
         ],
         "qty_bought_at_rebate_cost": [
+          0,
           0,
           0,
           0,
@@ -1010,21 +1263,24 @@
           "$4.50",
           "$2.64",
           "$4.75",
+          "$4.42",
           "$4.42"
         ],
         "qty_bought_at_regular_cost": [
           340,
           1227,
           617,
+          68,
           68
         ],
         "credited_sum": [
           "$170.00",
           "$613.50",
           "$388.71",
+          "$34.00",
           "$34.00"
         ],
-        "total_credited": "$1126.00"
+        "total_credited": "$1160.00"
       }
     },
     {
@@ -1040,30 +1296,38 @@
       "theme": "Field fresh: all the veggies/Heirlooms/Tomatoes",
       "table": {
         "product_name": [
+          "Cuvée R2 - Enfin Pinot Noir Red Wine 2022",
           "Cuvée R2 - Enfin Pinot Noir Red Wine 2022"
         ],
         "lufa_farms_code": [
+          19737,
           19737
         ],
         "rebate_per_unit": [
+          "$1.50",
           "$1.50"
         ],
         "rebate_cost": [
+          "$20.50",
           "$20.50"
         ],
         "qty_bought_at_rebate_cost": [
+          0,
           0
         ],
         "regular_cost": [
+          "$22.00",
           "$22.00"
         ],
         "qty_bought_at_regular_cost": [
+          4,
           4
         ],
         "credited_sum": [
+          "$6.00",
           "$6.00"
         ],
-        "total_credited": "$6.00"
+        "total_credited": "$12.00"
       }
     },
     {
@@ -1080,30 +1344,38 @@
       "theme": "Field fresh: all the veggies/Heirlooms/Tomatoes",
       "table": {
         "product_name": [
+          "Organic Black Chia Seeds",
           "Organic Black Chia Seeds"
         ],
         "lufa_farms_code": [
+          18098,
           18098
         ],
         "rebate_per_unit": [
+          "$0.90",
           "$0.90"
         ],
         "rebate_cost": [
+          "$5.10",
           "$5.10"
         ],
         "qty_bought_at_rebate_cost": [
+          0,
           0
         ],
         "regular_cost": [
+          "$6.00",
           "$6.00"
         ],
         "qty_bought_at_regular_cost": [
+          172,
           172
         ],
         "credited_sum": [
+          "$154.80",
           "$154.80"
         ],
-        "total_credited": "$154.80"
+        "total_credited": "$309.60"
       }
     },
     {
@@ -1159,30 +1431,38 @@
       "theme": "Field fresh: all the veggies/Heirlooms/Tomatoes",
       "table": {
         "product_name": [
+          "Washable Sanitary Pad (regular)",
           "Washable Sanitary Pad (regular)"
         ],
         "lufa_farms_code": [
+          17015,
           17015
         ],
         "rebate_per_unit": [
+          "$1.00",
           "$1.00"
         ],
         "rebate_cost": [
+          "$5.84",
           "$5.84"
         ],
         "qty_bought_at_rebate_cost": [
+          0,
           0
         ],
         "regular_cost": [
+          "$6.84",
           "$6.84"
         ],
         "qty_bought_at_regular_cost": [
+          16,
           16
         ],
         "credited_sum": [
+          "$16.00",
           "$16.00"
         ],
-        "total_credited": "$16.00"
+        "total_credited": "$32.00"
       }
     }
   ]
